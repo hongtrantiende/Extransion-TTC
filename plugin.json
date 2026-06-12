@@ -1155,10 +1155,10 @@
       "name": "kkphim",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kkphim.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://kkphim.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/kkphim.png",
-      "description": "Xem phim trên trang kkphim.com",
+      "description": "Xem phim trên kkphim",
       "type": "video",
       "locale": "vi_VN"
     },
