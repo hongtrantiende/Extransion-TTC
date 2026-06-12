@@ -40,6 +40,19 @@ function toSlug(name) {
         .replace(/^-+|-+$/g, "");
 }
 
+function resolveUrl(urlStr, hostStr, sourceUrl) {
+    if (!urlStr) return "";
+    const trimUrl = urlStr.trim();
+    if (trimUrl.startsWith("http://") || trimUrl.startsWith("https://")) return trimUrl;
+    
+    let base = (hostStr || "").trim() || (sourceUrl || "").trim() || "";
+    if (!base) return trimUrl;
+    
+    const cleanUrl = trimUrl.startsWith("/") ? trimUrl.substring(1) : trimUrl;
+    const cleanBase = base.endsWith("/") ? base : base + "/";
+    return cleanBase + cleanUrl;
+}
+
 // 1. ADB Port Forwarding
 function adbForward() {
     log("=== THIẾT LẬP ADB PORT FORWARD ===", C.Bold + C.C);
@@ -268,10 +281,12 @@ async function testExtension(extId) {
         selectedItem = tabItems[0];
         nextUrl = selectedItem.url || selectedItem.link;
         if (typeof nextUrl === 'function') nextUrl = null;
+        nextUrl = resolveUrl(nextUrl, selectedItem.host || firstItem.host, metadata.source);
     } else {
         selectedItem = firstItem;
         nextUrl = selectedItem.url || selectedItem.link;
         if (typeof nextUrl === 'function') nextUrl = null;
+        nextUrl = resolveUrl(nextUrl, selectedItem.host, metadata.source);
     }
 
     if (!nextUrl) {
@@ -284,6 +299,7 @@ async function testExtension(extId) {
     // --- STEP 2: DETAIL ---
     const detailFile = script.detail;
     let tocUrl = nextUrl;
+    let detailObj = null;
     if (detailFile && srcObj[detailFile]) {
         log(`\nStep 2: Nạp Chi Tiết Truyện (${detailFile})...`, C.B);
         let detailRes;
@@ -301,7 +317,6 @@ async function testExtension(extId) {
         }
         printRhinoLogs(detailRes.log);
 
-        let detailObj;
         try {
             const parsed = JSON.parse(detailRes.result);
             detailObj = parsed.data || parsed;
@@ -315,8 +330,10 @@ async function testExtension(extId) {
         if (detailObj.url || detailObj.tocUrl) {
             tocUrl = detailObj.url || detailObj.tocUrl;
         }
+        tocUrl = resolveUrl(tocUrl, detailObj.host || selectedItem.host, metadata.source);
     } else {
         log(`\nStep 2: Không cấu hình detail.js, bỏ qua và lấy trực tiếp URL từ Home để nạp TOC.`, C.Y);
+        tocUrl = resolveUrl(tocUrl, selectedItem.host, metadata.source);
     }
 
     // --- STEP 3: TOC (Mục lục chương) ---
@@ -363,7 +380,8 @@ async function testExtension(extId) {
         return;
     }
 
-    const chapUrl = firstChap.url || firstChap.link;
+    let chapUrl = firstChap.url || firstChap.link;
+    chapUrl = resolveUrl(chapUrl, firstChap.host || (detailObj ? detailObj.host : null) || selectedItem.host, metadata.source);
     log(`👉 Chọn chương mẫu: "${firstChap.name}" | URL: ${chapUrl}`, C.C);
 
     // --- STEP 4: CHAPTER CONTENT (Nội dung chương) ---
