@@ -2563,10 +2563,10 @@
       "name": "YouTube",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/youtube.zip",
-      "version": 7,
+      "version": 8,
       "source": "https://www.youtube.com/",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/youtube.png",
-      "description": "Xem video/live trên Du Tu Be. Có Audio/PĐ (ưu tiên vi). Đã hỗ trợ video kids/đa ngôn ngữ.",
+      "description": "Xem video/live/playlist trên YouTube. Đã hỗ trợ video kids/multi. Audio/PĐ ưu tiên vi.",
       "type": "video",
       "locale": "vi_VN"
     },
