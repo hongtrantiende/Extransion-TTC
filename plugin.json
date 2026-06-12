@@ -63,17 +63,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện QQ",
-      "author": "vBook",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-qq.zip",
-      "version": 22,
-      "source": "https://truyenqqko.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyen-qq.png",
-      "description": "Đọc truyện trên trang Truyện QQ",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "Truy���n VN - Kho Truyen",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truy-n-vn-kho-truyen.zip",
@@ -184,28 +173,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "QManga",
-      "author": "vBook",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qmanga.zip",
-      "version": 9,
-      "source": "https://qmanga8.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/qmanga.png",
-      "description": "Đọc truyện trên trang QManga",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "U Mê Truyện",
-      "author": "vBook",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/u-me-truyen.zip",
-      "version": 11,
-      "source": "https://umetruyenz.org",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/u-me-truyen.png",
-      "description": "Đọc truyện trên trang U Mê Truyện",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "Hentai2Read",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentai2read.zip",
@@ -250,28 +217,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Hentai Image",
-      "author": "vBook",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentai-image.zip",
-      "version": 1,
-      "source": "https://hentai-img.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hentai-image.png",
-      "description": "Xem ảnh 18+ trên trang hentai-img.com",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "Cứu Truyện",
-      "author": "vBook",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cuu-truyen.zip",
-      "version": 4,
-      "source": "https://nettrom.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/cuu-truyen.png",
-      "description": "Đọc truyện trên trang Cứu Truyện",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "TruyệnCV",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyencv.zip",
@@ -292,17 +237,6 @@
       "description": "Đọc truyện trên trang banlong.us , blhvip.vn ",
       "type": "novel",
       "locale": "vi_VN"
-    },
-    {
-      "name": "MangaDex",
-      "author": "vBook",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mangadex.zip",
-      "version": 1,
-      "source": "https://mangadex.org",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/mangadex.png",
-      "description": "Đọc truyện trên trang mangadex.org",
-      "type": "comic",
-      "locale": "global"
     },
     {
       "name": "gongzicp",
@@ -338,17 +272,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Truyện GG",
-      "author": "Nhocconsr",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-gg.zip",
-      "version": 1,
-      "source": "https://truyengg.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyen-gg.png",
-      "description": "Đọc truyện trên trang truyengg",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "【VIP】Bạch Ngọc Sách",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/vip-bach-ngoc-sach.zip",
@@ -357,17 +280,6 @@
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/vip-bach-ngoc-sach.png",
       "description": "Đọc truyện trên trang BNS",
       "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "ManhuaVN [Free Chap]",
-      "author": "Nhocconsr",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/manhuavn-free-chap.zip",
-      "version": 2,
-      "source": "https://manhuavn.top",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/manhuavn-free-chap.png",
-      "description": "Đọc truyện trên trang manhuavn",
-      "type": "comic",
       "locale": "vi_VN"
     },
     {
@@ -437,17 +349,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Bảo Tàng Truyện",
-      "author": "fusornat",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bao-tang-truyen.zip",
-      "version": 7,
-      "source": "https://baotangtruyen14.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/bao-tang-truyen.png",
-      "description": "Đọc truyện trên trang baotangtruyen14.com",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "Say Hentai",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/say-hentai.zip",
@@ -455,17 +356,6 @@
       "source": "https://sayhentai.one",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/say-hentai.png",
       "description": "Đọc truyện trên trang Sayhentai.one",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "Tranh 18",
-      "author": "Nhocconsr",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tranh-18.zip",
-      "version": 1,
-      "source": "https://tranh18.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/tranh-18.png",
-      "description": "Đọc truyện trên trang tranh18.com",
       "type": "comic",
       "locale": "vi_VN"
     },
@@ -602,17 +492,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Manga Read",
-      "author": "Nhocconsr",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/manga-read.zip",
-      "version": 2,
-      "source": "https://www.mangaread.org",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/manga-read.png",
-      "description": "Đọc truyện trên trang mangaread.org",
-      "type": "comic",
-      "locale": "en_EN"
-    },
-    {
       "name": "SachHayOnline",
       "author": "fusornat",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sachhayonline.zip",
@@ -677,28 +556,6 @@
       "description": "Đọc truyện trên trang www.wuxiaworld.com",
       "type": "novel",
       "locale": "vi_VN"
-    },
-    {
-      "name": "KissLove (Raw)",
-      "author": "Nhocconsr",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kisslove-raw.zip",
-      "version": 4,
-      "source": "https://klz9.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/kisslove-raw.png",
-      "description": "Đọc truyện trên trang klz9.com",
-      "type": "comic",
-      "locale": "en_EN"
-    },
-    {
-      "name": "ManhwaHentai",
-      "author": "Nhocconsr",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/manhwahentai.zip",
-      "version": 3,
-      "source": "https://manhwahentai.me",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/manhwahentai.png",
-      "description": "Đọc truyện trên trang Manhwahentai.me",
-      "type": "comic",
-      "locale": "en_EN"
     },
     {
       "name": "bFaloo",
@@ -976,17 +833,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "readcomiconline",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/readcomiconline.zip",
-      "version": 2,
-      "source": "https://readcomiconline.li",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/readcomiconline.png",
-      "description": "Đọc truyện trên trang https://readcomiconline.li",
-      "type": "comic",
-      "locale": "en_US"
-    },
-    {
       "name": "52shuku",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/52shuku.zip",
@@ -1240,17 +1086,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Men18",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/men18.zip",
-      "version": 4,
-      "source": "https://hen18.vip/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/men18.png",
-      "description": "Đọc truyện trên trang men18",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "Tiểu Bạch TV",
       "author": "B",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tieu-bach-tv.zip",
@@ -1402,17 +1237,6 @@
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/kho-truyen-chu.png",
       "description": "Đọc truyện trên khotruyenchu.space",
       "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "lkdttzz",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/lkdttzz.zip",
-      "version": 1,
-      "source": "https://lkdttzz.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/lkdttzz.png",
-      "description": "Đọc truyện trên trang Net Truyện",
-      "type": "comic",
       "locale": "vi_VN"
     },
     {
@@ -1581,17 +1405,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "truyentranh3q",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyentranh3q.zip",
-      "version": 1,
-      "source": "https://truyentranh3q.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyentranh3q.png",
-      "description": "Đọc truyện trên trang men18",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "twkan",
       "author": "B",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/twkan.zip",
@@ -1647,28 +1460,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Độc giả số 1",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/doc-gia-so-1.zip",
-      "version": 1,
-      "source": "https://docgiaso1.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/doc-gia-so-1.png",
-      "description": "Đọc truyện trên trang Net Truyện",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "Mimihentai",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mimihentai.zip",
-      "version": 2,
-      "source": "https://mimihentai.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/mimihentai.png",
-      "description": "Đọc truyện trên trang Mimihentai",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "Fanqienovel - LV",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fanqienovel-lv.zip",
@@ -1711,17 +1502,6 @@
       "description": "Đọc truyện trên trang Xiaoshubao",
       "type": "novel",
       "locale": "zh_CN"
-    },
-    {
-      "name": "Top Truyện",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/top-truyen.zip",
-      "version": 9,
-      "source": "https://www.toptruyenww.pro/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/top-truyen.png",
-      "description": "Đọc truyện trên trang Top Truyện",
-      "type": "comic",
-      "locale": "vi_VN"
     },
     {
       "name": "Mê Truyện Chữ VN",
@@ -2164,17 +1944,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "9y02",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/9y02.zip",
-      "version": 3,
-      "source": "https://9y02.xyz/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/9y02.png",
-      "description": "Đọc truyện tranh 18+ (3D Chinese/3D Korean/Manga/...) trên trang 9y02 ",
-      "type": "comic",
-      "locale": "zh_CN"
-    },
-    {
       "name": "94yd",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/94yd.zip",
@@ -2272,17 +2041,6 @@
       "description": "Share Pictures Sexy Girl...",
       "type": "comic",
       "locale": "zh_CN"
-    },
-    {
-      "name": "HentaiCube -18+",
-      "author": "hieu05",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaicube-18.zip",
-      "version": 12,
-      "source": "https://hentaicube.xyz",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hentaicube-18.png",
-      "description": "HentaiCube - Truyện Hentai Online 18+ (forked from Meo)",
-      "type": "comic",
-      "locale": "vi_VN"
     },
     {
       "name": "Photos18",
@@ -2725,17 +2483,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "L'orange Team",
-      "author": "QuocBao",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/l-orange-team.zip",
-      "version": 1,
-      "source": "https://lorangeteam.net/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/l-orange-team.png",
-      "description": "Đọc truyện tranh BL tại lorangeteam",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "Navy Team Comic",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/navy-team-comic.zip",
@@ -2835,17 +2582,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Hắc Ám Chi Các",
-      "author": "QuocBao",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hac-am-chi-cac.zip",
-      "version": 9,
-      "source": "https://haccbl.xyz/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hac-am-chi-cac.png",
-      "description": "Đọc truyện trên web Hắc Ám Chi Các",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "Sany Team",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sany-team.zip",
@@ -2866,17 +2602,6 @@
       "description": "Đọc truyện tranh trên TVKH/Bananacoo.",
       "type": "comic",
       "locale": "vi_VN"
-    },
-    {
-      "name": "My Reading Manga",
-      "author": "QuocBao",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/my-reading-manga.zip",
-      "version": 2,
-      "source": "https://myreadingmanga.info/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/my-reading-manga.png",
-      "description": "Đọc truyện và xem video trên MyReadingManga.",
-      "type": "comic",
-      "locale": "global"
     },
     {
       "name": "Dưa Leo truyện",
@@ -3572,17 +3297,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "HentaiVN",
-      "author": "longvuu",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaivn.zip",
-      "version": 1,
-      "source": "https://hentaihvn.tv",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hentaivn.png",
-      "description": "Đọc truyện trên trang HentaiVN",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "wfxs.tw",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wfxs-tw.zip",
@@ -3634,61 +3348,6 @@
       "source": "https://goctruyentranhvui17.com/",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/.png",
       "description": "Đọc truyện trên góc truyện tranh vui 17",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "vihentai",
-      "author": "longvuu",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/vihentai.zip",
-      "version": 1,
-      "source": "https://vi-hentai.pro/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/vihentai.png",
-      "description": "Đọc truyện trên vi-hentai.pro (NSFW)",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "truyenhay24h",
-      "author": "longvuu",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenhay24h.zip",
-      "version": 1,
-      "source": "https://truyenhay24h.net/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyenhay24h.png",
-      "description": "Đọc truyện tranh trên truyenhay24h.net",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "truyentuoitho",
-      "author": "longvuu",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyentuoitho.zip",
-      "version": 1,
-      "source": "https://truyentuoitho.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyentuoitho.png",
-      "description": "Đọc truyện tranh trên truyentuoitho.com",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "nettruyen",
-      "author": "longvuu",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nettruyen.zip",
-      "version": 1,
-      "source": "https://nettruyen.org.uk",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/nettruyen.png",
-      "description": "Đọc truyện trên trang Nettruyen",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "tuthienbao",
-      "author": "longvuu",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tuthienbao.zip",
-      "version": 1,
-      "source": "https://tuthienbao.com/forum/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/tuthienbao.png",
-      "description": "Đọc truyện tranh trên diễn đàn tuthienbao.com",
       "type": "comic",
       "locale": "vi_VN"
     },
@@ -3757,17 +3416,6 @@
       "description": "Uaa",
       "type": "novel",
       "locale": "zh_CN"
-    },
-    {
-      "name": "Góc truyện tranh",
-      "author": "TH03",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/goc-truyen-tranh.zip",
-      "version": 4,
-      "source": "https://goctruyentranhvui6.com",
-      "icon": "",
-      "description": "Góc truyện tranh",
-      "type": "comic",
-      "locale": "vi_VN"
     },
     {
       "name": "jwxs",
@@ -3902,28 +3550,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "TruyenQQ",
-      "author": "Will Sun",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenqq.zip",
-      "version": 2,
-      "source": "https://truyenqq.com.vn",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyenqq.png",
-      "description": "Đọc truyện trên trang truyenqq.com.vn",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "NetTruyenViet",
-      "author": "Will Sun",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nettruyenviet.zip",
-      "version": 3,
-      "source": "https://nettruyenviet10.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/nettruyenviet.png",
-      "description": "Đọc truyện trên trang nettruyenviet.com",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "HentaiVN",
       "author": "Will Sun",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaivn-1.zip",
@@ -3944,28 +3570,6 @@
       "description": "Đọc truyện trên trang vinahentai.bond",
       "type": "comic",
       "locale": "vi_VN"
-    },
-    {
-      "name": "WebtoonScan",
-      "author": "Will Sun",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/webtoonscan.zip",
-      "version": 4,
-      "source": "https://webtoonscan.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/webtoonscan.png",
-      "description": "Read comics on webtoonscan.com",
-      "type": "comic",
-      "locale": "en_US"
-    },
-    {
-      "name": "ManhwaBuddy",
-      "author": "Will Sun",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/manhwabuddy.zip",
-      "version": 3,
-      "source": "https://manhwabuddy.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/manhwabuddy.png",
-      "description": "Read comics on manhwabuddy.com",
-      "type": "comic",
-      "locale": "en_US"
     },
     {
       "name": "HentaiVietsub.com",
@@ -4064,17 +3668,6 @@
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/metruyenchufake.png",
       "description": "noDes",
       "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "Misskon",
-      "author": "3690",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/misskon.zip",
-      "version": 1,
-      "source": "https://misskon.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/misskon.png",
-      "description": "Xem gái trên misskon",
-      "type": "comic",
       "locale": "vi_VN"
     },
     {
@@ -4254,17 +3847,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện VN",
-      "author": "Kou",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-vn.zip",
-      "version": 18,
-      "source": "https://truyenvn.sbs",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyen-vn.png",
-      "description": "Đọc truyện trên trang Truyện VN",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "Fox Truyện",
       "author": "Kou",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fox-truyen.zip",
@@ -4305,28 +3887,6 @@
       "source": "https://minotruyenv6.xyz",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/mino.png",
       "description": "Đọc truyện trên trang Mino",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "vi-Hentai",
-      "author": "Kou",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/vi-hentai.zip",
-      "version": 4,
-      "source": "https://vi-hentai.pro",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/vi-hentai.png",
-      "description": "Đọc truyện trên trang vi-Hentai",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "Thiên Thai Truyện",
-      "author": "Kou",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/thien-thai-truyen.zip",
-      "version": 6,
-      "source": "https://thienthaitruyen9.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/thien-thai-truyen.png",
-      "description": "Đọc truyện trên trang Thiên Thai Truyện",
       "type": "comic",
       "locale": "vi_VN"
     },
@@ -4760,17 +4320,6 @@
       "locale": "zh_TW"
     },
     {
-      "name": "LoppyToon",
-      "author": "Gold2k2k2k",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/loppytoon.zip",
-      "version": 2,
-      "source": "https://loppytoon.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/loppytoon.png",
-      "description": "LoppyToon - Truyện tranh & tiểu thuyết",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
       "name": "MoeTruyen",
       "author": "Gold2k2k2k",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/moetruyen.zip",
@@ -4790,28 +4339,6 @@
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/shinigami-ln-team.png",
       "description": "Shinigami - Light Novel & Truyện tranh",
       "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "Mimimoe",
-      "author": "Gold2k2k2k",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mimimoe.zip",
-      "version": 4,
-      "source": "https://mimimoe.moe",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/mimimoe.png",
-      "description": "Mimimoe - Truyện tranh 18+",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "LuotTruyen",
-      "author": "Gold2k2k2k",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/luottruyen.zip",
-      "version": 8,
-      "source": "https://luottruyen7.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/luottruyen.png",
-      "description": "Lướt Truyện - Đọc truyện tranh online",
-      "type": "comic",
       "locale": "vi_VN"
     },
     {
@@ -4925,28 +4452,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "OTruyen",
-      "author": "Meo",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/otruyen.zip",
-      "version": 24,
-      "source": "https://otruyen.cc",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/otruyen.png",
-      "description": "Đọc truyện tranh từ OTruyen.CC",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "TruyenDex",
-      "author": "Meo",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyendex.zip",
-      "version": 29,
-      "source": "https://truyendex.cc/nettrom",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyendex.png",
-      "description": "Đọc truyện tranh từ TruyenDex (MangaDex Tiếng Việt)",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "Wattpad - Tiếng Việt",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad-tieng-viet.zip",
@@ -5013,17 +4518,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "nettruyenviet.monster",
-      "author": "Meo",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nettruyenviet-monster.zip",
-      "version": 4,
-      "source": "https://nettruyenviet.monster",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/nettruyenviet-monster.png",
-      "description": "Đọc truyện tranh từ NetTruyen",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "Valvrareteam",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/valvrareteam-1.zip",
@@ -5087,17 +4581,6 @@
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/loppytoon-18.png",
       "description": "LoppyToon - Truyện tranh & tiểu thuyết 18+",
       "type": "novel,comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "SayHentaiBaby -18+",
-      "author": "Meo",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sayhentaibaby-18.zip",
-      "version": 13,
-      "source": "https://sayhentai.baby",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/sayhentaibaby-18.png",
-      "description": "SayHentaiBaby - Truyện hentai, manhwa 18+ tiếng Việt",
-      "type": "comic",
       "locale": "vi_VN"
     },
     {
@@ -5186,17 +4669,6 @@
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyen-moi-1.png",
       "description": "Đọc truyện trên trang Truyện Mới",
       "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "ZetTruyen",
-      "author": "HieuDM",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/zettruyen.zip",
-      "version": 1,
-      "source": "https://www.zettruyen.africa",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/zettruyen.png",
-      "description": "Đọc truyện trên trang ZetTruyen",
-      "type": "comic",
       "locale": "vi_VN"
     },
     {
@@ -5772,17 +5244,6 @@
       "locale": "zh-CN"
     },
     {
-      "name": "Truyện LH",
-      "author": "bexom",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-lh.zip",
-      "version": 1,
-      "source": "https://truyenlh.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyen-lh.png",
-      "description": "Đọc truyện trên Truyện LH",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "uuxs",
       "author": "bexom",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/uuxs.zip",
@@ -5836,17 +5297,6 @@
       "description": "Đọc truyện trên trang Yyun",
       "type": "novel",
       "locale": "zh_CN"
-    },
-    {
-      "name": "MangaPuma",
-      "author": "AleshaOnOn",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mangapuma.zip",
-      "version": 1,
-      "source": "https://www.mangapuma.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/mangapuma.png",
-      "description": "Đọc truyện trên trang MangaPuma (clone web của MangaBuddy - tức MangaForest)",
-      "type": "comic",
-      "locale": "en_EN"
     },
     {
       "name": "Syosetu",
@@ -6432,50 +5882,6 @@
       "locale": "en_US"
     },
     {
-      "name": "ThienThaiTruyen",
-      "author": "madokalb112",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/thienthaitruyen.zip",
-      "version": 5,
-      "source": "https://thienthaitruyen8.com/official",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/thienthaitruyen.png",
-      "description": "Doc truyen seg ThienThaiTruyen",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "KhoManhwa",
-      "author": "madokalb112",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/khomanhwa.zip",
-      "version": 1,
-      "source": "https://khomanhwa.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/khomanhwa.png",
-      "description": "Doc truyen seg KhoManhwa",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "ManhuaRock",
-      "author": "madokalb112",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/manhuarock.zip",
-      "version": 1,
-      "source": "https://manhuarock4.site/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/manhuarock.png",
-      "description": "Doc truyen tranh tren ManhuaRock",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "tusachxinhxinh",
-      "author": "madokalb112",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tusachxinhxinh.zip",
-      "version": 5,
-      "source": "https://tusachxinhxinh12.online/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/tusachxinhxinh.png",
-      "description": "Doc truyen tranh tren Tu Sach Xinh Xinh",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "Hong Tra Team",
       "author": "madokalb112",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hong-tra-team.zip",
@@ -6484,17 +5890,6 @@
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hong-tra-team.png",
       "description": "Doc truyen seg Tra Team",
       "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "LuvEvaLands2",
-      "author": "madokalb112",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/luvevalands2.zip",
-      "version": 3,
-      "source": "https://luvevalands2.co",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/luvevalands2.png",
-      "description": "Doc truyen tranh tren LuvEvaLands2",
-      "type": "comic",
       "locale": "vi_VN"
     },
     {
@@ -6564,17 +5959,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Luot Truyen",
-      "author": "madokalb112",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/luot-truyen.zip",
-      "version": 11,
-      "source": "https://luottruyen8.com/tim-truyen",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/luot-truyen.png",
-      "description": "Doc truyen tren trang Luot Truyen",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "MimiMoe",
       "author": "madokalb112",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mimimoe-1.zip",
@@ -6582,83 +5966,6 @@
       "source": "https://mimimoe.moe",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/mimimoe-1.png",
       "description": "Doc truyen seg tren MimiMoe",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "SayHentai",
-      "author": "madokalb112",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sayhentai.zip",
-      "version": 1,
-      "source": "https://sayhentai.sh",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/sayhentai.png",
-      "description": "Doc truyen seg tren SayHentai",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "SuicaoDex",
-      "author": "madokalb112",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/suicaodex.zip",
-      "version": 1,
-      "source": "https://suicaodex.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/suicaodex.png",
-      "description": "Doc truyen tren SuicaoDex",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "TopTruyenZone",
-      "author": "madokalb112",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/toptruyenzone.zip",
-      "version": 4,
-      "source": "https://www.toptruyenzone2.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/toptruyenzone.png",
-      "description": "Doc truyen tren TopTruyenZone",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "TruyenQQKo",
-      "author": "madokalb112",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenqqko.zip",
-      "version": 2,
-      "source": "https://truyenqqko.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyenqqko.png",
-      "description": "Doc truyen tren trang TruyenQQKo",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "TruyenQQ.com.vn",
-      "author": "madokalb112",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenqq-com-vn.zip",
-      "version": 1,
-      "source": "https://truyenqq.com.vn",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyenqq-com-vn.png",
-      "description": "Doc truyen tren trang TruyenQQ.com.vn",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "Yurineko",
-      "author": "madokalb112",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/yurineko.zip",
-      "version": 1,
-      "source": "https://yurineko.org",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/yurineko.png",
-      "description": "?????c truy???n tr??n trang Yurineko",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "Leesin Comic",
-      "author": "madokalb112",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/leesin-comic.zip",
-      "version": 1,
-      "source": "https://leesincomic.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/leesin-comic.png",
-      "description": "Doc truyen tranh tren Leesin Comic",
       "type": "comic",
       "locale": "vi_VN"
     },
