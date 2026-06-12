@@ -127,7 +127,15 @@ function verifyChapter(contentStr, type) {
         return { ok: false, desc: 'Không tìm thấy liên kết ảnh hợp lệ' };
     }
     if (type === 'video') {
-        if (s.includes('.m3u8') || s.includes('.m3u9') || s.includes('.mp4') || s.includes('embed') || s.includes('player') || s.includes('data:') || s.includes('track:') || s.includes('mgtv:') || s.includes('youku:') || s.includes('wetv:') || s.includes('hitv:')) {
+        let isJsonArray = false;
+        try {
+            const parsed = JSON.parse(contentStr);
+            if (Array.isArray(parsed) && parsed.length > 0 && (parsed[0].data !== undefined || parsed[0].url !== undefined)) {
+                isJsonArray = true;
+            }
+        } catch (e) {}
+
+        if (isJsonArray || s.includes('.m3u8') || s.includes('.m3u9') || s.includes('.mp4') || s.includes('embed') || s.includes('player') || s.includes('data:') || s.includes('track:')) {
             return { ok: true, desc: `Video Stream/Track/Embed: ${contentStr.substring(0, 100)}... (Đạt)` };
         }
         return { ok: false, desc: 'Không tìm thấy URL stream hoặc thẻ nhúng video phát được' };

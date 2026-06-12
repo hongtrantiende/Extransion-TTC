@@ -3993,10 +3993,10 @@
       "name": "HHTQHAY.VIP",
       "author": "Will Sun",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hhtqhay-vip.zip",
-      "version": 2,
+      "version": 3,
       "source": "https://hhtqhay.vip",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hhtqhay-vip.png",
-      "description": "Xem phim trên hhtqhay.vip",
+      "description": "Xem phim tại hhtqhay.vip",
       "type": "video",
       "locale": "vi_VN"
     },
