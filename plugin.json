@@ -239,39 +239,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "gongzicp",
-      "author": "vBook",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/gongzicp.zip",
-      "version": 1,
-      "source": "https://www.gongzicp.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/gongzicp.png",
-      "description": "Đọc truyện trên trang www.gongzicp.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "shubl",
-      "author": "vBook",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/shubl.zip",
-      "version": 1,
-      "source": "https://shubl.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/shubl.png",
-      "description": "Đọc truyện trên trang shubl.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "ixunshu",
-      "author": "vBook",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ixunshu.zip",
-      "version": 2,
-      "source": "https://ixunshu.net",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ixunshu.png",
-      "description": "Đọc truyện trên trang ixunshu.net",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "【VIP】Bạch Ngọc Sách",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/vip-bach-ngoc-sach.zip",
@@ -404,17 +371,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Qimao",
-      "author": "Nhocconsr",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qimao.zip",
-      "version": 2,
-      "source": "https://www.qimao.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/qimao.png",
-      "description": "Đọc truyện trên trang qimao.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "AC QQ",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ac-qq.zip",
@@ -434,17 +390,6 @@
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/manhua-gui.png",
       "description": "Đọc truyện trên trang manhuagui.com",
       "type": "comic",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "Hetushu 和图书",
-      "author": "Nhocconsr",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hetushu.zip",
-      "version": 2,
-      "source": "https://www.hetushu.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hetushu.png",
-      "description": "Đọc truyện trên trang hetushu.com",
-      "type": "novel",
       "locale": "zh_CN"
     },
     {
@@ -635,17 +580,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "trxsme",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/trxsme.zip",
-      "version": 1,
-      "source": "https://www.trxs.me",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/trxsme.png",
-      "description": "Đọc truyện trên trang https://trxs.me",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "biqugeabc",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biqugeabc.zip",
@@ -653,72 +587,6 @@
       "source": "https://www.biqugeabc.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/biqugeabc.png",
       "description": "Đọc truyện trên trang https://www.biqugeabc.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "uuksorg",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/uuksorg.zip",
-      "version": 1,
-      "source": "http://www.uuks.org",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/uuksorg.png",
-      "description": "Đọc truyện trên trang http://www.uuks.org",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "wenku8 📖🔑",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wenku8.zip",
-      "version": 7,
-      "source": "http://www.wenku8.net/index.php",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/wenku8.png",
-      "description": "Đọc truyện trên trang http://www.wenku8.net",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "mengyuanshucheng",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mengyuanshucheng.zip",
-      "version": 3,
-      "source": "https://www.mengyuanshuchengcn.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/mengyuanshucheng.png",
-      "description": "Đọc truyện trên trang https://www.mengyuanshuchengcn.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "tongrenquan",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tongrenquan.zip",
-      "version": 1,
-      "source": "http://www.tongrenquan.org",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/tongrenquan.png",
-      "description": "Đọc truyện trên trang http://www.tongrenquan.org",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "bixiange",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bixiange.zip",
-      "version": 5,
-      "source": "http://bixiange.top",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/bixiange.png",
-      "description": "Đọc truyện trên trang http://www.bixiange.top",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "ijjxs",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ijjxs.zip",
-      "version": 1,
-      "source": "http://www.ijjxs.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ijjxs.png",
-      "description": "Đọc truyện trên trang http://www.ijjxs.com",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -756,17 +624,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "haitang16",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/haitang16.zip",
-      "version": 2,
-      "source": "http://www.haitang16.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/haitang16.png",
-      "description": "Đọc truyện trên trang http://www.haitang16.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "txt520",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/txt520.zip",
@@ -796,28 +653,6 @@
       "source": "http://jpxs123.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/jpxs123.png",
       "description": "Đọc truyện trên trang http://jpxs123.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "shumilou",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/shumilou.zip",
-      "version": 3,
-      "source": "http://www.shumilouxs.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/shumilou.png",
-      "description": "Đọc truyện trên trang http://www.shumilouxs.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "Sfacg 💰",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sfacg.zip",
-      "version": 2,
-      "source": "https://book.sfacg.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/sfacg.png",
-      "description": "Đọc truyện trên trang https://book.sfacg.com",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -855,17 +690,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "masiro 📖🔑",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/masiro.zip",
-      "version": 2,
-      "source": "ttps://masiro.me",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/masiro.png",
-      "description": "Đọc truyện trên trang https://masiro.me",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "yazhouse8",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/yazhouse8.zip",
@@ -895,17 +719,6 @@
       "source": "http://www.powanjuan.cc",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/powanjuan.png",
       "description": "Đọc truyện trên trang http://www.powanjuan.cc",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "aixdzs",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/aixdzs.zip",
-      "version": 1,
-      "source": "http://m.aixdzs.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/aixdzs.png",
-      "description": "Đọc truyện trên trang http://m.aixdzs.com",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -943,28 +756,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Legado",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/legado.zip",
-      "version": 16,
-      "source": "https://github.com/gedoor/legado",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/legado.png",
-      "description": "Đọc truyện qua app Legado",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "po18",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/po18.zip",
-      "version": 1,
-      "source": "https://www.po18.tw",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/po18.png",
-      "description": "Đọc truyện trên trang https://www.po18.tw",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "pixiv",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/pixiv.zip",
@@ -987,17 +778,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Elysia",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/elysia.zip",
-      "version": 8,
-      "source": "https://cwm.elysia.rip",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/elysia.png",
-      "description": "Đọc truyện trên trang Elysia",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "kkphim",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kkphim.zip",
@@ -1007,17 +787,6 @@
       "description": "Xem phim trên kkphim",
       "type": "video",
       "locale": "vi_VN"
-    },
-    {
-      "name": "123ds",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/123ds.zip",
-      "version": 3,
-      "source": "https://www.123duw.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/123ds.png",
-      "description": "Đọc truyện trên trang https://www.123duw.com",
-      "type": "novel",
-      "locale": "zh_CN"
     },
     {
       "name": "18mh",
@@ -1038,39 +807,6 @@
       "source": "http://14.225.254.182",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/5in1.png",
       "description": "(5 trong 1) hỗ trợ đọc các web qidian(chương free), 69shu, ptwxz, qimao, fanqie (lên sangtacviet chỉ để lấy thông tin truyện với đọc bình luận cho tiện thôi)",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "60ks",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/60ks.zip",
-      "version": 2,
-      "source": "http://m.60ks.cc",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/60ks.png",
-      "description": "Đọc truyện trên trang 60ks.net",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "82zw",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/82zw.zip",
-      "version": 2,
-      "source": "https://www.82zw.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/82zw.png",
-      "description": "Đọc truyện trên trang 82zw.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "8xsk",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/8xsk.zip",
-      "version": 1,
-      "source": "http://www.8xsk.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/8xsk.png",
-      "description": "Đọc truyện trên trang http://www.8xsk.com",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -1161,17 +897,6 @@
       "description": "Đọc truyện trên trang men18",
       "type": "comic",
       "locale": "vi_VN"
-    },
-    {
-      "name": "ddxs",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ddxs.zip",
-      "version": 4,
-      "source": "https://www.ddxs.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ddxs.png",
-      "description": "Đọc truyện trên trang ddxs.com",
-      "type": "novel",
-      "locale": "zh_CN"
     },
     {
       "name": "Đọc Truyện 14",
@@ -1284,17 +1009,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "ptwxzOrg",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ptwxzorg.zip",
-      "version": 3,
-      "source": "https://ptwxz.org",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ptwxzorg.png",
-      "description": "Đọc truyện trên trang ptwxz",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "nhieutruyen (qidian-vp)",
       "author": "B",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nhieutruyen-qidian-vp.zip",
@@ -1304,39 +1018,6 @@
       "description": "Đọc truyện trên trang qidian-vp, nhieutruyen.com ",
       "type": "novel",
       "locale": "vi_VN"
-    },
-    {
-      "name": "qubook",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qubook.zip",
-      "version": 2,
-      "source": "https://sj.qubook.cc/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/qubook.png",
-      "description": "Đọc truyện trên trang qubook.cc",
-      "type": "novel",
-      "locale": "zh-CN"
-    },
-    {
-      "name": "ranwen",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ranwen.zip",
-      "version": 3,
-      "source": "http://www.ranwen.la",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ranwen.png",
-      "description": "Đọc truyện trên trang http://www.ranwen.la",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "shushuwuxs",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/shushuwuxs.zip",
-      "version": 1,
-      "source": "https://www.shushuwuxs.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/shushuwuxs.png",
-      "description": "Đọc truyện trên trang http://www.shushuwuxs.cọm",
-      "type": "novel",
-      "locale": "zh_CN"
     },
     {
       "name": "Tàng Thư Viện [APP]",
@@ -1438,28 +1119,6 @@
       "locale": "vi-VN"
     },
     {
-      "name": "xyushu5",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xyushu5.zip",
-      "version": 3,
-      "source": "https://m.xyushu5.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/xyushu5.png",
-      "description": "Đọc truyện trên trang https://www.xyushu5.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "zhenhunxiaoshuo",
-      "author": "B",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/zhenhunxiaoshuo.zip",
-      "version": 1,
-      "source": "https://www.zhenhunxiaoshuo.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/zhenhunxiaoshuo.png",
-      "description": "Đọc truyện trên trang http://www.yikushan.cọm",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "Fanqienovel - LV",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fanqienovel-lv.zip",
@@ -1478,28 +1137,6 @@
       "source": "https://aahhss.com/",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/aahhss.png",
       "description": "Đọc truyện trên trang AAHHSS",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "4ksw",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/4ksw.zip",
-      "version": 1,
-      "source": "http://4ksw.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/4ksw.ico",
-      "description": "Đọc truyện trên trang 4ksw",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "Xiaoshubao",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xiaoshubao.zip",
-      "version": 1,
-      "source": "http://www.xiaoshubao.net",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/xiaoshubao.ico",
-      "description": "Đọc truyện trên trang Xiaoshubao",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -1548,17 +1185,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "99csw",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/99csw.zip",
-      "version": 1,
-      "source": "https://m.99csw.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/99csw.ico",
-      "description": "Đọc truyện trên trang 99csw",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "biqugezz",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biqugezz.zip",
@@ -1581,17 +1207,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Truyện 35",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-35.zip",
-      "version": 2,
-      "source": "https://truyen35.vn",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyen-35.png",
-      "description": "Đọc truyện trên trang Truyện 35",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "sinodan",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sinodan.zip",
@@ -1599,17 +1214,6 @@
       "source": "https://www.sinodan.link",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/sinodan.jpg",
       "description": "Đọc truyện trên trang sinodan",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "meiguicom",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/meiguicom.zip",
-      "version": 1,
-      "source": "https://www.meiguicom.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/meiguicom.ico",
-      "description": "Đọc truyện trên trang meiguicom",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -1647,17 +1251,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "[Main]Tamlinh247",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/main-tamlinh247.zip",
-      "version": 1,
-      "source": "https://tamlinh247.com.vn/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/main-tamlinh247.png",
-      "description": "Đọc truyện trên trang Tâm Linh 247",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "douyinxs",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/douyinxs.zip",
@@ -1665,61 +1258,6 @@
       "source": "https://m.douyinxs.com/",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/douyinxs.ico",
       "description": "Đọc truyện trên trang douyinxs",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "8383zw",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/8383zw.zip",
-      "version": 1,
-      "source": "https://www.8383zw.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/8383zw.png",
-      "description": "Đọc truyện trên trang 8383zw",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "pi12345",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/pi12345.zip",
-      "version": 1,
-      "source": "https://www.pi12345.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/pi12345.ico",
-      "description": "Đọc truyện trên trang pi12345",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "Uaa",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/uaa.zip",
-      "version": 6,
-      "source": "https://www.uaa.com/novel",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/uaa.png",
-      "description": "Đọc truyện trên trang uaa",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "2shuquge",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/2shuquge.zip",
-      "version": 1,
-      "source": "https://m.2shuquge.net/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/2shuquge.png",
-      "description": "Đọc truyện trên trang 2shuquge",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "200669[API - 9x|BTC]",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/200669-api-9x-btc.zip",
-      "version": 2,
-      "source": "https://200669.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/200669-api-9x-btc.png",
-      "description": "Đọc truyện trên trang 200669",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -1746,72 +1284,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "biquxs",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biquxs.zip",
-      "version": 1,
-      "source": "http://m.biquxs.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/biquxs.png",
-      "description": "Đọc truyện trên trang http://m.biquxs.com/",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "xiaojiaren",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xiaojiaren.zip",
-      "version": 2,
-      "source": "https://m.xiaojiaren.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/xiaojiaren.png",
-      "description": "Đọc truyện trên trang xiaojiaren",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "diyi69",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/diyi69.zip",
-      "version": 1,
-      "source": "https://www.diyi69.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/diyi69.png",
-      "description": "Đọc truyện trên trang diyi69",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "iqushuwang",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/iqushuwang.zip",
-      "version": 1,
-      "source": "https://www.iqushuwang.net/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/iqushuwang.png",
-      "description": "Đọc truyện trên trang iqushuwang",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "18biquge",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/18biquge.zip",
-      "version": 2,
-      "source": "https://wap.18biquge.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/18biquge.png",
-      "description": "Đọc truyện trên trang 18biquge",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "rourouwu",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/rourouwu.zip",
-      "version": 2,
-      "source": "https://wap.rourouwu.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/rourouwu.png",
-      "description": "Đọc truyện trên trang rourouwu",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "book18",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/book18.zip",
@@ -1823,28 +1295,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "bqg9527",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bqg9527.zip",
-      "version": 1,
-      "source": "https://www.bqg9527.net/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/bqg9527.png",
-      "description": "Đọc truyện trên trang bqg9527",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "22mt",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/22mt.zip",
-      "version": 1,
-      "source": "https://www.22mt.net/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/22mt.png",
-      "description": "Đọc truyện trên trang 22mt",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "hlzjc",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hlzjc.zip",
@@ -1852,17 +1302,6 @@
       "source": "https://www.hljzc.cc/",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hlzjc.png",
       "description": "Đọc truyện trên trang hlzjc",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "xiongmaoxy",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xiongmaoxy.zip",
-      "version": 1,
-      "source": "https://www.xiongmaoxy.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/xiongmaoxy.png",
-      "description": "Đọc truyện trên trang Xiongmaoxy",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -1887,83 +1326,6 @@
       "description": "Đọc truyện trên trang Tamlinh247",
       "type": "novel",
       "locale": "vi_VN"
-    },
-    {
-      "name": "3qzone",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/3qzone.zip",
-      "version": 1,
-      "source": "https:www.3qzone.io/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/3qzone.png",
-      "description": "Đọc truyện trên trang 3qzone",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "damixs",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/damixs.zip",
-      "version": 1,
-      "source": "https://www.damixs.info/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/damixs.png",
-      "description": "Đọc truyện trên trang Damixs",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "vvbiquge",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/vvbiquge.zip",
-      "version": 1,
-      "source": "http://www.vvbiquge.cc/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/vvbiquge.png",
-      "description": "Đọc truyện trên trang vvbiquge",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "bqgma",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bqgma.zip",
-      "version": 1,
-      "source": "https://m.bqgma.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/bqgma.png",
-      "description": "Đọc truyện trên trang bqgma",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "81cnw",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/81cnw.zip",
-      "version": 2,
-      "source": "https://m.81cnw.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/81cnw.png",
-      "description": "Đọc truyện trên trang 81cnw",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "94yd",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/94yd.zip",
-      "version": 1,
-      "source": "https://m.94yd.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/94yd.png",
-      "description": "Đọc truyện trên trang 94yd",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "99txs",
-      "author": "Nahona",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/99txs.zip",
-      "version": 1,
-      "source": "https://www.99tsx.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/99txs.png",
-      "description": "Đọc truyện trên trang 99txs",
-      "type": "novel",
-      "locale": "zh_CN"
     },
     {
       "name": "Buondua",
@@ -1995,17 +1357,6 @@
       "source": "http://alicesw.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/alicesw-1.png",
       "description": "Read Chinese novels on AliceSW (forked from B)",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "Cool18 Novel",
-      "author": "hieu05",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cool18-novel.zip",
-      "version": 1,
-      "source": "https://www.cool18.com/bbs4/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/cool18-novel.png",
-      "description": "Đọc truyện trên trang Cool18",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -2626,17 +1977,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "256wx",
-      "author": "QuocBao",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/256wx.zip",
-      "version": 1,
-      "source": "https://www.256wx.net/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/256wx.png",
-      "description": "Đọc truyện ở 256wx.net",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "ixdzs",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ixdzs.zip",
@@ -2714,28 +2054,6 @@
       "locale": "zh-CN"
     },
     {
-      "name": "quanben - repo Đường đen",
-      "author": "hajljnopera",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/quanben-repo-duong-den.zip",
-      "version": 4,
-      "source": "https://quanben.io",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/quanben-repo-duong-den.png",
-      "description": "Đọc truyện trên trang quanben",
-      "type": "novel",
-      "locale": "zh-CN"
-    },
-    {
-      "name": "uuxs.com - repo Đường đen",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/uuxs-com-repo-duong-den.zip",
-      "version": 1,
-      "source": "https://www.uuxs.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/uuxs-com-repo-duong-den.png",
-      "description": "Đọc truyện trên trang uuxs.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "czbooks - repo Đường đen",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/czbooks-repo-duong-den.zip",
@@ -2743,17 +2061,6 @@
       "source": "https://czbooks.net",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/czbooks-repo-duong-den.png",
       "description": "Đọc truyện trên trang czbooks",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "deqixs",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/deqixs.zip",
-      "version": 2,
-      "source": "https://www.deqixs.co",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/deqixs.png",
-      "description": "Đọc truyện trên trang deqixs",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -2776,28 +2083,6 @@
       "source": "https://m.bqg647.xyz/#/",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/qmbook.png",
       "description": "Đọc truyện trên trang qmbook",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "sweetastes",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sweetastes.zip",
-      "version": 2,
-      "source": "https://www.bjtriz.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/sweetastes.png",
-      "description": "Đọc truyện trên trang bjtriz, chỉ đọc chương free",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "Weibo",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/weibo.zip",
-      "version": 6,
-      "source": "https://m.weibo.cn",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/weibo.png",
-      "description": "Đọc bài đăng Weibo. Ưu tiên bản beta. Mở trang nguồn trước rồi quay lại app.",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -2842,17 +2127,6 @@
       "source": "https://69shuba.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/69shu-repo-duong-den.png",
       "description": "Đọc truyện trên trang 69shuba.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "言情小说阁 (APP)",
-      "author": "Nhocconsr",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/app.zip",
-      "version": 1,
-      "source": "http://www.xianqihaotianmi.org",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/app.png",
-      "description": "Đọc truyện trên trang xianqihaotianmi",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -2923,17 +2197,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "07br",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/07br.zip",
-      "version": 6,
-      "source": "https://www.bqg128.xyz/#/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/07br.png",
-      "description": "Đọc truyện trên trang 07br",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "piaotian-app",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/piaotian-app.zip",
@@ -2941,17 +2204,6 @@
       "source": "https://www.piaotianapp.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/piaotian-app.png",
       "description": "Đọc sách trên trang piaotianapp.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "85 Novel",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/85-novel.zip",
-      "version": 2,
-      "source": "https://www.85novel.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/85-novel.png",
-      "description": "Tải nhanh sẽ bị ban IP, set 1 luồng 30s",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -2996,17 +2248,6 @@
       "source": "https://www.xinsoxs.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/soxscc.png",
       "description": "xinsoxs.com - search b���ng browser",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "x33xs4",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/x33xs4.zip",
-      "version": 2,
-      "source": "https://www.x33xs6.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/x33xs4.png",
-      "description": "Đọc truyện trên trang x33xs6.com",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -3117,17 +2358,6 @@
       "source": "https://m.ijjjxsxzw.com/",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ijjjxsxzw.png",
       "description": "Đọc truyện trên trang ijjjxsxzw",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "ebookbao",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ebookbao.zip",
-      "version": 4,
-      "source": "https://www.ebookbao6.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ebookbao.png",
-      "description": "Đọc truyện trên trang ebookbao6.com",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -3264,17 +2494,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "69shuba",
-      "author": "longvuu",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69shuba.zip",
-      "version": 1,
-      "source": "https://www.69shuba.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/69shuba.png",
-      "description": "https://www.69shuba.com/ trang truyện tiếng Trung",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "AliceSW",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw-2.zip",
@@ -3330,17 +2549,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "mh18",
-      "author": "longvuu",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mh18.zip",
-      "version": 1,
-      "source": "https://18mh.net/novel",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/mh18.png",
-      "description": "trang truyện seggg.",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/.zip",
@@ -3363,28 +2571,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "69shu",
-      "author": "TH03",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69shu.zip",
-      "version": 7,
-      "source": "https://69shuba.cx",
-      "icon": "",
-      "description": "Đọc truyện trên trang 69shuba.cx",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "idejian",
-      "author": "TH03",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/idejian.zip",
-      "version": 1,
-      "source": "https://www.idejian.com",
-      "icon": "",
-      "description": "Trang idejian",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "天悦小说网",
       "author": "TH03",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/-1.zip",
@@ -3392,17 +2578,6 @@
       "source": "https://m.xtyxsw.org",
       "icon": "",
       "description": "Thiên duyệt tiểu thuyết mạng",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "fanqieweb",
-      "author": "TH03",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fanqieweb.zip",
-      "version": 1,
-      "source": "https://localhost:9999/",
-      "icon": "",
-      "description": "fanqie",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -3418,17 +2593,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "jwxs",
-      "author": "TH03",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/jwxs.zip",
-      "version": 4,
-      "source": "https://www.jwxs.org/",
-      "icon": "",
-      "description": "精武小说网",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "Hentaifox.com",
       "author": "TH03",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaifox-com.zip",
@@ -3438,17 +2602,6 @@
       "description": "Đọc truyện trên trang http://hentaifox.com/",
       "type": "novel",
       "locale": "vi_VN"
-    },
-    {
-      "name": "69yuedu",
-      "author": "TH03",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69yuedu.zip",
-      "version": 1,
-      "source": "https://www.69yuedu.net",
-      "icon": "",
-      "description": "Đọc truyện trên trang  69yuedu.net",
-      "type": "novel",
-      "locale": "zh_CN"
     },
     {
       "name": "Sáng Tác Việt",
@@ -3616,17 +2769,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "drxsw",
-      "author": "3690",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/drxsw.zip",
-      "version": 5,
-      "source": "https://www.drxsw.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/drxsw.png",
-      "description": "Đọc truyện trên drxsw.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "alicesw",
       "author": "3690",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw-3.zip",
@@ -3735,17 +2877,6 @@
       "description": "Mê Đọc Truyện Chữ Light Novel Online - Kho Tàng Light Novel Hay Nhất",
       "type": "novel",
       "locale": "vi_VN"
-    },
-    {
-      "name": "ihuaben",
-      "author": "mizhm",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ihuaben.zip",
-      "version": 3,
-      "source": "https://www.ihuaben.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ihuaben.png",
-      "description": "ihuaben",
-      "type": "novel",
-      "locale": "zh_CN"
     },
     {
       "name": "truyenfree",
@@ -4307,17 +3438,6 @@
       "description": "Storya - Đọc truyện online miễn phí",
       "type": "novel",
       "locale": "vi_VN"
-    },
-    {
-      "name": "Novel543",
-      "author": "Gold2k2k2k",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/novel543.zip",
-      "version": 1,
-      "source": "https://www.novel543.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/novel543.png",
-      "description": "稷下書院 - Truyện chữ Tiếng Trung online",
-      "type": "novel",
-      "locale": "zh_TW"
     },
     {
       "name": "MoeTruyen",
@@ -5211,17 +4331,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "520danmei",
-      "author": "bexom",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/520danmei.zip",
-      "version": 1,
-      "source": "https://520danmei.org",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/520danmei.png",
-      "description": "Đọc truyện trên trang 520danmei",
-      "type": "novel",
-      "locale": "zh-CN"
-    },
-    {
       "name": "nHentai.one",
       "author": "bexom",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nhentai-one.zip",
@@ -5244,28 +4353,6 @@
       "locale": "zh-CN"
     },
     {
-      "name": "uuxs",
-      "author": "bexom",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/uuxs.zip",
-      "version": 1,
-      "source": "https://www.uuxs.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/uuxs.png",
-      "description": "Đọc truyện trên trang uuxs",
-      "type": "novel",
-      "locale": "zh-CN"
-    },
-    {
-      "name": "FQWeb Universal (vBook beta)",
-      "author": "Chanhnh",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fqweb-universal-vbook-beta.zip",
-      "version": 3,
-      "source": "https://fanqienovel.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/fqweb-universal-vbook-beta.png",
-      "description": "Fanqie Web Universal. Chỉ dùng được trên vBook beta",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "Wattpad ver dịch",
       "author": "AleshaOnOn",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad-ver-dich.zip",
@@ -5273,28 +4360,6 @@
       "source": "https://wattpad.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/wattpad-ver-dich.png",
       "description": "Đọc truyện trên trang Wattpad",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "Cijige",
-      "author": "AleshaOnOn",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cijige.zip",
-      "version": 1,
-      "source": "https://cijige.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/cijige.png",
-      "description": "Đọc truyện trên trang Cijige",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "Yyun",
-      "author": "AleshaOnOn",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/yyun.zip",
-      "version": 2,
-      "source": "https://www.yanyunxs.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/yyun.png",
-      "description": "Đọc truyện trên trang Yyun",
       "type": "novel",
       "locale": "zh_CN"
     },
