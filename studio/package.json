@@ -1,0 +1,12 @@
+{
+  "name": "ttc-extension-studio",
+  "version": "1.0.0",
+  "description": "Bộ công cụ phát triển, kiểm thử và đóng gói VBook Extensions cho Novel Reader",
+  "main": "studio.js",
+  "scripts": {
+    "test": "node studio.js"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1"
+  }
+}
