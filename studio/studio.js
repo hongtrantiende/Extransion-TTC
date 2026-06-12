@@ -127,8 +127,8 @@ function verifyChapter(contentStr, type) {
         return { ok: false, desc: 'Không tìm thấy liên kết ảnh hợp lệ' };
     }
     if (type === 'video') {
-        if (s.includes('.m3u8') || s.includes('.m3u9') || s.includes('.mp4') || s.includes('embed') || s.includes('player') || s.includes('data:')) {
-            return { ok: true, desc: `Video Stream/Embed: ${contentStr.substring(0, 100)}... (Đạt)` };
+        if (s.includes('.m3u8') || s.includes('.m3u9') || s.includes('.mp4') || s.includes('embed') || s.includes('player') || s.includes('data:') || s.includes('track:') || s.includes('mgtv:') || s.includes('youku:') || s.includes('wetv:') || s.includes('hitv:')) {
+            return { ok: true, desc: `Video Stream/Track/Embed: ${contentStr.substring(0, 100)}... (Đạt)` };
         }
         return { ok: false, desc: 'Không tìm thấy URL stream hoặc thẻ nhúng video phát được' };
     }
@@ -246,15 +246,18 @@ async function testExtension(extId) {
         }
 
         log(`✔ Tab trả về ${tabItems.length} phần tử.`, C.G);
+        log(`[DEBUG tabRes.result]: ${tabRes.result.substring(0, 300)}`, C.Y);
         if (tabItems.length === 0) {
             log(`⚠ Tab rỗng. Dừng pipeline.`, C.Y);
             return;
         }
         selectedItem = tabItems[0];
         nextUrl = selectedItem.url || selectedItem.link;
+        if (typeof nextUrl === 'function') nextUrl = null;
     } else {
         selectedItem = firstItem;
         nextUrl = selectedItem.url || selectedItem.link;
+        if (typeof nextUrl === 'function') nextUrl = null;
     }
 
     if (!nextUrl) {
@@ -327,8 +330,7 @@ async function testExtension(extId) {
 
     let chapters = [];
     try {
-        const parsed = JSON.parse(tocRes.result);
-        chapters = parsed.data || parsed;
+        chapters = parseToArray(tocRes.result);
     } catch (e) {
         log(`❌ Không thể parse JSON của Mục Lục: ${tocRes.result}`, C.R);
         return;
