@@ -7,7 +7,7 @@ const JSZip = require('jszip');
 const STUDIO_DIR = __dirname;
 const REPO_DIR = path.join(STUDIO_DIR, '..');
 const PROJECT_ROOT = path.join(REPO_DIR, '..');
-const REBUILD_EXT_DIR = path.join(PROJECT_ROOT, 'vbook-rebuild', 'app', 'src', 'main', 'assets', 'extensions');
+const REBUILD_EXT_DIR = path.join(PROJECT_ROOT, 'scratch');
 const REPO_INDEX_PATH = path.join(REPO_DIR, 'plugin.json');
 const REPO_ZIPS_DIR = path.join(REPO_DIR, 'zips');
 const PORT = 8080;
@@ -38,6 +38,18 @@ function toSlug(name) {
         .replace(/[^a-z0-9]/g, "-")
         .replace(/-+/g, "-")
         .replace(/^-+|-+$/g, "");
+}
+
+function getExtPath(extId) {
+    const scratchPath = path.join(PROJECT_ROOT, 'scratch', extId);
+    if (fs.existsSync(path.join(scratchPath, 'plugin.json'))) {
+        return scratchPath;
+    }
+    const assetPath = path.join(PROJECT_ROOT, 'thienthucac-apk', 'vbook-rebuild', 'app', 'src', 'main', 'assets', 'extensions', extId);
+    if (fs.existsSync(path.join(assetPath, 'plugin.json'))) {
+        return assetPath;
+    }
+    return scratchPath;
 }
 
 function resolveUrl(urlStr, hostStr, sourceUrl) {
@@ -170,7 +182,7 @@ async function testExtension(extId) {
     const serverConnected = await checkServer();
     if (!serverConnected) return;
 
-    const extPath = path.join(REBUILD_EXT_DIR, extId);
+    const extPath = getExtPath(extId);
     const pluginJsonPath = path.join(extPath, 'plugin.json');
     const srcDir = path.join(extPath, 'src');
 
@@ -452,7 +464,7 @@ async function installExtension(extId) {
     const serverConnected = await checkServer();
     if (!serverConnected) return;
 
-    const extPath = path.join(REBUILD_EXT_DIR, extId);
+    const extPath = getExtPath(extId);
     const pluginJsonPath = path.join(extPath, 'plugin.json');
     const srcDir = path.join(extPath, 'src');
 
@@ -511,7 +523,7 @@ async function installExtension(extId) {
 async function packExtension(extId, bumpType = 'patch') {
     log(`\n=== BẮT ĐẦU ĐÓNG GỐI TIỆN ÍCH: ${extId} ===`, C.Bold + C.C);
 
-    const extPath = path.join(REBUILD_EXT_DIR, extId);
+    const extPath = getExtPath(extId);
     const pluginJsonPath = path.join(extPath, 'plugin.json');
     if (!fs.existsSync(pluginJsonPath)) {
         log(`❌ Không tìm thấy tiện ích local: ${pluginJsonPath}`, C.R);
@@ -647,7 +659,7 @@ async function scanAll(limitStr) {
     for (let i = 0; i < total; i++) {
         const ext = extensions[i];
         const extId = toSlug(ext.name);
-        const extPath = path.join(REBUILD_EXT_DIR, extId);
+        const extPath = getExtPath(extId);
         const pluginJsonPath = path.join(extPath, 'plugin.json');
 
         process.stdout.write(`[${i + 1}/${total}] ${ext.name} (${ext.type})... `);
