@@ -3330,17 +3330,6 @@
             "locale": "vi_VN"
         },
         {
-            "name": "Yêu Anime",
-            "author": "kychi",
-            "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/yeu-anime.zip",
-            "version": 3,
-            "source": "https:\/\/yeuanime.net",
-            "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/yeu-anime.png",
-            "description": "Xem Anime Vietsub\/Thuyết Minh, Hoạt Hình TRung Quốc FullHD, 4K Miễn Phí. Lưu ý: Không hỗ trợ server ENCloud (Eng Sub)",
-            "type": "video",
-            "locale": "vi_VN"
-        },
-        {
             "name": "Anime Hay",
             "author": "kychi",
             "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/anime-hay.zip",
