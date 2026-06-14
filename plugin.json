@@ -910,17 +910,6 @@
             "locale": "vi_VN"
         },
         {
-            "name": "hentaizhot",
-            "author": "B",
-            "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/hentaizhot.zip",
-            "version": 7,
-            "source": "https:\/\/hentaiz.hot",
-            "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/hentaizhot.png",
-            "description": "HentaiZ video extension",
-            "type": "video",
-            "locale": "vi_VN"
-        },
-        {
             "name": "kanshuwu",
             "author": "B",
             "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/kanshuwu.zip",
