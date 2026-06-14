@@ -41,17 +41,6 @@
             "locale": "vi_VN"
         },
         {
-            "name": "[APP] Wikidich",
-            "author": "vBook",
-            "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/app-wikidich.zip",
-            "version": 4,
-            "source": "https:\/\/truyenwikidich.com",
-            "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/app-wikidich.png",
-            "description": "Đọc truyện trên trang app Wiki Dịch",
-            "type": "novel",
-            "locale": "vi_VN"
-        },
-        {
             "name": "Truy���n VN - Kho Truyen",
             "author": "vBook",
             "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/truy-n-vn-kho-truyen.zip",
