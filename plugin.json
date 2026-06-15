@@ -2076,17 +2076,6 @@
             "locale": "vi_VN"
         },
         {
-            "name": "WiKiCV",
-            "author": "Alex",
-            "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/wikicv.zip",
-            "version": 1,
-            "source": "https:\/\/www.wikicv.net",
-            "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/wikicv.png",
-            "description": "Đọc truyện chữ trên WIkicv",
-            "type": "novel",
-            "locale": "vi_VN"
-        },
-        {
             "name": "Vivu Truyện",
             "author": "kychi",
             "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/vivu-truyen.zip",
