@@ -8,17 +8,6 @@
   },
   "data": [
     {
-      "name": "思兔阅读",
-      "author": "vBook",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sto66.zip",
-      "version": 6,
-      "source": "https://www.sto66.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/sto66.png",
-      "description": "Đọc truyện chữ Trung Quốc trên trang 思兔阅读 (sto66.com)",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "Truyện Full",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-full.zip",
