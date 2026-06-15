@@ -9,7 +9,7 @@
   "data": [
     {
       "name": "Truyện Full",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-full.zip",
       "version": 12,
       "source": "https://truyenfull.today",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Wiki Dịch",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wiki-dich.zip",
       "version": 24,
       "source": "https://wikicv.net",
@@ -30,8 +30,8 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truy���n VN - Kho Truyen",
-      "author": "vBook",
+      "name": "Truyện VN - Kho Truyen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truy-n-vn-kho-truyen.zip",
       "version": 49,
       "source": "https://khotruyen.ac",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Wattpad",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad.zip",
       "version": 3,
       "source": "https://www.wattpad.com",
@@ -53,7 +53,7 @@
     },
     {
       "name": "Hako Novel",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hako-novel.zip",
       "version": 12,
       "source": "https://docln.sbs",
@@ -75,7 +75,7 @@
     },
     {
       "name": "TruyệnCV",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyencv.zip",
       "version": 1,
       "source": "https://metruyencv.com",
@@ -1285,7 +1285,7 @@
     },
     {
       "name": "truyenfull",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenfull.zip",
       "version": 12,
       "source": "https://truyenfull.today",
@@ -1356,7 +1356,7 @@
       "version": 1,
       "source": "https://m.75zwcom.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/75zwcom.png",
-      "description": "Đọc truy��n trên trang 75zwcom",
+      "description": "Đọc truyện trên trang 75zwcom",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -1488,7 +1488,7 @@
       "version": 2,
       "source": "https://www.xinsoxs.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/soxscc.png",
-      "description": "xinsoxs.com - search b���ng browser",
+      "description": "xinsoxs.com - search bằng browser",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -2000,7 +2000,7 @@
     },
     {
       "name": "U Mê Truyện",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/u-me-truyen-1.zip",
       "version": 11,
       "source": "https://umetruyenz.org/",
@@ -2011,7 +2011,7 @@
     },
     {
       "name": "Truyện Net",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-net-1.zip",
       "version": 1,
       "source": "https://truyennet.vn/",
@@ -2022,7 +2022,7 @@
     },
     {
       "name": "Mê Truyện Chữ",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-truyen-chu-1.zip",
       "version": 2,
       "source": "https://metruyenchu.com.vn/",
@@ -2033,7 +2033,7 @@
     },
     {
       "name": "Kho Đọc Sách",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kho-doc-sach.zip",
       "version": 1,
       "source": "https://khodocsach.com/",
@@ -2902,7 +2902,7 @@
     },
     {
       "name": "Edge Translate",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/edge-translate.zip",
       "version": 1,
       "source": "https://www.bing.com/translator",
@@ -2913,7 +2913,7 @@
     },
     {
       "name": "Baidu Translate",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/baidu-translate.zip",
       "version": 1,
       "source": "https://fanyi.baidu.com",
@@ -2924,7 +2924,7 @@
     },
     {
       "name": "Google TTS",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/google-tts.zip",
       "version": 3,
       "source": "https://translate.google.com",
@@ -2935,7 +2935,7 @@
     },
     {
       "name": "Gemini TTS",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/gemini-tts.zip",
       "version": 1,
       "source": "https://gemini.google.com",
@@ -2946,7 +2946,7 @@
     },
     {
       "name": "Bing TTS",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bing-tts.zip",
       "version": 1,
       "source": "https://www.bing.com/translator",
@@ -2957,7 +2957,7 @@
     },
     {
       "name": "Zalo AI TTS",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/zalo-ai-tts.zip",
       "version": 1,
       "source": "https://ai.zalo.cloud/docs/api/getting-started",
@@ -2968,7 +2968,7 @@
     },
     {
       "name": "Tiktok TTS",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tiktok-tts.zip",
       "version": 1,
       "source": "https://www.tiktok.com",
@@ -2979,7 +2979,7 @@
     },
     {
       "name": "HHTQ Vietsub",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hhtq-vietsub.zip",
       "version": 5,
       "source": "https://hhtq.hair",
@@ -3133,7 +3133,7 @@
     },
     {
       "name": "ixunshu",
-      "author": "vBook",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ixunshu.zip",
       "version": 1,
       "source": "https://ixunshu.net",
