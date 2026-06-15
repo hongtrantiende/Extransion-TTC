@@ -2087,17 +2087,6 @@
             "locale": "vi_VN"
         },
         {
-            "name": "[APP] Truyện CV",
-            "author": "kychi",
-            "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/app-truyen-cv.zip",
-            "version": 2,
-            "source": "https:\/\/truyencv.io",
-            "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/app-truyen-cv.png",
-            "description": "Đọc truyện từ App TruyenCV.\n\n HƯỚNG DẪN SỬ DỤNG :\n Nhập tài khoản mật khẩu để login\n\n Trong trường hợp TruyenCv không muốn ext này tồn tại, vui lòng liên hệ, mình cam kết tiếp nhận và gỡ bỏ trong 24h làm việc. \n\n Hoan hỷ nhé :)))))",
-            "type": "novel",
-            "locale": "vi_VN"
-        },
-        {
             "name": "Vivu Truyện",
             "author": "kychi",
             "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/vivu-truyen.zip",
