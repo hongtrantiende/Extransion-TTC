@@ -1592,17 +1592,6 @@
             "locale": "vi_VN"
         },
         {
-            "name": "RoPhim",
-            "author": "QuocBao",
-            "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/rophim.zip",
-            "version": 3,
-            "source": "https:\/\/rophim9.com.mx\/",
-            "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/rophim.png",
-            "description": "Xem video trên Rophim. Domain web đổi thường xuyên nên có thể sửa CONFIG_URL trong cấu hình nguồn.",
-            "type": "video",
-            "locale": "vi_VN"
-        },
-        {
             "name": "Bilibili",
             "author": "QuocBao",
             "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/bilibili.zip",
