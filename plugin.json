@@ -2131,17 +2131,6 @@
             "locale": "vi_VN"
         },
         {
-            "name": "Hướng dẫn sử dụng VBook",
-            "author": "ngatngay,duongden - repo kychi",
-            "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/huong-dan-su-dung-vbook.zip",
-            "version": 6,
-            "source": "https:\/\/vbookapp.gitbook.io\/huong-dan-su-dung",
-            "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/huong-dan-su-dung-vbook.png",
-            "description": "Hướng dẫn sử dụng Vbook. Đóng góp bởi ngatngay, duongden",
-            "type": "novel",
-            "locale": "vi_VN"
-        },
-        {
             "name": "Kenh Truyen Ma",
             "author": "kychi",
             "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/kenh-truyen-ma.zip",
