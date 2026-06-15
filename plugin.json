@@ -8,6 +8,17 @@
   },
   "data": [
     {
+      "name": "📕 Kho Truyện Chữ (khotruyenchu)",
+      "author": "Thiên Thư Các",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/khotruyenchu.zip",
+      "version": 1,
+      "source": "https://khotruyenchu.fun",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/khotruyenchu.png",
+      "description": "Đọc truyện trên trang Kho Truyện Chữ",
+      "type": "novel",
+      "locale": "vi_VN"
+    },
+    {
       "name": "📚 Truyện Full",
       "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-full.zip",
