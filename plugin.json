@@ -173,17 +173,6 @@
             "locale": "vi_VN"
         },
         {
-            "name": "E Hentai",
-            "author": "vBook",
-            "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/e-hentai.zip",
-            "version": 2,
-            "source": "https:\/\/e-hentai.org",
-            "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/e-hentai.png",
-            "description": "Đọc truyện 18+ trên trang e-hentai.org",
-            "type": "comic",
-            "locale": "vi_VN"
-        },
-        {
             "name": "TruyệnCV",
             "author": "vBook",
             "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/truyencv.zip",
