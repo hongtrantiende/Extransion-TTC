@@ -1570,17 +1570,6 @@
             "locale": "zh_CN"
         },
         {
-            "name": "Phim4K",
-            "author": "QuocBao",
-            "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/phim4k.zip",
-            "version": 3,
-            "source": "https:\/\/phim4k.xyz\/",
-            "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/phim4k.png",
-            "description": "Xem phim trên Phim4K.",
-            "type": "video",
-            "locale": "vi_VN"
-        },
-        {
             "name": "Twitch",
             "author": "QuocBao",
             "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/twitch.zip",
