@@ -542,14 +542,20 @@ async function packExtension(extId, bumpType = 'patch') {
     fs.writeFileSync(pluginJsonPath, JSON.stringify(pluginObj, null, 2), 'utf8');
     log(`✔ Đã cập nhật plugin.json cục bộ của extension.`, C.G);
 
+    // Xác định clean slug (id thực sự của extension trong zips, ví dụ: 'ca-chua-soi-xam' thay vì 'temp_ca_chua_soi_xam')
+    const cleanExtId = extId.replace(/^temp_/, '').replace(/_/g, '-');
+
     // 2. Cập nhật version trong Extransion-TTC/plugin.json
     if (fs.existsSync(REPO_INDEX_PATH)) {
         const repoText = fs.readFileSync(REPO_INDEX_PATH, 'utf8');
         const repoObj = JSON.parse(repoText);
         const extList = repoObj.data || [];
         
-        // Tìm extension bằng tên slug hoặc name
-        const match = extList.find(e => toSlug(e.name) === extId || toSlug(e.name) === toSlug(pluginObj.metadata.name));
+        // Tìm extension bằng tên slug, name hoặc tên file zip trong path
+        const match = extList.find(e => {
+            const zipName = path.basename(e.path || '', '.zip');
+            return zipName === extId || zipName === cleanExtId || toSlug(e.name) === extId || toSlug(e.name) === toSlug(pluginObj.metadata.name);
+        });
         if (match) {
             match.version = nextVersion;
             // Cập nhật các trường mô tả khác nếu cần đồng bộ
@@ -586,7 +592,7 @@ async function packExtension(extId, bumpType = 'patch') {
         fs.mkdirSync(REPO_ZIPS_DIR, { recursive: true });
     }
 
-    const outputZipPath = path.join(REPO_ZIPS_DIR, `${extId}.zip`);
+    const outputZipPath = path.join(REPO_ZIPS_DIR, `${cleanExtId}.zip`);
     const content = await zip.generateAsync({ type: 'nodebuffer' });
     fs.writeFileSync(outputZipPath, content);
     log(`✔ Đã đóng gói thành công tệp nén: ${outputZipPath}`, C.G);
