@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "author": "kychi",
+    "author": "Thiên Thư Các",
     "description": "Community aggregate manifest",
     "name": "VBook Extension Catalog",
     "is_virtual": true,
@@ -64,7 +64,7 @@
     },
     {
       "name": "Hentai2Read",
-      "author": "Nhocconsr",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentai2read.zip",
       "version": 2,
       "source": "https://hentai2read.com",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Omega Scans",
-      "author": "Nhocconsr",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/omega-scans.zip",
       "version": 1,
       "source": "https://omegascans.org",
@@ -97,7 +97,7 @@
     },
     {
       "name": "Tiên Vực",
-      "author": "Nhocconsr",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tien-vuc.zip",
       "version": 13,
       "source": "https://tienvuc.me",
@@ -108,7 +108,7 @@
     },
     {
       "name": "Say Hentai",
-      "author": "Nhocconsr",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/say-hentai.zip",
       "version": 9,
       "source": "https://sayhentai.one",
@@ -119,7 +119,7 @@
     },
     {
       "name": "AC QQ",
-      "author": "Nhocconsr",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ac-qq.zip",
       "version": 1,
       "source": "http://m.ac.qq.com",
@@ -130,7 +130,7 @@
     },
     {
       "name": "Manhua Gui",
-      "author": "Nhocconsr",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/manhua-gui.zip",
       "version": 4,
       "source": "https://www.manhuagui.com",
@@ -141,7 +141,7 @@
     },
     {
       "name": "DouJins",
-      "author": "Nhocconsr",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/doujins.zip",
       "version": 5,
       "source": "https://doujins.com",
@@ -152,7 +152,7 @@
     },
     {
       "name": "Book QQ",
-      "author": "Nhocconsr",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/book-qq.zip",
       "version": 1,
       "source": "https://book.qq.com",
@@ -163,7 +163,7 @@
     },
     {
       "name": "20xs",
-      "author": "Nhocconsr",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/20xs.zip",
       "version": 3,
       "source": "https://www.20xs.org",
@@ -174,7 +174,7 @@
     },
     {
       "name": "Dingdian 【顶点】",
-      "author": "Nhocconsr",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dingdian.zip",
       "version": 1,
       "source": "https://www.dingdian666.com",
@@ -185,7 +185,7 @@
     },
     {
       "name": "CiWeiMao 【刺猬猫】",
-      "author": "Nhocconsr",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ciweimao.zip",
       "version": 3,
       "source": "https://www.ciweimao.com",
@@ -196,7 +196,7 @@
     },
     {
       "name": "bFaloo",
-      "author": "Nhocconsr",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bfaloo.zip",
       "version": 5,
       "source": "https://b.faloo.com",
@@ -207,7 +207,7 @@
     },
     {
       "name": "Royalroad",
-      "author": "fusornat",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/royalroad.zip",
       "version": 1,
       "source": "https://www.royalroad.com",
@@ -218,7 +218,7 @@
     },
     {
       "name": "biqugeabc",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biqugeabc.zip",
       "version": 5,
       "source": "https://www.biqugeabc.com",
@@ -229,7 +229,7 @@
     },
     {
       "name": "qbtr",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qbtr.zip",
       "version": 1,
       "source": "https://www.qbtr.cc",
@@ -240,7 +240,7 @@
     },
     {
       "name": "ffxs8",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ffxs8.zip",
       "version": 1,
       "source": "http://www.ffxs8.com",
@@ -251,7 +251,7 @@
     },
     {
       "name": "piaoyuxuan",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/piaoyuxuan.zip",
       "version": 2,
       "source": "http://www.piaoyuxuan.com",
@@ -262,7 +262,7 @@
     },
     {
       "name": "jpxs123",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/jpxs123.zip",
       "version": 2,
       "source": "http://jpxs123.com",
@@ -273,7 +273,7 @@
     },
     {
       "name": "fuxsb 👨‍❤️‍👨👩‍❤️‍👩",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fuxsb.zip",
       "version": 7,
       "source": "http://www.fuxsb.com",
@@ -284,7 +284,7 @@
     },
     {
       "name": "52shuku",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/52shuku.zip",
       "version": 11,
       "source": "https://www.52shuku.net",
@@ -295,7 +295,7 @@
     },
     {
       "name": "yazhouse8",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/yazhouse8.zip",
       "version": 1,
       "source": "https://yazhouse8.com/article.php",
@@ -306,7 +306,7 @@
     },
     {
       "name": "sjks88",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sjks88.zip",
       "version": 1,
       "source": "http://www.sjks88.com",
@@ -317,7 +317,7 @@
     },
     {
       "name": "powanjuan",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/powanjuan.zip",
       "version": 1,
       "source": "http://www.powanjuan.cc",
@@ -328,7 +328,7 @@
     },
     {
       "name": "po18gv",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/po18gv.zip",
       "version": 1,
       "source": "https://www.po18gv.vip",
@@ -339,7 +339,7 @@
     },
     {
       "name": "readwn",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/readwn.zip",
       "version": 1,
       "source": "https://www.readwn.com",
@@ -350,7 +350,7 @@
     },
     {
       "name": "html5.qq.com",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/html5-qq-com.zip",
       "version": 8,
       "source": "https://bookshelf.html5.qq.com",
@@ -361,7 +361,7 @@
     },
     {
       "name": "pixiv",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/pixiv.zip",
       "version": 4,
       "source": "https://www.pixiv.net/en/tags/%E4%B8%AD%E6%96%87/novels",
@@ -372,7 +372,7 @@
     },
     {
       "name": "kkphim",
-      "author": "Moleys",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kkphim.zip",
       "version": 2,
       "source": "https://kkphim.com",
@@ -383,7 +383,7 @@
     },
     {
       "name": "Tiểu Bạch TV",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tieu-bach-tv.zip",
       "version": 2,
       "source": "https://hsex.tv",
@@ -394,7 +394,7 @@
     },
     {
       "name": "[Review] tuishujun 💬",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/review-tuishujun.zip",
       "version": 1,
       "source": "https://www.tuishujun.com/",
@@ -405,7 +405,7 @@
     },
     {
       "name": "alicesw",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw.zip",
       "version": 12,
       "source": "http://alicesw.com",
@@ -416,7 +416,7 @@
     },
     {
       "name": "ChillAudio TTS",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/chillaudio-tts.zip",
       "version": 1,
       "source": "https://chillaudio.org",
@@ -427,7 +427,7 @@
     },
     {
       "name": "daomeoden",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/daomeoden.zip",
       "version": 2,
       "source": "https://daomeoden.net/",
@@ -438,7 +438,7 @@
     },
     {
       "name": "Đọc Truyện 14",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/doc-truyen-14.zip",
       "version": 7,
       "source": "https://doctruyen14.biz/",
@@ -449,7 +449,7 @@
     },
     {
       "name": "kanshuwu",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kanshuwu.zip",
       "version": 1,
       "source": "http://www.kanshuwu.org/",
@@ -460,7 +460,7 @@
     },
     {
       "name": "kanunu8",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kanunu8.zip",
       "version": 4,
       "source": "https://www.kanunu8.com",
@@ -471,7 +471,7 @@
     },
     {
       "name": "lohi2",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/lohi2.zip",
       "version": 1,
       "source": "https://truyen.lohi2.com",
@@ -482,7 +482,7 @@
     },
     {
       "name": "mangadistrict",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mangadistrict.zip",
       "version": 1,
       "source": "https://mangadistrict.com/",
@@ -493,7 +493,7 @@
     },
     {
       "name": "nhatruyen",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nhatruyen.zip",
       "version": 8,
       "source": "https://nhatruyen.site",
@@ -504,7 +504,7 @@
     },
     {
       "name": "nhieutruyen (qidian-vp)",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nhieutruyen-qidian-vp.zip",
       "version": 12,
       "source": "https://nhieutruyen.com/",
@@ -515,7 +515,7 @@
     },
     {
       "name": "Tàng Thư Viện [APP]",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tang-thu-vien-app.zip",
       "version": 2,
       "source": "https://m.tangthuvien.net",
@@ -526,7 +526,7 @@
     },
     {
       "name": "truyendich.vn",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyendich-vn.zip",
       "version": 3,
       "source": "https://truyendich.vn",
@@ -537,7 +537,7 @@
     },
     {
       "name": "uushuk",
-      "author": "B",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/uushuk.zip",
       "version": 1,
       "source": "https://www.uushuk.com",
@@ -548,7 +548,7 @@
     },
     {
       "name": "AAHHSS",
-      "author": "Nahona",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/aahhss.zip",
       "version": 3,
       "source": "https://aahhss.com/",
@@ -559,7 +559,7 @@
     },
     {
       "name": "Mê Truyện Chữ VN",
-      "author": "Nahona",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-truyen-chu-vn.zip",
       "version": 5,
       "source": "https://metruyenchu.com.vn/",
@@ -570,7 +570,7 @@
     },
     {
       "name": "biqugezz",
-      "author": "Nahona",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biqugezz.zip",
       "version": 1,
       "source": "https://www.biqugezz.com/",
@@ -581,7 +581,7 @@
     },
     {
       "name": "h528",
-      "author": "Nahona",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/h528.zip",
       "version": 1,
       "source": "http://www.h528.com/",
@@ -592,7 +592,7 @@
     },
     {
       "name": "lwxs",
-      "author": "Nahona",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/lwxs.zip",
       "version": 2,
       "source": "https://www.lwxs.com/",
@@ -603,7 +603,7 @@
     },
     {
       "name": "Danbooru",
-      "author": "Nahona",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/danbooru.zip",
       "version": 1,
       "source": "https://danbooru.donmai.us",
@@ -614,7 +614,7 @@
     },
     {
       "name": "ixdzs8",
-      "author": "Nahona",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ixdzs8.zip",
       "version": 5,
       "source": "https://ixdzs8.com/",
@@ -625,7 +625,7 @@
     },
     {
       "name": "baozimh",
-      "author": "Nahona",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/baozimh.zip",
       "version": 2,
       "source": "https://www.baozimh.com/",
@@ -636,7 +636,7 @@
     },
     {
       "name": "cartoon18",
-      "author": "Nahona",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cartoon18.zip",
       "version": 1,
       "source": "https://www.cartoon18.com/",
@@ -647,7 +647,7 @@
     },
     {
       "name": "book18",
-      "author": "Nahona",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/book18.zip",
       "version": 3,
       "source": "https://www.book18.org/",
@@ -658,7 +658,7 @@
     },
     {
       "name": "168txt",
-      "author": "Nahona",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/168txt.zip",
       "version": 1,
       "source": "https://www.168txt.cc/",
@@ -669,7 +669,7 @@
     },
     {
       "name": "Buondua",
-      "author": "hieu05",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/buondua.zip",
       "version": 3,
       "source": "https://buondua.com/",
@@ -680,7 +680,7 @@
     },
     {
       "name": "alicesw",
-      "author": "hieu05",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw-1.zip",
       "version": 1,
       "source": "http://alicesw.com",
@@ -691,7 +691,7 @@
     },
     {
       "name": "Cosplaytele",
-      "author": "hieu05",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cosplaytele.zip",
       "version": 4,
       "source": "https://cosplaytele.com",
@@ -702,7 +702,7 @@
     },
     {
       "name": "CRXS",
-      "author": "hieu05",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/crxs.zip",
       "version": 1,
       "source": "https://crxs.me",
@@ -713,7 +713,7 @@
     },
     {
       "name": "Foamgirl",
-      "author": "hieu05",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/foamgirl.zip",
       "version": 1,
       "source": "https://foamgirl.net/",
@@ -724,7 +724,7 @@
     },
     {
       "name": "Photos18",
-      "author": "hieu05",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/photos18.zip",
       "version": 3,
       "source": "https://www.photos18.com/",
@@ -735,7 +735,7 @@
     },
     {
       "name": "TruyenDich.AI",
-      "author": "hieu05",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyendich-ai.zip",
       "version": 3,
       "source": "https://truyendich.ai",
@@ -746,7 +746,7 @@
     },
     {
       "name": "Truyện QQ",
-      "author": "hieu05",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-qq-1.zip",
       "version": 24,
       "source": "https://truyenqqko.com",
@@ -757,7 +757,7 @@
     },
     {
       "name": "WNACG",
-      "author": "hieu05",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wnacg.zip",
       "version": 8,
       "source": "https://www.wnacg.com/",
@@ -768,7 +768,7 @@
     },
     {
       "name": "[dmxs]耽美小说",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dmxs.zip",
       "version": 2,
       "source": "https://www.dmxs.org/",
@@ -779,7 +779,7 @@
     },
     {
       "name": "WeTV",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wetv.zip",
       "version": 2,
       "source": "https://wetv.vip/",
@@ -790,7 +790,7 @@
     },
     {
       "name": "Showbox",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/showbox.zip",
       "version": 1,
       "source": "https://showbox.run/",
@@ -801,7 +801,7 @@
     },
     {
       "name": "[APP] Zhihu Hỏi đáp",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/app-zhihu-hoi-dap.zip",
       "version": 6,
       "source": "zhihu.com",
@@ -812,7 +812,7 @@
     },
     {
       "name": "HiTV",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hitv.zip",
       "version": 1,
       "source": "https://home.hitv.vip/vi-vn/",
@@ -823,7 +823,7 @@
     },
     {
       "name": "YOUKU",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/youku.zip",
       "version": 1,
       "source": "https://www.youku.tv/",
@@ -834,7 +834,7 @@
     },
     {
       "name": "MGTV",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mgtv.zip",
       "version": 1,
       "source": "https://w.mgtv.com/",
@@ -845,7 +845,7 @@
     },
     {
       "name": "JulyComic",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/julycomic.zip",
       "version": 1,
       "source": "https://julycomics.com/",
@@ -856,7 +856,7 @@
     },
     {
       "name": "[APP] QQ阅读",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/app-qq.zip",
       "version": 3,
       "source": "book.qq.com",
@@ -867,7 +867,7 @@
     },
     {
       "name": "TikTok",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tiktok.zip",
       "version": 2,
       "source": "https://www.tiktok.com/",
@@ -878,7 +878,7 @@
     },
     {
       "name": "Gấu Mèo Team",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/gau-meo-team.zip",
       "version": 1,
       "source": "https://gaumeoteam.com/",
@@ -889,7 +889,7 @@
     },
     {
       "name": "FreeReels",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/freereels.zip",
       "version": 4,
       "source": "https://free-reels.com",
@@ -900,7 +900,7 @@
     },
     {
       "name": "BLVietsub",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/blvietsub.zip",
       "version": 3,
       "source": "https://www.blvietsub.top/",
@@ -911,7 +911,7 @@
     },
     {
       "name": "iQIYI",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/iqiyi.zip",
       "version": 2,
       "source": "https://www.iq.com/",
@@ -922,7 +922,7 @@
     },
     {
       "name": "Twitch",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/twitch.zip",
       "version": 1,
       "source": "https://www.twitch.tv/",
@@ -933,7 +933,7 @@
     },
     {
       "name": "Dailymotion",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dailymotion.zip",
       "version": 3,
       "source": "https://www.dailymotion.com/",
@@ -944,7 +944,7 @@
     },
     {
       "name": "Bilibili",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bilibili.zip",
       "version": 5,
       "source": "https://www.bilibili.tv/",
@@ -955,7 +955,7 @@
     },
     {
       "name": "YouTube",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/youtube.zip",
       "version": 8,
       "source": "https://www.youtube.com/",
@@ -966,7 +966,7 @@
     },
     {
       "name": "Destin Team",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/destin-team.zip",
       "version": 1,
       "source": "https://destinteam.com/",
@@ -977,7 +977,7 @@
     },
     {
       "name": "Wattpad",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad-1.zip",
       "version": 2,
       "source": "https://www.wattpad.com/",
@@ -988,7 +988,7 @@
     },
     {
       "name": "Jelly Comics",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/jelly-comics.zip",
       "version": 2,
       "source": "https://jellycomics.xyz/",
@@ -999,7 +999,7 @@
     },
     {
       "name": "BL Bất Tử",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bl-bat-tu.zip",
       "version": 1,
       "source": "https://blbattu.com/",
@@ -1010,7 +1010,7 @@
     },
     {
       "name": "Boylove Bất Tử",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/boylove-bat-tu.zip",
       "version": 3,
       "source": "https://boylovebattu.com/",
@@ -1021,7 +1021,7 @@
     },
     {
       "name": "Truyentranhdammyy",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyentranhdammyy.zip",
       "version": 1,
       "source": "https://truyentranhdammyy.site/",
@@ -1032,7 +1032,7 @@
     },
     {
       "name": "MangaDM",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mangadm.zip",
       "version": 1,
       "source": "https://mangadm.me/",
@@ -1043,7 +1043,7 @@
     },
     {
       "name": "po18",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/po18-1.zip",
       "version": 10,
       "source": "https://www.po18.tw",
@@ -1054,7 +1054,7 @@
     },
     {
       "name": "JJWXC · Tấn Giang",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/jjwxc-tan-giang.zip",
       "version": 7,
       "source": "http://www.jjwxc.net/",
@@ -1065,7 +1065,7 @@
     },
     {
       "name": "CBunu Comic",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cbunu-comic.zip",
       "version": 2,
       "source": "https://cbunu.com/",
@@ -1076,7 +1076,7 @@
     },
     {
       "name": "Minttea Novel",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/minttea-novel.zip",
       "version": 1,
       "source": "https://mintteanovel.com/",
@@ -1087,7 +1087,7 @@
     },
     {
       "name": "STV App Vi",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/stv-app-vi.zip",
       "version": 6,
       "source": "https://sangtacviet.com",
@@ -1098,7 +1098,7 @@
     },
     {
       "name": "Đọc Truyện Tranh BL",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/doc-truyen-tranh-bl.zip",
       "version": 1,
       "source": "https://doctruyentranhbl.com/",
@@ -1109,7 +1109,7 @@
     },
     {
       "name": "Navy Team Comic",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/navy-team-comic.zip",
       "version": 5,
       "source": "https://navyteamz.com/",
@@ -1120,7 +1120,7 @@
     },
     {
       "name": "Navy Team Novel",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/navy-team-novel.zip",
       "version": 6,
       "source": "https://navyteamz.com/",
@@ -1131,7 +1131,7 @@
     },
     {
       "name": "Roads Team",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/roads-team.zip",
       "version": 1,
       "source": "https://roadsteam.net/",
@@ -1142,7 +1142,7 @@
     },
     {
       "name": "Mê Truyện Chữ",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-truyen-chu.zip",
       "version": 5,
       "source": "https://metruyenchuvn.com/",
@@ -1153,7 +1153,7 @@
     },
     {
       "name": "Mọt Truyện",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mot-truyen.zip",
       "version": 1,
       "source": "https://mottruyen.com.vn",
@@ -1164,7 +1164,7 @@
     },
     {
       "name": "QAĐC",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qadc.zip",
       "version": 2,
       "source": "https://qadcuteo.cc/",
@@ -1175,7 +1175,7 @@
     },
     {
       "name": "Ưng Tỷ Comics",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ung-ty-comics.zip",
       "version": 3,
       "source": "https://ungtycomicsen.com/",
@@ -1186,7 +1186,7 @@
     },
     {
       "name": "Sany Team",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sany-team.zip",
       "version": 2,
       "source": "https://teamsany.com/",
@@ -1197,7 +1197,7 @@
     },
     {
       "name": "TVKH",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tvkh.zip",
       "version": 1,
       "source": "https://bananacoo.com/",
@@ -1208,7 +1208,7 @@
     },
     {
       "name": "Dưa Leo truyện",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dua-leo-truyen.zip",
       "version": 16,
       "source": "https://dualeotruyenbs.com/",
@@ -1219,7 +1219,7 @@
     },
     {
       "name": "Tushumi",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tushumi.zip",
       "version": 3,
       "source": "https://www.tushumi.cc/",
@@ -1230,7 +1230,7 @@
     },
     {
       "name": "ixdzs",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ixdzs.zip",
       "version": 1,
       "source": "https://ixdzs.tw/",
@@ -1241,7 +1241,7 @@
     },
     {
       "name": "69书吧",
-      "author": "QuocBao",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69.zip",
       "version": 2,
       "source": "https://www.69shuba.com",
@@ -1252,7 +1252,7 @@
     },
     {
       "name": "Truyện đề xuất",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-de-xuat.zip",
       "version": 1,
       "source": "https://truyendexuat.com",
@@ -1263,7 +1263,7 @@
     },
     {
       "name": "Truyện TV",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-tv.zip",
       "version": 1,
       "source": "https://truyentv.site",
@@ -1274,7 +1274,7 @@
     },
     {
       "name": "Ổ của Dưa",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/o-cua-dua.zip",
       "version": 1,
       "source": "https://www.ocuadua.com",
@@ -1296,7 +1296,7 @@
     },
     {
       "name": "Xbanxia - repo Đường đen",
-      "author": "bexom",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xbanxia-repo-duong-den.zip",
       "version": 5,
       "source": "https://www.xbanxia.cc",
@@ -1307,7 +1307,7 @@
     },
     {
       "name": "czbooks - repo Đường đen",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/czbooks-repo-duong-den.zip",
       "version": 3,
       "source": "https://czbooks.net",
@@ -1318,7 +1318,7 @@
     },
     {
       "name": "quanwenyuedu",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/quanwenyuedu.zip",
       "version": 2,
       "source": "https://www.quanwenyuedu.io",
@@ -1329,7 +1329,7 @@
     },
     {
       "name": "qmbook",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qmbook.zip",
       "version": 3,
       "source": "https://m.bqg647.xyz/#/",
@@ -1340,7 +1340,7 @@
     },
     {
       "name": "wodeshucheng5",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wodeshucheng5.zip",
       "version": 1,
       "source": "https://www.wodeshucheng5.com",
@@ -1351,7 +1351,7 @@
     },
     {
       "name": "75zwcom",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/75zwcom.zip",
       "version": 1,
       "source": "https://m.75zwcom.com",
@@ -1362,7 +1362,7 @@
     },
     {
       "name": "sudugu",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sudugu.zip",
       "version": 4,
       "source": "https://www.sudugu.org",
@@ -1373,7 +1373,7 @@
     },
     {
       "name": "69shu - repo Đường đen",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69shu-repo-duong-den.zip",
       "version": 39,
       "source": "https://69shuba.com",
@@ -1384,7 +1384,7 @@
     },
     {
       "name": "Người Lao Động",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nguoi-lao-dong.zip",
       "version": 2,
       "source": "https://nld.com.vn",
@@ -1395,7 +1395,7 @@
     },
     {
       "name": "vietnamnet",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/vietnamnet.zip",
       "version": 2,
       "source": "https://vietnamnet.vn",
@@ -1406,7 +1406,7 @@
     },
     {
       "name": "Tuổi Trẻ",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tuoi-tre.zip",
       "version": 2,
       "source": "https://tuoitre.vn",
@@ -1417,7 +1417,7 @@
     },
     {
       "name": "soha",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/soha.zip",
       "version": 2,
       "source": "https://m.soha.vn",
@@ -1428,7 +1428,7 @@
     },
     {
       "name": "qimao - repo Đường đen",
-      "author": "Nhocconsr",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qimao-repo-duong-den.zip",
       "version": 2,
       "source": "https://www.qimao.com",
@@ -1439,7 +1439,7 @@
     },
     {
       "name": "piaotian-app",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/piaotian-app.zip",
       "version": 3,
       "source": "https://www.piaotianapp.com",
@@ -1450,7 +1450,7 @@
     },
     {
       "name": "69shumi",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69shumi.zip",
       "version": 3,
       "source": "https://www.69shumi.net",
@@ -1461,7 +1461,7 @@
     },
     {
       "name": "biqugess",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biqugess.zip",
       "version": 1,
       "source": "http://www.biqugess.co",
@@ -1472,7 +1472,7 @@
     },
     {
       "name": "69hsz",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69hsz.zip",
       "version": 5,
       "source": "https://www.69hsz.net",
@@ -1483,7 +1483,7 @@
     },
     {
       "name": "soxscc",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/soxscc.zip",
       "version": 2,
       "source": "https://www.xinsoxs.com",
@@ -1494,7 +1494,7 @@
     },
     {
       "name": "笔趣阁-abcbiquge",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/abcbiquge.zip",
       "version": 7,
       "source": "http://m.abcbiquge.com",
@@ -1505,7 +1505,7 @@
     },
     {
       "name": "MonkeyD VN - repo duongden",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/monkeyd-vn-repo-duongden.zip",
       "version": 10,
       "source": "https://www.monkeydd.com",
@@ -1516,7 +1516,7 @@
     },
     {
       "name": "Truyện Com",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-com.zip",
       "version": 2,
       "source": "https://truyencom.com",
@@ -1527,7 +1527,7 @@
     },
     {
       "name": "Tinh Linh",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tinh-linh.zip",
       "version": 2,
       "source": "https://tinhlinh.com",
@@ -1538,7 +1538,7 @@
     },
     {
       "name": "Đảo truyện",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dao-truyen.zip",
       "version": 2,
       "source": "https://daotruyen.me",
@@ -1549,7 +1549,7 @@
     },
     {
       "name": "Dịch truyện tự động từ Qidian",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dich-truyen-tu-dong-tu-qidian.zip",
       "version": 3,
       "source": "https://q.kyhuyen.com",
@@ -1560,7 +1560,7 @@
     },
     {
       "name": "Novel Next",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/novel-next.zip",
       "version": 5,
       "source": "https://www.novelnext.me",
@@ -1571,7 +1571,7 @@
     },
     {
       "name": "Fan MTL",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fan-mtl.zip",
       "version": 1,
       "source": "https://www.fanmtl.com",
@@ -1582,7 +1582,7 @@
     },
     {
       "name": "All Novel",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/all-novel.zip",
       "version": 1,
       "source": "https://allnovel.org",
@@ -1593,7 +1593,7 @@
     },
     {
       "name": "Spiderum",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/spiderum.zip",
       "version": 1,
       "source": "https://spiderum.com",
@@ -1604,7 +1604,7 @@
     },
     {
       "name": "sohu",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sohu.zip",
       "version": 1,
       "source": "https://www.sohu.com",
@@ -1615,7 +1615,7 @@
     },
     {
       "name": "Viblo",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/viblo.zip",
       "version": 4,
       "source": "https://viblo.asia",
@@ -1626,7 +1626,7 @@
     },
     {
       "name": "conduongbachu",
-      "author": "longvuu",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/conduongbachu.zip",
       "version": 2,
       "source": "https://akaytruyen.com/",
@@ -1637,7 +1637,7 @@
     },
     {
       "name": "AliceSW",
-      "author": "longvuu",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw-2.zip",
       "version": 1,
       "source": "https://www.alicesw.com/",
@@ -1648,7 +1648,7 @@
     },
     {
       "name": "lxmanga",
-      "author": "longvuu",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/lxmanga.zip",
       "version": 9,
       "source": "https://lxmanga.blog/",
@@ -1659,7 +1659,7 @@
     },
     {
       "name": "wfxs.tw",
-      "author": "longvuu",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wfxs-tw.zip",
       "version": 1,
       "source": "https://wfxs.tw/",
@@ -1669,19 +1669,19 @@
       "locale": "zh_CN"
     },
     {
-      "name": "",
-      "author": "longvuu",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/.zip",
+      "name": "Góc Truyện Tranh Vui 17",
+      "author": "Thiên Thư Các",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/goc-truyen-tranh-vui-17.zip",
       "version": 1,
       "source": "https://goctruyentranhvui17.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/.png",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/goc-truyen-tranh-vui-17.png",
       "description": "Đọc truyện trên góc truyện tranh vui 17",
       "type": "comic",
       "locale": "vi_VN"
     },
     {
       "name": "uukanshu",
-      "author": "TH03",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/uukanshu.zip",
       "version": 2,
       "source": "https://uukanshu.cc",
@@ -1692,7 +1692,7 @@
     },
     {
       "name": "天悦小说网",
-      "author": "TH03",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/-1.zip",
       "version": 1,
       "source": "https://m.xtyxsw.org",
@@ -1703,7 +1703,7 @@
     },
     {
       "name": "Hentaifox.com",
-      "author": "TH03",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaifox-com.zip",
       "version": 3,
       "source": "http://hentaifox.com/",
@@ -1714,7 +1714,7 @@
     },
     {
       "name": "Truyện Net",
-      "author": "Will Sun",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-net.zip",
       "version": 3,
       "source": "https://truyennet.vn",
@@ -1725,7 +1725,7 @@
     },
     {
       "name": "Sói Xám (Fanqie)",
-      "author": "Will Sun",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/soi-xam-fanqie.zip",
       "version": 19,
       "source": "https://api.langge.cf",
@@ -1736,7 +1736,7 @@
     },
     {
       "name": "po18sm",
-      "author": "Will Sun",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/po18sm.zip",
       "version": 4,
       "source": "https://www.po18sm.com",
@@ -1747,7 +1747,7 @@
     },
     {
       "name": "HentaiVN",
-      "author": "Will Sun",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaivn-1.zip",
       "version": 2,
       "source": "https://www.hentaivnx.com",
@@ -1758,7 +1758,7 @@
     },
     {
       "name": "VinaHentai",
-      "author": "Will Sun",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/vinahentai-1.zip",
       "version": 6,
       "source": "https://vinahentai.bond",
@@ -1769,7 +1769,7 @@
     },
     {
       "name": "HentaiVietsub.com",
-      "author": "Will Sun",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaivietsub-com.zip",
       "version": 2,
       "source": "https://hentaivietsub.com",
@@ -1780,7 +1780,7 @@
     },
     {
       "name": "WatchHentai.net",
-      "author": "Will Sun",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/watchhentai-net.zip",
       "version": 2,
       "source": "https://watchhentai.net",
@@ -1791,7 +1791,7 @@
     },
     {
       "name": "HHTQHAY.VIP",
-      "author": "Will Sun",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hhtqhay-vip.zip",
       "version": 3,
       "source": "https://hhtqhay.vip",
@@ -1802,7 +1802,7 @@
     },
     {
       "name": "Gemini Baidu Translate change Model V2.0",
-      "author": "3690",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/gemini-baidu-translate-change-model-v2-0.zip",
       "version": 88,
       "source": "https://aistudio.google.com/apikey",
@@ -1813,7 +1813,7 @@
     },
     {
       "name": "alicesw",
-      "author": "3690",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw-3.zip",
       "version": 46,
       "source": "https://www.alicesw.com",
@@ -1824,7 +1824,7 @@
     },
     {
       "name": "Wattpad",
-      "author": "3690",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad-2.zip",
       "version": 1,
       "source": "https://wattpad.com",
@@ -1835,7 +1835,7 @@
     },
     {
       "name": "MeTruyenChuFake",
-      "author": "3690",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/metruyenchufake.zip",
       "version": 1,
       "source": "https://metruyenchu.com.vn/",
@@ -1846,7 +1846,7 @@
     },
     {
       "name": "cosplaytele",
-      "author": "3690",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cosplaytele-1.zip",
       "version": 1,
       "source": "https://cosplaytele.com/",
@@ -1857,7 +1857,7 @@
     },
     {
       "name": "Cà Chua",
-      "author": "mizhm",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ca-chua.zip",
       "version": 9,
       "source": "https://fanqienovel.com",
@@ -1868,7 +1868,7 @@
     },
     {
       "name": "XX Knix",
-      "author": "Kou",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xx-knix.zip",
       "version": 8,
       "source": "https://xx.knit.bid",
@@ -1879,7 +1879,7 @@
     },
     {
       "name": "Everia",
-      "author": "Kou",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/everia.zip",
       "version": 9,
       "source": "https://everia.club",
@@ -1890,7 +1890,7 @@
     },
     {
       "name": "Best Girl Sexy",
-      "author": "Kou",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/best-girl-sexy.zip",
       "version": 7,
       "source": "https://bestgirlsexy.com",
@@ -1901,7 +1901,7 @@
     },
     {
       "name": "Truyện QQ",
-      "author": "Kou",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-qq-2.zip",
       "version": 20,
       "source": "https://truyenqqko.com",
@@ -1912,7 +1912,7 @@
     },
     {
       "name": "Góc truyện tranh",
-      "author": "Kou",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/goc-truyen-tranh-1.zip",
       "version": 41,
       "source": "https://goctruyentranhvui30.com",
@@ -1923,7 +1923,7 @@
     },
     {
       "name": "CManga",
-      "author": "Kou",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cmanga.zip",
       "version": 42,
       "source": "https://cmangax17.com",
@@ -1934,7 +1934,7 @@
     },
     {
       "name": "Say Hentai",
-      "author": "Kou",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/say-hentai-1.zip",
       "version": 22,
       "source": "https://sayhentai.sh",
@@ -1945,7 +1945,7 @@
     },
     {
       "name": "Fox Truyện",
-      "author": "Kou",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fox-truyen.zip",
       "version": 8,
       "source": "https://foxtruyen2.com",
@@ -1956,7 +1956,7 @@
     },
     {
       "name": "Đọc Truyện 3Q",
-      "author": "Kou",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/doc-truyen-3q.zip",
       "version": 14,
       "source": "https://doctruyen3qui14.pro",
@@ -1967,7 +1967,7 @@
     },
     {
       "name": "Nettruyen Unofficial",
-      "author": "Kou",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nettruyen-unofficial.zip",
       "version": 11,
       "source": "https://nettruyen9s.com",
@@ -1978,7 +1978,7 @@
     },
     {
       "name": "Mino",
-      "author": "Kou",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mino.zip",
       "version": 11,
       "source": "https://minotruyenv6.xyz",
@@ -1989,7 +1989,7 @@
     },
     {
       "name": "Cứu Truyện",
-      "author": "Kou",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cuu-truyen-1.zip",
       "version": 1,
       "source": "https://cuutruyen.net",
@@ -2044,7 +2044,7 @@
     },
     {
       "name": "Vivu Truyện",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/vivu-truyen.zip",
       "version": 1,
       "source": "https://vivutruyen.net/",
@@ -2055,7 +2055,7 @@
     },
     {
       "name": "TruyenTv",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyentv.zip",
       "version": 1,
       "source": "https://www.tvtruyen.co.uk",
@@ -2066,7 +2066,7 @@
     },
     {
       "name": "Truyện Mơ",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-mo.zip",
       "version": 1,
       "source": "https://www.truyenmo.com/",
@@ -2077,7 +2077,7 @@
     },
     {
       "name": "Truyện Hoàn",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-hoan.zip",
       "version": 9,
       "source": "https://truyenhoan.com/",
@@ -2088,7 +2088,7 @@
     },
     {
       "name": "QuyKhu",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/quykhu.zip",
       "version": 4,
       "source": "https://quykhu.com/",
@@ -2099,7 +2099,7 @@
     },
     {
       "name": "Mê Đọc Truyện",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-doc-truyen.zip",
       "version": 1,
       "source": "https://medoctruyen.vn",
@@ -2110,7 +2110,7 @@
     },
     {
       "name": "Kenh Truyen Ma",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kenh-truyen-ma.zip",
       "version": 1,
       "source": "https://kenhtruyenma.com",
@@ -2121,7 +2121,7 @@
     },
     {
       "name": "Cà Chua Sói Xám",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ca-chua-soi-xam.zip",
       "version": 3,
       "source": "https://fanqienovel.com",
@@ -2132,7 +2132,7 @@
     },
     {
       "name": "OPhim",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ophim.zip",
       "version": 1,
       "source": "https://ophim17.cc",
@@ -2143,7 +2143,7 @@
     },
     {
       "name": "PhimFun",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/phimfun.zip",
       "version": 1,
       "source": "https://phimfun.net",
@@ -2154,7 +2154,7 @@
     },
     {
       "name": "Motchill",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/motchill.zip",
       "version": 1,
       "source": "https://envasion.net",
@@ -2165,7 +2165,7 @@
     },
     {
       "name": "NguonC",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nguonc.zip",
       "version": 1,
       "source": "https://phim.nguonc.com",
@@ -2176,7 +2176,7 @@
     },
     {
       "name": "AnimeVsub",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/animevsub.zip",
       "version": 1,
       "source": "https://animevsub.app",
@@ -2187,7 +2187,7 @@
     },
     {
       "name": "Anime Hay",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/anime-hay.zip",
       "version": 3,
       "source": "https://animehay.fm",
@@ -2198,7 +2198,7 @@
     },
     {
       "name": "FPT AI TTS",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fpt-ai-tts.zip",
       "version": 1,
       "source": "https://console.fpt.ai/",
@@ -2209,7 +2209,7 @@
     },
     {
       "name": "Viettel AI TTS",
-      "author": "kychi",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/viettel-ai-tts.zip",
       "version": 1,
       "source": "https://viettelai.vn/dashboard/token",
@@ -2220,7 +2220,7 @@
     },
     {
       "name": "Hako",
-      "author": "Gold2k2k2k",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hako.zip",
       "version": 1,
       "source": "https://docln.sbs",
@@ -2231,7 +2231,7 @@
     },
     {
       "name": "Storya",
-      "author": "Gold2k2k2k",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/storya.zip",
       "version": 1,
       "source": "https://storya.click",
@@ -2242,7 +2242,7 @@
     },
     {
       "name": "MoeTruyen",
-      "author": "Gold2k2k2k",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/moetruyen.zip",
       "version": 1,
       "source": "https://truyen.moe",
@@ -2253,7 +2253,7 @@
     },
     {
       "name": "Shinigami LN Team",
-      "author": "Gold2k2k2k",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/shinigami-ln-team.zip",
       "version": 1,
       "source": "https://shinigamilnteam.com",
@@ -2264,7 +2264,7 @@
     },
     {
       "name": "Lnovel",
-      "author": "Vearn",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/lnovel.zip",
       "version": 4,
       "source": "https://lnovel.org/",
@@ -2275,7 +2275,7 @@
     },
     {
       "name": "GG dịch Novel Full",
-      "author": "Vearn",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/gg-dich-novel-full.zip",
       "version": 1,
       "source": "https://novelfull.com/",
@@ -2286,7 +2286,7 @@
     },
     {
       "name": "Đồng nhân xã",
-      "author": "Vearn",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dong-nhan-xa.zip",
       "version": 4,
       "source": "https://tongrenshe.cc",
@@ -2297,7 +2297,7 @@
     },
     {
       "name": "ilwxs",
-      "author": "Vearn",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ilwxs.zip",
       "version": 1,
       "source": "https://www.ilwxs.com",
@@ -2308,7 +2308,7 @@
     },
     {
       "name": "Đồng nhân tiểu thuyết",
-      "author": "Vearn",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dong-nhan-tieu-thuyet.zip",
       "version": 1,
       "source": "https://www.qbtr.cc",
@@ -2319,7 +2319,7 @@
     },
     {
       "name": "Truyện hoàn",
-      "author": "Vearn",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-hoan-1.zip",
       "version": 1,
       "source": "https://truyenhoan.com",
@@ -2330,7 +2330,7 @@
     },
     {
       "name": "dualeotruyenfull",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dualeotruyenfull.zip",
       "version": 5,
       "source": "https://dualeotruyenfull.net",
@@ -2341,7 +2341,7 @@
     },
     {
       "name": "Biquge",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biquge.zip",
       "version": 9,
       "source": "https://www.biquge.tw",
@@ -2352,7 +2352,7 @@
     },
     {
       "name": "Storya",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/storya-1.zip",
       "version": 2,
       "source": "https://storya.click",
@@ -2363,7 +2363,7 @@
     },
     {
       "name": "Wattpad - Tiếng Việt",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad-tieng-viet.zip",
       "version": 21,
       "source": "https://www.wattpad.com",
@@ -2374,7 +2374,7 @@
     },
     {
       "name": "TruyenChu",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenchu.zip",
       "version": 8,
       "source": "https://truyenchu.net",
@@ -2385,7 +2385,7 @@
     },
     {
       "name": "WanwanSekai -18+",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wanwansekai-18.zip",
       "version": 9,
       "source": "https://wanwansekai.com",
@@ -2396,7 +2396,7 @@
     },
     {
       "name": "ShiBaShuWu -18+",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/shibashuwu-18.zip",
       "version": 19,
       "source": "https://www.shibashuwu.net",
@@ -2407,7 +2407,7 @@
     },
     {
       "name": "NovelCooksTW",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/novelcookstw.zip",
       "version": 9,
       "source": "https://novel.cooks.tw",
@@ -2418,7 +2418,7 @@
     },
     {
       "name": "TrichTinhLau",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/trichtinhlau.zip",
       "version": 8,
       "source": "https://trichtinhlau.com",
@@ -2429,7 +2429,7 @@
     },
     {
       "name": "LN Kuro",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ln-kuro.zip",
       "version": 16,
       "source": "https://lnkuro.top",
@@ -2440,7 +2440,7 @@
     },
     {
       "name": "MeTruyenSangTac",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/metruyensangtac.zip",
       "version": 5,
       "source": "https://metruyensangtac.com",
@@ -2451,7 +2451,7 @@
     },
     {
       "name": "LoppyToon -18+",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/loppytoon-18.zip",
       "version": 18,
       "source": "https://loppytoon.com",
@@ -2462,7 +2462,7 @@
     },
     {
       "name": "SayHentai -18+",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sayhentai-18.zip",
       "version": 2,
       "source": "https://sayhentai.sh",
@@ -2473,7 +2473,7 @@
     },
     {
       "name": "HentaiCube -18+",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaicube-18-1.zip",
       "version": 1,
       "source": "https://hentaicube.xyz",
@@ -2484,7 +2484,7 @@
     },
     {
       "name": "Meo Translate",
-      "author": "Meo",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/meo-translate.zip",
       "version": 10,
       "source": "https://github.com/hienpro00123/vbook_MeoU",
@@ -2495,7 +2495,7 @@
     },
     {
       "name": "Si Truyện CV",
-      "author": "HieuDM",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/si-truyen-cv.zip",
       "version": 2,
       "source": "https://sitruyencv.com",
@@ -2506,7 +2506,7 @@
     },
     {
       "name": "Inkitt",
-      "author": "HieuDM",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/inkitt.zip",
       "version": 1,
       "source": "https://inkitt.com",
@@ -2517,7 +2517,7 @@
     },
     {
       "name": "qidian",
-      "author": "hajljnopera",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qidian.zip",
       "version": 12,
       "source": "https://www.qidian.com",
@@ -2528,7 +2528,7 @@
     },
     {
       "name": "haitanglin",
-      "author": "hajljnopera",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/haitanglin.zip",
       "version": 2,
       "source": "https://www.haitanglin.com",
@@ -2539,7 +2539,7 @@
     },
     {
       "name": "piaotian5",
-      "author": "hajljnopera",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/piaotian5.zip",
       "version": 5,
       "source": "https://www.piaotian55.net",
@@ -2550,7 +2550,7 @@
     },
     {
       "name": "ptwxz",
-      "author": "hajljnopera",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ptwxz.zip",
       "version": 4,
       "source": "https://www.piaotian.com",
@@ -2561,7 +2561,7 @@
     },
     {
       "name": "trxs",
-      "author": "hajljnopera",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/trxs.zip",
       "version": 4,
       "source": "http://trxs.cc",
@@ -2572,7 +2572,7 @@
     },
     {
       "name": "czbooks",
-      "author": "hajljnopera",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/czbooks.zip",
       "version": 2,
       "source": "https://czbooks.net",
@@ -2583,7 +2583,7 @@
     },
     {
       "name": "hiperdex",
-      "author": "hajljnopera",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hiperdex.zip",
       "version": 4,
       "source": "https://hiperdex.com",
@@ -2594,7 +2594,7 @@
     },
     {
       "name": "Yousuu",
-      "author": "bqy",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/yousuu.zip",
       "version": 1,
       "source": "https://www.yousuu.com/",
@@ -2605,7 +2605,7 @@
     },
     {
       "name": "qidian home",
-      "author": "bqy",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qidian-home.zip",
       "version": 1,
       "source": "https://www.qidian.com/",
@@ -2616,7 +2616,7 @@
     },
     {
       "name": "nHentai.one",
-      "author": "bexom",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nhentai-one.zip",
       "version": 1,
       "source": "https://nhentai.net",
@@ -2627,7 +2627,7 @@
     },
     {
       "name": "Xbanxia",
-      "author": "bexom",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xbanxia.zip",
       "version": 1,
       "source": "https://www.xbanxia.com",
@@ -2638,7 +2638,7 @@
     },
     {
       "name": "Wattpad ver dịch",
-      "author": "AleshaOnOn",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad-ver-dich.zip",
       "version": 1,
       "source": "https://wattpad.com",
@@ -2649,7 +2649,7 @@
     },
     {
       "name": "truyenhoangdung",
-      "author": "Tam Chau",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenhoangdung.zip",
       "version": 3,
       "source": "https://truyenhoangdung.xyz",
@@ -2660,7 +2660,7 @@
     },
     {
       "name": "Mê Đọc Truyện",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-doc-truyen-1.zip",
       "version": 3,
       "source": "https://medoctruyen.vn/",
@@ -2671,7 +2671,7 @@
     },
     {
       "name": "AliceSW",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw-4.zip",
       "version": 6,
       "source": "https://www.alicesw.com/",
@@ -2682,7 +2682,7 @@
     },
     {
       "name": "bFaloo (飞卢小说)",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bfaloo-1.zip",
       "version": 3,
       "source": "https://b.faloo.com",
@@ -2693,7 +2693,7 @@
     },
     {
       "name": "17 Tiểu thuyết",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/17-tieu-thuyet.zip",
       "version": 5,
       "source": "https://m.1qxs.com/",
@@ -2704,7 +2704,7 @@
     },
     {
       "name": "AllNovel",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/allnovel.zip",
       "version": 1,
       "source": "https://allnovel.org",
@@ -2715,7 +2715,7 @@
     },
     {
       "name": "FanMTL",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fanmtl.zip",
       "version": 1,
       "source": "https://www.fanmtl.com",
@@ -2726,7 +2726,7 @@
     },
     {
       "name": "NovelFull",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/novelfull.zip",
       "version": 1,
       "source": "https://novelfull.com",
@@ -2737,7 +2737,7 @@
     },
     {
       "name": "NovelNext",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/novelnext.zip",
       "version": 1,
       "source": "https://www.novelnext.me",
@@ -2748,7 +2748,7 @@
     },
     {
       "name": "MotChill",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/motchill-1.zip",
       "version": 3,
       "source": "https://motchillzc.cc/",
@@ -2759,7 +2759,7 @@
     },
     {
       "name": "Mê Truyện Chữ .com",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-truyen-chu-com.zip",
       "version": 5,
       "source": "https://metruyenchuvn.com/",
@@ -2770,7 +2770,7 @@
     },
     {
       "name": "Si Truyện CV",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/si-truyen-cv-1.zip",
       "version": 1,
       "source": "https://sitruyencv.com/",
@@ -2781,7 +2781,7 @@
     },
     {
       "name": "TruyenDich.AI",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyendich-ai-1.zip",
       "version": 1,
       "source": "https://truyendich.ai",
@@ -2792,7 +2792,7 @@
     },
     {
       "name": "Truyện Full",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-full-1.zip",
       "version": 3,
       "source": "https://truyenfull.today",
@@ -2803,7 +2803,7 @@
     },
     {
       "name": "Truyen Hoan",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-hoan-2.zip",
       "version": 3,
       "source": "https://truyenhoan.com/",
@@ -2814,7 +2814,7 @@
     },
     {
       "name": "Truyện Net",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-net-2.zip",
       "version": 2,
       "source": "https://truyennet.vn/",
@@ -2825,7 +2825,7 @@
     },
     {
       "name": "Wattpad",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad-3.zip",
       "version": 3,
       "source": "https://wattpad.com.vn/",
@@ -2836,7 +2836,7 @@
     },
     {
       "name": "Wiki Dịch",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wiki-dich-1.zip",
       "version": 4,
       "source": "https://wikicv.net",
@@ -2847,7 +2847,7 @@
     },
     {
       "name": "Xa Lộ Sách",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xa-lo-sach.zip",
       "version": 3,
       "source": "https://xalosach.com",
@@ -2858,7 +2858,7 @@
     },
     {
       "name": "Phim Nhựa",
-      "author": "ivanzzz",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/phim-nhua.zip",
       "version": 4,
       "source": "https://phimnhua.online",
@@ -2869,7 +2869,7 @@
     },
     {
       "name": "Storya",
-      "author": "Klein",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/storya-2.zip",
       "version": 2,
       "source": "https://storya.click",
@@ -2880,7 +2880,7 @@
     },
     {
       "name": "Sáng Tác Việt Pro",
-      "author": "Klein",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sang-tac-viet-pro.zip",
       "version": 16,
       "source": "http://103.82.20.93",
@@ -2891,7 +2891,7 @@
     },
     {
       "name": "Dâm Cô Nương",
-      "author": "Klein",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dam-co-nuong.zip",
       "version": 3,
       "source": "https://damconuong.cx",
@@ -2990,7 +2990,7 @@
     },
     {
       "name": "Otakusic",
-      "author": "madokalb112",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/otakusic.zip",
       "version": 13,
       "source": "https://otakusic.com",
@@ -3001,7 +3001,7 @@
     },
     {
       "name": "ChickenManga",
-      "author": "madokalb112",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/chickenmanga.zip",
       "version": 1,
       "source": "https://www.chickenmanga.com",
@@ -3012,7 +3012,7 @@
     },
     {
       "name": "Comicland",
-      "author": "madokalb112",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/comicland.zip",
       "version": 4,
       "source": "https://comicland.org",
@@ -3023,7 +3023,7 @@
     },
     {
       "name": "MangaFire",
-      "author": "madokalb112",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mangafire.zip",
       "version": 4,
       "source": "https://mangafire.to",
@@ -3034,7 +3034,7 @@
     },
     {
       "name": "Hong Tra Team",
-      "author": "madokalb112",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hong-tra-team.zip",
       "version": 5,
       "source": "https://hongtrateam.com",
@@ -3045,7 +3045,7 @@
     },
     {
       "name": "Stellar Stories",
-      "author": "madokalb112",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/stellar-stories.zip",
       "version": 1,
       "source": "https://stellarstory.net",
@@ -3056,7 +3056,7 @@
     },
     {
       "name": "TruyenYY",
-      "author": "madokalb112",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenyy.zip",
       "version": 2,
       "source": "https://truyenyy.co",
@@ -3067,7 +3067,7 @@
     },
     {
       "name": "WikiDich",
-      "author": "madokalb112",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wikidich.zip",
       "version": 1,
       "source": "https://wikidich.com.vn",
@@ -3078,7 +3078,7 @@
     },
     {
       "name": "80QiShu",
-      "author": "madokalb112",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/80qishu.zip",
       "version": 4,
       "source": "https://www.80qishu.com/",
@@ -3089,7 +3089,7 @@
     },
     {
       "name": "LoppyToon",
-      "author": "madokalb112",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/loppytoon-1.zip",
       "version": 3,
       "source": "https://loppytoonn.com",
@@ -3100,7 +3100,7 @@
     },
     {
       "name": "MimiMoe",
-      "author": "madokalb112",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mimimoe-1.zip",
       "version": 1,
       "source": "https://mimimoe.moe",
@@ -3111,7 +3111,7 @@
     },
     {
       "name": "Chuangshi QQ",
-      "author": "madokalb112",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/chuangshi-qq.zip",
       "version": 2,
       "source": "https://m.chuangshi.qq.com",
@@ -3122,7 +3122,7 @@
     },
     {
       "name": "TruyenNet",
-      "author": "ToanTNM",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyennet.zip",
       "version": 1,
       "source": "https://truyennet.org",
@@ -3144,7 +3144,7 @@
     },
     {
       "name": "07br",
-      "author": "Đường đen",
+      "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/07br.zip",
       "version": 7,
       "source": "https://www.bqg128.xyz/#/",
