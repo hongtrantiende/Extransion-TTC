@@ -833,17 +833,6 @@
             "locale": "vi_VN"
         },
         {
-            "name": "[APP] TYT",
-            "author": "QuocBao",
-            "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/app-tyt.zip",
-            "version": 8,
-            "source": "https:\/\/tytnovel.org\/",
-            "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/app-tyt.png",
-            "description": "Đọc truyện từ app TYT.",
-            "type": "novel",
-            "locale": "vi_VN"
-        },
-        {
             "name": "YOUKU",
             "author": "QuocBao",
             "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/youku.zip",
