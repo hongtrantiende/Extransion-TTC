@@ -1196,17 +1196,6 @@
             "locale": "vi_VN"
         },
         {
-            "name": "Xianqihaotiami APP",
-            "author": "QuocBao",
-            "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/xianqihaotiami-app.zip",
-            "version": 2,
-            "source": "http:\/\/www.xianqihaotianmi.org\/",
-            "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/xianqihaotiami-app.png",
-            "description": "Đọc truyện ở App xianqihaotiami",
-            "type": "novel",
-            "locale": "zh_CN"
-        },
-        {
             "name": "Ưng Tỷ Comics",
             "author": "QuocBao",
             "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/ung-ty-comics.zip",
