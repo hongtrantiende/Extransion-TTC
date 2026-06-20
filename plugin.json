@@ -30,12 +30,12 @@
       "locale": "vi_VN"
     },
     {
-      "name": "📖 Wiki Dịch (wikidich)",
+      "name": "wikicv.net",
       "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wiki-dich.zip",
-      "version": 1,
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wikicv.net.zip",
+      "version": 25,
       "source": "https://wikicv.net",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/wiki-dich.png",
+      "icon": "",
       "description": "Đọc truyện trên trang Wiki Dịch",
       "type": "novel",
       "locale": "vi_VN"
