@@ -2835,17 +2835,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "wikicv.net",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wiki-dich-1.zip",
-      "version": 2,
-      "source": "https://wikicv.net",
-      "icon": "",
-      "description": "Đọc truyện trên trang Wiki Dịch",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
       "name": "xalosach.com",
       "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xa-lo-sach.zip",
