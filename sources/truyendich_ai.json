@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Doc truyen tai TruyenDich.AI",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "truyendich.ai",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_truyendich-ai",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597118,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}

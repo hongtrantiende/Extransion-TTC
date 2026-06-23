@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kho Nguồn Sách & Tiện Ích - Thiên Thư Các</title>
+    <title>Thiên Thư Các - Kho Nguồn Sách & Tiện Ích</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg-color: #0b0f19;
-            --card-bg: rgba(22, 28, 45, 0.6);
-            --border-color: rgba(255, 255, 255, 0.08);
+            --card-bg: rgba(22, 28, 45, 0.4);
+            --card-hover-border: rgba(59, 130, 246, 0.4);
+            --border-color: rgba(255, 255, 255, 0.06);
             --text-primary: #f3f4f6;
             --text-secondary: #9ca3af;
-            --accent-color: #3b82f6;
-            --accent-glow: rgba(59, 130, 246, 0.5);
-            --success-color: #10b981;
-            --warning-color: #f59e0b;
+            --accent-primary: #3b82f6;
+            --accent-glow: rgba(59, 130, 246, 0.35);
+            --accent-success: #10b981;
+            --accent-success-glow: rgba(16, 185, 129, 0.2);
+            --accent-warn: #f59e0b;
+            --accent-warn-glow: rgba(245, 158, 11, 0.2);
+            --accent-purple: #8b5cf6;
+            --accent-purple-glow: rgba(139, 92, 246, 0.2);
+            --accent-pink: #ec4899;
         }
 
         * {
@@ -31,157 +37,395 @@
             background-color: var(--bg-color);
             color: var(--text-primary);
             min-height: 100vh;
-            padding: 2rem 1rem;
-            background-image: radial-gradient(circle at 10% 20%, rgba(30, 39, 97, 0.2) 0%, transparent 40%),
-                              radial-gradient(circle at 90% 80%, rgba(59, 130, 246, 0.05) 0%, transparent 40%);
+            padding: 3rem 1.5rem;
+            background-image: 
+                radial-gradient(circle at 15% 15%, rgba(59, 130, 246, 0.15) 0%, transparent 45%),
+                radial-gradient(circle at 85% 85%, rgba(139, 92, 246, 0.1) 0%, transparent 45%),
+                linear-gradient(rgba(255, 255, 255, 0.003) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.003) 1px, transparent 1px);
+            background-size: 100% 100%, 100% 100%, 24px 24px, 24px 24px;
             background-attachment: fixed;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1280px;
             margin: 0 auto;
         }
 
         header {
             text-align: center;
-            margin-bottom: 3rem;
+            margin-bottom: 4rem;
+            position: relative;
+        }
+
+        header .logo-glow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            height: 100px;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.2) 0%, transparent 70%);
+            z-index: -1;
+            filter: blur(20px);
         }
 
         header h1 {
-            font-size: 2.5rem;
+            font-size: 3.2rem;
             font-weight: 700;
-            background: linear-gradient(135deg, #60a5fa, #3b82f6);
+            letter-spacing: -0.03em;
+            background: linear-gradient(135deg, #ffffff 10%, #a5b4fc 50%, #6366f1 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.75rem;
+            text-shadow: 0 0 40px rgba(99, 102, 241, 0.2);
         }
 
         header p {
             color: var(--text-secondary);
-            font-size: 1.1rem;
+            font-size: 1.25rem;
+            font-weight: 300;
+            max-width: 600px;
+            margin: 0 auto;
         }
 
-        .actions-bar {
+        .actions-panel {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 1.5rem;
+            margin-bottom: 2.5rem;
+            backdrop-filter: blur(20px);
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 2rem;
-            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 1.5rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .search-row {
+            display: flex;
             gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
         }
 
         .search-box {
             position: relative;
             flex: 1;
-            max-width: 400px;
+            min-width: 280px;
         }
 
         .search-box input {
             width: 100%;
-            padding: 0.75rem 1rem;
-            background: rgba(17, 24, 39, 0.8);
+            padding: 0.9rem 1.25rem 0.9rem 3rem;
+            background: rgba(8, 12, 24, 0.7);
             border: 1px solid var(--border-color);
-            border-radius: 9999px;
+            border-radius: 16px;
             color: var(--text-primary);
             font-family: inherit;
+            font-size: 1rem;
             outline: none;
-            transition: all 0.3s ease;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .search-box input:focus {
-            border-color: var(--accent-color);
-            box-shadow: 0 0 12px var(--accent-glow);
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 20px var(--accent-glow);
+            background: rgba(8, 12, 24, 0.9);
         }
 
-        .btn-bulk-install {
+        .search-box::before {
+            content: "🔍";
+            position: absolute;
+            left: 1.1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.1rem;
+            opacity: 0.5;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 0.5rem;
+            overflow-x: auto;
+            padding-bottom: 0.25rem;
+            scrollbar-width: none;
+        }
+
+        .tabs::-webkit-scrollbar {
+            display: none;
+        }
+
+        .tab-btn {
+            padding: 0.6rem 1.2rem;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            color: var(--text-secondary);
+            font-family: inherit;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .tab-btn:hover {
+            color: var(--text-primary);
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .tab-btn.active {
+            color: white;
+            background: var(--accent-primary);
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 15px var(--accent-glow);
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-bulk {
             display: inline-flex;
             align-items: center;
-            padding: 0.75rem 1.5rem;
-            background: linear-gradient(135deg, #3b82f6, #2563eb);
-            color: white;
-            text-decoration: none;
-            border-radius: 9999px;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.9rem 1.8rem;
+            border-radius: 16px;
             font-weight: 600;
             font-size: 0.95rem;
-            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
-            transition: all 0.3s ease;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            border: none;
         }
 
-        .btn-bulk-install:hover {
+        .btn-bulk-indigo {
+            background: linear-gradient(135deg, #4f46e5, #3730a3);
+            color: white;
+            box-shadow: 0 4px 20px rgba(79, 70, 229, 0.3);
+        }
+
+        .btn-bulk-indigo:hover:not(:disabled) {
             transform: translateY(-2px);
-            box-shadow: 0 6px 18px rgba(37, 99, 235, 0.4);
+            box-shadow: 0 6px 24px rgba(79, 70, 229, 0.45);
         }
 
-        .btn-secondary {
-            background: linear-gradient(135deg, #10b981, #059669) !important;
-            box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3) !important;
+        .btn-bulk-emerald {
+            background: linear-gradient(135deg, #059669, #064e3b);
+            color: white;
+            box-shadow: 0 4px 20px rgba(5, 150, 105, 0.3);
         }
 
-        .btn-secondary:hover {
-            box-shadow: 0 6px 18px rgba(5, 150, 105, 0.4) !important;
+        .btn-bulk-emerald:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(5, 150, 105, 0.45);
+        }
+
+        .btn-bulk-blue {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: white;
+            box-shadow: 0 4px 20px rgba(37, 99, 235, 0.3);
+        }
+
+        .btn-bulk-blue:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(37, 99, 235, 0.45);
+        }
+
+        .btn-bulk:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            transform: none !important;
+            box-shadow: none !important;
+        }
+
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            user-select: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .checkbox-container input[type="checkbox"] {
+            width: 1.15rem;
+            height: 1.15rem;
+            accent-color: var(--accent-primary);
+            cursor: pointer;
+        }
+
+        .grid-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding: 0 0.5rem;
+        }
+
+        .grid-header h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .grid-header .count-badge {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            background: rgba(255, 255, 255, 0.04);
+            padding: 0.3rem 0.75rem;
+            border-radius: 9999px;
+            border: 1px solid var(--border-color);
         }
 
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
             gap: 1.5rem;
         }
 
         .card {
             background: var(--card-bg);
             border: 1px solid var(--border-color);
-            border-radius: 16px;
+            border-radius: 20px;
             padding: 1.5rem;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            backdrop-filter: blur(12px);
+            backdrop-filter: blur(20px);
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.015) 0%, transparent 100%);
+            pointer-events: none;
         }
 
         .card:hover {
-            transform: translateY(-4px);
-            border-color: rgba(59, 130, 246, 0.3);
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+            transform: translateY(-6px);
+            border-color: var(--card-hover-border);
+            box-shadow: 0 12px 30px rgba(59, 130, 246, 0.12), 0 4px 12px rgba(0, 0, 0, 0.3);
         }
 
-        .card-header {
-            margin-bottom: 1rem;
+        .card.selected {
+            border-color: rgba(59, 130, 246, 0.5);
+            background: rgba(59, 130, 246, 0.04);
+            box-shadow: 0 8px 24px rgba(59, 130, 246, 0.08);
         }
 
-        .card-header h3 {
-            font-size: 1.25rem;
+        .card-header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+        }
+
+        .card-title-group {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex: 1;
+        }
+
+        .card-checkbox {
+            width: 1.15rem;
+            height: 1.15rem;
+            accent-color: var(--accent-primary);
+            cursor: pointer;
+            margin-top: 0.15rem;
+        }
+
+        .card-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            flex-shrink: 0;
+        }
+
+        .card-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 11px;
+        }
+
+        .card-details h3 {
+            font-size: 1.2rem;
             font-weight: 600;
-            margin-bottom: 0.5rem;
+            color: white;
+            line-height: 1.3;
+        }
+
+        .card-details .author {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 0.15rem;
         }
 
         .badges {
             display: flex;
-            gap: 0.5rem;
+            gap: 0.4rem;
             flex-wrap: wrap;
+            margin-bottom: 1rem;
         }
 
         .badge {
             padding: 0.25rem 0.6rem;
-            border-radius: 6px;
-            font-size: 0.75rem;
+            border-radius: 8px;
+            font-size: 0.7rem;
             font-weight: 600;
+            letter-spacing: 0.03em;
             text-transform: uppercase;
         }
 
-        .badge-text {
-            background: rgba(16, 185, 129, 0.1);
-            color: var(--success-color);
+        .badge-novel {
+            background: rgba(59, 130, 246, 0.1);
+            color: #60a5fa;
+            border: 1px solid rgba(59, 130, 246, 0.2);
         }
 
-        .badge-image {
+        .badge-comic {
             background: rgba(245, 158, 11, 0.1);
-            color: var(--warning-color);
+            color: #fbbf24;
+            border: 1px solid rgba(245, 158, 11, 0.2);
         }
 
-        .badge-group {
-            background: rgba(255, 255, 255, 0.05);
+        .badge-video {
+            background: rgba(139, 92, 246, 0.1);
+            color: #a78bfa;
+            border: 1px solid rgba(139, 92, 246, 0.2);
+        }
+
+        .badge-tts {
+            background: rgba(236, 72, 153, 0.1);
+            color: #f472b6;
+            border: 1px solid rgba(236, 72, 153, 0.2);
+        }
+
+        .badge-lang {
+            background: rgba(255, 255, 255, 0.04);
             color: var(--text-secondary);
+            border: 1px solid var(--border-color);
         }
 
         .card-body {
@@ -191,69 +435,165 @@
 
         .comment {
             color: var(--text-secondary);
-            font-size: 0.9rem;
+            font-size: 0.88rem;
             line-height: 1.5;
             margin-bottom: 0.75rem;
             display: -webkit-box;
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
+            text-overflow: ellipsis;
         }
 
-        .url {
+        .url-box {
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 0.4rem 0.6rem;
+            font-family: monospace;
             font-size: 0.75rem;
-            color: rgba(255, 255, 255, 0.3);
-            word-break: break-all;
+            color: rgba(255, 255, 255, 0.4);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: background 0.2s ease;
         }
 
-        .btn {
-            display: block;
-            width: 100%;
-            padding: 0.6rem 0;
+        .url-box:hover {
+            background: rgba(255, 255, 255, 0.03);
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .url-box span {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-right: 0.5rem;
+        }
+
+        .url-box::after {
+            content: "📋";
+            font-size: 0.8rem;
+            opacity: 0.6;
+        }
+
+        .card-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+            margin-top: auto;
+        }
+
+        .card-buttons.single-btn {
+            grid-template-columns: 1fr;
+        }
+
+        .btn-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.35rem;
+            padding: 0.65rem 0.5rem;
             text-align: center;
-            border-radius: 8px;
+            border-radius: 12px;
             font-weight: 600;
+            font-size: 0.85rem;
             text-decoration: none;
             transition: all 0.2s ease;
+            cursor: pointer;
+            border: none;
+            font-family: inherit;
         }
 
-        .btn-install {
-            background: rgba(59, 130, 246, 0.1);
+        .btn-install-source {
+            background: rgba(59, 130, 246, 0.08);
             color: #60a5fa;
-            border: 1px solid rgba(59, 130, 246, 0.2);
+            border: 1px solid rgba(59, 130, 246, 0.15);
         }
 
-        .btn-install:hover {
-            background: var(--accent-color);
+        .btn-install-source:hover {
+            background: var(--accent-primary);
             color: white;
-            border-color: var(--accent-color);
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 12px var(--accent-glow);
         }
 
-        .btn-disabled {
-            background: rgba(255, 255, 255, 0.03);
-            color: rgba(255, 255, 255, 0.25);
-            cursor: not-allowed;
-            border: 1px solid transparent;
+        .btn-install-extension {
+            background: rgba(16, 185, 129, 0.08);
+            color: #34d399;
+            border: 1px solid rgba(16, 185, 129, 0.15);
         }
 
-        .extension-card {
-            border-style: dashed;
+        .btn-install-extension:hover {
+            background: var(--accent-success);
+            color: white;
+            border-color: var(--accent-success);
+            box-shadow: 0 0 12px var(--accent-success-glow);
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: rgba(15, 23, 42, 0.95);
+            border: 1px solid var(--accent-primary);
+            color: white;
+            padding: 0.8rem 1.8rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 15px var(--accent-glow);
+            font-weight: 500;
+            font-size: 0.95rem;
+            z-index: 1000;
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            backdrop-filter: blur(10px);
+            pointer-events: none;
+        }
+
+        .toast.show {
+            transform: translateX(-50%) translateY(0);
         }
 
         footer {
-            margin-top: 5rem;
+            margin-top: 6rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
             text-align: center;
-            color: rgba(255, 255, 255, 0.2);
-            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            font-weight: 300;
         }
 
-        @media (max-width: 640px) {
-            .actions-bar {
+        footer strong {
+            color: white;
+            font-weight: 500;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.4rem;
+            }
+            body {
+                padding: 2rem 1rem;
+            }
+            .actions-panel {
+                padding: 1.25rem;
+                border-radius: 20px;
+            }
+            .search-row {
                 flex-direction: column;
                 align-items: stretch;
             }
-            .search-box {
-                max-width: 100%;
+            .btn-group {
+                flex-direction: column;
+            }
+            .btn-bulk {
+                width: 100%;
+            }
+            .grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -261,262 +601,335 @@
 <body>
     <div class="container">
         <header>
+            <div class="logo-glow"></div>
             <h1>Thiên Thư Các</h1>
-            <p>Kho lưu trữ Nguồn sách và Tiện ích mở rộng</p>
+            <p>Kho Lưu Trữ Tiện Ích Mở Rộng & Nguồn Sách Legado</p>
         </header>
 
-        <div class="actions-bar">
-            <div class="search-box">
-                <input type="text" id="search" placeholder="Tìm kiếm nguồn..." oninput="filterSources()">
+        <div class="actions-panel">
+            <div class="search-row">
+                <div class="search-box">
+                    <input type="text" id="search" placeholder="Tìm kiếm nguồn hoặc mô tả..." oninput="filterList()">
+                </div>
+                <div class="checkbox-container" onclick="toggleSelectAll()">
+                    <input type="checkbox" id="select-all" onclick="event.stopPropagation(); handleSelectAllChange(this.checked)">
+                    <span>Chọn tất cả hiển thị</span>
+                </div>
             </div>
-            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-                <a href="legado://import/extensionRepo?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fplugin.json" class="btn-bulk-install btn-secondary">
-                    Thêm kho Tiện ích (1 chạm)
-                </a>
-                <a href="legado://import/importonline?src=https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/sources.json" class="btn-bulk-install">
-                    Cài toàn bộ nguồn sách (0)
-                </a>
+
+            <div class="search-row" style="justify-content: space-between;">
+                <div class="tabs" id="type-tabs">
+                    <button class="tab-btn active" onclick="setTab('all', this)">Tất cả</button>
+                    <button class="tab-btn" onclick="setTab('novel', this)">Tiểu thuyết</button>
+                    <button class="tab-btn" onclick="setTab('comic', this)">Truyện tranh</button>
+                    <button class="tab-btn" onclick="setTab('video', this)">Video / Phim</button>
+                    <button class="tab-btn" onclick="setTab('tts', this)">Giọng đọc TTS</button>
+                </div>
+
+                <div class="btn-group">
+                    <button id="btn-install-selected" class="btn-bulk btn-bulk-indigo" onclick="installSelectedSources()" disabled>
+                        <span>📥</span> Cài đặt đã chọn (0)
+                    </button>
+                    <a href="legado://import/extensionRepo?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fplugin.json" class="btn-bulk btn-bulk-emerald">
+                        <span>🔌</span> Thêm kho Tiện ích
+                    </a>
+                    <a href="legado://import/importonline?src=https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/sources.json" class="btn-bulk btn-bulk-blue">
+                        <span>📚</span> Cài tất cả nguồn sách
+                    </a>
+                </div>
             </div>
         </div>
 
-        <div class="grid" id="sources-grid">
-            
-            <div class="card extension-card">
-                <div class="card-header">
-                    <h3>103.82.20.93</h3>
-                    <div class="badges">
-                        <span class="badge badge-text">Tiểu thuyết</span>
-                        <span class="badge badge-group">Extension</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p class="comment">Tác giả: Thiên Thư Các. Mua token liên hệ https://discord.gg/Z88h4t9U</p>
-                    <p class="url">ext_103-82-20-93</p>
-                </div>
-                <div class="card-footer">
-                    <a href="legado://import/extension?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fzips%2Fsang-tac-viet-pro.zip" class="btn btn-install btn-extension">Cài tiện ích</a>
-                </div>
-            </div>
-        
+        <div class="grid-header">
+            <h2 id="grid-title">Tất cả tài nguyên</h2>
+            <div class="count-badge" id="count-badge">Hiển thị: 0/0</div>
+        </div>
 
-            <div class="card extension-card">
-                <div class="card-header">
-                    <h3>api.langge.cf</h3>
-                    <div class="badges">
-                        <span class="badge badge-text">Tiểu thuyết</span>
-                        <span class="badge badge-group">Extension</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p class="comment">Tác giả: Thiên Thư Các. Đọc truyện Fanqie trên Sói Xám. Vui lòng vào trang nguồn đăng nhập để sử dụng. Có hỗ trợ share link truyện từ Fanqie và STV.</p>
-                    <p class="url">ext_api-langge-cf</p>
-                </div>
-                <div class="card-footer">
-                    <a href="legado://import/extension?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fzips%2Fsoi-xam-fanqie.zip" class="btn btn-install btn-extension">Cài tiện ích</a>
-                </div>
-            </div>
-        
-
-            <div class="card extension-card">
-                <div class="card-header">
-                    <h3>hentai2read.com</h3>
-                    <div class="badges">
-                        <span class="badge badge-image">Truyện tranh</span>
-                        <span class="badge badge-group">Extension</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p class="comment">Tác giả: Thiên Thư Các. Đọc truyện trên trang Hentai2Read</p>
-                    <p class="url">ext_hentai2read-com</p>
-                </div>
-                <div class="card-footer">
-                    <a href="legado://import/extension?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fzips%2Fhentai2read.zip" class="btn btn-install btn-extension">Cài tiện ích</a>
-                </div>
-            </div>
-        
-
-            <div class="card extension-card">
-                <div class="card-header">
-                    <h3>hentaicube.xyz</h3>
-                    <div class="badges">
-                        <span class="badge badge-image">Truyện tranh</span>
-                        <span class="badge badge-group">Extension</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p class="comment">Tác giả: Thiên Thư Các. HentaiCube - Truyện Hentai Online 18+</p>
-                    <p class="url">ext_hentaicube-xyz</p>
-                </div>
-                <div class="card-footer">
-                    <a href="legado://import/extension?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fzips%2Fhentaicube-18-1.zip" class="btn btn-install btn-extension">Cài tiện ích</a>
-                </div>
-            </div>
-        
-
-            <div class="card extension-card">
-                <div class="card-header">
-                    <h3>hentaifox.com</h3>
-                    <div class="badges">
-                        <span class="badge badge-text">Tiểu thuyết</span>
-                        <span class="badge badge-group">Extension</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p class="comment">Tác giả: Thiên Thư Các. Đọc truyện trên trang http://hentaifox.com/</p>
-                    <p class="url">ext_hentaifox-com</p>
-                </div>
-                <div class="card-footer">
-                    <a href="legado://import/extension?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fzips%2Fhentaifox-com.zip" class="btn btn-install btn-extension">Cài tiện ích</a>
-                </div>
-            </div>
-        
-
-            <div class="card extension-card">
-                <div class="card-header">
-                    <h3>hentaivnx.com</h3>
-                    <div class="badges">
-                        <span class="badge badge-image">Truyện tranh</span>
-                        <span class="badge badge-group">Extension</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p class="comment">Tác giả: Thiên Thư Các. Đọc truyện trên trang hentaivnx.com</p>
-                    <p class="url">ext_hentaivnx-com</p>
-                </div>
-                <div class="card-footer">
-                    <a href="legado://import/extension?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fzips%2Fhentaivn-1.zip" class="btn btn-install btn-extension">Cài tiện ích</a>
-                </div>
-            </div>
-        
-
-            <div class="card extension-card">
-                <div class="card-header">
-                    <h3>metruyencv.com</h3>
-                    <div class="badges">
-                        <span class="badge badge-text">Tiểu thuyết</span>
-                        <span class="badge badge-group">Extension</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p class="comment">Tác giả: Thiên Thư Các. Đọc truyện trên trang TruyệnCV</p>
-                    <p class="url">ext_metruyencv-com</p>
-                </div>
-                <div class="card-footer">
-                    <a href="legado://import/extension?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fzips%2Ftruyencv.zip" class="btn btn-install btn-extension">Cài tiện ích</a>
-                </div>
-            </div>
-        
-
-            <div class="card extension-card">
-                <div class="card-header">
-                    <h3>sayhentai.cx</h3>
-                    <div class="badges">
-                        <span class="badge badge-image">Truyện tranh</span>
-                        <span class="badge badge-group">Extension</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p class="comment">Tác giả: Thiên Thư Các. Đọc truyện trên trang Say Hentai</p>
-                    <p class="url">ext_sayhentai-cx</p>
-                </div>
-                <div class="card-footer">
-                    <a href="legado://import/extension?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fzips%2Fsayhentai-18.zip" class="btn btn-install btn-extension">Cài tiện ích</a>
-                </div>
-            </div>
-        
-
-            <div class="card extension-card">
-                <div class="card-header">
-                    <h3>sayhentai.sh</h3>
-                    <div class="badges">
-                        <span class="badge badge-image">Truyện tranh</span>
-                        <span class="badge badge-group">Extension</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p class="comment">Tác giả: Thiên Thư Các. Đọc truyện trên trang Sayhentai.one</p>
-                    <p class="url">ext_sayhentai-sh</p>
-                </div>
-                <div class="card-footer">
-                    <a href="legado://import/extension?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fzips%2Fsay-hentai.zip" class="btn btn-install btn-extension">Cài tiện ích</a>
-                </div>
-            </div>
-        
-
-            <div class="card extension-card">
-                <div class="card-header">
-                    <h3>truyenyy.co</h3>
-                    <div class="badges">
-                        <span class="badge badge-text">Tiểu thuyết</span>
-                        <span class="badge badge-group">Extension</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p class="comment">Tác giả: Thiên Thư Các. Doc truyen chu tren TruyenYY</p>
-                    <p class="url">ext_truyenyy-co</p>
-                </div>
-                <div class="card-footer">
-                    <a href="legado://import/extension?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fzips%2Ftruyenyy.zip" class="btn btn-install btn-extension">Cài tiện ích</a>
-                </div>
-            </div>
-        
-
-            <div class="card extension-card">
-                <div class="card-header">
-                    <h3>vinahentai.bond</h3>
-                    <div class="badges">
-                        <span class="badge badge-image">Truyện tranh</span>
-                        <span class="badge badge-group">Extension</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p class="comment">Tác giả: Thiên Thư Các. Đọc truyện trên trang vinahentai.bond</p>
-                    <p class="url">ext_vinahentai-bond</p>
-                </div>
-                <div class="card-footer">
-                    <a href="legado://import/extension?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fzips%2Fvinahentai-1.zip" class="btn btn-install btn-extension">Cài tiện ích</a>
-                </div>
-            </div>
-        
-
-            <div class="card extension-card">
-                <div class="card-header">
-                    <h3>wikicv.net</h3>
-                    <div class="badges">
-                        <span class="badge badge-text">Tiểu thuyết</span>
-                        <span class="badge badge-group">Extension</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p class="comment">Tác giả: Thiên Thư Các. Đọc truyện trên trang Wiki Dịch</p>
-                    <p class="url">ext_wikicv-net</p>
-                </div>
-                <div class="card-footer">
-                    <a href="legado://import/extension?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fzips%2Fwikicv.net.zip" class="btn btn-install btn-extension">Cài tiện ích</a>
-                </div>
-            </div>
-        
+        <div class="grid" id="grid">
+            <!-- Rendered dynamically -->
         </div>
 
         <footer>
-            &copy; 2026 Thiên Thư Các. Phát triển và lưu trữ cộng đồng.
+            <p>&copy; 2026 <strong>Thiên Thư Các</strong>. Phát triển và chia sẻ bởi cộng đồng Legado Việt Nam.</p>
         </footer>
     </div>
 
+    <div class="toast" id="toast">Đã sao chép liên kết!</div>
+
     <script>
-        function filterSources() {
-            const query = document.getElementById('search').value.toLowerCase();
-            const cards = document.querySelectorAll('.card');
-            cards.forEach(card => {
-                const title = card.querySelector('h3').textContent.toLowerCase();
-                const comment = card.querySelector('.comment').textContent.toLowerCase();
-                if (title.includes(query) || comment.includes(query)) {
-                    card.style.display = 'flex';
-                } else {
-                    card.style.display = 'none';
+        const sourcesData = [{"name":"khotruyenchu.fun","id":"khotruyenchu-fun","author":"Thiên Thư Các","description":"Đọc truyện trên trang Kho Truyện Chữ","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/khotruyenchu.zip","icon":"","version":2,"source":"https://khotruyenchu.fun","filename":"khotruyenchu_fun.json","bookSourceUrl":"ext_khotruyenchu-fun"},{"name":"truyenfull.today","id":"truyenfull-today","author":"Thiên Thư Các","description":"Đọc truyện trên trang Truyện Full","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-full.zip","icon":"","version":2,"source":"https://truyenfull.today","filename":"truyenfull_today.json","bookSourceUrl":"ext_truyenfull-today"},{"name":"wikicv.net","id":"wikicv-net","author":"Thiên Thư Các","description":"Đọc truyện trên trang Wiki Dịch","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wikicv.net.zip","icon":"","version":26,"source":"https://wikicv.net","filename":"wikicv_net.json","bookSourceUrl":"ext_wikicv-net"},{"name":"khotruyen.ac","id":"khotruyen-ac","author":"Thiên Thư Các","description":"Đọc truyện trên trang Truyện VN/ Khotruyen.ac","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truy-n-vn-kho-truyen.zip","icon":"","version":2,"source":"https://khotruyen.ac","filename":"khotruyen_ac.json","bookSourceUrl":"ext_khotruyen-ac"},{"name":"wattpad.com","id":"wattpad-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Wattpad","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad.zip","icon":"","version":2,"source":"https://www.wattpad.com","filename":"wattpad_com.json","bookSourceUrl":"ext_wattpad-com"},{"name":"docln.sbs","id":"docln-sbs","author":"Thiên Thư Các","description":"Đọc truyện trên trang Hako","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hako-novel.zip","icon":"","version":2,"source":"https://docln.sbs","filename":"docln_sbs.json","bookSourceUrl":"ext_docln-sbs"},{"name":"hentai2read.com","id":"hentai2read-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Hentai2Read","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentai2read.zip","icon":"","version":2,"source":"https://hentai2read.com","filename":"hentai2read_com.json","bookSourceUrl":"ext_hentai2read-com"},{"name":"metruyencv.com","id":"metruyencv-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang TruyệnCV","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyencv.zip","icon":"","version":2,"source":"https://metruyencv.com","filename":"metruyencv_com.json","bookSourceUrl":"ext_metruyencv-com"},{"name":"omegascans.org","id":"omegascans-org","author":"Thiên Thư Các","description":"Đọc truyện trên trang omegascans.org","type":"comic","locale":"en_EN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/omega-scans.zip","icon":"","version":2,"source":"https://omegascans.org","filename":"omegascans_org.json","bookSourceUrl":"ext_omegascans-org"},{"name":"sayhentai.sh","id":"sayhentai-sh","author":"Thiên Thư Các","description":"Đọc truyện trên trang Sayhentai.one","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/say-hentai.zip","icon":"","version":2,"source":"https://sayhentai.sh","filename":"sayhentai_sh.json","bookSourceUrl":"ext_sayhentai-sh"},{"name":"m.ac.qq.com","id":"m-ac-qq-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang m.ac.qq.com","type":"comic","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ac-qq.zip","icon":"","version":2,"source":"http://m.ac.qq.com","filename":"m_ac_qq_com.json","bookSourceUrl":"ext_m-ac-qq-com"},{"name":"manhuagui.com","id":"manhuagui-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang manhuagui.com","type":"comic","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/manhua-gui.zip","icon":"","version":2,"source":"https://www.manhuagui.com","filename":"manhuagui_com.json","bookSourceUrl":"ext_manhuagui-com"},{"name":"doujins.com","id":"doujins-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang doujins.com","type":"comic","locale":"en_EN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/doujins.zip","icon":"","version":2,"source":"https://doujins.com","filename":"doujins_com.json","bookSourceUrl":"ext_doujins-com"},{"name":"book.qq.com","id":"book-qq-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang book.qq.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/book-qq.zip","icon":"","version":2,"source":"https://book.qq.com","filename":"book_qq_com.json","bookSourceUrl":"ext_book-qq-com"},{"name":"20xs.org","id":"20xs-org","author":"Thiên Thư Các","description":"Đọc truyện trên trang www.20xs.org","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/20xs.zip","icon":"","version":2,"source":"https://www.20xs.org","filename":"20xs_org.json","bookSourceUrl":"ext_20xs-org"},{"name":"dingdian666.com","id":"dingdian666-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang www.dingdian666.com","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dingdian.zip","icon":"","version":2,"source":"https://www.dingdian666.com","filename":"dingdian666_com.json","bookSourceUrl":"ext_dingdian666-com"},{"name":"ciweimao.com","id":"ciweimao-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang www.ciweimao.com","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ciweimao.zip","icon":"","version":2,"source":"https://www.ciweimao.com","filename":"ciweimao_com.json","bookSourceUrl":"ext_ciweimao-com"},{"name":"b.faloo.com","id":"b-faloo-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang b.faloo.com","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bfaloo.zip","icon":"","version":2,"source":"https://b.faloo.com","filename":"b_faloo_com.json","bookSourceUrl":"ext_b-faloo-com"},{"name":"royalroad.com","id":"royalroad-com","author":"Thiên Thư Các","description":"Royal Road® is the home of web novels and fan fictions! In our amazing community, you can find various talented individuals who write as a hobby or even professionally, artists who create art for them, and many, many readers who provide valuable feedback and encouragement.","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/royalroad.zip","icon":"","version":2,"source":"https://www.royalroad.com","filename":"royalroad_com.json","bookSourceUrl":"ext_royalroad-com"},{"name":"biqugeabc.com","id":"biqugeabc-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://www.biqugeabc.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biqugeabc.zip","icon":"","version":2,"source":"https://www.biqugeabc.com","filename":"biqugeabc_com.json","bookSourceUrl":"ext_biqugeabc-com"},{"name":"qbtr.cc","id":"qbtr-cc","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://www.qbtr.cc","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qbtr.zip","icon":"","version":2,"source":"https://www.qbtr.cc","filename":"qbtr_cc.json","bookSourceUrl":"ext_qbtr-cc"},{"name":"ffxs8.com","id":"ffxs8-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang http://www.ffxs8.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ffxs8.zip","icon":"","version":2,"source":"http://www.ffxs8.com","filename":"ffxs8_com.json","bookSourceUrl":"ext_ffxs8-com"},{"name":"piaoyuxuan.com","id":"piaoyuxuan-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang http://www.piaoyuxuan.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/piaoyuxuan.zip","icon":"","version":2,"source":"http://www.piaoyuxuan.com","filename":"piaoyuxuan_com.json","bookSourceUrl":"ext_piaoyuxuan-com"},{"name":"jpxs123.com","id":"jpxs123-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang http://jpxs123.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/jpxs123.zip","icon":"","version":2,"source":"http://jpxs123.com","filename":"jpxs123_com.json","bookSourceUrl":"ext_jpxs123-com"},{"name":"fuxsb.com","id":"fuxsb-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang http://www.fuxsb.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fuxsb.zip","icon":"","version":2,"source":"http://www.fuxsb.com","filename":"fuxsb_com.json","bookSourceUrl":"ext_fuxsb-com"},{"name":"52shuku.net","id":"52shuku-net","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://www.52shuku.net","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/52shuku.zip","icon":"","version":2,"source":"https://www.52shuku.net","filename":"52shuku_net.json","bookSourceUrl":"ext_52shuku-net"},{"name":"yazhouse8.com","id":"yazhouse8-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://yazhouse8.com/article.php","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/yazhouse8.zip","icon":"","version":2,"source":"https://yazhouse8.com/article.php","filename":"yazhouse8_com.json","bookSourceUrl":"ext_yazhouse8-com"},{"name":"sjks88.com","id":"sjks88-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang http://www.sjks88.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sjks88.zip","icon":"","version":2,"source":"http://www.sjks88.com","filename":"sjks88_com.json","bookSourceUrl":"ext_sjks88-com"},{"name":"powanjuan.cc","id":"powanjuan-cc","author":"Thiên Thư Các","description":"Đọc truyện trên trang http://www.powanjuan.cc","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/powanjuan.zip","icon":"","version":2,"source":"http://www.powanjuan.cc","filename":"powanjuan_cc.json","bookSourceUrl":"ext_powanjuan-cc"},{"name":"po18gv.vip","id":"po18gv-vip","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://www.po18gv.vip","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/po18gv.zip","icon":"","version":2,"source":"https://www.po18gv.vip","filename":"po18gv_vip.json","bookSourceUrl":"ext_po18gv-vip"},{"name":"wuxiabox.com","id":"wuxiabox-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://readwn.app","type":"novel","locale":"en_US","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/readwn.zip","icon":"","version":2,"source":"https://www.wuxiabox.com","filename":"wuxiabox_com.json","bookSourceUrl":"ext_wuxiabox-com"},{"name":"bookshelf.html5.qq.com","id":"bookshelf-html5-qq-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://bookshelf.html5.qq.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/html5-qq-com.zip","icon":"","version":2,"source":"https://bookshelf.html5.qq.com","filename":"bookshelf_html5_qq_com.json","bookSourceUrl":"ext_bookshelf-html5-qq-com"},{"name":"pixiv.net","id":"pixiv-net","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://www.pixiv.net","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/pixiv.zip","icon":"","version":2,"source":"https://www.pixiv.net/en/tags/%E4%B8%AD%E6%96%87/novels","filename":"pixiv_net.json","bookSourceUrl":"ext_pixiv-net"},{"name":"kkphim.com","id":"kkphim-com","author":"Thiên Thư Các","description":"Xem phim trên kkphim","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kkphim.zip","icon":"","version":2,"source":"https://kkphim.com","filename":"kkphim_com.json","bookSourceUrl":"ext_kkphim-com"},{"name":"hsex.tv","id":"hsex-tv","author":"Thiên Thư Các","description":"Tiểu Bạch TV video extension","type":"video","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tieu-bach-tv.zip","icon":"","version":2,"source":"https://hsex.tv","filename":"hsex_tv.json","bookSourceUrl":"ext_hsex-tv"},{"name":"tuishujun.com","id":"tuishujun-com","author":"Thiên Thư Các","description":"Xem đánh giá truyện trên trang https://www.tuishujun.com/","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/review-tuishujun.zip","icon":"","version":2,"source":"https://www.tuishujun.com/","filename":"tuishujun_com.json","bookSourceUrl":"ext_tuishujun-com"},{"name":"alicesw.com","id":"alicesw-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang http://www.alicesw.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw.zip","icon":"","version":2,"source":"http://alicesw.com","filename":"alicesw_com.json","bookSourceUrl":"ext_alicesw-com"},{"name":"chillaudio.org","id":"chillaudio-org","author":"Thiên Thư Các","description":"Nghe truyen bang 4 giong TTS Viet cua ChillAudio/CapCut SAMI","type":"tts","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/chillaudio-tts.zip","icon":"","version":2,"source":"https://chillaudio.org","filename":"chillaudio_org.json","bookSourceUrl":"ext_chillaudio-org"},{"name":"daomeoden.net","id":"daomeoden-net","author":"Thiên Thư Các","description":"Đọc truyện trên trang men18","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/daomeoden.zip","icon":"","version":2,"source":"https://daomeoden.net/","filename":"daomeoden_net.json","bookSourceUrl":"ext_daomeoden-net"},{"name":"doctruyen14.biz","id":"doctruyen14-biz","author":"Thiên Thư Các","description":"Đọc Truyện 14 là trang web đọc truyện chữ online.","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/doc-truyen-14.zip","icon":"","version":2,"source":"https://doctruyen14.biz/","filename":"doctruyen14_biz.json","bookSourceUrl":"ext_doctruyen14-biz"},{"name":"shuwukan.com","id":"shuwukan-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang http://www.kanshuwu.org","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kanshuwu.zip","icon":"","version":2,"source":"https://www.shuwukan.com","filename":"shuwukan_com.json","bookSourceUrl":"ext_shuwukan-com"},{"name":"kanunu8.com","id":"kanunu8-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://www.kanunu8.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kanunu8.zip","icon":"","version":2,"source":"https://www.kanunu8.com","filename":"kanunu8_com.json","bookSourceUrl":"ext_kanunu8-com"},{"name":"truyen.lohi2.com","id":"truyen-lohi2-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang lohi2","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/lohi2.zip","icon":"","version":2,"source":"https://truyen.lohi2.com","filename":"truyen_lohi2_com.json","bookSourceUrl":"ext_truyen-lohi2-com"},{"name":"mangadistrict.com","id":"mangadistrict-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang men18","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mangadistrict.zip","icon":"","version":2,"source":"https://mangadistrict.com/","filename":"mangadistrict_com.json","bookSourceUrl":"ext_mangadistrict-com"},{"name":"nhatruyen.site","id":"nhatruyen-site","author":"Thiên Thư Các","description":"Đọc truyện trên trang nhatruyen","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nhatruyen.zip","icon":"","version":2,"source":"https://nhatruyen.site","filename":"nhatruyen_site.json","bookSourceUrl":"ext_nhatruyen-site"},{"name":"nhieutruyen.com","id":"nhieutruyen-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang qidian-vp, nhieutruyen.com ","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nhieutruyen-qidian-vp.zip","icon":"","version":2,"source":"https://nhieutruyen.com/","filename":"nhieutruyen_com.json","bookSourceUrl":"ext_nhieutruyen-com"},{"name":"m.tangthuvien.net","id":"m-tangthuvien-net","author":"Thiên Thư Các","description":"Đọc truyện trên app Tàng Thư Viện","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tang-thu-vien-app.zip","icon":"","version":2,"source":"https://m.tangthuvien.net","filename":"m_tangthuvien_net.json","bookSourceUrl":"ext_m-tangthuvien-net"},{"name":"truyendich.vn","id":"truyendich-vn","author":"Thiên Thư Các","description":"Đọc truyện trên trang truyendich","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyendich-vn.zip","icon":"","version":2,"source":"https://truyendich.vn","filename":"truyendich_vn.json","bookSourceUrl":"ext_truyendich-vn"},{"name":"uushuk.com","id":"uushuk-com","author":"Thiên Thư Các","description":"Đọc truyện chữ Trung trên uu书库","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/uushuk.zip","icon":"","version":2,"source":"https://www.uushuk.com","filename":"uushuk_com.json","bookSourceUrl":"ext_uushuk-com"},{"name":"aaddbb.com","id":"aaddbb-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang AAHHSS","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/aahhss.zip","icon":"","version":2,"source":"https://www.aaddbb.com","filename":"aaddbb_com.json","bookSourceUrl":"ext_aaddbb-com"},{"name":"metruyenchuvn.com","id":"metruyenchuvn-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang MTC","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-truyen-chu-vn.zip","icon":"","version":2,"source":"https://metruyenchuvn.com","filename":"metruyenchuvn_com.json","bookSourceUrl":"ext_metruyenchuvn-com"},{"name":"biqugezz.com","id":"biqugezz-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang biqugezz","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biqugezz.zip","icon":"","version":2,"source":"https://www.biqugezz.com/","filename":"biqugezz_com.json","bookSourceUrl":"ext_biqugezz-com"},{"name":"h528.com","id":"h528-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang h528","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/h528.zip","icon":"","version":2,"source":"http://www.h528.com/","filename":"h528_com.json","bookSourceUrl":"ext_h528-com"},{"name":"ilwxs.com","id":"ilwxs-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang lwxs","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/lwxs.zip","icon":"","version":2,"source":"https://www.ilwxs.com","filename":"ilwxs_com.json","bookSourceUrl":"ext_ilwxs-com"},{"name":"danbooru.donmai.us","id":"danbooru-donmai-us","author":"Thiên Thư Các","description":"Đọc truyện trên trang Danbooru","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/danbooru.zip","icon":"","version":2,"source":"https://danbooru.donmai.us","filename":"danbooru_donmai_us.json","bookSourceUrl":"ext_danbooru-donmai-us"},{"name":"ixdzs8.com","id":"ixdzs8-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang ixdzs8","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ixdzs8.zip","icon":"","version":2,"source":"https://ixdzs8.com/","filename":"ixdzs8_com.json","bookSourceUrl":"ext_ixdzs8-com"},{"name":"baozimh.com","id":"baozimh-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang baozimh","type":"comic","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/baozimh.zip","icon":"","version":2,"source":"https://www.baozimh.com/","filename":"baozimh_com.json","bookSourceUrl":"ext_baozimh-com"},{"name":"cartoon18.com","id":"cartoon18-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang cartoon18","type":"comic","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cartoon18.zip","icon":"","version":2,"source":"https://www.cartoon18.com/","filename":"cartoon18_com.json","bookSourceUrl":"ext_cartoon18-com"},{"name":"book18.org","id":"book18-org","author":"Thiên Thư Các","description":"Đọc truyện trên trang book18.org","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/book18.zip","icon":"","version":2,"source":"https://www.book18.org/","filename":"book18_org.json","bookSourceUrl":"ext_book18-org"},{"name":"168txt.org","id":"168txt-org","author":"Thiên Thư Các","description":"Đọc truyện trên trang 168txt","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/168txt.zip","icon":"","version":2,"source":"https://www.168txt.org","filename":"168txt_org.json","bookSourceUrl":"ext_168txt-org"},{"name":"buondua.com","id":"buondua-com","author":"Thiên Thư Các","description":"Tập Hợp Album của Xiuren...","type":"comic","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/buondua.zip","icon":"","version":2,"source":"https://buondua.com/","filename":"buondua_com.json","bookSourceUrl":"ext_buondua-com"},{"name":"alicesw.com","id":"alicesw-com","author":"Thiên Thư Các","description":"Read Chinese novels on AliceSW (forked from B)","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw-1.zip","icon":"","version":2,"source":"http://alicesw.com","filename":"alicesw_com.json","bookSourceUrl":"ext_alicesw-com"},{"name":"cosplaytele.com","id":"cosplaytele-com","author":"Thiên Thư Các","description":"Cosplay photo galleries","type":"comic","locale":"en_US","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cosplaytele.zip","icon":"","version":2,"source":"https://cosplaytele.com","filename":"cosplaytele_com.json","bookSourceUrl":"ext_cosplaytele-com"},{"name":"crxs.me","id":"crxs-me","author":"Thiên Thư Các","description":"Đọc truyện chữ Trung Quốc trên CRXS","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/crxs.zip","icon":"","version":2,"source":"https://crxs.me","filename":"crxs_me.json","bookSourceUrl":"ext_crxs-me"},{"name":"foamgirl.net","id":"foamgirl-net","author":"Thiên Thư Các","description":"Share Pictures Sexy Girl...","type":"comic","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/foamgirl.zip","icon":"","version":2,"source":"https://foamgirl.net/","filename":"foamgirl_net.json","bookSourceUrl":"ext_foamgirl-net"},{"name":"photos18.com","id":"photos18-com","author":"Thiên Thư Các","description":"Girl photos","type":"comic","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/photos18.zip","icon":"","version":2,"source":"https://www.photos18.com/","filename":"photos18_com.json","bookSourceUrl":"ext_photos18-com"},{"name":"truyendich.ai","id":"truyendich-ai","author":"Thiên Thư Các","description":"Đọc truyện trên TruyenDich.AI","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyendich-ai.zip","icon":"","version":2,"source":"https://truyendich.ai","filename":"truyendich_ai.json","bookSourceUrl":"ext_truyendich-ai"},{"name":"truyenqqko.com","id":"truyenqqko-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Truyện QQ (forked from vBook)","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-qq-1.zip","icon":"","version":2,"source":"https://truyenqqko.com","filename":"truyenqqko_com.json","bookSourceUrl":"ext_truyenqqko-com"},{"name":"wnacg.com","id":"wnacg-com","author":"Thiên Thư Các","description":"Image galleries: home, genre, search, detail, ranking","type":"comic","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wnacg.zip","icon":"","version":2,"source":"https://www.wnacg.com/","filename":"wnacg_com.json","bookSourceUrl":"ext_wnacg-com"},{"name":"dmxs.org","id":"dmxs-org","author":"Thiên Thư Các","description":"Đọc truyện trên dmxs.org.","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dmxs.zip","icon":"","version":2,"source":"https://www.dmxs.org/","filename":"dmxs_org.json","bookSourceUrl":"ext_dmxs-org"},{"name":"wetv.vip","id":"wetv-vip","author":"Thiên Thư Các","description":"WeTV bản quốc tế. Có phụ đề (ưu tiên vi). ","type":"video","locale":"global","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wetv.zip","icon":"","version":2,"source":"https://wetv.vip/","filename":"wetv_vip.json","bookSourceUrl":"ext_wetv-vip"},{"name":"rophimz.uk","id":"rophimz-uk","author":"Thiên Thư Các","description":"Xem phim trên Showbox.","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/showbox.zip","icon":"","version":2,"source":"https://rophimz.uk","filename":"rophimz_uk.json","bookSourceUrl":"ext_rophimz-uk"},{"name":"zhihu.com","id":"zhihu-com","author":"Thiên Thư Các","description":"Đọc Zhihu bằng API Android/web đã ký, có thêm cấu hình zhihuCookie để dùng cookie đăng nhập khi cần. Hỗ trợ câu hỏi, câu trả lời, pin/想法, bài viết, trang chủ Đề xuất/热榜, bình luận và gợi ý.","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/app-zhihu-hoi-dap.zip","icon":"","version":2,"source":"zhihu.com","filename":"zhihu_com.json","bookSourceUrl":"ext_zhihu-com"},{"name":"home.hitv.vip","id":"home-hitv-vip","author":"Thiên Thư Các","description":"Xem phim từ HiTV.","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hitv.zip","icon":"","version":2,"source":"https://home.hitv.vip/vi-vn/","filename":"home_hitv_vip.json","bookSourceUrl":"ext_home-hitv-vip"},{"name":"youku.tv","id":"youku-tv","author":"Thiên Thư Các","description":"Xem video YOUKU quốc tế. Ưu tiên audio/phụ đề tiếng Việt và tự lấy cna/MTOP token khi cần.","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/youku.zip","icon":"","version":2,"source":"https://www.youku.tv/","filename":"youku_tv.json","bookSourceUrl":"ext_youku-tv"},{"name":"w.mgtv.com","id":"w-mgtv-com","author":"Thiên Thư Các","description":"Xem video trên MGTV/HITV quốc tế. ","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mgtv.zip","icon":"","version":2,"source":"https://w.mgtv.com/","filename":"w_mgtv_com.json","bookSourceUrl":"ext_w-mgtv-com"},{"name":"julycomics.site","id":"julycomics-site","author":"Thiên Thư Các","description":"Đọc truyện trên JulyComic. Ext tự lấy token đăng nhập nếu có, gửi flag 18+ và tự gọi xác nhận 18+ khi có tài khoản. Search `token:<Bearer token>` để nhập nhanh token, `token:clear` xóa token đang lưu. ","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/julycomic.zip","icon":"","version":2,"source":"https://julycomics.site","filename":"julycomics_site.json","bookSourceUrl":"ext_julycomics-site"},{"name":"book.qq.com","id":"book-qq-com","author":"Thiên Thư Các","description":"Đọc QQ阅读. Chap miễn phí dùng cấu hình tự tạo; liên hệ để nhận bản VIP. ","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/app-qq.zip","icon":"","version":2,"source":"book.qq.com","filename":"book_qq_com.json","bookSourceUrl":"ext_book-qq-com"},{"name":"tiktok.com","id":"tiktok-com","author":"Thiên Thư Các","description":"Xem TikTok bằng state app/web. Hỗ trợ xem link từ app.","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tiktok.zip","icon":"","version":2,"source":"https://www.tiktok.com/","filename":"tiktok_com.json","bookSourceUrl":"ext_tiktok-com"},{"name":"gaumeoteam.com","id":"gaumeoteam-com","author":"Thiên Thư Các","description":"Đọc truyện trên Gấu Mèo Team","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/gau-meo-team.zip","icon":"","version":2,"source":"https://gaumeoteam.com/","filename":"gaumeoteam_com.json","bookSourceUrl":"ext_gaumeoteam-com"},{"name":"free-reels.com","id":"free-reels-com","author":"Thiên Thư Các","description":"Xem video ngắn từ FreeReels.","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/freereels.zip","icon":"","version":2,"source":"https://free-reels.com","filename":"free_reels_com.json","bookSourceUrl":"ext_free-reels-com"},{"name":"blvietsub.top","id":"blvietsub-top","author":"Thiên Thư Các","description":"Xem phim BL Vietsub từ BLVietsub. Nguồn phát ưu tiên Dailymotion native HLS.","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/blvietsub.zip","icon":"","version":2,"source":"https://www.blvietsub.top/","filename":"blvietsub_top.json","bookSourceUrl":"ext_blvietsub-top"},{"name":"iq.com","id":"iq-com","author":"Thiên Thư Các","description":"iQIYI bản quốc tế. Đã hỗ trợ tự cắt ghép phụ đề cho khớp video. Tự điều chỉnh độ phân giải bằng true/false bên dưới cài đặt ext. Đăng nhập trong trình duyệt tích hợp của VBook beta nếu video cần VIP.","type":"video","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/iqiyi.zip","icon":"","version":2,"source":"https://www.iq.com/","filename":"iq_com.json","bookSourceUrl":"ext_iq-com"},{"name":"twitch.tv","id":"twitch-tv","author":"Thiên Thư Các","description":"Xem live stream và VOD Twitch.","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/twitch.zip","icon":"","version":2,"source":"https://www.twitch.tv/","filename":"twitch_tv.json","bookSourceUrl":"ext_twitch-tv"},{"name":"dailymotion.com","id":"dailymotion-com","author":"Thiên Thư Các","description":"Xem video trên Dailymotion. Đăng nhập trong trình duyệt tích hợp nếu không xem được. ","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dailymotion.zip","icon":"","version":2,"source":"https://www.dailymotion.com/","filename":"dailymotion_com.json","bookSourceUrl":"ext_dailymotion-com"},{"name":"bilibili.tv","id":"bilibili-tv","author":"Thiên Thư Các","description":"Bilibili bản quốc tế. Xem được video kèm âm thanh có độ phân giải cao. Có PĐ (ưu tiên vi).","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bilibili.zip","icon":"","version":2,"source":"https://www.bilibili.tv/","filename":"bilibili_tv.json","bookSourceUrl":"ext_bilibili-tv"},{"name":"youtube.com","id":"youtube-com","author":"Thiên Thư Các","description":"Xem video/live/playlist trên YouTube. Đã hỗ trợ video kids/multi. Audio/PĐ ưu tiên vi.","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/youtube.zip","icon":"","version":2,"source":"https://www.youtube.com/","filename":"youtube_com.json","bookSourceUrl":"ext_youtube-com"},{"name":"destinteam.com","id":"destinteam-com","author":"Thiên Thư Các","description":"Đọc truyện tranh trên Destin Team.","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/destin-team.zip","icon":"","version":2,"source":"https://destinteam.com/","filename":"destinteam_com.json","bookSourceUrl":"ext_destinteam-com"},{"name":"wattpad.com","id":"wattpad-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang wattpad.","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad-1.zip","icon":"","version":2,"source":"https://www.wattpad.com/","filename":"wattpad_com.json","bookSourceUrl":"ext_wattpad-com"},{"name":"jellycomics.xyz","id":"jellycomics-xyz","author":"Thiên Thư Các","description":"Đọc truyện trên trang Jelly Comics","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/jelly-comics.zip","icon":"","version":2,"source":"https://jellycomics.xyz/","filename":"jellycomics_xyz.json","bookSourceUrl":"ext_jellycomics-xyz"},{"name":"blbattu.com","id":"blbattu-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang BL Bất Tử","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bl-bat-tu.zip","icon":"","version":2,"source":"https://blbattu.com/","filename":"blbattu_com.json","bookSourceUrl":"ext_blbattu-com"},{"name":"boylovebattu.com","id":"boylovebattu-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang boylovebattu","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/boylove-bat-tu.zip","icon":"","version":2,"source":"https://boylovebattu.com/","filename":"boylovebattu_com.json","bookSourceUrl":"ext_boylovebattu-com"},{"name":"truyentranhdammyy.site","id":"truyentranhdammyy-site","author":"Thiên Thư Các","description":"Đọc truyện trên trang Truyentranhdammyy","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyentranhdammyy.zip","icon":"","version":2,"source":"https://truyentranhdammyy.site/","filename":"truyentranhdammyy_site.json","bookSourceUrl":"ext_truyentranhdammyy-site"},{"name":"mangadm.me","id":"mangadm-me","author":"Thiên Thư Các","description":"Đọc truyện trên trang MangaDM","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mangadm.zip","icon":"","version":2,"source":"https://mangadm.me/","filename":"mangadm_me.json","bookSourceUrl":"ext_mangadm-me"},{"name":"po18.tw","id":"po18-tw","author":"Thiên Thư Các","description":"Đọc truyện trên trang www.po18.tw","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/po18-1.zip","icon":"","version":2,"source":"https://www.po18.tw","filename":"po18_tw.json","bookSourceUrl":"ext_po18-tw"},{"name":"jjwxc.net","id":"jjwxc-net","author":"Thiên Thư Các","description":"Đọc truyện trên app JJWXC. ","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/jjwxc-tan-giang.zip","icon":"","version":2,"source":"http://www.jjwxc.net/","filename":"jjwxc_net.json","bookSourceUrl":"ext_jjwxc-net"},{"name":"cbunu.com","id":"cbunu-com","author":"Thiên Thư Các","description":"Đọc truyện tranh trên CBunu","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cbunu-comic.zip","icon":"","version":2,"source":"https://cbunu.com/","filename":"cbunu_com.json","bookSourceUrl":"ext_cbunu-com"},{"name":"mintteanovel.com","id":"mintteanovel-com","author":"Thiên Thư Các","description":"Đọc truyện chữ trên Minttea Novel","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/minttea-novel.zip","icon":"","version":2,"source":"https://mintteanovel.com/","filename":"mintteanovel_com.json","bookSourceUrl":"ext_mintteanovel-com"},{"name":"sangtacviet.com","id":"sangtacviet-com","author":"Thiên Thư Các","description":"Đọc truyện trên STV App (Vi) ~","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/stv-app-vi.zip","icon":"","version":2,"source":"https://sangtacviet.com","filename":"sangtacviet_com.json","bookSourceUrl":"ext_sangtacviet-com"},{"name":"doctruyentranhbl.com","id":"doctruyentranhbl-com","author":"Thiên Thư Các","description":"Đọc truyện tranh BL tại doctruyentranhbl","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/doc-truyen-tranh-bl.zip","icon":"","version":2,"source":"https://doctruyentranhbl.com/","filename":"doctruyentranhbl_com.json","bookSourceUrl":"ext_doctruyentranhbl-com"},{"name":"navyteamz.com","id":"navyteamz-com","author":"Thiên Thư Các","description":"Đọc truyện tranh trên Navy Team","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/navy-team-comic.zip","icon":"","version":2,"source":"https://navyteamz.com/","filename":"navyteamz_com.json","bookSourceUrl":"ext_navyteamz-com"},{"name":"navyteamz.com","id":"navyteamz-com","author":"Thiên Thư Các","description":"Đọc tiểu thuyết và truyện chữ trên Navy Team","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/navy-team-novel.zip","icon":"","version":2,"source":"https://navyteamz.com/","filename":"navyteamz_com.json","bookSourceUrl":"ext_navyteamz-com"},{"name":"roadsteam.net","id":"roadsteam-net","author":"Thiên Thư Các","description":"Đọc truyện trên trang Roads Team","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/roads-team.zip","icon":"","version":2,"source":"https://roadsteam.net/","filename":"roadsteam_net.json","bookSourceUrl":"ext_roadsteam-net"},{"name":"metruyenchuvn.com","id":"metruyenchuvn-com","author":"Thiên Thư Các","description":"Đọc truyện chữ trên Mê Truyện Chữ","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-truyen-chu.zip","icon":"","version":2,"source":"https://metruyenchuvn.com/","filename":"metruyenchuvn_com.json","bookSourceUrl":"ext_metruyenchuvn-com"},{"name":"mottruyen.com.vn","id":"mottruyen-com-vn","author":"Thiên Thư Các","description":"Đọc truyện trên app Mọt Truyện","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mot-truyen.zip","icon":"","version":2,"source":"https://mottruyen.com.vn","filename":"mottruyen_com_vn.json","bookSourceUrl":"ext_mottruyen-com-vn"},{"name":"qadcuteo.cc","id":"qadcuteo-cc","author":"Thiên Thư Các","description":"Đọc truyện trên trang QAĐC","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qadc.zip","icon":"","version":2,"source":"https://qadcuteo.cc/","filename":"qadcuteo_cc.json","bookSourceUrl":"ext_qadcuteo-cc"},{"name":"ungtycomicsen.com","id":"ungtycomicsen-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Ưng Tỷ Comics","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ung-ty-comics.zip","icon":"","version":2,"source":"https://ungtycomicsen.com/","filename":"ungtycomicsen_com.json","bookSourceUrl":"ext_ungtycomicsen-com"},{"name":"teamsany.com","id":"teamsany-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Sany Team","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sany-team.zip","icon":"","version":2,"source":"https://teamsany.com/","filename":"teamsany_com.json","bookSourceUrl":"ext_teamsany-com"},{"name":"bananacoo.com","id":"bananacoo-com","author":"Thiên Thư Các","description":"Đọc truyện tranh trên TVKH/Bananacoo.","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tvkh.zip","icon":"","version":2,"source":"https://bananacoo.com/","filename":"bananacoo_com.json","bookSourceUrl":"ext_bananacoo-com"},{"name":"dualeotruyenbs.com","id":"dualeotruyenbs-com","author":"Thiên Thư Các","description":"Đọc truyện trên dualeotruyen","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dua-leo-truyen.zip","icon":"","version":2,"source":"https://dualeotruyenbs.com/","filename":"dualeotruyenbs_com.json","bookSourceUrl":"ext_dualeotruyenbs-com"},{"name":"tushumi.cc","id":"tushumi-cc","author":"Thiên Thư Các","description":"Đọc truyện ở tushumi.cc","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tushumi.zip","icon":"","version":2,"source":"https://www.tushumi.cc/","filename":"tushumi_cc.json","bookSourceUrl":"ext_tushumi-cc"},{"name":"ixdzs.tw","id":"ixdzs-tw","author":"Thiên Thư Các","description":"Đọc truyện trên ixdzs.tw","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ixdzs.zip","icon":"","version":2,"source":"https://ixdzs.tw/","filename":"ixdzs_tw.json","bookSourceUrl":"ext_ixdzs-tw"},{"name":"69shuba.com","id":"69shuba-com","author":"Thiên Thư Các","description":"Đọc truyện chữ Trung trên 69书吧. Nếu bị Cloudflare/verify chặn, mở trang 69书吧 trong trình duyệt VBook để xác minh.","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69.zip","icon":"","version":2,"source":"https://www.69shuba.com","filename":"69shuba_com.json","bookSourceUrl":"ext_69shuba-com"},{"name":"truyendexuat.com","id":"truyendexuat-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Truyện đề xuất","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-de-xuat.zip","icon":"","version":2,"source":"https://truyendexuat.com","filename":"truyendexuat_com.json","bookSourceUrl":"ext_truyendexuat-com"},{"name":"truyentv.site","id":"truyentv-site","author":"Thiên Thư Các","description":"Đọc truyện trên trang Truyện TV","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-tv.zip","icon":"","version":2,"source":"https://truyentv.site","filename":"truyentv_site.json","bookSourceUrl":"ext_truyentv-site"},{"name":"ocuadua.com","id":"ocuadua-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Ổ của Dưa","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/o-cua-dua.zip","icon":"","version":2,"source":"https://www.ocuadua.com","filename":"ocuadua_com.json","bookSourceUrl":"ext_ocuadua-com"},{"name":"truyenfull.today","id":"truyenfull-today","author":"Thiên Thư Các","description":"Đọc truyện trên trang Truyện full","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenfull.zip","icon":"","version":2,"source":"https://truyenfull.today","filename":"truyenfull_today.json","bookSourceUrl":"ext_truyenfull-today"},{"name":"xbanxia.cc","id":"xbanxia-cc","author":"Thiên Thư Các","description":"Đọc truyện trên trang Xbanxia","type":"novel","locale":"zh-CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xbanxia-repo-duong-den.zip","icon":"","version":2,"source":"https://www.xbanxia.cc","filename":"xbanxia_cc.json","bookSourceUrl":"ext_xbanxia-cc"},{"name":"czbooks.net","id":"czbooks-net","author":"Thiên Thư Các","description":"Đọc truyện trên trang czbooks","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/czbooks-repo-duong-den.zip","icon":"","version":2,"source":"https://czbooks.net","filename":"czbooks_net.json","bookSourceUrl":"ext_czbooks-net"},{"name":"quanwenyuedu.io","id":"quanwenyuedu-io","author":"Thiên Thư Các","description":"Đọc truyện trên trang quanwenyuedu","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/quanwenyuedu.zip","icon":"","version":2,"source":"https://www.quanwenyuedu.io","filename":"quanwenyuedu_io.json","bookSourceUrl":"ext_quanwenyuedu-io"},{"name":"m.bqg998.cc","id":"m-bqg998-cc","author":"Thiên Thư Các","description":"Đọc truyện trên trang qmbook","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qmbook.zip","icon":"","version":2,"source":"https://m.bqg998.cc","filename":"m_bqg998_cc.json","bookSourceUrl":"ext_m-bqg998-cc"},{"name":"wodeshucheng5.com","id":"wodeshucheng5-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang wodeshucheng5","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wodeshucheng5.zip","icon":"","version":2,"source":"https://www.wodeshucheng5.com","filename":"wodeshucheng5_com.json","bookSourceUrl":"ext_wodeshucheng5-com"},{"name":"m.75zww.com","id":"m-75zww-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang 75zwcom","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/75zwcom.zip","icon":"","version":2,"source":"https://m.75zww.com","filename":"m_75zww_com.json","bookSourceUrl":"ext_m-75zww-com"},{"name":"sudugu.org","id":"sudugu-org","author":"Thiên Thư Các","description":"Đọc truyện trên trang sudugu","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sudugu.zip","icon":"","version":2,"source":"https://www.sudugu.org","filename":"sudugu_org.json","bookSourceUrl":"ext_sudugu-org"},{"name":"69shuba.com","id":"69shuba-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang 69shuba.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69shu-repo-duong-den.zip","icon":"","version":2,"source":"https://69shuba.com","filename":"69shuba_com.json","bookSourceUrl":"ext_69shuba-com"},{"name":"nld.com.vn","id":"nld-com-vn","author":"Thiên Thư Các","description":"Đọc Người Lao Động","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nguoi-lao-dong.zip","icon":"","version":2,"source":"https://nld.com.vn","filename":"nld_com_vn.json","bookSourceUrl":"ext_nld-com-vn"},{"name":"vietnamnet.vn","id":"vietnamnet-vn","author":"Thiên Thư Các","description":"Đọc vietnamnet","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/vietnamnet.zip","icon":"","version":2,"source":"https://vietnamnet.vn","filename":"vietnamnet_vn.json","bookSourceUrl":"ext_vietnamnet-vn"},{"name":"tuoitre.vn","id":"tuoitre-vn","author":"Thiên Thư Các","description":"Đọc Tuổi Trẻ","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tuoi-tre.zip","icon":"","version":2,"source":"https://tuoitre.vn","filename":"tuoitre_vn.json","bookSourceUrl":"ext_tuoitre-vn"},{"name":"soha.vn","id":"soha-vn","author":"Thiên Thư Các","description":"Đọc soha","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/soha.zip","icon":"","version":2,"source":"https://soha.vn","filename":"soha_vn.json","bookSourceUrl":"ext_soha-vn"},{"name":"qimao.com","id":"qimao-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang qimao","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qimao-repo-duong-den.zip","icon":"","version":2,"source":"https://www.qimao.com","filename":"qimao_com.json","bookSourceUrl":"ext_qimao-com"},{"name":"piaotianapp.com","id":"piaotianapp-com","author":"Thiên Thư Các","description":"Đọc sách trên trang piaotianapp.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/piaotian-app.zip","icon":"","version":2,"source":"https://www.piaotianapp.com","filename":"piaotianapp_com.json","bookSourceUrl":"ext_piaotianapp-com"},{"name":"69shumi.net","id":"69shumi-net","author":"Thiên Thư Các","description":"Đọc truyện trên trang 69shumi","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69shumi.zip","icon":"","version":2,"source":"https://www.69shumi.net","filename":"69shumi_net.json","bookSourceUrl":"ext_69shumi-net"},{"name":"biqugess.co","id":"biqugess-co","author":"Thiên Thư Các","description":"Đọc truyện trên trang biqugess","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biqugess.zip","icon":"","version":2,"source":"http://www.biqugess.co","filename":"biqugess_co.json","bookSourceUrl":"ext_biqugess-co"},{"name":"69hsz.net","id":"69hsz-net","author":"Thiên Thư Các","description":"Đọc truyện trên trang 69hsz","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69hsz.zip","icon":"","version":2,"source":"https://www.69hsz.net","filename":"69hsz_net.json","bookSourceUrl":"ext_69hsz-net"},{"name":"xinsoxs.com","id":"xinsoxs-com","author":"Thiên Thư Các","description":"xinsoxs.com - search bằng browser","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/soxscc.zip","icon":"","version":2,"source":"https://www.xinsoxs.com","filename":"xinsoxs_com.json","bookSourceUrl":"ext_xinsoxs-com"},{"name":"m.abcbiquge.com","id":"m-abcbiquge-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang abcbiquge","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/abcbiquge.zip","icon":"","version":2,"source":"http://m.abcbiquge.com","filename":"m_abcbiquge_com.json","bookSourceUrl":"ext_m-abcbiquge-com"},{"name":"monkeydd.com","id":"monkeydd-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang MonkeyD","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/monkeyd-vn-repo-duongden.zip","icon":"","version":2,"source":"https://www.monkeydd.com","filename":"monkeydd_com.json","bookSourceUrl":"ext_monkeydd-com"},{"name":"truyencom.com","id":"truyencom-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://truyencom.com/","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-com.zip","icon":"","version":2,"source":"https://truyencom.com","filename":"truyencom_com.json","bookSourceUrl":"ext_truyencom-com"},{"name":"tinhlinh.com","id":"tinhlinh-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://tinhlinh.com","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tinh-linh.zip","icon":"","version":2,"source":"https://tinhlinh.com","filename":"tinhlinh_com.json","bookSourceUrl":"ext_tinhlinh-com"},{"name":"daotruyen.me","id":"daotruyen-me","author":"Thiên Thư Các","description":"Đọc truyện trên trang Đảo truyện","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dao-truyen.zip","icon":"","version":2,"source":"https://daotruyen.me","filename":"daotruyen_me.json","bookSourceUrl":"ext_daotruyen-me"},{"name":"q.kyhuyen.com","id":"q-kyhuyen-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://q.kyhuyen.com","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dich-truyen-tu-dong-tu-qidian.zip","icon":"","version":2,"source":"https://q.kyhuyen.com","filename":"q_kyhuyen_com.json","bookSourceUrl":"ext_q-kyhuyen-com"},{"name":"novelnext.me","id":"novelnext-me","author":"Thiên Thư Các","description":"Đọc truyện trên trang Novel Next","type":"novel","locale":"en_US","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/novel-next.zip","icon":"","version":2,"source":"https://www.novelnext.me","filename":"novelnext_me.json","bookSourceUrl":"ext_novelnext-me"},{"name":"fanmtl.com","id":"fanmtl-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Fan MTL","type":"novel","locale":"en_US","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fan-mtl.zip","icon":"","version":2,"source":"https://www.fanmtl.com","filename":"fanmtl_com.json","bookSourceUrl":"ext_fanmtl-com"},{"name":"allnovel.org","id":"allnovel-org","author":"Thiên Thư Các","description":"Đọc truyện trên trang All Novel","type":"novel","locale":"en_US","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/all-novel.zip","icon":"","version":2,"source":"https://allnovel.org","filename":"allnovel_org.json","bookSourceUrl":"ext_allnovel-org"},{"name":"spiderum.com","id":"spiderum-com","author":"Thiên Thư Các","description":"Đọc spiderum trên vBook","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/spiderum.zip","icon":"","version":2,"source":"https://spiderum.com","filename":"spiderum_com.json","bookSourceUrl":"ext_spiderum-com"},{"name":"sohu.com","id":"sohu-com","author":"Thiên Thư Các","description":"Đọc sohu trên vBook","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sohu.zip","icon":"","version":2,"source":"https://www.sohu.com","filename":"sohu_com.json","bookSourceUrl":"ext_sohu-com"},{"name":"viblo.asia","id":"viblo-asia","author":"Thiên Thư Các","description":"Đọc viblo trên vBook","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/viblo.zip","icon":"","version":2,"source":"https://viblo.asia","filename":"viblo_asia.json","bookSourceUrl":"ext_viblo-asia"},{"name":"akaytruyen.com","id":"akaytruyen-com","author":"Thiên Thư Các","description":"Akaytruyen.com là web đọc truyện chính chủ duy nhất của tác giả AkayHau.","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/conduongbachu.zip","icon":"","version":2,"source":"https://akaytruyen.com/","filename":"akaytruyen_com.json","bookSourceUrl":"ext_akaytruyen-com"},{"name":"alicesw.com","id":"alicesw-com","author":"Thiên Thư Các","description":"trang truyện seggg.","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw-2.zip","icon":"","version":2,"source":"https://www.alicesw.com/","filename":"alicesw_com.json","bookSourceUrl":"ext_alicesw-com"},{"name":"lxmanga.blog","id":"lxmanga-blog","author":"Thiên Thư Các","description":"LXManga là trang web đọc truyện online.","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/lxmanga.zip","icon":"","version":2,"source":"https://lxmanga.blog/","filename":"lxmanga_blog.json","bookSourceUrl":"ext_lxmanga-blog"},{"name":"wfxs.tw","id":"wfxs-tw","author":"Thiên Thư Các","description":"Đọc truyện trên wfxs.tw","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wfxs-tw.zip","icon":"","version":2,"source":"https://wfxs.tw/","filename":"wfxs_tw.json","bookSourceUrl":"ext_wfxs-tw"},{"name":"ww1.goctruyentranhvui17.com","id":"ww1-goctruyentranhvui17-com","author":"Thiên Thư Các","description":"Đọc truyện trên góc truyện tranh vui 17","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/goc-truyen-tranh-vui-17.zip","icon":"","version":2,"source":"http://ww1.goctruyentranhvui17.com","filename":"ww1_goctruyentranhvui17_com.json","bookSourceUrl":"ext_ww1-goctruyentranhvui17-com"},{"name":"uukanshu.cc","id":"uukanshu-cc","author":"Thiên Thư Các","description":"uukanshu","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/uukanshu.zip","icon":"","version":2,"source":"https://uukanshu.cc","filename":"uukanshu_cc.json","bookSourceUrl":"ext_uukanshu-cc"},{"name":"m.xtyxsw.org","id":"m-xtyxsw-org","author":"Thiên Thư Các","description":"Thiên duyệt tiểu thuyết mạng","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/-1.zip","icon":"","version":2,"source":"https://m.xtyxsw.org","filename":"m_xtyxsw_org.json","bookSourceUrl":"ext_m-xtyxsw-org"},{"name":"hentaifox.com","id":"hentaifox-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang http://hentaifox.com/","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaifox-com.zip","icon":"","version":2,"source":"http://hentaifox.com/","filename":"hentaifox_com.json","bookSourceUrl":"ext_hentaifox-com"},{"name":"truyennet.org","id":"truyennet-org","author":"Thiên Thư Các","description":"Đọc truyện trên trang truyennet.vn","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-net.zip","icon":"","version":2,"source":"https://truyennet.org","filename":"truyennet_org.json","bookSourceUrl":"ext_truyennet-org"},{"name":"api.langge.cf","id":"api-langge-cf","author":"Thiên Thư Các","description":"Đọc truyện Fanqie trên Sói Xám. Vui lòng vào trang nguồn đăng nhập để sử dụng. Có hỗ trợ share link truyện từ Fanqie và STV.","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/soi-xam-fanqie.zip","icon":"","version":26,"source":"https://api.langge.cf","filename":"api_langge_cf.json","bookSourceUrl":"ext_api-langge-cf"},{"name":"po18sm.com","id":"po18sm-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang po18sm.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/po18sm.zip","icon":"","version":2,"source":"https://www.po18sm.com","filename":"po18sm_com.json","bookSourceUrl":"ext_po18sm-com"},{"name":"hentaivnx.com","id":"hentaivnx-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang hentaivnx.com","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaivn-1.zip","icon":"","version":2,"source":"https://www.hentaivnx.com","filename":"hentaivnx_com.json","bookSourceUrl":"ext_hentaivnx-com"},{"name":"vinahentai.bond","id":"vinahentai-bond","author":"Thiên Thư Các","description":"Đọc truyện trên trang vinahentai.bond","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/vinahentai-1.zip","icon":"","version":2,"source":"https://vinahentai.bond","filename":"vinahentai_bond.json","bookSourceUrl":"ext_vinahentai-bond"},{"name":"hentaivietsub.com","id":"hentaivietsub-com","author":"Thiên Thư Các","description":"Xem phim trên hentaivietsub.com","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaivietsub-com.zip","icon":"","version":2,"source":"https://hentaivietsub.com","filename":"hentaivietsub_com.json","bookSourceUrl":"ext_hentaivietsub-com"},{"name":"watchhentai.net","id":"watchhentai-net","author":"Thiên Thư Các","description":"Watch videos on watchhentai.net","type":"video","locale":"en_US","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/watchhentai-net.zip","icon":"","version":2,"source":"https://watchhentai.net","filename":"watchhentai_net.json","bookSourceUrl":"ext_watchhentai-net"},{"name":"hhtqhay.vip","id":"hhtqhay-vip","author":"Thiên Thư Các","description":"Xem phim tại hhtqhay.vip","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hhtqhay-vip.zip","icon":"","version":2,"source":"https://hhtqhay.vip","filename":"hhtqhay_vip.json","bookSourceUrl":"ext_hhtqhay-vip"},{"name":"aistudio.google.com","id":"aistudio-google-com","author":"Thiên Thư Các","description":"Dịch văn bản bằng Google Gemini API với nhiều key, prompt, tùy chỉnh theo thể loại và xử lý lỗi an toàn thông minh. DONATE CHO ADMIN VBOOK NHIỀU LÊN ĐỂ VỪA CÓ TÊN ĐẸP, ADMIN LẠI CÓ THÊM ĐỘNG LỰC HOÀN THIỆN APP","type":"translate","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/gemini-baidu-translate-change-model-v2-0.zip","icon":"","version":2,"source":"https://aistudio.google.com/apikey","filename":"aistudio_google_com.json","bookSourceUrl":"ext_aistudio-google-com"},{"name":"alicesw.com","id":"alicesw-com","author":"Thiên Thư Các","description":"Đọc truyện trên alicesw.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw-3.zip","icon":"","version":2,"source":"https://www.alicesw.com","filename":"alicesw_com.json","bookSourceUrl":"ext_alicesw-com"},{"name":"wattpad.com","id":"wattpad-com","author":"Thiên Thư Các","description":"noDes","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad-2.zip","icon":"","version":2,"source":"https://wattpad.com","filename":"wattpad_com.json","bookSourceUrl":"ext_wattpad-com"},{"name":"metruyenchuvn.com","id":"metruyenchuvn-com","author":"Thiên Thư Các","description":"noDes","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/metruyenchufake.zip","icon":"","version":2,"source":"https://metruyenchuvn.com","filename":"metruyenchuvn_com.json","bookSourceUrl":"ext_metruyenchuvn-com"},{"name":"cosplaytele.com","id":"cosplaytele-com","author":"Thiên Thư Các","description":"noDes","type":"comic","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cosplaytele-1.zip","icon":"","version":2,"source":"https://cosplaytele.com/","filename":"cosplaytele_com.json","bookSourceUrl":"ext_cosplaytele-com"},{"name":"fanqienovel.com","id":"fanqienovel-com","author":"Thiên Thư Các","description":"Cà Chua","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ca-chua.zip","icon":"","version":2,"source":"https://fanqienovel.com","filename":"fanqienovel_com.json","bookSourceUrl":"ext_fanqienovel-com"},{"name":"xx.knit.bid","id":"xx-knit-bid","author":"Thiên Thư Các","description":"Xem ảnh trên trang XX Knix","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xx-knix.zip","icon":"","version":2,"source":"https://xx.knit.bid","filename":"xx_knit_bid.json","bookSourceUrl":"ext_xx-knit-bid"},{"name":"everia.club","id":"everia-club","author":"Thiên Thư Các","description":"Xem ảnh trên trang Everia","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/everia.zip","icon":"","version":2,"source":"https://everia.club","filename":"everia_club.json","bookSourceUrl":"ext_everia-club"},{"name":"bestgirlsexy.com","id":"bestgirlsexy-com","author":"Thiên Thư Các","description":"Xem ảnh trên trang Best Girl Sexy","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/best-girl-sexy.zip","icon":"","version":2,"source":"https://bestgirlsexy.com","filename":"bestgirlsexy_com.json","bookSourceUrl":"ext_bestgirlsexy-com"},{"name":"truyenqqko.com","id":"truyenqqko-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Truyện QQ","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-qq-2.zip","icon":"","version":2,"source":"https://truyenqqko.com","filename":"truyenqqko_com.json","bookSourceUrl":"ext_truyenqqko-com"},{"name":"goctruyentranhvui30.com","id":"goctruyentranhvui30-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Góc truyện tranh","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/goc-truyen-tranh-1.zip","icon":"","version":2,"source":"https://goctruyentranhvui30.com","filename":"goctruyentranhvui30_com.json","bookSourceUrl":"ext_goctruyentranhvui30-com"},{"name":"cmangax17.com","id":"cmangax17-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang CManga","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cmanga.zip","icon":"","version":2,"source":"https://cmangax17.com","filename":"cmangax17_com.json","bookSourceUrl":"ext_cmangax17-com"},{"name":"sayhentai.cx","id":"sayhentai-cx","author":"Thiên Thư Các","description":"Đọc truyện trên trang Say Hentai","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/say-hentai-1.zip","icon":"","version":2,"source":"https://sayhentai.cx","filename":"sayhentai_cx.json","bookSourceUrl":"ext_sayhentai-cx"},{"name":"foxtruyen2.com","id":"foxtruyen2-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Fox Truyện","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fox-truyen.zip","icon":"","version":2,"source":"https://foxtruyen2.com","filename":"foxtruyen2_com.json","bookSourceUrl":"ext_foxtruyen2-com"},{"name":"doctruyen3qhub1.com","id":"doctruyen3qhub1-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Đọc Truyện 3Q","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/doc-truyen-3q.zip","icon":"","version":2,"source":"https://doctruyen3qhub1.com","filename":"doctruyen3qhub1_com.json","bookSourceUrl":"ext_doctruyen3qhub1-com"},{"name":"nettruyen9s.com","id":"nettruyen9s-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Nettruyen Unofficial","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nettruyen-unofficial.zip","icon":"","version":2,"source":"https://nettruyen9s.com","filename":"nettruyen9s_com.json","bookSourceUrl":"ext_nettruyen9s-com"},{"name":"minotruyenv6.xyz","id":"minotruyenv6-xyz","author":"Thiên Thư Các","description":"Đọc truyện trên trang Mino","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mino.zip","icon":"","version":2,"source":"https://minotruyenv6.xyz","filename":"minotruyenv6_xyz.json","bookSourceUrl":"ext_minotruyenv6-xyz"},{"name":"cuutruyen.net","id":"cuutruyen-net","author":"Thiên Thư Các","description":"Đọc truyện trên trang Cứu Truyện","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cuu-truyen-1.zip","icon":"","version":2,"source":"https://cuutruyen.net","filename":"cuutruyen_net.json","bookSourceUrl":"ext_cuutruyen-net"},{"name":"umetruyenz.org","id":"umetruyenz-org","author":"Thiên Thư Các","description":"Đọc truyện trên trang U Mê Truyện","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/u-me-truyen-1.zip","icon":"","version":2,"source":"https://umetruyenz.org/","filename":"umetruyenz_org.json","bookSourceUrl":"ext_umetruyenz-org"},{"name":"truyennet.org","id":"truyennet-org","author":"Thiên Thư Các","description":"Đọc truyện trên trang Truyện Net","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-net-1.zip","icon":"","version":2,"source":"https://truyennet.org","filename":"truyennet_org.json","bookSourceUrl":"ext_truyennet-org"},{"name":"metruyenchuvn.com","id":"metruyenchuvn-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Mê Truyện Chữ","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-truyen-chu-1.zip","icon":"","version":2,"source":"https://metruyenchuvn.com","filename":"metruyenchuvn_com.json","bookSourceUrl":"ext_metruyenchuvn-com"},{"name":"khodocsach.com","id":"khodocsach-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Kho Đọc Sách","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kho-doc-sach.zip","icon":"","version":2,"source":"https://khodocsach.com/","filename":"khodocsach_com.json","bookSourceUrl":"ext_khodocsach-com"},{"name":"vivutruyen.net","id":"vivutruyen-net","author":"Thiên Thư Các","description":"Trang đọc truyện online - vivutruyen","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/vivu-truyen.zip","icon":"","version":2,"source":"https://vivutruyen.net/","filename":"vivutruyen_net.json","bookSourceUrl":"ext_vivutruyen-net"},{"name":"tvtruyen.co.uk","id":"tvtruyen-co-uk","author":"Thiên Thư Các","description":"Đọc truyện từ TruyenTv","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyentv.zip","icon":"","version":2,"source":"https://www.tvtruyen.co.uk","filename":"tvtruyen_co_uk.json","bookSourceUrl":"ext_tvtruyen-co-uk"},{"name":"truyenmo.xyz","id":"truyenmo-xyz","author":"Thiên Thư Các","description":"Đọc truyện từ Truyện Mơ \n\nNgày xưa ngựa xe đi rất chậm\nThư gửi cũng rất chậm\n Cả đời chỉ đủ yêu một người","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-mo.zip","icon":"","version":2,"source":"https://truyenmo.xyz","filename":"truyenmo_xyz.json","bookSourceUrl":"ext_truyenmo-xyz"},{"name":"truyenhoan.com","id":"truyenhoan-com","author":"Thiên Thư Các","description":"Đọc truyện tiên hiệp, huyền huyễn, ngôn tình từ Truyện Hoàn - website truyện full online miễn phí","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-hoan.zip","icon":"","version":2,"source":"https://truyenhoan.com/","filename":"truyenhoan_com.json","bookSourceUrl":"ext_truyenhoan-com"},{"name":"quykhu.com","id":"quykhu-com","author":"Thiên Thư Các","description":"Đọc truyện từ quykhu.com (vozer.io) - chỉ vbook beta","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/quykhu.zip","icon":"","version":2,"source":"https://quykhu.com/","filename":"quykhu_com.json","bookSourceUrl":"ext_quykhu-com"},{"name":"medoctruyen.vn","id":"medoctruyen-vn","author":"Thiên Thư Các","description":"Mê Đọc Truyện\nĐắm mình trong bốn mùa thư hương","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-doc-truyen.zip","icon":"","version":2,"source":"https://medoctruyen.vn","filename":"medoctruyen_vn.json","bookSourceUrl":"ext_medoctruyen-vn"},{"name":"kenhtruyenma.com","id":"kenhtruyenma-com","author":"Thiên Thư Các","description":"Nghe truyện ma, truyện audio, sách nói online miễn phí. (Chưa hỗ trợ tạm dừng và tua nhanh)","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kenh-truyen-ma.zip","icon":"","version":2,"source":"https://kenhtruyenma.com","filename":"kenhtruyenma_com.json","bookSourceUrl":"ext_kenhtruyenma-com"},{"name":"fanqienovel.com","id":"fanqienovel-com","author":"Thiên Thư Các","description":"Nguồn truyện chữ Trung Quốc từ Fanqie Novel (sói xám to version)- chỉ đọc không tải (Ngoại trừ VIP/SVIP).\n\n⚠️ Giới hạn đọc: 3 chương/ngày dành cho khách ẩn danh.\n\n Cách để đọc tiếp:\n➊ Mở Trình duyệt ngay trong app vBook.\n➋ Truy cập: https://v2.czyl.cf/login\n➌ Đăng nhập tài khoản Sói Xám.\n➍ Quay lại và Làm mới chương.\n\n🔗 Hướng dẫn: https://discord.com/channels/607084896288243731/1476830093996327097","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ca-chua-soi-xam.zip","icon":"","version":12,"source":"https://fanqienovel.com","filename":"fanqienovel_com.json","bookSourceUrl":"ext_fanqienovel-com"},{"name":"ophim17.cc","id":"ophim17-cc","author":"Thiên Thư Các","description":"Xem phim Online miễn phí chất lượng cao tại OPhim. Hỗ trợ đầy đủ Vietsub/Thuyết Minh qua API chính thức.","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ophim.zip","icon":"","version":2,"source":"https://ophim17.cc","filename":"ophim17_cc.json","bookSourceUrl":"ext_ophim17-cc"},{"name":"phimfun.net","id":"phimfun-net","author":"Thiên Thư Các","description":"Xem phim trên PhimFun","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/phimfun.zip","icon":"","version":2,"source":"https://phimfun.net","filename":"phimfun_net.json","bookSourceUrl":"ext_phimfun-net"},{"name":"envasion.net","id":"envasion-net","author":"Thiên Thư Các","description":"Xem phim trên Motchill - Phim hay, phim mới HD Vietsub","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/motchill.zip","icon":"","version":2,"source":"https://envasion.net","filename":"envasion_net.json","bookSourceUrl":"ext_envasion-net"},{"name":"phim.nguonc.com","id":"phim-nguonc-com","author":"Thiên Thư Các","description":"Xem phim từ NguonC","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nguonc.zip","icon":"","version":2,"source":"https://phim.nguonc.com","filename":"phim_nguonc_com.json","bookSourceUrl":"ext_phim-nguonc-com"},{"name":"animevsub.app","id":"animevsub-app","author":"Thiên Thư Các","description":"Xem anime Vietsub HD miễn phí trên AnimeVsub - kho anime lớn nhất","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/animevsub.zip","icon":"","version":2,"source":"https://animevsub.app","filename":"animevsub_app.json","bookSourceUrl":"ext_animevsub-app"},{"name":"wevino.store","id":"wevino-store","author":"Thiên Thư Các","description":"Xem Anime Hay - miễn phí chất lượng cao với phụ đề Tiếng Việt, Thuyết Minh, Lồng Tiếng. Website có hơn +10.000 phim Anime mới nhất và cập nhật liên tục, kho phim đa dạng từ các thể loại 3D Trung Quốc, Anime Nhật Bản.. \n\n Lưu Ý: Không search được do web không search được","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/anime-hay.zip","icon":"","version":2,"source":"https://wevino.store","filename":"wevino_store.json","bookSourceUrl":"ext_wevino-store"},{"name":"console.fpt.ai","id":"console-fpt-ai","author":"Thiên Thư Các","description":"Nghe truyện bằng FPT AI Text-to-Speech. Hỗ trợ 7 giọng Bắc/Trung/Nam chất lượng cao.\n\nMIỄN PHÍ 100.000 ký tự/tháng cho mỗi project. Một tài khoản có thể tạo nhiều project.\n\nHƯỚNG DẪN: Vào console.fpt.ai → Tạo project → Lấy API Key → Dán vào cài đặt extension.","type":"tts","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fpt-ai-tts.zip","icon":"","version":2,"source":"https://console.fpt.ai/","filename":"console_fpt_ai.json","bookSourceUrl":"ext_console-fpt-ai"},{"name":"viettelai.vn","id":"viettelai-vn","author":"Thiên Thư Các","description":"Nghe truyện bằng Viettel AI Text-to-Speech. 16 giọng Bắc/Trung/Nam đa dạng.\n\nMIỄN PHÍ 50.000 ký tự tháng đầu, gia hạn 20K/50K ký tự mỗi tháng.\n\nHƯỚNG DẪN: Vào viettelai.vn → Đăng nhập → Dashboard/Token → Dán vào cài đặt extension.","type":"tts","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/viettel-ai-tts.zip","icon":"","version":2,"source":"https://viettelai.vn/dashboard/token","filename":"viettelai_vn.json","bookSourceUrl":"ext_viettelai-vn"},{"name":"docln.sbs","id":"docln-sbs","author":"Thiên Thư Các","description":"Đọc truyện trên Hako","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hako.zip","icon":"","version":2,"source":"https://docln.sbs","filename":"docln_sbs.json","bookSourceUrl":"ext_docln-sbs"},{"name":"storya.click","id":"storya-click","author":"Thiên Thư Các","description":"Storya - Đọc truyện online miễn phí","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/storya.zip","icon":"","version":2,"source":"https://storya.click","filename":"storya_click.json","bookSourceUrl":"ext_storya-click"},{"name":"truyen.moe","id":"truyen-moe","author":"Thiên Thư Các","description":"Mòe Truyện - Cộng đồng truyện tranh","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/moetruyen.zip","icon":"","version":2,"source":"https://truyen.moe","filename":"truyen_moe.json","bookSourceUrl":"ext_truyen-moe"},{"name":"shinigamilnteam.com","id":"shinigamilnteam-com","author":"Thiên Thư Các","description":"Shinigami - Light Novel & Truyện tranh","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/shinigami-ln-team.zip","icon":"","version":2,"source":"https://shinigamilnteam.com","filename":"shinigamilnteam_com.json","bookSourceUrl":"ext_shinigamilnteam-com"},{"name":"lnovel.org","id":"lnovel-org","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://lnovel.org/","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/lnovel.zip","icon":"","version":2,"source":"https://lnovel.org/","filename":"lnovel_org.json","bookSourceUrl":"ext_lnovel-org"},{"name":"novelfull.com","id":"novelfull-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://novelfull.com/","type":"novel","locale":"en_US","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/gg-dich-novel-full.zip","icon":"","version":2,"source":"https://novelfull.com/","filename":"novelfull_com.json","bookSourceUrl":"ext_novelfull-com"},{"name":"tongrenshe.cc","id":"tongrenshe-cc","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://tongrenshe.cc","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dong-nhan-xa.zip","icon":"","version":2,"source":"https://tongrenshe.cc","filename":"tongrenshe_cc.json","bookSourceUrl":"ext_tongrenshe-cc"},{"name":"ilwxs.com","id":"ilwxs-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://www.ilwxs.com","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ilwxs.zip","icon":"","version":2,"source":"https://www.ilwxs.com","filename":"ilwxs_com.json","bookSourceUrl":"ext_ilwxs-com"},{"name":"qbtr.cc","id":"qbtr-cc","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://www.qbtr.cc","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dong-nhan-tieu-thuyet.zip","icon":"","version":2,"source":"https://www.qbtr.cc","filename":"qbtr_cc.json","bookSourceUrl":"ext_qbtr-cc"},{"name":"truyenhoan.com","id":"truyenhoan-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://truyenhoan.com","type":"novel","locale":"vn_VI","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-hoan-1.zip","icon":"","version":2,"source":"https://truyenhoan.com","filename":"truyenhoan_com.json","bookSourceUrl":"ext_truyenhoan-com"},{"name":"dualeotruyenfull.net","id":"dualeotruyenfull-net","author":"Thiên Thư Các","description":"Dưa Leo Truyện Full - Đọc truyện chữ online","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dualeotruyenfull.zip","icon":"","version":2,"source":"https://dualeotruyenfull.net","filename":"dualeotruyenfull_net.json","bookSourceUrl":"ext_dualeotruyenfull-net"},{"name":"biquge.tw","id":"biquge-tw","author":"Thiên Thư Các","description":"笔趣阁 - Truyện chữ Tiếng Trung","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biquge.zip","icon":"","version":2,"source":"https://www.biquge.tw","filename":"biquge_tw.json","bookSourceUrl":"ext_biquge-tw"},{"name":"storya.click","id":"storya-click","author":"Thiên Thư Các","description":"Storya - Đọc truyện chữ online miễn phí","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/storya-1.zip","icon":"","version":2,"source":"https://storya.click","filename":"storya_click.json","bookSourceUrl":"ext_storya-click"},{"name":"wattpad.com","id":"wattpad-com","author":"Thiên Thư Các","description":"Đọc truyện tiếng Việt trên Wattpad","type":"novel","locale":"vi","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad-tieng-viet.zip","icon":"","version":2,"source":"https://www.wattpad.com","filename":"wattpad_com.json","bookSourceUrl":"ext_wattpad-com"},{"name":"truyenchu.net","id":"truyenchu-net","author":"Thiên Thư Các","description":"TruyenChu - Đọc truyện chữ online miễn phí","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenchu.zip","icon":"","version":2,"source":"https://truyenchu.net","filename":"truyenchu_net.json","bookSourceUrl":"ext_truyenchu-net"},{"name":"wanwansekai.com","id":"wanwansekai-com","author":"Thiên Thư Các","description":"WanwanSekai - Đọc web novel tiếng Việt 18+","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wanwansekai-18.zip","icon":"","version":2,"source":"https://wanwansekai.com","filename":"wanwansekai_com.json","bookSourceUrl":"ext_wanwansekai-com"},{"name":"shibashuwu.net","id":"shibashuwu-net","author":"Thiên Thư Các","description":"ShiBaShuWu - Truyện chữ Trung Quốc 18+","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/shibashuwu-18.zip","icon":"","version":2,"source":"https://www.shibashuwu.net","filename":"shibashuwu_net.json","bookSourceUrl":"ext_shibashuwu-net"},{"name":"novel.cooks.tw","id":"novel-cooks-tw","author":"Thiên Thư Các","description":"novel.cooks.tw - Đọc truyện chữ Trung Quốc online","type":"novel","locale":"zh_TW","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/novelcookstw.zip","icon":"","version":2,"source":"https://novel.cooks.tw","filename":"novel_cooks_tw.json","bookSourceUrl":"ext_novel-cooks-tw"},{"name":"trichtinhlau.com","id":"trichtinhlau-com","author":"Thiên Thư Các","description":"Trích Tinh Lâu - Đọc truyện chữ online miễn phí","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/trichtinhlau.zip","icon":"","version":2,"source":"https://trichtinhlau.com","filename":"trichtinhlau_com.json","bookSourceUrl":"ext_trichtinhlau-com"},{"name":"lnkuro.top","id":"lnkuro-top","author":"Thiên Thư Các","description":"LN Kuro - Đọc Light Novel Hàn Quốc dịch tiếng Việt","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ln-kuro.zip","icon":"","version":2,"source":"https://lnkuro.top","filename":"lnkuro_top.json","bookSourceUrl":"ext_lnkuro-top"},{"name":"metruyensangtac.vn","id":"metruyensangtac-vn","author":"Thiên Thư Các","description":"MeTruyenSangTac - Nền tảng đọc truyện sáng tác miễn phí","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/metruyensangtac.zip","icon":"","version":2,"source":"https://metruyensangtac.vn","filename":"metruyensangtac_vn.json","bookSourceUrl":"ext_metruyensangtac-vn"},{"name":"loppytoon.com","id":"loppytoon-com","author":"Thiên Thư Các","description":"LoppyToon - Truyện tranh & tiểu thuyết 18+","type":"novel,comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/loppytoon-18.zip","icon":"","version":2,"source":"https://loppytoon.com","filename":"loppytoon_com.json","bookSourceUrl":"ext_loppytoon-com"},{"name":"sayhentai.cx","id":"sayhentai-cx","author":"Thiên Thư Các","description":"SayHentai - Truyện hentai, manhwa 18+ tiếng Việt","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sayhentai-18.zip","icon":"","version":2,"source":"https://sayhentai.cx","filename":"sayhentai_cx.json","bookSourceUrl":"ext_sayhentai-cx"},{"name":"hentaicube.xyz","id":"hentaicube-xyz","author":"Thiên Thư Các","description":"HentaiCube - Truyện Hentai Online 18+","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaicube-18-1.zip","icon":"","version":2,"source":"https://hentaicube.xyz","filename":"hentaicube_xyz.json","bookSourceUrl":"ext_hentaicube-xyz"},{"name":"github.com","id":"github-com","author":"Thiên Thư Các","description":"Dịch truyện chữ Trung bằng từ điển Vietphrase của Meo","type":"translate","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/meo-translate.zip","icon":"","version":2,"source":"https://github.com/hienpro00123/vbook_MeoU","filename":"github_com.json","bookSourceUrl":"ext_github-com"},{"name":"sitruyencv.com","id":"sitruyencv-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Sitruyencv.com","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/si-truyen-cv.zip","icon":"","version":2,"source":"https://sitruyencv.com","filename":"sitruyencv_com.json","bookSourceUrl":"ext_sitruyencv-com"},{"name":"inkitt.com","id":"inkitt-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Inkitt.com","type":"novel","locale":"en_US","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/inkitt.zip","icon":"","version":2,"source":"https://inkitt.com","filename":"inkitt_com.json","bookSourceUrl":"ext_inkitt-com"},{"name":"qidian.com","id":"qidian-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://www.qidian.com","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qidian.zip","icon":"","version":2,"source":"https://www.qidian.com","filename":"qidian_com.json","bookSourceUrl":"ext_qidian-com"},{"name":"haitanglin.com","id":"haitanglin-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://www.haitanglin.com","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/haitanglin.zip","icon":"","version":2,"source":"https://www.haitanglin.com","filename":"haitanglin_com.json","bookSourceUrl":"ext_haitanglin-com"},{"name":"piaotian55.net","id":"piaotian55-net","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://www.piaotian55.net","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/piaotian5.zip","icon":"","version":2,"source":"https://www.piaotian55.net","filename":"piaotian55_net.json","bookSourceUrl":"ext_piaotian55-net"},{"name":"piaotian.com","id":"piaotian-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://www.piaotian.com","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ptwxz.zip","icon":"","version":2,"source":"https://www.piaotian.com","filename":"piaotian_com.json","bookSourceUrl":"ext_piaotian-com"},{"name":"trxs.cc","id":"trxs-cc","author":"Thiên Thư Các","description":"Đọc truyện trên trang http://trxs.cc","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/trxs.zip","icon":"","version":2,"source":"http://trxs.cc","filename":"trxs_cc.json","bookSourceUrl":"ext_trxs-cc"},{"name":"czbooks.net","id":"czbooks-net","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://czbooks.net","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/czbooks.zip","icon":"","version":2,"source":"https://czbooks.net","filename":"czbooks_net.json","bookSourceUrl":"ext_czbooks-net"},{"name":"hiperdex.com","id":"hiperdex-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang https://hiperdex.com","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hiperdex.zip","icon":"","version":2,"source":"https://hiperdex.com","filename":"hiperdex_com.json","bookSourceUrl":"ext_hiperdex-com"},{"name":"yousuu.com","id":"yousuu-com","author":"Thiên Thư Các","description":"yousuu","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/yousuu.zip","icon":"","version":2,"source":"https://www.yousuu.com/","filename":"yousuu_com.json","bookSourceUrl":"ext_yousuu-com"},{"name":"qidian.com","id":"qidian-com","author":"Thiên Thư Các","description":"qidian home","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qidian-home.zip","icon":"","version":2,"source":"https://www.qidian.com/","filename":"qidian_com.json","bookSourceUrl":"ext_qidian-com"},{"name":"nhentai.net","id":"nhentai-net","author":"Thiên Thư Các","description":"Đọc truyện trên trang nHentai.one","type":"comic","locale":"en_US","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nhentai-one.zip","icon":"","version":2,"source":"https://nhentai.net","filename":"nhentai_net.json","bookSourceUrl":"ext_nhentai-net"},{"name":"xbanxia.cc","id":"xbanxia-cc","author":"Thiên Thư Các","description":"Đọc truyện trên trang Xbanxia","type":"novel","locale":"zh-CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xbanxia.zip","icon":"","version":2,"source":"https://www.xbanxia.cc","filename":"xbanxia_cc.json","bookSourceUrl":"ext_xbanxia-cc"},{"name":"wattpad.com","id":"wattpad-com","author":"Thiên Thư Các","description":"Đọc truyện trên trang Wattpad","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad-ver-dich.zip","icon":"","version":2,"source":"https://wattpad.com","filename":"wattpad_com.json","bookSourceUrl":"ext_wattpad-com"},{"name":"truyenhoangdung.xyz","id":"truyenhoangdung-xyz","author":"Thiên Thư Các","description":"Đọc truyện trên trang truyenhoangdung.xyz","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenhoangdung.zip","icon":"","version":2,"source":"https://truyenhoangdung.xyz","filename":"truyenhoangdung_xyz.json","bookSourceUrl":"ext_truyenhoangdung-xyz"},{"name":"medoctruyen.vn","id":"medoctruyen-vn","author":"Thiên Thư Các","description":"Đọc truyện trên Mê Đọc Truyện","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-doc-truyen-1.zip","icon":"","version":2,"source":"https://medoctruyen.vn/","filename":"medoctruyen_vn.json","bookSourceUrl":"ext_medoctruyen-vn"},{"name":"alicesw.com","id":"alicesw-com","author":"Thiên Thư Các","description":"trang truyên :v.","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw-4.zip","icon":"","version":2,"source":"https://www.alicesw.com/","filename":"alicesw_com.json","bookSourceUrl":"ext_alicesw-com"},{"name":"b.faloo.com","id":"b-faloo-com","author":"Thiên Thư Các","description":"BFaloo (飞卢小说)","type":"novel","locale":"zh-CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bfaloo-1.zip","icon":"","version":2,"source":"https://b.faloo.com","filename":"b_faloo_com.json","bookSourceUrl":"ext_b-faloo-com"},{"name":"m.1qxs.com","id":"m-1qxs-com","author":"Thiên Thư Các","description":"Doc truyen tren trang 1QXS","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/17-tieu-thuyet.zip","icon":"","version":2,"source":"https://m.1qxs.com/","filename":"m_1qxs_com.json","bookSourceUrl":"ext_m-1qxs-com"},{"name":"allnovel.org","id":"allnovel-org","author":"Thiên Thư Các","description":"Read novels on AllNovel","type":"novel","locale":"en_US","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/allnovel.zip","icon":"","version":2,"source":"https://allnovel.org","filename":"allnovel_org.json","bookSourceUrl":"ext_allnovel-org"},{"name":"fanmtl.com","id":"fanmtl-com","author":"Thiên Thư Các","description":"Read Fan-Fiction & Web Novels on FanMTL","type":"novel","locale":"en_US","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fanmtl.zip","icon":"","version":2,"source":"https://www.fanmtl.com","filename":"fanmtl_com.json","bookSourceUrl":"ext_fanmtl-com"},{"name":"novelfull.com","id":"novelfull-com","author":"Thiên Thư Các","description":"Read novels on NovelFull","type":"novel","locale":"en_US","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/novelfull.zip","icon":"","version":2,"source":"https://novelfull.com","filename":"novelfull_com.json","bookSourceUrl":"ext_novelfull-com"},{"name":"novelnext.me","id":"novelnext-me","author":"Thiên Thư Các","description":"Read novels on NovelNext","type":"novel","locale":"en_US","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/novelnext.zip","icon":"","version":2,"source":"https://www.novelnext.me","filename":"novelnext_me.json","bookSourceUrl":"ext_novelnext-me"},{"name":"motchillzc.cc","id":"motchillzc-cc","author":"Thiên Thư Các","description":"Xem phim online Vietsub, Thuyết minh trên MotChill","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/motchill-1.zip","icon":"","version":2,"source":"https://motchillzc.cc/","filename":"motchillzc_cc.json","bookSourceUrl":"ext_motchillzc-cc"},{"name":"metruyenchuvn.com","id":"metruyenchuvn-com","author":"Thiên Thư Các","description":"Đọc truyện trên Mê Truyện Chữ","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-truyen-chu-com.zip","icon":"","version":2,"source":"https://metruyenchuvn.com/","filename":"metruyenchuvn_com.json","bookSourceUrl":"ext_metruyenchuvn-com"},{"name":"sitruyencv.com","id":"sitruyencv-com","author":"Thiên Thư Các","description":"Đọc truyện trên SiTruyenCV","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/si-truyen-cv-1.zip","icon":"","version":2,"source":"https://sitruyencv.com/","filename":"sitruyencv_com.json","bookSourceUrl":"ext_sitruyencv-com"},{"name":"truyendich.ai","id":"truyendich-ai","author":"Thiên Thư Các","description":"Doc truyen tai TruyenDich.AI","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyendich-ai-1.zip","icon":"","version":2,"source":"https://truyendich.ai","filename":"truyendich_ai.json","bookSourceUrl":"ext_truyendich-ai"},{"name":"truyenfull.today","id":"truyenfull-today","author":"Thiên Thư Các","description":"Đọc truyện trên trang Truyện Full","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-full-1.zip","icon":"","version":2,"source":"https://truyenfull.today","filename":"truyenfull_today.json","bookSourceUrl":"ext_truyenfull-today"},{"name":"truyenhoan.com","id":"truyenhoan-com","author":"Thiên Thư Các","description":"Doc truyen tren trang Truyen Hoan","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-hoan-2.zip","icon":"","version":2,"source":"https://truyenhoan.com/","filename":"truyenhoan_com.json","bookSourceUrl":"ext_truyenhoan-com"},{"name":"truyennet.org","id":"truyennet-org","author":"Thiên Thư Các","description":"Đọc truyện trên trang Truyện Net","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-net-2.zip","icon":"","version":2,"source":"https://truyennet.org","filename":"truyennet_org.json","bookSourceUrl":"ext_truyennet-org"},{"name":"wattpadvn.net","id":"wattpadvn-net","author":"Thiên Thư Các","description":"Đọc truyện trên Wattpad","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad-3.zip","icon":"","version":2,"source":"https://wattpadvn.net","filename":"wattpadvn_net.json","bookSourceUrl":"ext_wattpadvn-net"},{"name":"xalosach.com","id":"xalosach-com","author":"Thiên Thư Các","description":"Xalosach.com là nền tảng đọc truyện chữ online, truyện dịch hay nhiều thể loại.","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xa-lo-sach.zip","icon":"","version":2,"source":"https://xalosach.com","filename":"xalosach_com.json","bookSourceUrl":"ext_xalosach-com"},{"name":"phimnhua.online","id":"phimnhua-online","author":"Thiên Thư Các","description":"Xem phim tren Phim Nhua - HD Vietsub mien phi.","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/phim-nhua.zip","icon":"","version":2,"source":"https://phimnhua.online","filename":"phimnhua_online.json","bookSourceUrl":"ext_phimnhua-online"},{"name":"storya.click","id":"storya-click","author":"Thiên Thư Các","description":"Storya - Đọc truyện chữ online miễn phí","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/storya-2.zip","icon":"","version":2,"source":"https://storya.click","filename":"storya_click.json","bookSourceUrl":"ext_storya-click"},{"name":"103.82.20.93","id":"103-82-20-93","author":"Thiên Thư Các","description":"Mua token liên hệ https://discord.gg/Z88h4t9U","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sang-tac-viet-pro.zip","icon":"","version":20,"source":"http://103.82.20.93","filename":"103_82_20_93.json","bookSourceUrl":"ext_103-82-20-93"},{"name":"damconuong.mom","id":"damconuong-mom","author":"Thiên Thư Các","description":"Đọc truyện tranh 18+, hentai, manhwa trên Dâm Cô Nương","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dam-co-nuong.zip","icon":"","version":2,"source":"https://damconuong.mom","filename":"damconuong_mom.json","bookSourceUrl":"ext_damconuong-mom"},{"name":"bing.com","id":"bing-com","author":"Thiên Thư Các","description":"Dịch truyện bằng Edge Translate","type":"translate","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/edge-translate.zip","icon":"","version":2,"source":"https://www.bing.com/translator","filename":"bing_com.json","bookSourceUrl":"ext_bing-com"},{"name":"fanyi.baidu.com","id":"fanyi-baidu-com","author":"Thiên Thư Các","description":"Dịch truyện bằng Baidu Translate","type":"translate","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/baidu-translate.zip","icon":"","version":2,"source":"https://fanyi.baidu.com","filename":"fanyi_baidu_com.json","bookSourceUrl":"ext_fanyi-baidu-com"},{"name":"translate.google.com","id":"translate-google-com","author":"Thiên Thư Các","description":"Nghe truyện bằng Google TTS","type":"tts","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/google-tts.zip","icon":"","version":2,"source":"https://translate.google.com","filename":"translate_google_com.json","bookSourceUrl":"ext_translate-google-com"},{"name":"gemini.google.com","id":"gemini-google-com","author":"Thiên Thư Các","description":"Nghe truyện bằng Gemini TTS","type":"tts","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/gemini-tts.zip","icon":"","version":2,"source":"https://gemini.google.com","filename":"gemini_google_com.json","bookSourceUrl":"ext_gemini-google-com"},{"name":"bing.com","id":"bing-com","author":"Thiên Thư Các","description":"Nghe truyện bằng Bing TTS","type":"tts","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bing-tts.zip","icon":"","version":2,"source":"https://www.bing.com/translator","filename":"bing_com.json","bookSourceUrl":"ext_bing-com"},{"name":"ai.zalo.solutions","id":"ai-zalo-solutions","author":"Thiên Thư Các","description":"Nghe truyện bằng Zalo AI TTS","type":"tts","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/zalo-ai-tts.zip","icon":"","version":2,"source":"https://ai.zalo.solutions/docs/api/getting-started","filename":"ai_zalo_solutions.json","bookSourceUrl":"ext_ai-zalo-solutions"},{"name":"tiktok.com","id":"tiktok-com","author":"Thiên Thư Các","description":"Nghe truyện bằng Tiktok TTS","type":"tts","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tiktok-tts.zip","icon":"","version":2,"source":"https://www.tiktok.com","filename":"tiktok_com.json","bookSourceUrl":"ext_tiktok-com"},{"name":"hhtq.hair","id":"hhtq-hair","author":"Thiên Thư Các","description":"Xem phim hoạt hình Trung Quốc trên HHTQ Vietsub","type":"video","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hhtq-vietsub.zip","icon":"","version":2,"source":"https://hhtq.hair","filename":"hhtq_hair.json","bookSourceUrl":"ext_hhtq-hair"},{"name":"otakusic.com","id":"otakusic-com","author":"Thiên Thư Các","description":"Doc truyen tranh tren Otakusic","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/otakusic.zip","icon":"","version":2,"source":"https://otakusic.com","filename":"otakusic_com.json","bookSourceUrl":"ext_otakusic-com"},{"name":"chickenmanga.com","id":"chickenmanga-com","author":"Thiên Thư Các","description":"Doc truyen tranh tren ChickenManga","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/chickenmanga.zip","icon":"","version":2,"source":"https://www.chickenmanga.com","filename":"chickenmanga_com.json","bookSourceUrl":"ext_chickenmanga-com"},{"name":"comicland.org","id":"comicland-org","author":"Thiên Thư Các","description":"Doc truyen tranh tren Comicland","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/comicland.zip","icon":"","version":2,"source":"https://comicland.org","filename":"comicland_org.json","bookSourceUrl":"ext_comicland-org"},{"name":"mangafire.to","id":"mangafire-to","author":"Thiên Thư Các","description":"Doc truyen tranh tren MangaFire","type":"comic","locale":"en_US","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mangafire.zip","icon":"","version":2,"source":"https://mangafire.to","filename":"mangafire_to.json","bookSourceUrl":"ext_mangafire-to"},{"name":"hongtrateam.com","id":"hongtrateam-com","author":"Thiên Thư Các","description":"Doc truyen seg Tra Team","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hong-tra-team.zip","icon":"","version":2,"source":"https://hongtrateam.com","filename":"hongtrateam_com.json","bookSourceUrl":"ext_hongtrateam-com"},{"name":"stellarstory.net","id":"stellarstory-net","author":"Thiên Thư Các","description":"Doc truyen chu tren Stellar Stories","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/stellar-stories.zip","icon":"","version":2,"source":"https://stellarstory.net","filename":"stellarstory_net.json","bookSourceUrl":"ext_stellarstory-net"},{"name":"truyenyy.co","id":"truyenyy-co","author":"Thiên Thư Các","description":"Doc truyen chu tren TruyenYY","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenyy.zip","icon":"","version":2,"source":"https://truyenyy.co","filename":"truyenyy_co.json","bookSourceUrl":"ext_truyenyy-co"},{"name":"wikidichvn.com","id":"wikidichvn-com","author":"Thiên Thư Các","description":"Doc truyen chu tren WikiDich","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wikidich.zip","icon":"","version":2,"source":"https://wikidichvn.com","filename":"wikidichvn_com.json","bookSourceUrl":"ext_wikidichvn-com"},{"name":"80qishu.com","id":"80qishu-com","author":"Thiên Thư Các","description":"????????????????????? TXT ??????","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/80qishu.zip","icon":"","version":2,"source":"https://www.80qishu.com/","filename":"80qishu_com.json","bookSourceUrl":"ext_80qishu-com"},{"name":"loppytoonn.com","id":"loppytoonn-com","author":"Thiên Thư Các","description":"Doc truyen tren LoppyToon","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/loppytoon-1.zip","icon":"","version":2,"source":"https://loppytoonn.com","filename":"loppytoonn_com.json","bookSourceUrl":"ext_loppytoonn-com"},{"name":"mimimoe.moe","id":"mimimoe-moe","author":"Thiên Thư Các","description":"Doc truyen seg tren MimiMoe","type":"comic","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mimimoe-1.zip","icon":"","version":2,"source":"https://mimimoe.moe","filename":"mimimoe_moe.json","bookSourceUrl":"ext_mimimoe-moe"},{"name":"m.chuangshi.qq.com","id":"m-chuangshi-qq-com","author":"Thiên Thư Các","description":"Doc truyen chu tren Chuangshi QQ","type":"novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/chuangshi-qq.zip","icon":"","version":2,"source":"https://m.chuangshi.qq.com","filename":"m_chuangshi_qq_com.json","bookSourceUrl":"ext_m-chuangshi-qq-com"},{"name":"truyennet.org","id":"truyennet-org","author":"Thiên Thư Các","description":"Đọc truyện chữ trên TruyenNet","type":"novel","locale":"vi_VN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyennet.zip","icon":"","version":2,"source":"https://truyennet.org","filename":"truyennet_org.json","bookSourceUrl":"ext_truyennet-org"},{"name":"ixunshu.net","id":"ixunshu-net","author":"Thiên Thư Các","description":"Đọc truyện trên trang ixunshu.net","type":"chinese_novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ixunshu.zip","icon":"","version":2,"source":"https://ixunshu.net","filename":"ixunshu_net.json","bookSourceUrl":"ext_ixunshu-net"},{"name":"bqg995.xyz","id":"bqg995-xyz","author":"Thiên Thư Các","description":"Đọc truyện trên trang 07br","type":"chinese_novel","locale":"zh_CN","path":"https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/07br.zip","icon":"","version":2,"source":"https://www.bqg995.xyz","filename":"bqg995_xyz.json","bookSourceUrl":"ext_bqg995-xyz"}];
+        let currentTab = 'all';
+        let searchQuery = '';
+        const selectedIds = new Set();
+
+        function getSlug(name) {
+            return name.toLowerCase()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .replace(/đ/g, "d")
+                .replace(/[^a-z0-9]/g, "-")
+                .replace(/-+/g, "-")
+                .replace(/(^-|-$)/g, "");
+        }
+
+        function getIconChar(name, type) {
+            if (type === 'comic' || type === 'manga' || type === 'image') return '🎨';
+            if (type === 'video') return '🎬';
+            if (type === 'tts') return '🗣️';
+            return '📖';
+        }
+
+        function renderList() {
+            const grid = document.getElementById('grid');
+            grid.innerHTML = '';
+
+            let filtered = sourcesData.filter(item => {
+                const matchesSearch = item.name.toLowerCase().includes(searchQuery) || 
+                                     item.description.toLowerCase().includes(searchQuery) ||
+                                     item.source.toLowerCase().includes(searchQuery);
+                
+                let matchesTab = true;
+                if (currentTab === 'novel') {
+                    matchesTab = item.type === 'novel';
+                } else if (currentTab === 'comic') {
+                    matchesTab = item.type === 'comic' || item.type === 'manga' || item.type === 'image';
+                } else if (currentTab === 'video') {
+                    matchesTab = item.type === 'video';
+                } else if (currentTab === 'tts') {
+                    matchesTab = item.type === 'tts';
                 }
+
+                return matchesSearch && matchesTab;
+            });
+
+            // Update count badge
+            document.getElementById('count-badge').textContent = `Hiển thị: ${filtered.length}/${sourcesData.length}`;
+
+            // Check if select-all should be checked
+            const selectAllCheckbox = document.getElementById('select-all');
+            if (filtered.length > 0) {
+                const allFilteredSelected = filtered.every(item => selectedIds.has(item.name));
+                selectAllCheckbox.checked = allFilteredSelected;
+            } else {
+                selectAllCheckbox.checked = false;
+            }
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 3rem; color: var(--text-secondary); background: var(--card-bg); border-radius: 20px; border: 1px dashed var(--border-color);">Không tìm thấy tài nguyên nào phù hợp.</div>`;
+                return;
+            }
+
+            filtered.forEach(item => {
+                const isSelected = selectedIds.has(item.name);
+                const card = document.createElement('div');
+                card.className = `card${isSelected ? ' selected' : ''}`;
+                card.id = `card-${getSlug(item.name)}`;
+                card.onclick = () => toggleSelectCard(item.name);
+
+                const typeLabel = item.type === 'novel' ? 'Tiểu thuyết' : 
+                                  (item.type === 'comic' || item.type === 'manga' || item.type === 'image' ? 'Truyện tranh' : 
+                                  (item.type === 'video' ? 'Video/Phim' : 
+                                  (item.type === 'tts' ? 'Giọng đọc' : item.type)));
+                
+                const typeBadgeClass = item.type === 'novel' ? 'badge-novel' : 
+                                       (item.type === 'comic' || item.type === 'manga' || item.type === 'image' ? 'badge-comic' : 
+                                       (item.type === 'video' ? 'badge-video' : 
+                                       (item.type === 'tts' ? 'badge-tts' : 'badge-lang')));
+
+                const rawSourceUrl = item.source || 'N/A';
+                const comments = item.description || 'Không có mô tả.';
+
+                const extImportUrl = item.path ? `legado://import/extension?src=${encodeURIComponent(item.path)}` : '';
+                const bookSourceUrl = `https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/sources/${item.filename}`;
+                const srcImportUrl = `legado://import/importonline?src=&{encodeURIComponent(bookSourceUrl)}`;
+
+                let iconContent = `<span>${getIconChar(item.name, item.type)}</span>`;
+                if (item.icon) {
+                    iconContent = `<img src="${item.icon}" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                                   <span style="display:none;">${getIconChar(item.name, item.type)}</span>`;
+                }
+
+                card.innerHTML = `
+                    <div class="card-header-top">
+                        <div class="card-title-group">
+                            <input type="checkbox" class="card-checkbox" ${isSelected ? 'checked' : ''} onclick="event.stopPropagation(); toggleSelectCard('${item.name.replace(/'/g, "\\'")}')">
+                            <div class="card-icon">
+                                ${iconContent}
+                            </div>
+                            <div class="card-details">
+                                <h3>${escapeHtml(item.name)}</h3>
+                                <div class="author">Tác giả: ${escapeHtml(item.author)}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="badges">
+                        <span class="badge ${typeBadgeClass}">${typeLabel}</span>
+                        <span class="badge badge-lang">${item.locale.toUpperCase()}</span>
+                        <span class="badge badge-lang">v${item.version}</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="comment" title="${escapeHtml(comments)}">${escapeHtml(comments)}</p>
+                        <div class="url-box" title="Click để sao chép liên kết nguồn gốc" onclick="event.stopPropagation(); copyLink('${rawSourceUrl.replace(/'/g, "\\'")}')">
+                            <span>${escapeHtml(rawSourceUrl)}</span>
+                        </div>
+                    </div>
+                    <div class="card-buttons">
+                        <a href="${srcImportUrl}" class="btn-card btn-install-source" onclick="event.stopPropagation();" title="Nhấn để cài đặt Nguồn Sách vào ứng dụng Legado">Cài nguồn</a>
+                        ${item.path ? `<a href="${extImportUrl}" class="btn-card btn-install-extension" onclick="event.stopPropagation();" title="Nhấn để cài đặt Tiện Ích JS vào ứng dụng">Cài tiện ích</a>` : `<span class="btn-card" style="opacity:0.3; background:rgba(255,255,255,0.02); color:var(--text-secondary); cursor:not-allowed;">Không zip</span>`}
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+
+            updateBulkButtonState();
+        }
+
+        function toggleSelectCard(name) {
+            if (selectedIds.has(name)) {
+                selectedIds.delete(name);
+            } else {
+                selectedIds.add(name);
+            }
+            renderList();
+        }
+
+        function handleSelectAllChange(checked) {
+            const filtered = getFilteredData();
+            if (checked) {
+                filtered.forEach(item => selectedIds.add(item.name));
+            } else {
+                filtered.forEach(item => selectedIds.delete(item.name));
+            }
+            renderList();
+        }
+
+        function toggleSelectAll() {
+            const checkbox = document.getElementById('select-all');
+            checkbox.checked = !checkbox.checked;
+            handleSelectAllChange(checkbox.checked);
+        }
+
+        function getFilteredData() {
+            return sourcesData.filter(item => {
+                const matchesSearch = item.name.toLowerCase().includes(searchQuery) || 
+                                     item.description.toLowerCase().includes(searchQuery) ||
+                                     item.source.toLowerCase().includes(searchQuery);
+                
+                let matchesTab = true;
+                if (currentTab === 'novel') {
+                    matchesTab = item.type === 'novel';
+                } else if (currentTab === 'comic') {
+                    matchesTab = item.type === 'comic' || item.type === 'manga' || item.type === 'image';
+                } else if (currentTab === 'video') {
+                    matchesTab = item.type === 'video';
+                } else if (currentTab === 'tts') {
+                    matchesTab = item.type === 'tts';
+                }
+
+                return matchesSearch && matchesTab;
             });
         }
+
+        function updateBulkButtonState() {
+            const btn = document.getElementById('btn-install-selected');
+            const count = selectedIds.size;
+            btn.innerHTML = `<span>📥</span> Cài đặt đã chọn (${count})`;
+            btn.disabled = count === 0;
+        }
+
+        function installSelectedSources() {
+            if (selectedIds.size === 0) return;
+            
+            // Build list of selected book sources
+            const selectedSources = [];
+            sourcesData.forEach(item => {
+                if (selectedIds.has(item.name)) {
+                    // Create mock book source details
+                    const isComic = item.type === 'comic' || item.type === 'manga' || item.type === 'image';
+                    selectedSources.push({
+                        bookSourceComment: `Tác giả: ${item.author}. ${item.description}`.trim(),
+                        bookSourceGroup: "Extension",
+                        bookSourceName: item.name,
+                        bookSourceType: isComic ? 2 : 0,
+                        bookSourceUrl: `ext_${item.id}`,
+                        customButton: false,
+                        customOrder: 0,
+                        enabled: true,
+                        enabledCookieJar: true,
+                        enabledExplore: true,
+                        eventListener: false,
+                        lastUpdateTime: Date.now(),
+                        respondTime: 180000,
+                        ruleBookInfo: {},
+                        ruleContent: {},
+                        ruleExplore: {},
+                        ruleSearch: {},
+                        ruleToc: {},
+                        searchUrl: "",
+                        weight: 0
+                    });
+                }
+            });
+
+            // Convert to JSON and stringify
+            const jsonStr = JSON.stringify(selectedSources);
+            
+            // Generate deep link using the raw JSON string
+            const deepLink = `legado://import/importonline?src=${encodeURIComponent(jsonStr)}`;
+            
+            // Open the deep link
+            window.location.href = deepLink;
+        }
+
+        function setTab(tab, element) {
+            currentTab = tab;
+            
+            // Update active state in tabs UI
+            const tabButtons = document.querySelectorAll('#type-tabs .tab-btn');
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            element.classList.add('active');
+
+            // Update title
+            const titles = {
+                all: 'Tất cả tài nguyên',
+                novel: 'Nguồn Tiểu Thuyết',
+                comic: 'Nguồn Truyện Tranh',
+                video: 'Nguồn Video / Phim',
+                tts: 'Giọng đọc văn bản TTS'
+            };
+            document.getElementById('grid-title').textContent = titles[tab] || 'Tài nguyên';
+
+            renderList();
+        }
+
+        function filterList() {
+            searchQuery = document.getElementById('search').value.toLowerCase().trim();
+            renderList();
+        }
+
+        function copyLink(text) {
+            if (!text || text === 'N/A') return;
+            navigator.clipboard.writeText(text).then(() => {
+                const toast = document.getElementById('toast');
+                toast.classList.add('show');
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                }, 2000);
+            });
+        }
+
+        function escapeHtml(text) {
+            if (!text) return "";
+            return text
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        // Initial render
+        renderList();
     </script>
 </body>
 </html>

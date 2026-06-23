@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Xem phim BL Vietsub từ BLVietsub. Nguồn phát ưu tiên Dailymotion native HLS.",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "blvietsub.top",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_blvietsub-top",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597062,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}

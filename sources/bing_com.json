@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Nghe truyện bằng Bing TTS",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "bing.com",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_bing-com",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597122,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}

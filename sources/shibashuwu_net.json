@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. ShiBaShuWu - Truyện chữ Trung Quốc 18+",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "shibashuwu.net",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_shibashuwu-net",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597107,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}

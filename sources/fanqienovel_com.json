@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Nguồn truyện chữ Trung Quốc từ Fanqie Novel (sói xám to version)- chỉ đọc không tải (Ngoại trừ VIP/SVIP).\n\n⚠️ Giới hạn đọc: 3 chương/ngày dành cho khách ẩn danh.\n\n Cách để đọc tiếp:\n➊ Mở Trình duyệt ngay trong app vBook.\n➋ Truy cập: https://v2.czyl.cf/login\n➌ Đăng nhập tài khoản Sói Xám.\n➍ Quay lại và Làm mới chương.\n\n🔗 Hướng dẫn: https://discord.com/channels/607084896288243731/1476830093996327097",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "fanqienovel.com",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_fanqienovel-com",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597098,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}

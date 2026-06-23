@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Xem phim hoạt hình Trung Quốc trên HHTQ Vietsub",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "hhtq.hair",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_hhtq-hair",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597123,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}

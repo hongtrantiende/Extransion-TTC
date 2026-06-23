@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Xem video trên Dailymotion. Đăng nhập trong trình duyệt tích hợp nếu không xem được.",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "dailymotion.com",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_dailymotion-com",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597063,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}

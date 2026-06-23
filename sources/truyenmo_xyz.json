@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Đọc truyện từ Truyện Mơ \n\nNgày xưa ngựa xe đi rất chậm\nThư gửi cũng rất chậm\n Cả đời chỉ đủ yêu một người",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "truyenmo.xyz",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_truyenmo-xyz",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597097,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}

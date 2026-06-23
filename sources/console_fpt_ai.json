@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Nghe truyện bằng FPT AI Text-to-Speech. Hỗ trợ 7 giọng Bắc/Trung/Nam chất lượng cao.\n\nMIỄN PHÍ 100.000 ký tự/tháng cho mỗi project. Một tài khoản có thể tạo nhiều project.\n\nHƯỚNG DẪN: Vào console.fpt.ai → Tạo project → Lấy API Key → Dán vào cài đặt extension.",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "console.fpt.ai",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_console-fpt-ai",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597101,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}

@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Akaytruyen.com là web đọc truyện chính chủ duy nhất của tác giả AkayHau.",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "akaytruyen.com",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_akaytruyen-com",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597083,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}

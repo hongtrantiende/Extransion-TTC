@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Xem phim Online miễn phí chất lượng cao tại OPhim. Hỗ trợ đầy đủ Vietsub/Thuyết Minh qua API chính thức.",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "ophim17.cc",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_ophim17-cc",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597099,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}

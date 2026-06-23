@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Dưa Leo Truyện Full - Đọc truyện chữ online",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "dualeotruyenfull.net",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_dualeotruyenfull-net",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597105,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}

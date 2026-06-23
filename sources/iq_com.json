@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. iQIYI bản quốc tế. Đã hỗ trợ tự cắt ghép phụ đề cho khớp video. Tự điều chỉnh độ phân giải bằng true/false bên dưới cài đặt ext. Đăng nhập trong trình duyệt tích hợp của VBook beta nếu video cần VIP.",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "iq.com",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_iq-com",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597062,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}

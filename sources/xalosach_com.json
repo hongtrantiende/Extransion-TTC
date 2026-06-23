@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Xalosach.com là nền tảng đọc truyện chữ online, truyện dịch hay nhiều thể loại.",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "xalosach.com",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_xalosach-com",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597119,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}

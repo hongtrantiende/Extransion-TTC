@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Đọc QQ阅读. Chap miễn phí dùng cấu hình tự tạo; liên hệ để nhận bản VIP.",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "book.qq.com",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_book-qq-com",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782233597060,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}
