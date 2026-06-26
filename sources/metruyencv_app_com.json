@@ -1,9 +1,9 @@
 {
-  "bookSourceComment": "Tác giả: Thiên Thư Các. Đọc truyện trên trang TruyệnCV",
+  "bookSourceComment": "Tác giả: vBook. Đọc truyện trên trang Mê Truyện CV (APP)",
   "bookSourceGroup": "Extension",
-  "bookSourceName": "metruyencv.com (API)",
+  "bookSourceName": "metruyencv.com (APP)",
   "bookSourceType": 0,
-  "bookSourceUrl": "ext_metruyencv-com",
+  "bookSourceUrl": "ext_metruyencv-com-app",
   "customButton": false,
   "customOrder": 0,
   "enabled": true,

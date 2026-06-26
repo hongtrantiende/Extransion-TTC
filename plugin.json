@@ -85,13 +85,13 @@
       "locale": "vi_VN"
     },
     {
-      "name": "metruyencv.com",
-      "author": "vBook",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyencv.zip",
-      "version": 51,
+      "name": "metruyencv.com (API)",
+      "author": "Thiên Thư Các",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyencv-api.zip",
+      "version": 2,
       "source": "https://metruyencv.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/metruyencv.png",
-      "description": "Đọc truyện trên trang Mê Truyện CV",
+      "description": "Đọc truyện trên trang TruyệnCV (API)",
       "type": "novel",
       "locale": "vi_VN"
     },
@@ -3141,6 +3141,17 @@
       "description": "Đọc truyện trên trang 07br",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "metruyencv.com (APP)",
+      "author": "vBook",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyencv-app.zip",
+      "version": 51,
+      "source": "https://metruyencv.com",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/metruyencv.png",
+      "description": "Đọc truyện trên trang Mê Truyện CV",
+      "type": "novel",
+      "locale": "vi_VN"
     }
   ]
 }
