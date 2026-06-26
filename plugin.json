@@ -3141,6 +3141,17 @@
       "description": "Đọc truyện trên trang 07br",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "metruyenchucv.com",
+      "author": "vBook",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/metruyenchucv.zip",
+      "version": 51,
+      "source": "https://metruyenchucv.com",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/metruyenchucv.png",
+      "description": "Đọc truyện trên trang Mê Truyện CV",
+      "type": "novel",
+      "locale": "vi_VN"
     }
   ]
 }
