@@ -954,17 +954,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "bananacoo.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/tvkh.zip",
-      "version": 2,
-      "source": "https:\/\/bananacoo.com\/",
-      "icon": "",
-      "description": "Đọc truyện tranh trên TVKH\/Bananacoo.",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "dualeotruyenbs.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/dua-leo-truyen.zip",
