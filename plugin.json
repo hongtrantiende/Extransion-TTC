@@ -1647,17 +1647,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "umetruyenz.org",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/u-me-truyen-1.zip",
-      "version": 2,
-      "source": "https:\/\/umetruyenz.org\/",
-      "icon": "",
-      "description": "Đọc truyện trên trang U Mê Truyện",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "truyennet.org",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/truyen-net-1.zip",
