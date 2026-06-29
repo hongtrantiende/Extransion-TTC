@@ -866,17 +866,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "twitch.tv",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/twitch.zip",
-      "version": 2,
-      "source": "https:\/\/www.twitch.tv\/",
-      "icon": "",
-      "description": "Xem live stream và VOD Twitch.",
-      "type": "video",
-      "locale": "vi_VN"
-    },
-    {
       "name": "bilibili.tv",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/bilibili.zip",
