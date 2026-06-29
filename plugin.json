@@ -789,17 +789,6 @@
       "locale": "global"
     },
     {
-      "name": "rophimz.uk",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/showbox.zip",
-      "version": 2,
-      "source": "https:\/\/rophimz.uk",
-      "icon": "",
-      "description": "Xem phim trên Showbox.",
-      "type": "video",
-      "locale": "vi_VN"
-    },
-    {
       "name": "zhihu.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/app-zhihu-hoi-dap.zip",
