@@ -448,17 +448,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "mangadistrict.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/mangadistrict.zip",
-      "version": 2,
-      "source": "https:\/\/mangadistrict.com\/",
-      "icon": "",
-      "description": "Đọc truyện trên trang men18",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "nhatruyen.site",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/nhatruyen.zip",
