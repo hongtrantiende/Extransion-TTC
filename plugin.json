@@ -1460,17 +1460,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "hentaivnx.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/hentaivn-1.zip",
-      "version": 2,
-      "source": "https:\/\/www.hentaivnx.com",
-      "icon": "",
-      "description": "Đọc truyện trên trang hentaivnx.com",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "vinahentai.bond",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/vinahentai-1.zip",
