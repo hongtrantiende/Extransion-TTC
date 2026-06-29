@@ -2076,17 +2076,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "console.fpt.ai",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/fpt-ai-tts.zip",
-      "version": 2,
-      "source": "https:\/\/console.fpt.ai\/",
-      "icon": "",
-      "description": "Nghe truyện bằng FPT AI Text-to-Speech. Hỗ trợ 7 giọng Bắc\/Trung\/Nam chất lượng cao.\n\nMIỄN PHÍ 100.000 ký tự\/tháng cho mỗi project. Một tài khoản có thể tạo nhiều project.\n\nHƯỚNG DẪN: Vào console.fpt.ai → Tạo project → Lấy API Key → Dán vào cài đặt extension.",
-      "type": "tts",
-      "locale": "vi_VN"
-    },
-    {
       "name": "viettelai.vn",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/viettel-ai-tts.zip",
