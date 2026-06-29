@@ -118,17 +118,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "manhuagui.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/manhua-gui.zip",
-      "version": 2,
-      "source": "https:\/\/www.manhuagui.com",
-      "icon": "",
-      "description": "Đọc truyện trên trang manhuagui.com",
-      "type": "comic",
-      "locale": "zh_CN"
-    },
-    {
       "name": "doujins.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/doujins.zip",
