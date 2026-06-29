@@ -1680,17 +1680,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "watchhentai.net",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/watchhentai-net.zip",
-      "version": 2,
-      "source": "https:\/\/watchhentai.net",
-      "icon": "",
-      "description": "Watch videos on watchhentai.net",
-      "type": "video",
-      "locale": "en_US"
-    },
-    {
       "name": "hhtqhay.vip",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/hhtqhay-vip.zip",
