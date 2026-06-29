@@ -382,17 +382,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "hsex.tv",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/tieu-bach-tv.zip",
-      "version": 2,
-      "source": "https:\/\/hsex.tv",
-      "icon": "",
-      "description": "Tiểu Bạch TV video extension",
-      "type": "video",
-      "locale": "zh_CN"
-    },
-    {
       "name": "tuishujun.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/review-tuishujun.zip",
