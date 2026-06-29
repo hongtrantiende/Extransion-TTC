@@ -1504,17 +1504,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "lxmanga.blog",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/lxmanga.zip",
-      "version": 2,
-      "source": "https:\/\/lxmanga.blog\/",
-      "icon": "",
-      "description": "LXManga là trang web đọc truyện online.",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "wfxs.tw",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/wfxs-tw.zip",
