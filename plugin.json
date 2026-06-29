@@ -965,28 +965,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "navyteamz.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/navy-team-comic.zip",
-      "version": 2,
-      "source": "https:\/\/navyteamz.com\/",
-      "icon": "",
-      "description": "Đọc truyện tranh trên Navy Team",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "navyteamz.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/navy-team-novel.zip",
-      "version": 2,
-      "source": "https:\/\/navyteamz.com\/",
-      "icon": "",
-      "description": "Đọc tiểu thuyết và truyện chữ trên Navy Team",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
       "name": "roadsteam.net",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/roads-team.zip",
