@@ -1988,17 +1988,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "kenhtruyenma.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/kenh-truyen-ma.zip",
-      "version": 2,
-      "source": "https:\/\/kenhtruyenma.com",
-      "icon": "",
-      "description": "Nghe truyện ma, truyện audio, sách nói online miễn phí. (Chưa hỗ trợ tạm dừng và tua nhanh)",
-      "type": "video",
-      "locale": "vi_VN"
-    },
-    {
       "name": "fanqienovel.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/ca-chua-soi-xam.zip",
