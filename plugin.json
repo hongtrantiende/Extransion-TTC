@@ -393,17 +393,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "daomeoden.net",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/daomeoden.zip",
-      "version": 2,
-      "source": "https:\/\/daomeoden.net\/",
-      "icon": "",
-      "description": "Đọc truyện trên trang men18",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "doctruyen14.biz",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/doc-truyen-14.zip",
