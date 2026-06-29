@@ -569,17 +569,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "cartoon18.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/cartoon18.zip",
-      "version": 2,
-      "source": "https:\/\/www.cartoon18.com\/",
-      "icon": "",
-      "description": "Đọc truyện trên trang cartoon18",
-      "type": "comic",
-      "locale": "zh_CN"
-    },
-    {
       "name": "book18.org",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/book18.zip",
