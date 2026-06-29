@@ -2406,17 +2406,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "ai.zalo.solutions",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/zalo-ai-tts.zip",
-      "version": 2,
-      "source": "https:\/\/ai.zalo.solutions\/docs\/api\/getting-started",
-      "icon": "",
-      "description": "Nghe truyện bằng Zalo AI TTS",
-      "type": "tts",
-      "locale": "vi_VN"
-    },
-    {
       "name": "hhtq.hair",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/hhtq-vietsub.zip",
