@@ -833,17 +833,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "tiktok.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/tiktok.zip",
-      "version": 2,
-      "source": "https:\/\/www.tiktok.com\/",
-      "icon": "",
-      "description": "Xem TikTok bằng state app\/web. Hỗ trợ xem link từ app.",
-      "type": "video",
-      "locale": "vi_VN"
-    },
-    {
       "name": "gaumeoteam.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/gau-meo-team.zip",
@@ -2853,17 +2842,6 @@
       "source": "https:\/\/ai.zalo.solutions\/docs\/api\/getting-started",
       "icon": "",
       "description": "Nghe truyện bằng Zalo AI TTS",
-      "type": "tts",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "tiktok.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/tiktok-tts.zip",
-      "version": 2,
-      "source": "https:\/\/www.tiktok.com",
-      "icon": "",
-      "description": "Nghe truyện bằng Tiktok TTS",
       "type": "tts",
       "locale": "vi_VN"
     },
