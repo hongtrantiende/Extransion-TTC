@@ -1768,17 +1768,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "viettelai.vn",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/viettel-ai-tts.zip",
-      "version": 2,
-      "source": "https:\/\/viettelai.vn\/dashboard\/token",
-      "icon": "",
-      "description": "Nghe truyện bằng Viettel AI Text-to-Speech. 16 giọng Bắc\/Trung\/Nam đa dạng.\n\nMIỄN PHÍ 50.000 ký tự tháng đầu, gia hạn 20K\/50K ký tự mỗi tháng.\n\nHƯỚNG DẪN: Vào viettelai.vn → Đăng nhập → Dashboard\/Token → Dán vào cài đặt extension.",
-      "type": "tts",
-      "locale": "vi_VN"
-    },
-    {
       "name": "docln.sbs",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/hako.zip",
