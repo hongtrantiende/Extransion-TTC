@@ -41,17 +41,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "khotruyen.ac",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/truy-n-vn-kho-truyen.zip",
-      "version": 2,
-      "source": "https:\/\/khotruyen.ac",
-      "icon": "",
-      "description": "Đọc truyện trên trang Truyện VN\/ Khotruyen.ac",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "wattpad.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/wattpad.zip",
