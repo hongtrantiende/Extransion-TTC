@@ -2021,17 +2021,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "phim.nguonc.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/nguonc.zip",
-      "version": 2,
-      "source": "https:\/\/phim.nguonc.com",
-      "icon": "",
-      "description": "Xem phim từ NguonC",
-      "type": "video",
-      "locale": "vi_VN"
-    },
-    {
       "name": "animevsub.app",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/animevsub.zip",
