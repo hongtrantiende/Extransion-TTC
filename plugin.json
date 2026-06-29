@@ -888,17 +888,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "free-reels.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/freereels.zip",
-      "version": 2,
-      "source": "https:\/\/free-reels.com",
-      "icon": "",
-      "description": "Xem video ngắn từ FreeReels.",
-      "type": "video",
-      "locale": "vi_VN"
-    },
-    {
       "name": "iq.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/iqiyi.zip",
