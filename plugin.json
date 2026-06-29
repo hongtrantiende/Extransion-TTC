@@ -2747,17 +2747,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "fanyi.baidu.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/baidu-translate.zip",
-      "version": 2,
-      "source": "https:\/\/fanyi.baidu.com",
-      "icon": "",
-      "description": "Dịch truyện bằng Baidu Translate",
-      "type": "translate",
-      "locale": "vi_VN"
-    },
-    {
       "name": "translate.google.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/google-tts.zip",
