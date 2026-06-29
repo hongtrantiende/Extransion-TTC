@@ -2252,17 +2252,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "loppytoon.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/loppytoon-18.zip",
-      "version": 2,
-      "source": "https:\/\/loppytoon.com",
-      "icon": "",
-      "description": "LoppyToon - Truyện tranh & tiểu thuyết 18+",
-      "type": "novel,comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "sayhentai.cx",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/sayhentai-18.zip",
