@@ -2791,17 +2791,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "loppytoonn.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/loppytoon-1.zip",
-      "version": 2,
-      "source": "https:\/\/loppytoonn.com",
-      "icon": "",
-      "description": "Doc truyen tren LoppyToon",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "mimimoe.moe",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/mimimoe-1.zip",
