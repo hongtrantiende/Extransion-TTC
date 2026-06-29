@@ -866,17 +866,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "youtube.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/youtube.zip",
-      "version": 2,
-      "source": "https:\/\/www.youtube.com\/",
-      "icon": "",
-      "description": "Xem video\/live\/playlist trên YouTube. Đã hỗ trợ video kids\/multi. Audio\/PĐ ưu tiên vi.",
-      "type": "video",
-      "locale": "vi_VN"
-    },
-    {
       "name": "destinteam.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/destin-team.zip",
