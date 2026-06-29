@@ -910,17 +910,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "dailymotion.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/dailymotion.zip",
-      "version": 2,
-      "source": "https:\/\/www.dailymotion.com\/",
-      "icon": "",
-      "description": "Xem video trên Dailymotion. Đăng nhập trong trình duyệt tích hợp nếu không xem được. ",
-      "type": "video",
-      "locale": "vi_VN"
-    },
-    {
       "name": "bilibili.tv",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/bilibili.zip",
