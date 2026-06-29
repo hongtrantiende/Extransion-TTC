@@ -2010,17 +2010,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "phimfun.net",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/phimfun.zip",
-      "version": 2,
-      "source": "https:\/\/phimfun.net",
-      "icon": "",
-      "description": "Xem phim trên PhimFun",
-      "type": "video",
-      "locale": "vi_VN"
-    },
-    {
       "name": "envasion.net",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/motchill.zip",
