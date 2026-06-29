@@ -547,17 +547,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "danbooru.donmai.us",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/danbooru.zip",
-      "version": 2,
-      "source": "https:\/\/danbooru.donmai.us",
-      "icon": "",
-      "description": "Đọc truyện trên trang Danbooru",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "ixdzs8.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/ixdzs8.zip",
