@@ -2868,17 +2868,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "bing.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/edge-translate.zip",
-      "version": 2,
-      "source": "https:\/\/www.bing.com\/translator",
-      "icon": "",
-      "description": "Dịch truyện bằng Edge Translate",
-      "type": "translate",
-      "locale": "vi_VN"
-    },
-    {
       "name": "fanyi.baidu.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/baidu-translate.zip",
