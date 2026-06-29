@@ -1493,17 +1493,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "aistudio.google.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/gemini-baidu-translate-change-model-v2-0.zip",
-      "version": 2,
-      "source": "https:\/\/aistudio.google.com\/apikey",
-      "icon": "",
-      "description": "Dịch văn bản bằng Google Gemini API với nhiều key, prompt, tùy chỉnh theo thể loại và xử lý lỗi an toàn thông minh. DONATE CHO ADMIN VBOOK NHIỀU LÊN ĐỂ VỪA CÓ TÊN ĐẸP, ADMIN LẠI CÓ THÊM ĐỘNG LỰC HOÀN THIỆN APP",
-      "type": "translate",
-      "locale": "vi_VN"
-    },
-    {
       "name": "alicesw.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/alicesw-3.zip",
