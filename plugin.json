@@ -2351,17 +2351,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "github.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/meo-translate.zip",
-      "version": 2,
-      "source": "https:\/\/github.com\/hienpro00123\/vbook_MeoU",
-      "icon": "",
-      "description": "Dịch truyện chữ Trung bằng từ điển Vietphrase của Meo",
-      "type": "translate",
-      "locale": "vi_VN"
-    },
-    {
       "name": "sitruyencv.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/si-truyen-cv.zip",
