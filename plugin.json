@@ -2714,17 +2714,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "mangafire.to",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/mangafire.zip",
-      "version": 2,
-      "source": "https:\/\/mangafire.to",
-      "icon": "",
-      "description": "Doc truyen tranh tren MangaFire",
-      "type": "comic",
-      "locale": "en_US"
-    },
-    {
       "name": "hongtrateam.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/hong-tra-team.zip",
