@@ -2901,17 +2901,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "gemini.google.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/gemini-tts.zip",
-      "version": 2,
-      "source": "https:\/\/gemini.google.com",
-      "icon": "",
-      "description": "Nghe truyện bằng Gemini TTS",
-      "type": "tts",
-      "locale": "vi_VN"
-    },
-    {
       "name": "bing.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/bing-tts.zip",
