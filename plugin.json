@@ -811,17 +811,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "home.hitv.vip",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/hitv.zip",
-      "version": 2,
-      "source": "https:\/\/home.hitv.vip\/vi-vn\/",
-      "icon": "",
-      "description": "Xem phim từ HiTV.",
-      "type": "video",
-      "locale": "vi_VN"
-    },
-    {
       "name": "youku.tv",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/youku.zip",
