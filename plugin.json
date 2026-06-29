@@ -2747,17 +2747,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "bing.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/bing-tts.zip",
-      "version": 2,
-      "source": "https:\/\/www.bing.com\/translator",
-      "icon": "",
-      "description": "Nghe truyện bằng Bing TTS",
-      "type": "tts",
-      "locale": "vi_VN"
-    },
-    {
       "name": "ai.zalo.solutions",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/zalo-ai-tts.zip",
