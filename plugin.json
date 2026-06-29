@@ -723,17 +723,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "truyenqqko.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/truyen-qq-1.zip",
-      "version": 2,
-      "source": "https:\/\/truyenqqko.com",
-      "icon": "",
-      "description": "Đọc truyện trên trang Truyện QQ (forked from vBook)",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "wnacg.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/wnacg.zip",
@@ -1709,17 +1698,6 @@
       "source": "https:\/\/bestgirlsexy.com",
       "icon": "",
       "description": "Xem ảnh trên trang Best Girl Sexy",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "truyenqqko.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/truyen-qq-2.zip",
-      "version": 2,
-      "source": "https:\/\/truyenqqko.com",
-      "icon": "",
-      "description": "Đọc truyện trên trang Truyện QQ",
       "type": "comic",
       "locale": "vi_VN"
     },
