@@ -382,17 +382,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "chillaudio.org",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/chillaudio-tts.zip",
-      "version": 2,
-      "source": "https:\/\/chillaudio.org",
-      "icon": "",
-      "description": "Nghe truyen bang 4 giong TTS Viet cua ChillAudio\/CapCut SAMI",
-      "type": "tts",
-      "locale": "vi_VN"
-    },
-    {
       "name": "doctruyen14.biz",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/doc-truyen-14.zip",
