@@ -855,17 +855,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "destinteam.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/destin-team.zip",
-      "version": 2,
-      "source": "https:\/\/destinteam.com\/",
-      "icon": "",
-      "description": "Đọc truyện tranh trên Destin Team.",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "wattpad.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/wattpad-1.zip",
