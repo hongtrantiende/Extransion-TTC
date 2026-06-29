@@ -866,17 +866,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "jellycomics.xyz",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/jelly-comics.zip",
-      "version": 2,
-      "source": "https:\/\/jellycomics.xyz\/",
-      "icon": "",
-      "description": "Đọc truyện trên trang Jelly Comics",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "blbattu.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/bl-bat-tu.zip",
