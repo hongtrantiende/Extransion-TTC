@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Xem hoạt hình Trung Quốc tại hhtq.ee",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "hhtq.ee",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_hhtq",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782845632000,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "ruleContent": {},
+  "searchUrl": "",
+  "weight": 0
+}
