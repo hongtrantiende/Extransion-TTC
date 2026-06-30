@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Nguồn video dạng TikTok từ Sextop1.gd",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "Sextop1 TikTok",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_sextop1-tiktok",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1782844800000,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "",
+  "weight": 0
+}
