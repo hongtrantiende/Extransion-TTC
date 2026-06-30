@@ -272,17 +272,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "yazhouse8.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/yazhouse8.zip",
-      "version": 2,
-      "source": "https:\/\/yazhouse8.com\/article.php",
-      "icon": "",
-      "description": "Đọc truyện trên trang https:\/\/yazhouse8.com\/article.php",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "sjks88.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/sjks88.zip",
