@@ -8,6 +8,17 @@
   },
   "data": [
     {
+      "name": "Sextop1 Phim",
+      "author": "Thiên Thư Các",
+      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/sextop1.zip",
+      "version": 2,
+      "source": "https:\/\/sextop1.gd",
+      "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/sextop1.png",
+      "description": "Nguồn phim sex HD Việt hóa từ Sextop1.gd",
+      "type": "video",
+      "locale": "vi_VN"
+    },
+    {
       "name": "khotruyenchu.fun",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/khotruyenchu.zip",
