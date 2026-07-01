@@ -2406,17 +2406,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "hhtq.hair",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/hhtq-vietsub.zip",
-      "version": 2,
-      "source": "https:\/\/hhtq.hair",
-      "icon": "",
-      "description": "Xem phim hoạt hình Trung Quốc trên HHTQ Vietsub",
-      "type": "video",
-      "locale": "vi_VN"
-    },
-    {
       "name": "otakusic.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/otakusic.zip",
