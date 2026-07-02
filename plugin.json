@@ -8,17 +8,6 @@
   },
   "data": [
     {
-      "name": "truyendichmienphi.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/truyendichmienphi.zip",
-      "version": 1,
-      "source": "https:\/\/truyendichmienphi.com",
-      "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/truyendichmienphi.png",
-      "description": "Đọc truyện chữ online trên Truyện Dịch Miễn Phí",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
       "name": "Truyện QQ",
       "author": "vBook",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/truyenqq.zip",
