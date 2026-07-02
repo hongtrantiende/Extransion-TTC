@@ -52,17 +52,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "wattpad.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/wattpad.zip",
-      "version": 2,
-      "source": "https:\/\/www.wattpad.com",
-      "icon": "",
-      "description": "Đọc truyện trên trang Wattpad",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
       "name": "docln.sbs",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/hako-novel.zip",
@@ -742,17 +731,6 @@
       "icon": "",
       "description": "Bilibili bản quốc tế. Xem được video kèm âm thanh có độ phân giải cao. Có PĐ (ưu tiên vi).",
       "type": "video",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "wattpad.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/wattpad-1.zip",
-      "version": 2,
-      "source": "https:\/\/www.wattpad.com\/",
-      "icon": "",
-      "description": "Đọc truyện trên trang wattpad.",
-      "type": "novel",
       "locale": "vi_VN"
     },
     {
@@ -1493,17 +1471,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "wattpad.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/wattpad-2.zip",
-      "version": 2,
-      "source": "https:\/\/wattpad.com",
-      "icon": "",
-      "description": "noDes",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
       "name": "metruyenchuvn.com",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/metruyenchufake.zip",
@@ -1900,17 +1867,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "wattpad.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/wattpad-tieng-viet.zip",
-      "version": 2,
-      "source": "https:\/\/www.wattpad.com",
-      "icon": "",
-      "description": "Đọc truyện tiếng Việt trên Wattpad",
-      "type": "novel",
-      "locale": "vi"
-    },
-    {
       "name": "truyenchu.net",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/truyenchu.zip",
@@ -2140,17 +2096,6 @@
       "description": "Đọc truyện trên trang Xbanxia",
       "type": "novel",
       "locale": "zh-CN"
-    },
-    {
-      "name": "wattpad.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/wattpad-ver-dich.zip",
-      "version": 2,
-      "source": "https:\/\/wattpad.com",
-      "icon": "",
-      "description": "Đọc truyện trên trang Wattpad",
-      "type": "novel",
-      "locale": "zh_CN"
     },
     {
       "name": "truyenhoangdung.xyz",
