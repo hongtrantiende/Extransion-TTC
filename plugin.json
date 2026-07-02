@@ -437,17 +437,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "nhieutruyen.com",
-      "author": "Thiên Thư Các",
-      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/nhieutruyen-qidian-vp.zip",
-      "version": 2,
-      "source": "https:\/\/nhieutruyen.com\/",
-      "icon": "",
-      "description": "Đọc truyện trên trang qidian-vp, nhieutruyen.com ",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
       "name": "m.tangthuvien.net",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/tang-thu-vien-app.zip",
