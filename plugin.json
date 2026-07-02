@@ -8,6 +8,17 @@
   },
   "data": [
     {
+      "name": "Truyện QQ",
+      "author": "vBook",
+      "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/truyenqq.zip",
+      "version": 24,
+      "source": "https:\/\/truyenqqko.com",
+      "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/truyenqq.png",
+      "description": "Đọc truyện trên trang Truyện QQ",
+      "type": "comic",
+      "locale": "vi_VN"
+    },
+    {
       "name": "Sextop1 Phim",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/sextop1.zip",
