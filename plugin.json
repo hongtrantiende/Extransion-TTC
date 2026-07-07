@@ -2505,13 +2505,13 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Sextop1 TikTok 3.0",
+      "name": "Sextop1 TikTok 4.0",
       "author": "Thiên Thư Các",
       "path": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/zips\/sextop1-tiktok.zip",
-      "version": 3,
-      "source": "https:\/\/sextop1.gd",
+      "version": 4,
+      "source": "https:\/\/sextop1.am",
       "icon": "https:\/\/raw.githubusercontent.com\/hongtrantiende\/Extransion-TTC\/main\/icons\/sextop1.png",
-      "description": "Nguồn video dạng TikTok từ Sextop1.gd (bản TikTok 3.0)",
+      "description": "Nguồn video dạng TikTok từ Sextop1.am, home có 2 tab (bản TikTok 4.0)",
       "type": "video",
       "locale": "vi_VN"
     }
