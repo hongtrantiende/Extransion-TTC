@@ -1339,7 +1339,6 @@ mm=mm
 贵师=quý sư
 贵校=quý trường
 路人=người qua đường
-路人粉=fan qua đường
 軍師=quân sư
 辅臣=phụ thần
 这=này/đây/cái này
