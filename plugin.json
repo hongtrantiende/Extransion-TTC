@@ -2514,6 +2514,17 @@
       "description": "Nguồn video dạng TikTok từ Sextop1.am (Bản sửa lỗi API 5.0)",
       "type": "video",
       "locale": "vi_VN"
+    },
+    {
+      "name": "petfama",
+      "author": "Antigravity",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/petfama.zip",
+      "version": 1,
+      "source": "https://www.petfama.com",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/petfama.png",
+      "description": "Nguồn truyện chữ ngắn từ petfama.com (腐看天地) - Hỗ trợ giải mã font icon ẩn danh",
+      "type": "chinese_novel",
+      "locale": "zh_TW"
     }
   ]
 }

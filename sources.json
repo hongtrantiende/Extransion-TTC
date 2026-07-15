@@ -5366,5 +5366,27 @@
     "ruleContent": {},
     "searchUrl": "",
     "weight": 0
+  },
+  {
+    "bookSourceComment": "Tác giả: Thiên Thư Các. Đọc truyện chữ ngắn từ petfama.com (腐看天地)",
+    "bookSourceGroup": "Extension",
+    "bookSourceName": "腐看天地 (Petfama)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "ext_petfama",
+    "customButton": false,
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "eventListener": false,
+    "lastUpdateTime": 1784131572165,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {},
+    "ruleExplore": {},
+    "ruleSearch": {},
+    "ruleToc": {},
+    "searchUrl": "https://www.petfama.com/search?query={{key}}",
+    "weight": 0
   }
 ]
