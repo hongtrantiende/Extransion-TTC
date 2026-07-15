@@ -2525,6 +2525,17 @@
       "description": "Nguồn truyện chữ ngắn từ petfama.com (腐看天地) - Hỗ trợ giải mã font icon ẩn danh",
       "type": "chinese_novel",
       "locale": "zh_TW"
+    },
+    {
+      "name": "gourmet",
+      "author": "Antigravity",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/gourmet.zip",
+      "version": 1,
+      "source": "https://welove-gourmet.com",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/gourmet.png",
+      "description": "Nguồn truyện chữ ngắn từ welove-gourmet.com (快看小說) - Hỗ trợ giải mã font icon ẩn danh",
+      "type": "chinese_novel",
+      "locale": "zh_TW"
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "bookSourceComment": "Tác giả: Thiên Thư Các. Đọc truyện chữ ngắn từ welove-gourmet.com (快看小說)",
+  "bookSourceGroup": "Extension",
+  "bookSourceName": "快看小說 (Gourmet)",
+  "bookSourceType": 0,
+  "bookSourceUrl": "ext_gourmet",
+  "customButton": false,
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1784131572165,
+  "respondTime": 180000,
+  "ruleBookInfo": {},
+  "ruleContent": {},
+  "ruleExplore": {},
+  "ruleSearch": {},
+  "ruleToc": {},
+  "searchUrl": "https://welove-gourmet.com/search?query={{key}}",
+  "weight": 0
+}
