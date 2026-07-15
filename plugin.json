@@ -2536,6 +2536,17 @@
       "description": "Nguồn truyện chữ ngắn từ welove-gourmet.com (快看小說) - Hỗ trợ giải mã font icon ẩn danh",
       "type": "chinese_novel",
       "locale": "zh_TW"
+    },
+    {
+      "name": "baby0world",
+      "author": "Antigravity",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/baby0world.zip",
+      "version": 1,
+      "source": "https://baby0world.com",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/baby0world.png",
+      "description": "Nguồn truyện chữ ngắn từ baby0world.com (碎番茄故事匯) - Hỗ trợ giải mã font icon ẩn danh",
+      "type": "chinese_novel",
+      "locale": "zh_TW"
     }
   ]
 }
