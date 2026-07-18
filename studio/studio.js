@@ -257,8 +257,11 @@ async function testExtension(extId) {
     const firstItem = items[0];
 
     // --- STEP 1.5: TAB/GEN (nếu home trả về danh sách Tab) ---
-    if (firstItem && firstItem.script && firstItem.script.endsWith('.js')) {
-        const tabScript = firstItem.script;
+    const isTab = (firstItem && firstItem.script && firstItem.script.endsWith('.js')) ||
+                  (firstItem && firstItem.input && !firstItem.url && !firstItem.link && (script.genre || script.gen));
+
+    if (isTab) {
+        const tabScript = firstItem.script || script.genre || script.gen;
         const tabInput = firstItem.input || firstItem.url;
         log(`\nStep 1.5: Home trả về Tabs. Nạp Tab tiếp theo (${tabScript}) với đầu vào: ${tabInput}...`, C.B);
         
@@ -298,12 +301,12 @@ async function testExtension(extId) {
             return;
         }
         selectedItem = tabItems[0];
-        nextUrl = selectedItem.url || selectedItem.link;
+        nextUrl = selectedItem.url || selectedItem.link || selectedItem.input;
         if (typeof nextUrl === 'function') nextUrl = null;
         nextUrl = resolveUrl(nextUrl, selectedItem.host || firstItem.host, metadata.source);
     } else {
         selectedItem = firstItem;
-        nextUrl = selectedItem.url || selectedItem.link;
+        nextUrl = selectedItem.url || selectedItem.link || selectedItem.input;
         if (typeof nextUrl === 'function') nextUrl = null;
         nextUrl = resolveUrl(nextUrl, selectedItem.host, metadata.source);
     }

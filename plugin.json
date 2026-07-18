@@ -22,10 +22,10 @@
       "name": "Sextop1 Phim 2.0",
       "author": "Novela",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sextop1.zip",
-      "version": 3,
+      "version": 4,
       "source": "https://sextop1.gd",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/sextop1.png",
-      "description": "Nguồn phim sex HD Việt hóa từ Sextop1.gd (bản phim 2.0)",
+      "description": "Nguồn phim sex HD Việt hóa từ Sextop1.gd",
       "type": "video",
       "locale": "vi_VN"
     },
@@ -35,7 +35,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/khotruyenchu.zip",
       "version": 2,
       "source": "https://khotruyenchu.fun",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/khotruyenchu.png",
       "description": "Đọc truyện trên trang Kho Truyện Chữ",
       "type": "novel",
       "locale": "vi_VN"
@@ -46,7 +46,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-full.zip",
       "version": 15,
       "source": "https://truyenfull.live",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyen-full.png",
       "description": "Đọc truyện trên trang Truyện Full",
       "type": "novel",
       "locale": "vi_VN"
@@ -57,7 +57,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wikicv.net.zip",
       "version": 28,
       "source": "https://wikicv.org",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/wikicv.net.png",
       "description": "Đọc truyện trên trang Wiki Dịch, review ở thông tin truyện",
       "type": "novel",
       "locale": "vi_VN"
@@ -68,7 +68,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hako-novel.zip",
       "version": 13,
       "source": "https://docln.sbs",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hako-novel.png",
       "description": "Đọc truyện trên trang Hako",
       "type": "novel",
       "locale": "vi_VN"
@@ -79,7 +79,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentai2read.zip",
       "version": 3,
       "source": "https://hentai2read.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hentai2read.png",
       "description": "Đọc truyện trên trang Hentai2Read",
       "type": "comic",
       "locale": "vi_VN"
@@ -90,7 +90,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyencv-api.zip",
       "version": 2,
       "source": "https://metruyencv.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/metruyencv.png",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyencv-api.png",
       "description": "Đọc truyện trên trang TruyệnCV (API)",
       "type": "novel",
       "locale": "vi_VN"
@@ -101,7 +101,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/omega-scans.zip",
       "version": 2,
       "source": "https://omegascans.org",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/omega-scans.png",
       "description": "Đọc truyện trên trang omegascans.org",
       "type": "comic",
       "locale": "en_EN"
@@ -112,7 +112,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/say-hentai.zip",
       "version": 11,
       "source": "https://sayhentai.cx",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/say-hentai.png",
       "description": "Đọc truyện trên trang Say Hentai",
       "type": "comic",
       "locale": "vi_VN"
@@ -123,7 +123,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ac-qq.zip",
       "version": 3,
       "source": "https://ac.qq.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ac-qq.png",
       "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com hoặc Discord",
       "type": "comic",
       "locale": "zh_CN"
@@ -134,7 +134,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/doujins.zip",
       "version": 6,
       "source": "https://doujins.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/doujins.png",
       "description": "Đọc truyện trên trang doujins.com",
       "type": "comic",
       "locale": "en_EN"
@@ -145,7 +145,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/book-qq.zip",
       "version": 2,
       "source": "https://book.qq.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/book-qq.png",
       "description": "Đọc truyện trên trang book.qq.com",
       "type": "novel",
       "locale": "zh_CN"
@@ -156,7 +156,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/20xs.zip",
       "version": 4,
       "source": "https://www.20xs.org",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/20xs.png",
       "description": "Đọc truyện trên trang www.20xs.org",
       "type": "novel",
       "locale": "zh_CN"
@@ -167,7 +167,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dingdian.zip",
       "version": 2,
       "source": "https://www.dingdian666.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/dingdian.png",
       "description": "Đọc truyện trên trang www.dingdian666.com",
       "type": "novel",
       "locale": "vi_VN"
@@ -178,7 +178,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ciweimao.zip",
       "version": 4,
       "source": "https://www.ciweimao.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ciweimao.png",
       "description": "Đọc truyện trên trang www.ciweimao.com",
       "type": "novel",
       "locale": "vi_VN"
@@ -189,7 +189,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bfaloo.zip",
       "version": 6,
       "source": "https://b.faloo.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/bfaloo.png",
       "description": "Đọc truyện trên trang b.faloo.com",
       "type": "novel",
       "locale": "vi_VN"
@@ -200,7 +200,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/royalroad.zip",
       "version": 2,
       "source": "https://www.royalroad.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/royalroad.png",
       "description": "Royal Road® is the home of web novels and fan fictions! In our amazing community, you can find various talented individuals who write as a hobby or even professionally, artists who create art for them, and many, many readers who provide valuable feedback and encouragement.",
       "type": "novel",
       "locale": "vi_VN"
@@ -211,7 +211,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biqugeabc.zip",
       "version": 6,
       "source": "https://www.biqugeabc.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/biqugeabc.png",
       "description": "Đọc truyện trên trang https://www.biqugeabc.com",
       "type": "novel",
       "locale": "zh_CN"
@@ -222,7 +222,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qbtr.zip",
       "version": 2,
       "source": "https://www.qbtr.cc",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/qbtr.png",
       "description": "Đọc truyện trên trang https://www.qbtr.cc",
       "type": "novel",
       "locale": "zh_CN"
@@ -233,7 +233,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ffxs8.zip",
       "version": 3,
       "source": "http://www.ffxs8.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ffxs8.png",
       "description": "Đọc truyện trên trang http://www.ffxs8.com",
       "type": "novel",
       "locale": "zh_CN"
@@ -244,7 +244,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/piaoyuxuan.zip",
       "version": 3,
       "source": "http://www.piaoyuxuan.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/piaoyuxuan.png",
       "description": "Đọc truyện trên trang http://www.piaoyuxuan.com",
       "type": "novel",
       "locale": "zh_CN"
@@ -255,7 +255,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/jpxs123.zip",
       "version": 3,
       "source": "http://jpxs123.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/jpxs123.png",
       "description": "Đọc truyện trên trang http://jpxs123.com",
       "type": "novel",
       "locale": "zh_CN"
@@ -266,7 +266,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fuxsb.zip",
       "version": 8,
       "source": "http://www.fuxsb.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/fuxsb.png",
       "description": "Đọc truyện trên trang http://www.fuxsb.com",
       "type": "novel",
       "locale": "zh_CN"
@@ -277,7 +277,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/52shuku.zip",
       "version": 12,
       "source": "https://www.52shuku.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/52shuku.png",
       "description": "Đọc truyện trên trang https://www.52shuku.net",
       "type": "novel",
       "locale": "zh_CN"
@@ -288,7 +288,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sjks88.zip",
       "version": 2,
       "source": "http://www.sjks88.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/sjks88.png",
       "description": "Đọc truyện trên trang http://www.sjks88.com",
       "type": "novel",
       "locale": "zh_CN"
@@ -299,7 +299,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/powanjuan.zip",
       "version": 2,
       "source": "http://www.powanjuan.cc",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/powanjuan.png",
       "description": "Đọc truyện trên trang http://www.powanjuan.cc",
       "type": "novel",
       "locale": "zh_CN"
@@ -310,7 +310,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/po18gv.zip",
       "version": 2,
       "source": "https://www.po18gv.vip",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/po18gv.png",
       "description": "Đọc truyện trên trang https://www.po18gv.vip",
       "type": "novel",
       "locale": "zh_CN"
@@ -321,7 +321,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/readwn.zip",
       "version": 2,
       "source": "https://www.wuxiabox.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/readwn.png",
       "description": "Đọc truyện trên trang https://readwn.app",
       "type": "novel",
       "locale": "en_US"
@@ -332,7 +332,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/html5-qq-com.zip",
       "version": 9,
       "source": "https://bookshelf.html5.qq.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/html5-qq-com.png",
       "description": "Đọc truyện trên trang https://bookshelf.html5.qq.com",
       "type": "novel",
       "locale": "zh_CN"
@@ -343,7 +343,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/pixiv.zip",
       "version": 5,
       "source": "https://www.pixiv.net/en/tags/%E4%B8%AD%E6%96%87/novels",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/pixiv.png",
       "description": "Đọc truyện trên trang https://www.pixiv.net",
       "type": "novel",
       "locale": "zh_CN"
@@ -354,7 +354,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kkphim.zip",
       "version": 3,
       "source": "https://kkphim.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/kkphim.png",
       "description": "Xem phim trên kkphim",
       "type": "video",
       "locale": "vi_VN"
@@ -365,7 +365,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/review-tuishujun.zip",
       "version": 2,
       "source": "https://www.tuishujun.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/review-tuishujun.png",
       "description": "Xem đánh giá truyện trên trang https://www.tuishujun.com/",
       "type": "novel",
       "locale": "zh_CN"
@@ -376,7 +376,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw.zip",
       "version": 13,
       "source": "http://alicesw.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/alicesw.png",
       "description": "Đọc truyện trên trang http://www.alicesw.com",
       "type": "novel",
       "locale": "zh_CN"
@@ -387,7 +387,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/doc-truyen-14.zip",
       "version": 8,
       "source": "https://doctruyen14.biz/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/doc-truyen-14.png",
       "description": "Đọc Truyện 14 là trang web đọc truyện chữ online.",
       "type": "novel",
       "locale": "vi_VN"
@@ -398,7 +398,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kanshuwu.zip",
       "version": 2,
       "source": "https://www.shuwukan.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/kanshuwu.png",
       "description": "Đọc truyện trên trang http://www.kanshuwu.org",
       "type": "novel",
       "locale": "zh_CN"
@@ -409,7 +409,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kanunu8.zip",
       "version": 5,
       "source": "https://www.kanunu8.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/kanunu8.png",
       "description": "Đọc truyện trên trang https://www.kanunu8.com",
       "type": "novel",
       "locale": "zh_CN"
@@ -420,7 +420,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/lohi2.zip",
       "version": 3,
       "source": "https://truyen.lohi2.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/lohi2.png",
       "description": "Đọc truyện trên trang lohi2",
       "type": "novel",
       "locale": "vi_VN"
@@ -431,7 +431,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nhatruyen.zip",
       "version": 9,
       "source": "https://nhatruyen.site",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/nhatruyen.png",
       "description": "Đọc truyện trên trang nhatruyen",
       "type": "novel",
       "locale": "vi_VN"
@@ -442,7 +442,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tang-thu-vien-app.zip",
       "version": 3,
       "source": "https://m.tangthuvien.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/tang-thu-vien-app.png",
       "description": "Đọc truyện trên app Tàng Thư Viện",
       "type": "novel",
       "locale": "vi_VN"
@@ -453,7 +453,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyendich-vn.zip",
       "version": 4,
       "source": "https://truyendich.vn",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyendich-vn.png",
       "description": "Đọc truyện trên trang truyendich",
       "type": "novel",
       "locale": "vi_VN"
@@ -464,7 +464,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/uushuk.zip",
       "version": 2,
       "source": "https://www.uushuk.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/uushuk.png",
       "description": "Đọc truyện chữ Trung trên uu书库",
       "type": "novel",
       "locale": "zh_CN"
@@ -475,7 +475,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/aahhss.zip",
       "version": 4,
       "source": "https://www.aaddbb.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/aahhss.png",
       "description": "Đọc truyện trên trang AAHHSS",
       "type": "novel",
       "locale": "zh_CN"
@@ -486,7 +486,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-truyen-chu-vn.zip",
       "version": 6,
       "source": "https://metruyenchuvn.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/me-truyen-chu-vn.png",
       "description": "Đọc truyện trên trang MTC",
       "type": "novel",
       "locale": "vi_VN"
@@ -497,7 +497,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biqugezz.zip",
       "version": 2,
       "source": "https://www.biqugezz.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/biqugezz.png",
       "description": "Đọc truyện trên trang biqugezz",
       "type": "novel",
       "locale": "zh_CN"
@@ -508,7 +508,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/h528.zip",
       "version": 2,
       "source": "http://www.h528.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/h528.png",
       "description": "Đọc truyện trên trang h528",
       "type": "novel",
       "locale": "zh_CN"
@@ -519,7 +519,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/lwxs.zip",
       "version": 3,
       "source": "https://www.ilwxs.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/lwxs.png",
       "description": "Đọc truyện trên trang lwxs",
       "type": "novel",
       "locale": "zh_CN"
@@ -530,7 +530,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ixdzs8.zip",
       "version": 6,
       "source": "https://ixdzs8.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ixdzs8.png",
       "description": "Đọc truyện trên trang ixdzs8",
       "type": "novel",
       "locale": "zh_CN"
@@ -541,7 +541,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/baozimh.zip",
       "version": 3,
       "source": "https://www.baozimh.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/baozimh.png",
       "description": "Đọc truyện trên trang baozimh",
       "type": "comic",
       "locale": "zh_CN"
@@ -552,7 +552,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/book18.zip",
       "version": 4,
       "source": "https://www.book18.org/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/book18.png",
       "description": "Đọc truyện trên trang book18.org",
       "type": "novel",
       "locale": "zh_CN"
@@ -563,7 +563,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/168txt.zip",
       "version": 2,
       "source": "https://www.168txt.org",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/168txt.png",
       "description": "Đọc truyện trên trang 168txt",
       "type": "novel",
       "locale": "zh_CN"
@@ -574,7 +574,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cosplaytele.zip",
       "version": 5,
       "source": "https://cosplaytele.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/cosplaytele.png",
       "description": "Cosplay photo galleries",
       "type": "comic",
       "locale": "en_US"
@@ -585,7 +585,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/crxs.zip",
       "version": 2,
       "source": "https://crxs.me",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/crxs.png",
       "description": "Đọc truyện chữ Trung Quốc trên CRXS",
       "type": "novel",
       "locale": "zh_CN"
@@ -596,7 +596,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/foamgirl.zip",
       "version": 2.3,
       "source": "https://foamgirl.net/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/foamgirl.png",
       "description": "Share Pictures Sexy Girl...",
       "type": "comic",
       "locale": "zh_CN"
@@ -607,7 +607,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/photos18.zip",
       "version": 4,
       "source": "https://www.photos18.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/photos18.png",
       "description": "Girl photos",
       "type": "comic",
       "locale": "zh_CN"
@@ -618,7 +618,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyendich-ai.zip",
       "version": 5,
       "source": "https://truyendich.ai",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyendich-ai.png",
       "description": "Đọc truyện trên TruyenDich.AI",
       "type": "novel",
       "locale": "vi_VN"
@@ -629,7 +629,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wnacg.zip",
       "version": 9,
       "source": "https://www.wnacg.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/wnacg.png",
       "description": "Image galleries: home, genre, search, detail, ranking",
       "type": "comic",
       "locale": "zh_CN"
@@ -640,7 +640,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dmxs.zip",
       "version": 3,
       "source": "https://www.dmxs.org/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/dmxs.png",
       "description": "Đọc truyện trên dmxs.org.",
       "type": "novel",
       "locale": "zh_CN"
@@ -651,7 +651,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wetv.zip",
       "version": 3,
       "source": "https://wetv.vip/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/wetv.png",
       "description": "WeTV bản quốc tế. Có phụ đề (ưu tiên vi). ",
       "type": "video",
       "locale": "global"
@@ -662,7 +662,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/app-zhihu-hoi-dap.zip",
       "version": 7,
       "source": "zhihu.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/app-zhihu-hoi-dap.png",
       "description": "Đọc Zhihu bằng API Android/web đã ký, có thêm cấu hình zhihuCookie để dùng cookie đăng nhập khi cần. Hỗ trợ câu hỏi, câu trả lời, pin/想法, bài viết, trang chủ Đề xuất/热榜, bình luận và gợi ý.",
       "type": "novel",
       "locale": "zh_CN"
@@ -673,7 +673,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/youku.zip",
       "version": 2,
       "source": "https://www.youku.tv/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/youku.png",
       "description": "Xem video YOUKU quốc tế. Ưu tiên audio/phụ đề tiếng Việt và tự lấy cna/MTOP token khi cần.",
       "type": "video",
       "locale": "vi_VN"
@@ -684,7 +684,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/julycomic.zip",
       "version": 2,
       "source": "https://julycomics.site",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/julycomic.png",
       "description": "Đọc truyện trên JulyComic. Ext tự lấy token đăng nhập nếu có, gửi flag 18+ và tự gọi xác nhận 18+ khi có tài khoản. Search `token:<Bearer token>` để nhập nhanh token, `token:clear` xóa token đang lưu. ",
       "type": "comic",
       "locale": "vi_VN"
@@ -695,7 +695,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/gau-meo-team.zip",
       "version": 2,
       "source": "https://gaumeoteam.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/gau-meo-team.png",
       "description": "Đọc truyện trên Gấu Mèo Team",
       "type": "novel",
       "locale": "vi_VN"
@@ -706,7 +706,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/iqiyi.zip",
       "version": 3,
       "source": "https://www.iq.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/iqiyi.png",
       "description": "iQIYI bản quốc tế. Đã hỗ trợ tự cắt ghép phụ đề cho khớp video. Tự điều chỉnh độ phân giải bằng true/false bên dưới cài đặt ext. Đăng nhập trong trình duyệt tích hợp của VBook beta nếu video cần VIP.",
       "type": "video",
       "locale": "zh_CN"
@@ -717,7 +717,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bilibili.zip",
       "version": 6,
       "source": "https://www.bilibili.tv/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/bilibili.png",
       "description": "Bilibili bản quốc tế. Xem được video kèm âm thanh có độ phân giải cao. Có PĐ (ưu tiên vi).",
       "type": "video",
       "locale": "vi_VN"
@@ -728,7 +728,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bl-bat-tu.zip",
       "version": 2,
       "source": "https://blbattu.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/bl-bat-tu.png",
       "description": "Đọc truyện trên trang BL Bất Tử",
       "type": "novel",
       "locale": "vi_VN"
@@ -739,7 +739,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/boylove-bat-tu.zip",
       "version": 4,
       "source": "https://boylovebattu.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/boylove-bat-tu.png",
       "description": "Đọc truyện trên trang boylovebattu",
       "type": "novel",
       "locale": "vi_VN"
@@ -750,7 +750,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyentranhdammyy.zip",
       "version": 2,
       "source": "https://truyentranhdammyy.site/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyentranhdammyy.png",
       "description": "Đọc truyện trên trang Truyentranhdammyy",
       "type": "comic",
       "locale": "vi_VN"
@@ -761,7 +761,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mangadm.zip",
       "version": 2,
       "source": "https://mangadm.me/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/mangadm.png",
       "description": "Đọc truyện trên trang MangaDM",
       "type": "novel",
       "locale": "vi_VN"
@@ -772,7 +772,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/po18-1.zip",
       "version": 11,
       "source": "https://www.po18.tw",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/po18-1.png",
       "description": "Đọc truyện trên trang www.po18.tw",
       "type": "novel",
       "locale": "zh_CN"
@@ -783,7 +783,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/jjwxc-tan-giang.zip",
       "version": 8,
       "source": "http://www.jjwxc.net/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/jjwxc-tan-giang.png",
       "description": "Đọc truyện trên app JJWXC. ",
       "type": "novel",
       "locale": "zh_CN"
@@ -794,7 +794,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cbunu-comic.zip",
       "version": 3,
       "source": "https://cbunu.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/cbunu-comic.png",
       "description": "Đọc truyện tranh trên CBunu",
       "type": "comic",
       "locale": "vi_VN"
@@ -805,7 +805,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/minttea-novel.zip",
       "version": 2,
       "source": "https://mintteanovel.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/minttea-novel.png",
       "description": "Đọc truyện chữ trên Minttea Novel",
       "type": "novel",
       "locale": "vi_VN"
@@ -816,7 +816,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/stv-app-vi.zip",
       "version": 7,
       "source": "https://sangtacviet.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/stv-app-vi.png",
       "description": "Đọc truyện trên STV App (Vi) ~",
       "type": "novel",
       "locale": "vi_VN"
@@ -827,7 +827,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/doc-truyen-tranh-bl.zip",
       "version": 2,
       "source": "https://doctruyentranhbl.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/doc-truyen-tranh-bl.png",
       "description": "Đọc truyện tranh BL tại doctruyentranhbl",
       "type": "comic",
       "locale": "vi_VN"
@@ -838,7 +838,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/roads-team.zip",
       "version": 3,
       "source": "https://roadsteami.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/roads-team.png",
       "description": "Đọc truyện trên trang Roads Team",
       "type": "comic",
       "locale": "vi_VN"
@@ -849,7 +849,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mot-truyen.zip",
       "version": 2,
       "source": "https://mottruyen.com.vn",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/mot-truyen.png",
       "description": "Đọc truyện trên app Mọt Truyện",
       "type": "novel",
       "locale": "vi_VN"
@@ -860,7 +860,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qadc.zip",
       "version": 3,
       "source": "https://qadcuteo.cc/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/qadc.png",
       "description": "Đọc truyện trên trang QAĐC",
       "type": "comic",
       "locale": "vi_VN"
@@ -871,7 +871,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ung-ty-comics.zip",
       "version": 4,
       "source": "https://ungtycomicsen.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ung-ty-comics.png",
       "description": "Đọc truyện trên trang Ưng Tỷ Comics",
       "type": "comic",
       "locale": "vi_VN"
@@ -882,7 +882,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sany-team.zip",
       "version": 3,
       "source": "https://teamsany.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/sany-team.png",
       "description": "Đọc truyện trên trang Sany Team",
       "type": "comic",
       "locale": "vi_VN"
@@ -893,7 +893,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dua-leo-truyen.zip",
       "version": 17,
       "source": "https://dualeotruyenbs.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/dua-leo-truyen.png",
       "description": "Đọc truyện trên dualeotruyen",
       "type": "comic",
       "locale": "vi_VN"
@@ -904,7 +904,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tushumi.zip",
       "version": 4,
       "source": "https://www.tushumi.cc/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/tushumi.png",
       "description": "Đọc truyện ở tushumi.cc",
       "type": "novel",
       "locale": "zh_CN"
@@ -915,7 +915,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ixdzs.zip",
       "version": 2,
       "source": "https://ixdzs.tw/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ixdzs.png",
       "description": "Đọc truyện trên ixdzs.tw",
       "type": "novel",
       "locale": "zh_CN"
@@ -926,7 +926,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69.zip",
       "version": 3,
       "source": "https://www.69shuba.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/69.png",
       "description": "Đọc truyện chữ Trung trên 69书吧. Nếu bị Cloudflare/verify chặn, mở trang 69书吧 trong trình duyệt VBook để xác minh.",
       "type": "novel",
       "locale": "zh_CN"
@@ -937,7 +937,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-de-xuat.zip",
       "version": 2,
       "source": "https://truyendexuat.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyen-de-xuat.png",
       "description": "Đọc truyện trên trang Truyện đề xuất",
       "type": "novel",
       "locale": "vi_VN"
@@ -948,7 +948,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-tv.zip",
       "version": 2,
       "source": "https://truyentv.site",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyen-tv.png",
       "description": "Đọc truyện trên trang Truyện TV",
       "type": "novel",
       "locale": "vi_VN"
@@ -959,7 +959,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/o-cua-dua.zip",
       "version": 2,
       "source": "https://www.ocuadua.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/o-cua-dua.png",
       "description": "Đọc truyện trên trang Ổ của Dưa",
       "type": "novel",
       "locale": "vi_VN"
@@ -970,7 +970,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xbanxia.zip",
       "version": 2,
       "source": "https://www.xbanxia.cc",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/xbanxia.png",
       "description": "Đọc truyện trên trang Xbanxia",
       "type": "novel",
       "locale": "zh-CN"
@@ -981,7 +981,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/czbooks.zip",
       "version": 3,
       "source": "https://czbooks.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/czbooks.png",
       "description": "Đọc truyện trên trang https://czbooks.net",
       "type": "novel",
       "locale": "vi_VN"
@@ -992,7 +992,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/quanwenyuedu.zip",
       "version": 3,
       "source": "https://www.quanwenyuedu.io",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/quanwenyuedu.png",
       "description": "Đọc truyện trên trang quanwenyuedu",
       "type": "novel",
       "locale": "zh_CN"
@@ -1003,7 +1003,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qmbook.zip",
       "version": 5,
       "source": "https://m.bqg107.xyz",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/qmbook.png",
       "description": "Đọc truyện trên trang m.bqg647.xyz. Sửa tên miền mobile bằng Mã bổ sung",
       "type": "novel",
       "locale": "zh_CN"
@@ -1014,7 +1014,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wodeshucheng5.zip",
       "version": 2,
       "source": "https://www.wodeshucheng5.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/wodeshucheng5.png",
       "description": "Đọc truyện trên trang wodeshucheng5",
       "type": "novel",
       "locale": "zh_CN"
@@ -1025,7 +1025,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/75zwcom.zip",
       "version": 2,
       "source": "https://m.75zww.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/75zwcom.png",
       "description": "Đọc truyện trên trang 75zwcom",
       "type": "novel",
       "locale": "zh_CN"
@@ -1036,7 +1036,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sudugu.zip",
       "version": 5,
       "source": "https://www.sudugu.org",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/sudugu.png",
       "description": "Đọc truyện trên trang sudugu",
       "type": "novel",
       "locale": "zh_CN"
@@ -1047,7 +1047,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nguoi-lao-dong.zip",
       "version": 4,
       "source": "https://tuoitre.vn/tto-nld.htm",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/nguoi-lao-dong.png",
       "description": "Người Lao Động",
       "type": "novel",
       "locale": "vi_VN"
@@ -1058,7 +1058,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/vietnamnet.zip",
       "version": 3,
       "source": "https://vietnamnet.vn",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/vietnamnet.png",
       "description": "Đọc vietnamnet",
       "type": "novel",
       "locale": "vi_VN"
@@ -1069,7 +1069,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tuoi-tre.zip",
       "version": 3,
       "source": "https://tuoitre.vn",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/tuoi-tre.png",
       "description": "Đọc Tuổi Trẻ",
       "type": "novel",
       "locale": "vi_VN"
@@ -1080,7 +1080,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/soha.zip",
       "version": 3,
       "source": "https://soha.vn",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/soha.png",
       "description": "Đọc soha",
       "type": "novel",
       "locale": "vi_VN"
@@ -1091,7 +1091,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qimao-repo-duong-den.zip",
       "version": 3,
       "source": "https://www.qimao.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/qimao-repo-duong-den.png",
       "description": "Đọc truyện trên trang qimao",
       "type": "novel",
       "locale": "zh_CN"
@@ -1102,7 +1102,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/piaotian-app.zip",
       "version": 4,
       "source": "https://www.piaotianapp.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/piaotian-app.png",
       "description": "Đọc sách trên trang piaotianapp.com",
       "type": "novel",
       "locale": "zh_CN"
@@ -1113,7 +1113,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69shumi.zip",
       "version": 4,
       "source": "https://www.69shumi.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/69shumi.png",
       "description": "Đọc truyện trên trang 69shumi",
       "type": "novel",
       "locale": "zh_CN"
@@ -1124,7 +1124,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biqugess.zip",
       "version": 2,
       "source": "http://www.biqugess.co",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/biqugess.png",
       "description": "Đọc truyện trên trang biqugess",
       "type": "novel",
       "locale": "zh_CN"
@@ -1135,7 +1135,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69hsz.zip",
       "version": 6,
       "source": "https://www.69hsz.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/69hsz.png",
       "description": "Đọc truyện trên trang 69hsz",
       "type": "novel",
       "locale": "zh_CN"
@@ -1146,7 +1146,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/soxscc.zip",
       "version": 3,
       "source": "https://www.xinsoxs.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/soxscc.png",
       "description": "xinsoxs.com - search bằng browser",
       "type": "novel",
       "locale": "zh_CN"
@@ -1157,7 +1157,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/abcbiquge.zip",
       "version": 8,
       "source": "http://m.abcbiquge.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/abcbiquge.png",
       "description": "Đọc truyện trên trang abcbiquge",
       "type": "novel",
       "locale": "zh_CN"
@@ -1168,7 +1168,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/monkeyd-vn-repo-duongden.zip",
       "version": 11,
       "source": "https://www.monkeydd.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/monkeyd-vn-repo-duongden.png",
       "description": "Đọc truyện trên trang MonkeyD",
       "type": "novel",
       "locale": "vi_VN"
@@ -1179,7 +1179,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-com.zip",
       "version": 3,
       "source": "https://truyencom.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyen-com.png",
       "description": "Đọc truyện trên trang https://truyencom.com/",
       "type": "novel",
       "locale": "vi_VN"
@@ -1190,7 +1190,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/tinh-linh.zip",
       "version": 3,
       "source": "https://tinhlinh.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/tinh-linh.png",
       "description": "Đọc truyện trên trang https://tinhlinh.com",
       "type": "novel",
       "locale": "vi_VN"
@@ -1201,7 +1201,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dao-truyen.zip",
       "version": 3,
       "source": "https://daotruyen.me",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/dao-truyen.png",
       "description": "Đọc truyện trên trang Đảo truyện",
       "type": "novel",
       "locale": "vi_VN"
@@ -1212,7 +1212,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dich-truyen-tu-dong-tu-qidian.zip",
       "version": 4,
       "source": "https://q.kyhuyen.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/dich-truyen-tu-dong-tu-qidian.png",
       "description": "Đọc truyện trên trang https://q.kyhuyen.com",
       "type": "novel",
       "locale": "vi_VN"
@@ -1223,7 +1223,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/novel-next.zip",
       "version": 6,
       "source": "https://www.novelnext.me",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/novel-next.png",
       "description": "Đọc truyện trên trang Novel Next",
       "type": "novel",
       "locale": "en_US"
@@ -1234,7 +1234,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fan-mtl.zip",
       "version": 2,
       "source": "https://www.fanmtl.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/fan-mtl.png",
       "description": "Đọc truyện trên trang Fan MTL",
       "type": "novel",
       "locale": "en_US"
@@ -1245,7 +1245,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/all-novel.zip",
       "version": 2,
       "source": "https://allnovel.org",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/all-novel.png",
       "description": "Đọc truyện trên trang All Novel",
       "type": "novel",
       "locale": "en_US"
@@ -1256,7 +1256,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/spiderum.zip",
       "version": 2,
       "source": "https://spiderum.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/spiderum.png",
       "description": "Đọc spiderum trên vBook",
       "type": "novel",
       "locale": "vi_VN"
@@ -1267,7 +1267,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sohu.zip",
       "version": 2,
       "source": "https://www.sohu.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/sohu.png",
       "description": "Đọc sohu trên vBook",
       "type": "novel",
       "locale": "zh_CN"
@@ -1278,7 +1278,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/viblo.zip",
       "version": 5,
       "source": "https://viblo.asia",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/viblo.png",
       "description": "Đọc viblo trên vBook",
       "type": "novel",
       "locale": "vi_VN"
@@ -1289,7 +1289,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/conduongbachu.zip",
       "version": 23,
       "source": "https://akaytruyen.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/conduongbachu.png",
       "description": "Akaytruyen.com là web đọc truyện chính chủ duy nhất của tác giả AkayHau.",
       "type": "novel",
       "locale": "vi_VN"
@@ -1300,7 +1300,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wfxs-tw.zip",
       "version": 5,
       "source": "https://wfxs.tw/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/wfxs-tw.png",
       "description": "Đọc truyện trên wfxs.tw",
       "type": "novel",
       "locale": "zh_CN"
@@ -1333,7 +1333,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaifox-com.zip",
       "version": 4,
       "source": "http://hentaifox.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hentaifox-com.png",
       "description": "Đọc truyện trên trang http://hentaifox.com/",
       "type": "novel",
       "locale": "vi_VN"
@@ -1344,7 +1344,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-net.zip",
       "version": 4,
       "source": "https://truyennet.org",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyen-net.png",
       "description": "Đọc truyện trên trang truyennet.vn",
       "type": "novel",
       "locale": "vi_VN"
@@ -1355,7 +1355,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/soi-xam-fanqie.zip",
       "version": 26,
       "source": "https://api.langge.cf",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/soi-xam-fanqie.png",
       "description": "Đọc truyện Fanqie trên Sói Xám. Vui lòng vào trang nguồn đăng nhập để sử dụng. Có hỗ trợ share link truyện từ Fanqie và STV.",
       "type": "novel",
       "locale": "zh_CN"
@@ -1366,7 +1366,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/po18sm.zip",
       "version": 5,
       "source": "https://www.po18sm.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/po18sm.png",
       "description": "Đọc truyện trên trang po18sm.com",
       "type": "novel",
       "locale": "zh_CN"
@@ -1377,7 +1377,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/vinahentai-1.zip",
       "version": 7,
       "source": "https://vinahentai.bond",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/vinahentai-1.png",
       "description": "Đọc truyện trên trang vinahentai.bond",
       "type": "comic",
       "locale": "vi_VN"
@@ -1388,7 +1388,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaivietsub-com.zip",
       "version": 3,
       "source": "https://hentaivietsub.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hentaivietsub-com.png",
       "description": "Xem phim trên hentaivietsub.com",
       "type": "video",
       "locale": "vi_VN"
@@ -1399,7 +1399,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hhtqhay-vip.zip",
       "version": 4,
       "source": "https://hhtqhay.vip",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hhtqhay-vip.png",
       "description": "Xem phim tại hhtqhay.vip",
       "type": "video",
       "locale": "vi_VN"
@@ -1410,7 +1410,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ca-chua-soi-xam.zip",
       "version": 12,
       "source": "https://fanqienovel.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ca-chua-soi-xam.png",
       "description": "Nguồn truyện chữ Trung Quốc từ Fanqie Novel (sói xám to version)- chỉ đọc không tải (Ngoại trừ VIP/SVIP).\n\n⚠️ Giới hạn đọc: 3 chương/ngày dành cho khách ẩn danh.\n\n Cách để đọc tiếp:\n➊ Mở Trình duyệt ngay trong app vBook.\n➋ Truy cập: https://v2.czyl.cf/login\n➌ Đăng nhập tài khoản Sói Xám.\n➍ Quay lại và Làm mới chương.\n\n🔗 Hướng dẫn: https://discord.com/channels/607084896288243731/1476830093996327097",
       "type": "novel",
       "locale": "zh_CN"
@@ -1421,7 +1421,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xx-knix.zip",
       "version": 9,
       "source": "https://xx.knit.bid",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/xx-knix.png",
       "description": "Xem ảnh trên trang XX Knix",
       "type": "comic",
       "locale": "vi_VN"
@@ -1432,7 +1432,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/everia.zip",
       "version": 10,
       "source": "https://everia.club",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/everia.png",
       "description": "Xem ảnh trên trang Everia",
       "type": "comic",
       "locale": "vi_VN"
@@ -1443,7 +1443,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/best-girl-sexy.zip",
       "version": 8,
       "source": "https://bestgirlsexy.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/best-girl-sexy.png",
       "description": "Xem ảnh trên trang Best Girl Sexy",
       "type": "comic",
       "locale": "vi_VN"
@@ -1454,7 +1454,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cmanga.zip",
       "version": 44,
       "source": "https://cmangax18.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/cmanga.png",
       "description": "Đọc truyện trên trang CManga",
       "type": "comic",
       "locale": "vi_VN"
@@ -1465,7 +1465,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/say-hentai-1.zip",
       "version": 23,
       "source": "https://sayhentai.cx",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/say-hentai-1.png",
       "description": "Đọc truyện trên trang Say Hentai",
       "type": "comic",
       "locale": "vi_VN"
@@ -1476,7 +1476,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mino.zip",
       "version": 12,
       "source": "https://minotruyenv6.xyz",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/mino.png",
       "description": "Đọc truyện trên trang Mino",
       "type": "comic",
       "locale": "vi_VN"
@@ -1487,7 +1487,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/kho-doc-sach.zip",
       "version": 2,
       "source": "https://khodocsach.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/kho-doc-sach.png",
       "description": "Đọc truyện trên trang Kho Đọc Sách",
       "type": "novel",
       "locale": "vi_VN"
@@ -1498,7 +1498,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/vivu-truyen.zip",
       "version": 2,
       "source": "https://vivutruyen.net/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/vivu-truyen.png",
       "description": "Trang đọc truyện online - vivutruyen",
       "type": "novel",
       "locale": "vi_VN"
@@ -1509,7 +1509,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyentv.zip",
       "version": 2,
       "source": "https://www.tvtruyen.co.uk",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyentv.png",
       "description": "Đọc truyện từ TruyenTv",
       "type": "novel",
       "locale": "vi_VN"
@@ -1520,7 +1520,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-mo.zip",
       "version": 2,
       "source": "https://truyenmo.xyz",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyen-mo.png",
       "description": "Đọc truyện từ Truyện Mơ \n\nNgày xưa ngựa xe đi rất chậm\nThư gửi cũng rất chậm\n Cả đời chỉ đủ yêu một người",
       "type": "novel",
       "locale": "vi_VN"
@@ -1531,7 +1531,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-hoan.zip",
       "version": 10,
       "source": "https://truyenhoan.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyen-hoan.png",
       "description": "Đọc truyện tiên hiệp, huyền huyễn, ngôn tình từ Truyện Hoàn - website truyện full online miễn phí",
       "type": "novel",
       "locale": "vi_VN"
@@ -1542,7 +1542,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/quykhu.zip",
       "version": 5,
       "source": "https://quykhu.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/quykhu.png",
       "description": "Đọc truyện từ quykhu.com (vozer.io) - chỉ vbook beta",
       "type": "novel",
       "locale": "vi_VN"
@@ -1553,7 +1553,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-doc-truyen.zip",
       "version": 2,
       "source": "https://medoctruyen.vn",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/me-doc-truyen.png",
       "description": "Mê Đọc Truyện\nĐắm mình trong bốn mùa thư hương",
       "type": "novel",
       "locale": "vi_VN"
@@ -1564,7 +1564,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ophim.zip",
       "version": 2,
       "source": "https://ophim17.cc",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ophim.png",
       "description": "Xem phim Online miễn phí chất lượng cao tại OPhim. Hỗ trợ đầy đủ Vietsub/Thuyết Minh qua API chính thức.",
       "type": "video",
       "locale": "vi_VN"
@@ -1575,7 +1575,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/motchill.zip",
       "version": 2,
       "source": "https://envasion.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/motchill.png",
       "description": "Xem phim trên Motchill - Phim hay, phim mới HD Vietsub",
       "type": "video",
       "locale": "vi_VN"
@@ -1586,7 +1586,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/animevsub.zip",
       "version": 2,
       "source": "https://animevsub.app",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/animevsub.png",
       "description": "Xem anime Vietsub HD miễn phí trên AnimeVsub - kho anime lớn nhất",
       "type": "video",
       "locale": "vi_VN"
@@ -1597,7 +1597,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/anime-hay.zip",
       "version": 5,
       "source": "https://motchillix.fm",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/anime-hay.png",
       "description": "Xem Anime Hay - miễn phí chất lượng cao với phụ đề Tiếng Việt, Thuyết Minh, Lồng Tiếng. Website có hơn +10.000 phim Anime mới nhất và cập nhật liên tục, kho phim đa dạng từ các thể loại 3D Trung Quốc, Anime Nhật Bản.. \n\n Lưu Ý: Không search được do web không search được",
       "type": "video",
       "locale": "vi_VN"
@@ -1608,7 +1608,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/storya.zip",
       "version": 2,
       "source": "https://storya.click",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/storya.png",
       "description": "Storya - Đọc truyện online miễn phí",
       "type": "novel",
       "locale": "vi_VN"
@@ -1619,7 +1619,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/moetruyen.zip",
       "version": 2,
       "source": "https://truyen.moe",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/moetruyen.png",
       "description": "Mòe Truyện - Cộng đồng truyện tranh",
       "type": "comic",
       "locale": "vi_VN"
@@ -1630,7 +1630,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/shinigami-ln-team.zip",
       "version": 2,
       "source": "https://shinigamilnteam.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/shinigami-ln-team.png",
       "description": "Shinigami - Light Novel & Truyện tranh",
       "type": "novel",
       "locale": "vi_VN"
@@ -1641,7 +1641,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/lnovel.zip",
       "version": 5,
       "source": "https://lnovel.org/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/lnovel.png",
       "description": "Đọc truyện trên trang https://lnovel.org/",
       "type": "novel",
       "locale": "zh_CN"
@@ -1652,7 +1652,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/gg-dich-novel-full.zip",
       "version": 2,
       "source": "https://novelfull.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/gg-dich-novel-full.png",
       "description": "Đọc truyện trên trang https://novelfull.com/",
       "type": "novel",
       "locale": "en_US"
@@ -1663,7 +1663,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dong-nhan-xa.zip",
       "version": 5,
       "source": "https://tongrenshe.cc",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/dong-nhan-xa.png",
       "description": "Đọc truyện trên trang https://tongrenshe.cc",
       "type": "novel",
       "locale": "zh_CN"
@@ -1674,7 +1674,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dualeotruyenfull.zip",
       "version": 6,
       "source": "https://dualeotruyenfull.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/dualeotruyenfull.png",
       "description": "Dưa Leo Truyện Full - Đọc truyện chữ online",
       "type": "novel",
       "locale": "vi_VN"
@@ -1685,7 +1685,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/biquge.zip",
       "version": 10,
       "source": "https://www.biquge.tw",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/biquge.png",
       "description": "笔趣阁 - Truyện chữ Tiếng Trung",
       "type": "novel",
       "locale": "zh_CN"
@@ -1696,7 +1696,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenchu.zip",
       "version": 9,
       "source": "https://truyenchu.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyenchu.png",
       "description": "TruyenChu - Đọc truyện chữ online miễn phí",
       "type": "novel",
       "locale": "vi_VN"
@@ -1707,7 +1707,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wanwansekai-18.zip",
       "version": 10,
       "source": "https://wanwansekai.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/wanwansekai-18.png",
       "description": "WanwanSekai - Đọc web novel tiếng Việt 18+",
       "type": "novel",
       "locale": "vi_VN"
@@ -1718,7 +1718,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/shibashuwu-18.zip",
       "version": 20,
       "source": "https://www.shibashuwu.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/shibashuwu-18.png",
       "description": "ShiBaShuWu - Truyện chữ Trung Quốc 18+",
       "type": "novel",
       "locale": "zh_CN"
@@ -1729,7 +1729,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/novelcookstw.zip",
       "version": 10,
       "source": "https://novel.cooks.tw",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/novelcookstw.png",
       "description": "novel.cooks.tw - Đọc truyện chữ Trung Quốc online",
       "type": "novel",
       "locale": "zh_TW"
@@ -1740,7 +1740,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/trichtinhlau.zip",
       "version": 9,
       "source": "https://trichtinhlau.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/trichtinhlau.png",
       "description": "Trích Tinh Lâu - Đọc truyện chữ online miễn phí",
       "type": "novel",
       "locale": "vi_VN"
@@ -1751,7 +1751,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ln-kuro.zip",
       "version": 17,
       "source": "https://lnkuro.top",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ln-kuro.png",
       "description": "LN Kuro - Đọc Light Novel Hàn Quốc dịch tiếng Việt",
       "type": "novel",
       "locale": "vi_VN"
@@ -1762,7 +1762,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/metruyensangtac.zip",
       "version": 6,
       "source": "https://metruyensangtac.vn",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/metruyensangtac.png",
       "description": "MeTruyenSangTac - Nền tảng đọc truyện sáng tác miễn phí",
       "type": "novel",
       "locale": "vi_VN"
@@ -1773,7 +1773,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/si-truyen-cv.zip",
       "version": 2,
       "source": "https://sitruyencv.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/si-truyen-cv.png",
       "description": "Đọc truyện trên trang Sitruyencv.com",
       "type": "novel",
       "locale": "vi_VN"
@@ -1784,7 +1784,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/inkitt.zip",
       "version": 2,
       "source": "https://inkitt.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/inkitt.png",
       "description": "Đọc truyện trên trang Inkitt.com",
       "type": "novel",
       "locale": "en_US"
@@ -1795,7 +1795,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qidian.zip",
       "version": 13,
       "source": "https://www.qidian.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/qidian.png",
       "description": "Đọc truyện trên trang https://www.qidian.com",
       "type": "novel",
       "locale": "vi_VN"
@@ -1806,7 +1806,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/haitanglin.zip",
       "version": 3,
       "source": "https://www.haitanglin.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/haitanglin.png",
       "description": "Đọc truyện trên trang https://www.haitanglin.com",
       "type": "novel",
       "locale": "vi_VN"
@@ -1817,7 +1817,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/piaotian5.zip",
       "version": 6,
       "source": "https://www.piaotian55.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/piaotian5.png",
       "description": "Đọc truyện trên trang https://www.piaotian55.net",
       "type": "novel",
       "locale": "vi_VN"
@@ -1828,7 +1828,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ptwxz.zip",
       "version": 6,
       "source": "https://www.h0g2e.top/enter/index.html",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ptwxz.png",
       "description": "Đọc truyện trên trang ptwxz",
       "type": "novel",
       "locale": "vi_VN"
@@ -1839,7 +1839,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/trxs.zip",
       "version": 5,
       "source": "http://trxs.cc",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/trxs.png",
       "description": "Đọc truyện trên trang http://trxs.cc",
       "type": "novel",
       "locale": "vi_VN"
@@ -1850,7 +1850,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hiperdex.zip",
       "version": 5,
       "source": "https://hiperdex.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hiperdex.png",
       "description": "Đọc truyện trên trang https://hiperdex.com",
       "type": "novel",
       "locale": "vi_VN"
@@ -1861,7 +1861,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/yousuu.zip",
       "version": 2,
       "source": "https://www.yousuu.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/yousuu.png",
       "description": "yousuu",
       "type": "novel",
       "locale": "zh_CN"
@@ -1872,7 +1872,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nhentai-one.zip",
       "version": 2,
       "source": "https://nhentai.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/nhentai-one.png",
       "description": "Đọc truyện trên trang nHentai.one",
       "type": "comic",
       "locale": "en_US"
@@ -1883,7 +1883,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenhoangdung.zip",
       "version": 4,
       "source": "https://truyenhoangdung.xyz",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyenhoangdung.png",
       "description": "Đọc truyện trên trang truyenhoangdung.xyz",
       "type": "novel",
       "locale": "vi_VN"
@@ -1894,7 +1894,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/17-tieu-thuyet.zip",
       "version": 6,
       "source": "https://m.1qxs.com/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/17-tieu-thuyet.png",
       "description": "Doc truyen tren trang 1QXS",
       "type": "novel",
       "locale": "zh_CN"
@@ -1905,7 +1905,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/motchill-1.zip",
       "version": 4,
       "source": "https://motchillzc.cc/",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/motchill-1.png",
       "description": "Xem phim online Vietsub, Thuyết minh trên MotChill",
       "type": "video",
       "locale": "vi_VN"
@@ -1916,7 +1916,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wattpad-3.zip",
       "version": 4,
       "source": "https://wattpadvn.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/wattpad-3.png",
       "description": "Đọc truyện trên Wattpad",
       "type": "novel",
       "locale": "vi_VN"
@@ -1927,7 +1927,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xa-lo-sach.zip",
       "version": 4,
       "source": "https://xalosach.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/xa-lo-sach.png",
       "description": "Xalosach.com là nền tảng đọc truyện chữ online, truyện dịch hay nhiều thể loại.",
       "type": "novel",
       "locale": "vi_VN"
@@ -1938,7 +1938,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/phim-nhua.zip",
       "version": 5,
       "source": "https://phimnhua.online",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/phim-nhua.png",
       "description": "Xem phim tren Phim Nhua - HD Vietsub mien phi.",
       "type": "video",
       "locale": "vi_VN"
@@ -1949,7 +1949,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sang-tac-viet-pro.zip",
       "version": 20,
       "source": "http://103.82.20.93",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/sang-tac-viet-pro.png",
       "description": "Mua token liên hệ https://discord.gg/Z88h4t9U",
       "type": "novel",
       "locale": "zh_CN"
@@ -1960,7 +1960,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dam-co-nuong.zip",
       "version": 4,
       "source": "https://damconuong.mom",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/dam-co-nuong.png",
       "description": "Đọc truyện tranh 18+, hentai, manhwa trên Dâm Cô Nương",
       "type": "comic",
       "locale": "vi_VN"
@@ -1971,7 +1971,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/otakusic.zip",
       "version": 14,
       "source": "https://otakusic.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/otakusic.png",
       "description": "Doc truyen tranh tren Otakusic",
       "type": "comic",
       "locale": "vi_VN"
@@ -1982,7 +1982,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/chickenmanga.zip",
       "version": 2,
       "source": "https://www.chickenmanga.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/chickenmanga.png",
       "description": "Doc truyen tranh tren ChickenManga",
       "type": "comic",
       "locale": "vi_VN"
@@ -1993,7 +1993,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/comicland.zip",
       "version": 5,
       "source": "https://comicland.org",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/comicland.png",
       "description": "Doc truyen tranh tren Comicland",
       "type": "comic",
       "locale": "vi_VN"
@@ -2004,7 +2004,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hong-tra-team.zip",
       "version": 6,
       "source": "https://hongtrateam.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hong-tra-team.png",
       "description": "Doc truyen seg Tra Team",
       "type": "novel",
       "locale": "vi_VN"
@@ -2015,7 +2015,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/stellar-stories.zip",
       "version": 2,
       "source": "https://stellarstory.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/stellar-stories.png",
       "description": "Doc truyen chu tren Stellar Stories",
       "type": "novel",
       "locale": "vi_VN"
@@ -2026,7 +2026,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenyy.zip",
       "version": 3,
       "source": "https://truyenyy.co",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyenyy.png",
       "description": "Doc truyen chu tren TruyenYY",
       "type": "novel",
       "locale": "vi_VN"
@@ -2037,7 +2037,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wikidich.zip",
       "version": 3,
       "source": "https://wikidichvn.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/wikidich.png",
       "description": "Doc truyen chu tren WikiDich",
       "type": "novel",
       "locale": "vi_VN"
@@ -2048,7 +2048,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/80qishu.zip",
       "version": 6,
       "source": "https://www.80qishu.cc",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/80qishu.png",
       "description": "阅读八零奇书网 TXT 小说",
       "type": "novel",
       "locale": "zh_CN"
@@ -2059,7 +2059,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mimimoe-1.zip",
       "version": 2,
       "source": "https://mimimoe.moe",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/mimimoe-1.png",
       "description": "Doc truyen seg tren MimiMoe",
       "type": "comic",
       "locale": "vi_VN"
@@ -2070,7 +2070,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/chuangshi-qq.zip",
       "version": 3,
       "source": "https://m.chuangshi.qq.com",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/chuangshi-qq.png",
       "description": "Doc truyen chu tren Chuangshi QQ",
       "type": "novel",
       "locale": "zh_CN"
@@ -2081,7 +2081,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ixunshu.zip",
       "version": 2,
       "source": "https://ixunshu.net",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/ixunshu.png",
       "description": "Đọc truyện trên trang ixunshu.net",
       "type": "chinese_novel",
       "locale": "zh_CN"
@@ -2092,7 +2092,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/07br.zip",
       "version": 9,
       "source": "https://www.bqg691.cc",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/07br.png",
       "description": "Đọc truyện trên trang bqg992",
       "type": "chinese_novel",
       "locale": "zh_CN"
@@ -2103,7 +2103,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyencv-app.zip",
       "version": 53,
       "source": "https://metruyencv.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/metruyencv.png",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/truyencv-app.png",
       "description": "Đọc truyện trên trang Mê Truyện CV",
       "type": "novel",
       "locale": "vi_VN"
@@ -2114,7 +2114,7 @@
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sextop1-tiktok.zip",
       "version": 6,
       "source": "https://sextop1.am",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/sextop1.png",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/sextop1-tiktok.png",
       "description": "Nguồn video dạng TikTok từ Sextop1.am (Bản sửa lỗi API 5.0)",
       "type": "video",
       "locale": "vi_VN"
