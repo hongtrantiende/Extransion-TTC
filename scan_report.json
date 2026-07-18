@@ -1,0 +1,1562 @@
+[
+  {
+    "name": "Truyện QQ",
+    "originalSource": "https://truyenqqko.com",
+    "finalSource": "https://truyenqqko.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "Sextop1 Phim 2.0",
+    "originalSource": "https://sextop1.gd",
+    "finalSource": "https://sextop1.gd",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "video"
+  },
+  {
+    "name": "khotruyenchu.fun",
+    "originalSource": "https://khotruyenchu.fun",
+    "finalSource": "https://khotruyenchu.fun/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "truyenfull.today",
+    "originalSource": "https://truyenfull.today",
+    "finalSource": "https://truyenfull.today",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "wikicv.net",
+    "originalSource": "https://wikicv.net",
+    "finalSource": "https://wikicv.net",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "docln.sbs",
+    "originalSource": "https://docln.sbs",
+    "finalSource": "https://docln.sbs/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "hentai2read.com",
+    "originalSource": "https://hentai2read.com",
+    "finalSource": "https://hentai2read.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "metruyencv.com (API)",
+    "originalSource": "https://metruyencv.com",
+    "finalSource": "https://metruyencv.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "omegascans.org",
+    "originalSource": "https://omegascans.org",
+    "finalSource": "https://omegascans.org/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "sayhentai.sh",
+    "originalSource": "https://sayhentai.sh",
+    "finalSource": "https://sayhentai.cx/",
+    "status": "changed_domain",
+    "note": "Đổi từ sayhentai.sh -> sayhentai.cx",
+    "type": "comic"
+  },
+  {
+    "name": "m.ac.qq.com",
+    "originalSource": "http://m.ac.qq.com",
+    "finalSource": "https://ac.qq.com/",
+    "status": "changed_domain",
+    "note": "Đổi từ m.ac.qq.com -> ac.qq.com",
+    "type": "comic"
+  },
+  {
+    "name": "doujins.com",
+    "originalSource": "https://doujins.com",
+    "finalSource": "https://doujins.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "book.qq.com",
+    "originalSource": "https://book.qq.com",
+    "finalSource": "https://book.qq.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "20xs.org",
+    "originalSource": "https://www.20xs.org",
+    "finalSource": "https://www.20xs.org/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "dingdian666.com",
+    "originalSource": "https://www.dingdian666.com",
+    "finalSource": "https://www.dingdian666.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "ciweimao.com",
+    "originalSource": "https://www.ciweimao.com",
+    "finalSource": "https://www.ciweimao.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "b.faloo.com",
+    "originalSource": "https://b.faloo.com",
+    "finalSource": "https://b.faloo.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "royalroad.com",
+    "originalSource": "https://www.royalroad.com",
+    "finalSource": "https://www.royalroad.com/home",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "biqugeabc.com",
+    "originalSource": "https://www.biqugeabc.com",
+    "finalSource": "https://www.biqugeabc.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "qbtr.cc",
+    "originalSource": "https://www.qbtr.cc",
+    "finalSource": "https://www.qbtr.cc/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "ffxs8.com",
+    "originalSource": "http://www.ffxs8.com",
+    "finalSource": "https://www.ffxs8.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "piaoyuxuan.com",
+    "originalSource": "http://www.piaoyuxuan.com",
+    "finalSource": "http://www.piaoyuxuan.com/",
+    "status": "error",
+    "note": "HTTP Status 403",
+    "type": "novel"
+  },
+  {
+    "name": "jpxs123.com",
+    "originalSource": "http://jpxs123.com",
+    "finalSource": "http://jpxs123.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "fuxsb.com",
+    "originalSource": "http://www.fuxsb.com",
+    "finalSource": "https://www.fuxsb.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "52shuku.net",
+    "originalSource": "https://www.52shuku.net",
+    "finalSource": "https://www.52shuku.net/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "sjks88.com",
+    "originalSource": "http://www.sjks88.com",
+    "finalSource": "http://www.sjks88.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "powanjuan.cc",
+    "originalSource": "http://www.powanjuan.cc",
+    "finalSource": "http://www.powanjuan.cc/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "po18gv.vip",
+    "originalSource": "https://www.po18gv.vip",
+    "finalSource": "https://www.po18gv.vip/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "wuxiabox.com",
+    "originalSource": "https://www.wuxiabox.com",
+    "finalSource": "https://www.wuxiabox.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "bookshelf.html5.qq.com",
+    "originalSource": "https://bookshelf.html5.qq.com",
+    "finalSource": "https://bookshelf.html5.qq.com/?t=web",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "pixiv.net",
+    "originalSource": "https://www.pixiv.net/en/tags/%E4%B8%AD%E6%96%87/novels",
+    "finalSource": "https://www.pixiv.net/en/tags/%E4%B8%AD%E6%96%87/novels",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "kkphim.com",
+    "originalSource": "https://kkphim.com",
+    "finalSource": "https://kkphim.com",
+    "status": "error",
+    "note": "Timeout",
+    "type": "video"
+  },
+  {
+    "name": "tuishujun.com",
+    "originalSource": "https://www.tuishujun.com/",
+    "finalSource": "https://www.tuishujun.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "alicesw.com",
+    "originalSource": "http://alicesw.com",
+    "finalSource": "https://www.alicesw.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "doctruyen14.biz",
+    "originalSource": "https://doctruyen14.biz/",
+    "finalSource": "https://doctruyen14.biz/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "shuwukan.com",
+    "originalSource": "https://www.shuwukan.com",
+    "finalSource": "https://www.shuwukan.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "kanunu8.com",
+    "originalSource": "https://www.kanunu8.com",
+    "finalSource": "https://www.kanunu8.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "truyen.lohi2.com",
+    "originalSource": "https://truyen.lohi2.com",
+    "finalSource": "https://truyen.lohi2.com",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "nhatruyen.site",
+    "originalSource": "https://nhatruyen.site",
+    "finalSource": "https://nhatruyen.site/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "m.tangthuvien.net",
+    "originalSource": "https://m.tangthuvien.net",
+    "finalSource": "https://m.tangthuvien.net",
+    "status": "error",
+    "note": "Timeout",
+    "type": "novel"
+  },
+  {
+    "name": "truyendich.vn",
+    "originalSource": "https://truyendich.vn",
+    "finalSource": "https://truyendich.vn/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "uushuk.com",
+    "originalSource": "https://www.uushuk.com",
+    "finalSource": "https://www.uushuk.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "aaddbb.com",
+    "originalSource": "https://www.aaddbb.com",
+    "finalSource": "https://www.aaddbb.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "metruyenchuvn.com",
+    "originalSource": "https://metruyenchuvn.com",
+    "finalSource": "https://metruyenchuvn.com",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "biqugezz.com",
+    "originalSource": "https://www.biqugezz.com/",
+    "finalSource": "https://www.biqugezz.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "h528.com",
+    "originalSource": "http://www.h528.com/",
+    "finalSource": "http://www.h528.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "ilwxs.com",
+    "originalSource": "https://www.ilwxs.com",
+    "finalSource": "https://www.ilwxs.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "ixdzs8.com",
+    "originalSource": "https://ixdzs8.com/",
+    "finalSource": "https://ixdzs8.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "baozimh.com",
+    "originalSource": "https://www.baozimh.com/",
+    "finalSource": "https://www.baozimh.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "book18.org",
+    "originalSource": "https://www.book18.org/",
+    "finalSource": "https://www.book18.org/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "168txt.org",
+    "originalSource": "https://www.168txt.org",
+    "finalSource": "https://www.168txt.org/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "cosplaytele.com",
+    "originalSource": "https://cosplaytele.com",
+    "finalSource": "https://cosplaytele.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "crxs.me",
+    "originalSource": "https://crxs.me",
+    "finalSource": "https://crxs.me/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "foamgirl.net",
+    "originalSource": "https://foamgirl.net/",
+    "finalSource": "https://foamgirl.net/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "photos18.com",
+    "originalSource": "https://www.photos18.com/",
+    "finalSource": "https://www.photos18.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "truyendich.ai",
+    "originalSource": "https://truyendich.ai",
+    "finalSource": "https://truyendich.ai",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "wnacg.com",
+    "originalSource": "https://www.wnacg.com/",
+    "finalSource": "https://www.wnacg.com/",
+    "status": "error",
+    "note": "HTTP Status 403",
+    "type": "comic"
+  },
+  {
+    "name": "dmxs.org",
+    "originalSource": "https://www.dmxs.org/",
+    "finalSource": "https://www.dmxs.org/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "wetv.vip",
+    "originalSource": "https://wetv.vip/",
+    "finalSource": "https://wetv.vip/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "video"
+  },
+  {
+    "name": "zhihu.com",
+    "originalSource": "zhihu.com",
+    "finalSource": "zhihu.com",
+    "status": "error",
+    "note": "Invalid URL format",
+    "type": "novel"
+  },
+  {
+    "name": "youku.tv",
+    "originalSource": "https://www.youku.tv/",
+    "finalSource": "https://www.youku.tv/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "video"
+  },
+  {
+    "name": "julycomics.site",
+    "originalSource": "https://julycomics.site",
+    "finalSource": "https://julycomics.site/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "gaumeoteam.com",
+    "originalSource": "https://gaumeoteam.com/",
+    "finalSource": "https://gaumeoteam.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "iq.com",
+    "originalSource": "https://www.iq.com/",
+    "finalSource": "https://www.iq.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "video"
+  },
+  {
+    "name": "bilibili.tv",
+    "originalSource": "https://www.bilibili.tv/",
+    "finalSource": "https://www.bilibili.tv/",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "video"
+  },
+  {
+    "name": "blbattu.com",
+    "originalSource": "https://blbattu.com/",
+    "finalSource": "https://blbattu.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "boylovebattu.com",
+    "originalSource": "https://boylovebattu.com/",
+    "finalSource": "https://boylovebattu.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "truyentranhdammyy.site",
+    "originalSource": "https://truyentranhdammyy.site/",
+    "finalSource": "https://truyentranhdammyy.site/",
+    "status": "error",
+    "note": "HTTP Status 403",
+    "type": "comic"
+  },
+  {
+    "name": "mangadm.me",
+    "originalSource": "https://mangadm.me/",
+    "finalSource": "https://mangadm.me/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "po18.tw",
+    "originalSource": "https://www.po18.tw",
+    "finalSource": "https://www.po18.tw/site/alarm",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "jjwxc.net",
+    "originalSource": "http://www.jjwxc.net/",
+    "finalSource": "https://www.jjwxc.net/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "cbunu.com",
+    "originalSource": "https://cbunu.com/",
+    "finalSource": "https://cbunu.com/",
+    "status": "error",
+    "note": "HTTP Status 403",
+    "type": "comic"
+  },
+  {
+    "name": "mintteanovel.com",
+    "originalSource": "https://mintteanovel.com/",
+    "finalSource": "https://www.mintteanovel.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "sangtacviet.com",
+    "originalSource": "https://sangtacviet.com",
+    "finalSource": "https://sangtacviet.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "doctruyentranhbl.com",
+    "originalSource": "https://doctruyentranhbl.com/",
+    "finalSource": "https://doctruyentranhbl.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "roadsteam.net",
+    "originalSource": "https://roadsteam.net/",
+    "finalSource": "https://roadsteami.net/",
+    "status": "changed_domain",
+    "note": "Đổi từ roadsteam.net -> roadsteami.net",
+    "type": "comic"
+  },
+  {
+    "name": "mottruyen.com.vn",
+    "originalSource": "https://mottruyen.com.vn",
+    "finalSource": "https://mottruyen.com.vn",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "qadcuteo.cc",
+    "originalSource": "https://qadcuteo.cc/",
+    "finalSource": "https://qadcuteo.cc/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "ungtycomicsen.com",
+    "originalSource": "https://ungtycomicsen.com/",
+    "finalSource": "https://ungtycomicsen.com/",
+    "status": "error",
+    "note": "Timeout",
+    "type": "comic"
+  },
+  {
+    "name": "teamsany.com",
+    "originalSource": "https://teamsany.com/",
+    "finalSource": "https://teamsany.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "dualeotruyenbs.com",
+    "originalSource": "https://dualeotruyenbs.com/",
+    "finalSource": "https://dualeotruyenbs.com/",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "comic"
+  },
+  {
+    "name": "tushumi.cc",
+    "originalSource": "https://www.tushumi.cc/",
+    "finalSource": "https://www.tushumi.cc/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "ixdzs.tw",
+    "originalSource": "https://ixdzs.tw/",
+    "finalSource": "https://ixdzs.tw/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "69shuba.com",
+    "originalSource": "https://www.69shuba.com",
+    "finalSource": "https://www.69shuba.com/",
+    "status": "error",
+    "note": "HTTP Status 403",
+    "type": "novel"
+  },
+  {
+    "name": "truyendexuat.com",
+    "originalSource": "https://truyendexuat.com",
+    "finalSource": "https://truyendexuat.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "truyentv.site",
+    "originalSource": "https://truyentv.site",
+    "finalSource": "https://truyentv.site/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "ocuadua.com",
+    "originalSource": "https://www.ocuadua.com",
+    "finalSource": "https://www.ocuadua.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "xbanxia.cc",
+    "originalSource": "https://www.xbanxia.cc",
+    "finalSource": "https://www.xbanxia.cc/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "czbooks.net",
+    "originalSource": "https://czbooks.net",
+    "finalSource": "https://czbooks.net/",
+    "status": "error",
+    "note": "HTTP Status 403",
+    "type": "novel"
+  },
+  {
+    "name": "quanwenyuedu.io",
+    "originalSource": "https://www.quanwenyuedu.io",
+    "finalSource": "https://www.quanwenyuedu.io/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "m.bqg998.cc",
+    "originalSource": "https://m.bqg998.cc",
+    "finalSource": "https://m.bqg107.xyz/",
+    "status": "changed_domain",
+    "note": "Đổi từ m.bqg998.cc -> m.bqg107.xyz",
+    "type": "novel"
+  },
+  {
+    "name": "wodeshucheng5.com",
+    "originalSource": "https://www.wodeshucheng5.com",
+    "finalSource": "https://www.wodeshucheng5.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "m.75zww.com",
+    "originalSource": "https://m.75zww.com",
+    "finalSource": "https://m.75zww.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "sudugu.org",
+    "originalSource": "https://www.sudugu.org",
+    "finalSource": "https://www.sudugu.org/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "nld.com.vn",
+    "originalSource": "https://nld.com.vn",
+    "finalSource": "https://tuoitre.vn/tto-nld.htm",
+    "status": "changed_domain",
+    "note": "Đổi từ nld.com.vn -> tuoitre.vn",
+    "type": "novel"
+  },
+  {
+    "name": "vietnamnet.vn",
+    "originalSource": "https://vietnamnet.vn",
+    "finalSource": "https://vietnamnet.vn/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "tuoitre.vn",
+    "originalSource": "https://tuoitre.vn",
+    "finalSource": "https://tuoitre.vn/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "soha.vn",
+    "originalSource": "https://soha.vn",
+    "finalSource": "https://soha.vn/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "qimao.com",
+    "originalSource": "https://www.qimao.com",
+    "finalSource": "https://www.qimao.com",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "piaotianapp.com",
+    "originalSource": "https://www.piaotianapp.com",
+    "finalSource": "https://www.piaotianapp.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "69shumi.net",
+    "originalSource": "https://www.69shumi.net",
+    "finalSource": "https://www.69shumi.net/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "biqugess.co",
+    "originalSource": "http://www.biqugess.co",
+    "finalSource": "http://www.biqugess.co",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "69hsz.net",
+    "originalSource": "https://www.69hsz.net",
+    "finalSource": "https://www.69hsz.net/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "xinsoxs.com",
+    "originalSource": "https://www.xinsoxs.com",
+    "finalSource": "https://www.xinsoxs.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "m.abcbiquge.com",
+    "originalSource": "http://m.abcbiquge.com",
+    "finalSource": "http://m.abcbiquge.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "monkeydd.com",
+    "originalSource": "https://www.monkeydd.com",
+    "finalSource": "https://www.monkeydd.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "truyencom.com",
+    "originalSource": "https://truyencom.com",
+    "finalSource": "https://truyencom.com",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "tinhlinh.com",
+    "originalSource": "https://tinhlinh.com",
+    "finalSource": "https://tinhlinh.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "daotruyen.me",
+    "originalSource": "https://daotruyen.me",
+    "finalSource": "https://daotruyen.me/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "q.kyhuyen.com",
+    "originalSource": "https://q.kyhuyen.com",
+    "finalSource": "https://q.kyhuyen.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "novelnext.me",
+    "originalSource": "https://www.novelnext.me",
+    "finalSource": "https://www.novelnext.me/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "fanmtl.com",
+    "originalSource": "https://www.fanmtl.com",
+    "finalSource": "https://www.fanmtl.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "allnovel.org",
+    "originalSource": "https://allnovel.org",
+    "finalSource": "https://allnovel.org/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "spiderum.com",
+    "originalSource": "https://spiderum.com",
+    "finalSource": "https://spiderum.com/",
+    "status": "error",
+    "note": "HTTP Status 503",
+    "type": "novel"
+  },
+  {
+    "name": "sohu.com",
+    "originalSource": "https://www.sohu.com",
+    "finalSource": "https://www.sohu.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "viblo.asia",
+    "originalSource": "https://viblo.asia",
+    "finalSource": "https://viblo.asia/newest",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "akaytruyen.com",
+    "originalSource": "https://akaytruyen.com/",
+    "finalSource": "https://akaytruyen.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "wfxs.tw",
+    "originalSource": "https://wfxs.tw/",
+    "finalSource": "https://wfxs.tw/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "uukanshu.cc",
+    "originalSource": "https://uukanshu.cc",
+    "finalSource": "https://uukanshu.cc/",
+    "status": "error",
+    "note": "HTTP Status 403",
+    "type": "novel"
+  },
+  {
+    "name": "m.xtyxsw.org",
+    "originalSource": "https://m.xtyxsw.org",
+    "finalSource": "https://m.xtyxsw.org/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "hentaifox.com",
+    "originalSource": "http://hentaifox.com/",
+    "finalSource": "https://hentaifox.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "truyennet.org",
+    "originalSource": "https://truyennet.org",
+    "finalSource": "https://truyennet.org/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "api.langge.cf",
+    "originalSource": "https://api.langge.cf",
+    "finalSource": "https://api.langge.cf/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "po18sm.com",
+    "originalSource": "https://www.po18sm.com",
+    "finalSource": "https://www.po18sm.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "vinahentai.bond",
+    "originalSource": "https://vinahentai.bond",
+    "finalSource": "https://vinahentai.bond",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "comic"
+  },
+  {
+    "name": "hentaivietsub.com",
+    "originalSource": "https://hentaivietsub.com",
+    "finalSource": "https://hentaivietsub.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "video"
+  },
+  {
+    "name": "hhtqhay.vip",
+    "originalSource": "https://hhtqhay.vip",
+    "finalSource": "https://hhtqhay.vip/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "video"
+  },
+  {
+    "name": "fanqienovel.com",
+    "originalSource": "https://fanqienovel.com",
+    "finalSource": "https://fanqienovel.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "xx.knit.bid",
+    "originalSource": "https://xx.knit.bid",
+    "finalSource": "https://xx.knit.bid/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "everia.club",
+    "originalSource": "https://everia.club",
+    "finalSource": "https://everia.club/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "bestgirlsexy.com",
+    "originalSource": "https://bestgirlsexy.com",
+    "finalSource": "https://bestgirlsexy.com",
+    "status": "error",
+    "note": "Timeout",
+    "type": "comic"
+  },
+  {
+    "name": "cmangax17.com",
+    "originalSource": "https://cmangax17.com",
+    "finalSource": "https://cmangax18.com/",
+    "status": "changed_domain",
+    "note": "Đổi từ cmangax17.com -> cmangax18.com",
+    "type": "comic"
+  },
+  {
+    "name": "sayhentai.cx",
+    "originalSource": "https://sayhentai.cx",
+    "finalSource": "https://sayhentai.cx/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "minotruyenv6.xyz",
+    "originalSource": "https://minotruyenv6.xyz",
+    "finalSource": "https://minotruyenv6.xyz/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "khodocsach.com",
+    "originalSource": "https://khodocsach.com/",
+    "finalSource": "https://khodocsach.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "vivutruyen.net",
+    "originalSource": "https://vivutruyen.net/",
+    "finalSource": "https://vivutruyen.net/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "tvtruyen.co.uk",
+    "originalSource": "https://www.tvtruyen.co.uk",
+    "finalSource": "https://www.tvtruyen.co.uk",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "truyenmo.xyz",
+    "originalSource": "https://truyenmo.xyz",
+    "finalSource": "https://truyenmo.xyz/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "truyenhoan.com",
+    "originalSource": "https://truyenhoan.com/",
+    "finalSource": "https://truyenhoan.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "quykhu.com",
+    "originalSource": "https://quykhu.com/",
+    "finalSource": "https://quykhu.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "medoctruyen.vn",
+    "originalSource": "https://medoctruyen.vn",
+    "finalSource": "https://medoctruyen.vn/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "ophim17.cc",
+    "originalSource": "https://ophim17.cc",
+    "finalSource": "https://ophim17.cc",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "video"
+  },
+  {
+    "name": "envasion.net",
+    "originalSource": "https://envasion.net",
+    "finalSource": "https://envasion.net",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "video"
+  },
+  {
+    "name": "animevsub.app",
+    "originalSource": "https://animevsub.app",
+    "finalSource": "https://animevsub.app",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "video"
+  },
+  {
+    "name": "wevino.store",
+    "originalSource": "https://wevino.store",
+    "finalSource": "https://motchillix.fm/",
+    "status": "changed_domain",
+    "note": "Đổi từ wevino.store -> motchillix.fm",
+    "type": "video"
+  },
+  {
+    "name": "storya.click",
+    "originalSource": "https://storya.click",
+    "finalSource": "https://storya.click/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "truyen.moe",
+    "originalSource": "https://truyen.moe",
+    "finalSource": "https://truyen.moe/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "shinigamilnteam.com",
+    "originalSource": "https://shinigamilnteam.com",
+    "finalSource": "https://shinigamilnteam.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "lnovel.org",
+    "originalSource": "https://lnovel.org/",
+    "finalSource": "https://lnovel.org/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "novelfull.com",
+    "originalSource": "https://novelfull.com/",
+    "finalSource": "https://novelfull.com/",
+    "status": "error",
+    "note": "HTTP Status 404",
+    "type": "novel"
+  },
+  {
+    "name": "tongrenshe.cc",
+    "originalSource": "https://tongrenshe.cc",
+    "finalSource": "https://tongrenshe.cc/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "dualeotruyenfull.net",
+    "originalSource": "https://dualeotruyenfull.net",
+    "finalSource": "https://dualeotruyenfull.net/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "biquge.tw",
+    "originalSource": "https://www.biquge.tw",
+    "finalSource": "https://www.biquge.tw/",
+    "status": "error",
+    "note": "HTTP Status 403",
+    "type": "novel"
+  },
+  {
+    "name": "truyenchu.net",
+    "originalSource": "https://truyenchu.net",
+    "finalSource": "https://truyenchu.net/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "wanwansekai.com",
+    "originalSource": "https://wanwansekai.com",
+    "finalSource": "https://wanwansekai.com",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "shibashuwu.net",
+    "originalSource": "https://www.shibashuwu.net",
+    "finalSource": "https://www.shibashuwu.net/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "novel.cooks.tw",
+    "originalSource": "https://novel.cooks.tw",
+    "finalSource": "https://novel.cooks.tw/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "trichtinhlau.com",
+    "originalSource": "https://trichtinhlau.com",
+    "finalSource": "https://trichtinhlau.com",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "lnkuro.top",
+    "originalSource": "https://lnkuro.top",
+    "finalSource": "https://lnkuro.top/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "metruyensangtac.vn",
+    "originalSource": "https://metruyensangtac.vn",
+    "finalSource": "https://metruyensangtac.vn/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "sitruyencv.com",
+    "originalSource": "https://sitruyencv.com",
+    "finalSource": "https://sitruyencv.com",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "inkitt.com",
+    "originalSource": "https://inkitt.com",
+    "finalSource": "https://inkitt.com/",
+    "status": "error",
+    "note": "HTTP Status 403",
+    "type": "novel"
+  },
+  {
+    "name": "qidian.com",
+    "originalSource": "https://www.qidian.com",
+    "finalSource": "https://www.qidian.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "haitanglin.com",
+    "originalSource": "https://www.haitanglin.com",
+    "finalSource": "https://www.haitanglin.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "piaotian55.net",
+    "originalSource": "https://www.piaotian55.net",
+    "finalSource": "https://www.piaotian55.net/",
+    "status": "error",
+    "note": "HTTP Status 403",
+    "type": "novel"
+  },
+  {
+    "name": "piaotian.com",
+    "originalSource": "https://www.piaotian.com",
+    "finalSource": "https://www.h0g2e.top/enter/index.html",
+    "status": "changed_domain",
+    "note": "Đổi từ piaotian.com -> h0g2e.top",
+    "type": "novel"
+  },
+  {
+    "name": "trxs.cc",
+    "originalSource": "http://trxs.cc",
+    "finalSource": "http://trxs.cc/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "hiperdex.com",
+    "originalSource": "https://hiperdex.com",
+    "finalSource": "https://hiperdex.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "yousuu.com",
+    "originalSource": "https://www.yousuu.com/",
+    "finalSource": "https://www.yousuu.com/",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "nhentai.net",
+    "originalSource": "https://nhentai.net",
+    "finalSource": "https://nhentai.net",
+    "status": "error",
+    "note": "Timeout",
+    "type": "comic"
+  },
+  {
+    "name": "truyenhoangdung.xyz",
+    "originalSource": "https://truyenhoangdung.xyz",
+    "finalSource": "https://truyenhoangdung.xyz/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "m.1qxs.com",
+    "originalSource": "https://m.1qxs.com/",
+    "finalSource": "https://m.1qxs.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "motchillzc.cc",
+    "originalSource": "https://motchillzc.cc/",
+    "finalSource": "https://motchillzc.cc/",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "video"
+  },
+  {
+    "name": "wattpadvn.net",
+    "originalSource": "https://wattpadvn.net",
+    "finalSource": "https://wattpadvn.net/",
+    "status": "error",
+    "note": "HTTP Status 404",
+    "type": "novel"
+  },
+  {
+    "name": "xalosach.com",
+    "originalSource": "https://xalosach.com",
+    "finalSource": "https://xalosach.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "phimnhua.online",
+    "originalSource": "https://phimnhua.online",
+    "finalSource": "https://phimnhua.online/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "video"
+  },
+  {
+    "name": "103.82.20.93",
+    "originalSource": "http://103.82.20.93",
+    "finalSource": "http://103.82.20.93/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "damconuong.mom",
+    "originalSource": "https://damconuong.mom",
+    "finalSource": "https://damconuong.mom",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "comic"
+  },
+  {
+    "name": "otakusic.com",
+    "originalSource": "https://otakusic.com",
+    "finalSource": "https://otakusic.com/",
+    "status": "error",
+    "note": "HTTP Status 403",
+    "type": "comic"
+  },
+  {
+    "name": "chickenmanga.com",
+    "originalSource": "https://www.chickenmanga.com",
+    "finalSource": "https://www.chickenmanga.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "comicland.org",
+    "originalSource": "https://comicland.org",
+    "finalSource": "https://comicland.org/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "hongtrateam.com",
+    "originalSource": "https://hongtrateam.com",
+    "finalSource": "https://hongtrateam.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "stellarstory.net",
+    "originalSource": "https://stellarstory.net",
+    "finalSource": "https://stellarstory.net/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "truyenyy.co",
+    "originalSource": "https://truyenyy.co",
+    "finalSource": "https://truyenyy.co",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "novel"
+  },
+  {
+    "name": "wikidichvn.com",
+    "originalSource": "https://wikidichvn.com",
+    "finalSource": "https://wikidichvn.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "80qishu.com",
+    "originalSource": "https://www.80qishu.com/",
+    "finalSource": "https://www.80qishu.cc/",
+    "status": "changed_domain",
+    "note": "Đổi từ 80qishu.com -> 80qishu.cc",
+    "type": "novel"
+  },
+  {
+    "name": "mimimoe.moe",
+    "originalSource": "https://mimimoe.moe",
+    "finalSource": "https://mimimoe.moe/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "comic"
+  },
+  {
+    "name": "m.chuangshi.qq.com",
+    "originalSource": "https://m.chuangshi.qq.com",
+    "finalSource": "https://m.chuangshi.qq.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "ixunshu.net",
+    "originalSource": "https://ixunshu.net",
+    "finalSource": "https://ixunshu.net/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "chinese_novel"
+  },
+  {
+    "name": "bqg995.xyz",
+    "originalSource": "https://www.bqg995.xyz",
+    "finalSource": "https://www.bqg691.cc/",
+    "status": "changed_domain",
+    "note": "Đổi từ bqg995.xyz -> bqg691.cc",
+    "type": "chinese_novel"
+  },
+  {
+    "name": "metruyencv.com (APP)",
+    "originalSource": "https://metruyencv.com",
+    "finalSource": "https://metruyencv.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "novel"
+  },
+  {
+    "name": "Sextop1 TikTok 5.0",
+    "originalSource": "https://sextop1.am",
+    "finalSource": "https://sextop1.am",
+    "status": "error",
+    "note": "fetch failed",
+    "type": "video"
+  },
+  {
+    "name": "petfama",
+    "originalSource": "https://www.petfama.com",
+    "finalSource": "https://www.petfama.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "chinese_novel"
+  },
+  {
+    "name": "gourmet",
+    "originalSource": "https://welove-gourmet.com",
+    "finalSource": "https://welove-gourmet.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "chinese_novel"
+  },
+  {
+    "name": "baby0world",
+    "originalSource": "https://baby0world.com",
+    "finalSource": "https://baby0world.com/",
+    "status": "ok",
+    "note": "Hoạt động bình thường",
+    "type": "chinese_novel"
+  }
+]

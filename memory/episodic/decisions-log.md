@@ -13,3 +13,13 @@ This document records the architectural decisions made during development.
   - `plugin.json` and `index.html` are now perfectly in sync.
   - The repository size is reduced by removing redundant `.zip` files.
   - The catalog count shown in the app matches the file content exactly.
+
+### Decision: Patch and Repackage Redirected Extensions
+- **Status**: Approved & Executed.
+- **Context**: Several domains in `plugin.json` have changed due to redirects, causing crawl failures. Captcha protected sites (returning HTTP 403) are intentionally skipped.
+- **Decision**: Programmatically extract the 10 modified zips, replace all internal/master old domains with the correct new domains, perform device test runs to verify parsing logic where possible, increment versions, rebuild the `.zip` packages, and update master indexes.
+- **Consequences**:
+  - The 10 redirected extensions are now updated with fresh, live domains.
+  - Testing verified successful crawl pipelines on the device (e.g. `say-hentai`, `nguoi-lao-dong` parsing 8,200 chars).
+  - Version increments prevent local cache mismatch on clients.
+
