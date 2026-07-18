@@ -2107,6 +2107,28 @@
       "description": "Nguồn truyện chữ ngắn từ baby0world.com (碎番茄故事匯) - Hỗ trợ giải mã font icon ẩn danh",
       "type": "chinese_novel",
       "locale": "zh_TW"
+    },
+    {
+      "name": "抖音小说",
+      "author": "Novela",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/douyinxs.zip",
+      "version": 3,
+      "source": "https://m.douyinxs.com",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/douyinxs.png",
+      "description": "Nguồn truyện chữ Trung Quốc 奇·阅读",
+      "type": "novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "奇·阅读",
+      "author": "Novela",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qiyuedu8.zip",
+      "version": 2,
+      "source": "https://novel.qiyuedu8.top",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/qiyuedu8.png",
+      "description": "Nguồn truyện chữ Trung Quốc 奇·阅读",
+      "type": "novel",
+      "locale": "zh_CN"
     }
   ]
 }
