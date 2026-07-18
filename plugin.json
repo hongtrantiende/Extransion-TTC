@@ -52,10 +52,10 @@
       "locale": "vi_VN"
     },
     {
-      "name": "wikidich.org",
-      "author": "Novela",
+      "name": "Wiki Dịch",
+      "author": "vBook",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wikicv.net.zip",
-      "version": 28,
+      "version": 27,
       "source": "https://wikicv.org",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/wikicv.net.png",
       "description": "Đọc truyện trên trang Wiki Dịch, review ở thông tin truyện",
