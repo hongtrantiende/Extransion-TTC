@@ -2118,17 +2118,6 @@
       "description": "Nguồn truyện chữ Trung Quốc 抖音小说",
       "type": "novel",
       "locale": "zh_CN"
-    },
-    {
-      "name": "qiyuedu8",
-      "author": "Novela",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qiyuedu8.zip",
-      "version": 4,
-      "source": "https://novel.qiyuedu8.top",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/qiyuedu8.png",
-      "description": "Nguồn truyện chữ Trung Quốc 奇·阅读",
-      "type": "novel",
-      "locale": "zh_CN"
     }
   ]
 }
