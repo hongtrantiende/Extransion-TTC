@@ -23,6 +23,10 @@ plugin.data.forEach(ext => {
     if (updates[zipName]) {
         console.log(`🔄 Cập nhật source cho ${ext.name}: "${ext.source}" -> "${updates[zipName]}"`);
         ext.source = updates[zipName];
+        if (zipName === 'wikicv.net.zip') {
+            console.log(`🔄 Cập nhật name cho ${ext.name} -> "wikidich.org"`);
+            ext.name = 'wikidich.org';
+        }
         count++;
     }
 });

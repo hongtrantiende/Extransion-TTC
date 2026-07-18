@@ -52,10 +52,10 @@
       "locale": "vi_VN"
     },
     {
-      "name": "wikicv.net",
+      "name": "wikidich.org",
       "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wikicv.net.zip",
-      "version": 26,
+      "version": 28,
       "source": "https://wikicv.org",
       "icon": "",
       "description": "Đọc truyện trên trang Wiki Dịch, review ở thông tin truyện",

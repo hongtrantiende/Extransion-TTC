@@ -22,8 +22,9 @@ This log tracks lessons learned, resolved bugs, and database or configuration pa
 - **Fix**: Extracted `wikidich.zip` to `extensions/wikidich`, updated internal domains from `wikidich.com.vn` to `wikidichvn.com` in `plugin.json` and `src/config.js`, tested successfully on device (parsed 8,498 characters from a sample book chapter), packed and updated version to 2.
 
 ### wikicv.net (wikicv) Domain Mapping Update
-- **Discovery**: `wikicv` (Wikidich Convert) is a separate version of the extension from `wikidichvn.com`. Its new working domain is `https://wikicv.org` (while old domains like `wikicv.net` are blocked/offline).
-- **Fix**: Extracted `wikicv.net.zip` to folder `extensions/wikicv.net` (matching original zip name). Replaced the internal domain `https://wikicv.net` with the new active domain `https://wikicv.org` in `plugin.json` and tested successfully on the phone (successfully parsed 18 book list elements in Step 1.5). Bounded the version to 26 and repackaged.
+- **Discovery**: `wikicv` (Wikidich Convert) is a separate version of the extension from `wikidichvn.com`. The catalog source display name was renamed to `wikidich.org`, while the domain link remains `https://wikicv.org` (verified active).
+- **Fix**: Extracted `wikicv.net.zip` to folder `extensions/wikicv.net` (matching original zip name). Replaced the internal domain `https://wikicv.net`/`https://wikidich.org` with the working domain `https://wikicv.org` in `plugin.json` and in the root catalog file `plugin.json` (renaming the extension entry name to `wikidich.org` and setting source to `https://wikicv.org`). Tested, bumped version to 28, and repackaged.
+
 
 
 
