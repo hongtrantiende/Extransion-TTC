@@ -81,3 +81,18 @@ This document records the architectural decisions made during development.
 - **Decision**: Cleaned up the old zip and icon versions, renamed folder names to `douyinxs` and `qiyuedu8`, updated root `plugin.json` paths and icons, rebuilt the packages (`zips/douyinxs.zip`, `zips/qiyuedu8.zip`), and pushed the changes to GitHub.
 - **Consequences**:
   - Folders, zip packages, icon images, and root catalog registry indices are now fully aligned and named consistently.
+
+### Decision: Skip Zongheng extension in favor of Tadu
+- **Status**: Approved.
+- **Context**: The mobile site `m.zongheng.com` returned HTTP 500 on the phone due to dirty session/WAF cookies stored in the app's persistent storage (`novel_reader_prefs.xml` under `ext_cookies_zongheng` and WebView `app_webview/Default/Cookies`). While we built the debug APK and proved that clearing the files via ADB `run-as` resolved the error, we cannot programmatically clear cookies on the user's release build. Thus, we decided to abandon Zongheng.
+- **Decision**: Skip Zongheng and replace it with **Tadu (`tadu.com`)** as the 3rd Chinese extension.
+- **Consequences**:
+  - The Zongheng extension directory `extensions/zongheng` is scheduled for replacement/cleanup.
+
+### Decision: Build Tadu extension (tadu)
+- **Status**: In Progress.
+- **Context**: Tadu (`m.tadu.com`) is a major Chinese original web novel site with no Alibaba Cloud WAF (aliyunwaf) redirections/blocks.
+- **Decision**: Create the `tadu` extension under `extensions/tadu`. Use mobile URL structures `/rank` and `/category` for home/explore, `/book/<id>` for details, and `/rank/listContinue?pageNum=2` for pagination.
+- **Consequences**:
+  - Tadu crawler scripts are being designed and tested.
+

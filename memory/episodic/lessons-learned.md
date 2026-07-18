@@ -102,3 +102,13 @@ Dưới đây là tổng hợp toàn bộ quy chuẩn bắt buộc và kinh nghi
 - **Kiểm thử Phân trang (Page 2+)**: Viết script debug riêng (ví dụ: gửi payload chạy thử file `gen.js` với tham số `page = 2` tới endpoint `/test` của điện thoại) để xác nhận dữ liệu của trang tiếp theo được trả về chính xác trước khi xuất bản.
 - **Xóa Cache điện thoại**: Khi chỉnh sửa mã nguồn JS và cài đặt lại nóng, nếu gặp lỗi không thay đổi, hãy thực hiện tắt/bật lại **Dịch vụ Web** hoặc tắt hẳn chạy ngầm ứng dụng **Novela** trên điện thoại để xóa hoàn toàn cache Classloader của Rhino.
 
+### 🍪 Cookie Persistence & Mobile WAF Challenge Issues (Zongheng & Tadu)
+- **Discovery**: In Legado/Novela, extension cookies are persistent across app process runs. They are stored inside `shared_prefs/novel_reader_prefs.xml` under `<string name="ext_cookies_<extId>">` and inside Android WebView storage `./app_webview/Default/Cookies`.
+- **Constraint**: If Zongheng's mobile site (`m.zongheng.com`) returns HTTP 500 on the phone but 200 on PC, it is because Zongheng's server detects stale session/WAF cookies stored in the phone's CookieJar and crashes. 
+- **Debug workflow**: Since release builds (`io.legato.kazusa`) are not debuggable, we cannot use ADB `run-as` to delete cookie storage files. Wiping cookies via `localCookie.setCookie` doesn't clear them fully due to domain/wildcard mismatches. The only way is to clear the cache manually in the app settings, or switch to a debug build (`io.legato.kazusa.debug`) and run `adb shell run-as io.legato.kazusa.debug rm -f shared_prefs/novel_reader_prefs.xml` followed by a force-stop and restart.
+- **Tadu Selector Patterns**:
+  - Tadu (`m.tadu.com`) is a great alternative Chinese site with no WAF redirections.
+  - Category list selector uses `a.bookInfo` for elements, `img` attribute `data-src` for cover, `h2` for title, and `div.info div` for category/tags.
+  - Page 2 is fetched from the AJAX endpoint `/rank/listContinue?readLike=0&countType=hour72&pageNum=2`.
+
+
