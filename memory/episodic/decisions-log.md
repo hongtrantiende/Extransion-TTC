@@ -31,13 +31,13 @@ This document records the architectural decisions made during development.
   - The Wikidich extension catalog entry and code now point to the live `wikidichvn.com` URL.
   - User search, toc, and chapter load on Novela client will correctly request the working server.
 
-### Decision: Update Wikidich Convert (wikicv) domain and name to wikidich.org
+### Decision: Replace Wikidich Convert (wikicv.net) with version from custom registry
 - **Status**: Approved & Executed.
-- **Context**: `wikicv.net` is offline/blocked. The display name of the source is `wikidich.org` while its domain link is `https://wikicv.org`.
-- **Decision**: Extract `wikicv.net.zip` to folder `extensions/wikicv.net` and replace internal domains with `https://wikicv.org` in `plugin.json` (as the rest of the JS logic is encrypted and uses CONFIG_URL dynamically) and renamed the master index catalog entry name to `wikidich.org` and source to `https://wikicv.org`. Tested, repackaged, and updated version to 28.
+- **Context**: The user requested to delete the `wikidich.org` rename and replace it with a verified custom registry version of "Wiki Dịch" (wikicv.org) from `https://www.vbookext.me/api/registry/vbook-175573b4.json`.
+- **Decision**: Download the zip from the custom registry, extract it to `extensions/wikicv.net` (matching the original name in the catalog), update its author to `Novela` inside its metadata, bump its version to 28, rebuild the zip `wikicv.net.zip`, and update the root `plugin.json` to map name "Wiki Dịch" and source "https://wikicv.org".
 - **Consequences**:
-  - The "wikidich.org" (formerly wikicv.net) extension is now fully updated to request `https://wikicv.org`.
-  - Version increment is correctly pushed to clients.
+  - The repository's "Wiki Dịch" (wikicv.net) extension is now replaced with the custom registry version using `wikicv.org`.
+  - Author and version increments are properly synced in the master catalog.
 
 ### Decision: Update Truyện Full (truyen-full) domain and name to truyenfull.live
 - **Status**: Approved & Executed.

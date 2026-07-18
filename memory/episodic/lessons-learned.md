@@ -22,8 +22,8 @@ This log tracks lessons learned, resolved bugs, and database or configuration pa
 - **Fix**: Extracted `wikidich.zip` to `extensions/wikidich`, updated internal domains from `wikidich.com.vn` to `wikidichvn.com` in `plugin.json` and `src/config.js`, tested successfully on device (parsed 8,498 characters from a sample book chapter), packed and updated version to 2.
 
 ### wikicv.net (wikicv) Domain Mapping Update
-- **Discovery**: `wikicv` (Wikidich Convert) is a separate version of the extension from `wikidichvn.com`. The catalog source display name was renamed to `wikidich.org`, while the domain link remains `https://wikicv.org` (verified active).
-- **Fix**: Extracted `wikicv.net.zip` to folder `extensions/wikicv.net` (matching original zip name). Replaced the internal domain `https://wikicv.net`/`https://wikidich.org` with the working domain `https://wikicv.org` in `plugin.json` and in the root catalog file `plugin.json` (renaming the extension entry name to `wikidich.org` and setting source to `https://wikicv.org`). Tested, bumped version to 28, and repackaged.
+- **Discovery**: `wikicv` (Wikidich Convert) is a separate version of the extension from `wikidichvn.com`. The original display name is `Wiki Dịch` and its working domain is `https://wikicv.org` (verified active).
+- **Fix**: Deleted the custom `wikidich.org` rename and downloaded the verified `wikicv` extension from the custom vbookext registry `https://www.vbookext.me/api/registry/vbook-175573b4.json`. Extracted to `extensions/wikicv.net`, updated the author inside its `plugin.json` metadata to `Novela`, packed as `zips/wikicv.net.zip` with version 28, and updated the root catalog `plugin.json` to match.
 
 ### truyenfull.today (truyen-full) Domain Mapping Update
 - **Discovery**: `truyenfull.today` is offline/blocked. The new active domain name is `https://truyenfull.live`.
