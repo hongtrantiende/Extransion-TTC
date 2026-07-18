@@ -37,6 +37,10 @@ This log tracks lessons learned, resolved bugs, and database or configuration pa
   - `motchillzc.cc` (`motchill-1.zip`)
   - `envasion.net` (`motchill.zip`)
 
+### Hentai Extensions Update
+- **Fix**: Deleted/overwrote the old `hentaivietsub.com` extension with the verified version downloaded from the custom registry `https://www.vbookext.me/api/registry/vbook-d77fb523.json`. Added the new `HentaiZBot` extension from the same registry. Both extensions were extracted locally to `extensions/`, the metadata author updated to `Novela`, and packaged to `zips/hentaivietsub-com.zip` and `zips/hentaizbot.zip` respectively. Extracted and mapped the icons to `icons/` and updated `plugin.json` at root.
+
+
 
 
 

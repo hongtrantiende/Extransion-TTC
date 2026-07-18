@@ -55,6 +55,15 @@ This document records the architectural decisions made during development.
   - The catalog is now clean of these 5 obsolete extensions.
   - Disk footprint is reduced.
 
+### Decision: Update Hentai Extensions from custom registry
+- **Status**: Approved & Executed.
+- **Context**: The user requested replacement of the old `hentaivietsub.com` and addition of a new `HentaiZBot` extension from `https://www.vbookext.me/api/registry/vbook-d77fb523.json`.
+- **Decision**: Downloaded the custom registry zips, extracted them to `extensions/hentaivietsub-com` and `extensions/hentaizbot`, updated metadata author to `Novela`, incremented versions, packaged them, extracted/updated icons, and synced root `plugin.json` index.
+- **Consequences**:
+  - Updated `HentaiVietsub.com` and new `HentaiZBot` are now available in the master catalog.
+  - Both carry correct `Novela` authorship metadata.
+
+
 
 
 
