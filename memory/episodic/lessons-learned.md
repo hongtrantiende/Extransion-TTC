@@ -40,6 +40,11 @@ This log tracks lessons learned, resolved bugs, and database or configuration pa
 ### Hentai Extensions Update
 - **Fix**: Deleted/overwrote the old `hentaivietsub.com` extension with the verified version downloaded from the custom registry `https://www.vbookext.me/api/registry/vbook-d77fb523.json`. Added the new `HentaiZBot` extension from the same registry. Both extensions were extracted locally to `extensions/`, the metadata author updated to `Novela`, and packaged to `zips/hentaivietsub-com.zip` and `zips/hentaizbot.zip` respectively. Extracted and mapped the icons to `icons/` and updated `plugin.json` at root.
 
+### Encrypted Extensions Metadata Constraint
+- **Discovery**: Encrypted extensions (e.g. `Wiki Dịch`/`wikicv.net`, `qmbook`, `07br`, `roads-team`) use metadata fields (such as `name`, `author`, `version`, or `source`) as a key/salt for decrypting files in the VBook/Legado client. Modifying `plugin.json` inside the zip or root catalog to change author/version/name breaks the decryption and causes the extension to crash/fail to load.
+- **Fix**: Preserved the exact original zip and matching metadata (`name: "Wiki Dịch"`, `author: "vBook"`, `version: 27`) for `wikicv.net.zip`.
+
+
 
 
 
