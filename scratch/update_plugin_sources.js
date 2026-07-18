@@ -25,8 +25,8 @@ plugin.data.forEach(ext => {
         console.log(`🔄 Cập nhật source cho ${ext.name}: "${ext.source}" -> "${updates[zipName]}"`);
         ext.source = updates[zipName];
         if (zipName === 'wikicv.net.zip') {
-            console.log(`🔄 Cập nhật name cho ${ext.name} -> "wikidich.org"`);
-            ext.name = 'wikidich.org';
+            console.log(`🔄 Cập nhật name cho ${ext.name} -> "Wiki Dịch"`);
+            ext.name = 'Wiki Dịch';
         }
         if (zipName === 'truyen-full.zip') {
             console.log(`🔄 Cập nhật name cho ${ext.name} -> "truyenfull.live"`);
