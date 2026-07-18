@@ -1757,15 +1757,15 @@
       "locale": "en_US"
     },
     {
-      "name": "qidian.com",
+      "name": "起点男频",
       "author": "Novela",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qidian.zip",
-      "version": 13,
-      "source": "https://www.qidian.com",
+      "version": 2,
+      "source": "https://m.qidian.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/qidian.png",
-      "description": "Đọc truyện trên trang https://www.qidian.com",
+      "description": "Nguồn truyện chữ Trung Quốc 起点男频",
       "type": "novel",
-      "locale": "vi_VN"
+      "locale": "zh_CN"
     },
     {
       "name": "haitanglin.com",

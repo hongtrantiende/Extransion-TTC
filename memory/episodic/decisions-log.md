@@ -63,9 +63,21 @@ This document records the architectural decisions made during development.
   - Updated `HentaiVietsub.com` and new `HentaiZBot` are now available in the master catalog.
   - Both carry correct `Novela` authorship metadata.
 
+### Decision: Implement 抖音小说 (douyinxs) and 奇·阅读 (qiyuedu8) Chinese extensions
+- **Status**: Approved & Executed.
+- **Context**: The user requested new Chinese novel extensions that have search and explore capabilities missing from the current repo.
+- **Decision**: Implemented `抖音小说` (`douyinxs`) and `奇·阅读` (`qiyuedu8`).
+  - Scaffolded both directories under `extensions/`.
+  - Implemented dynamic cover computation for `douyinxs` (`Math.floor(id / 6) - 1`) to enable cover images on the explore/home screens.
+  - Implemented paginated chapter catalog fetching utilizing `page.js` returning a plain array of string URLs and custom subpage crawling in `toc.js`.
+  - Generated premium custom icons for both extensions and registered them in `icons/` and root `plugin.json` registry.
+- **Consequences**:
+  - `douyinxs` and `qiyuedu8` are fully functional, successfully tested on-device (fully passed testing pipelines with 1500+ chapters and 3400+ characters read), and compiled to the GitHub registry.
+  - Both extensions are available in the public catalog under author `Novela` with versions 6 and 3 respectively.
 
-
-
-
-
-
+### Decision: Rename new Chinese extensions to short names (douyinxs, qiyuedu8)
+- **Status**: Approved & Executed.
+- **Context**: The new folders were initially named `douyinxs-com` and `qiyuedu8-top`. The user chose to simplify the folder names to the short domain names `douyinxs` and `qiyuedu8` (Option 2).
+- **Decision**: Cleaned up the old zip and icon versions, renamed folder names to `douyinxs` and `qiyuedu8`, updated root `plugin.json` paths and icons, rebuilt the packages (`zips/douyinxs.zip`, `zips/qiyuedu8.zip`), and pushed the changes to GitHub.
+- **Consequences**:
+  - Folders, zip packages, icon images, and root catalog registry indices are now fully aligned and named consistently.

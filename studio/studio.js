@@ -526,7 +526,7 @@ async function installExtension(extId) {
             const boundary = '----WebKitFormBoundary' + Math.random().toString(36).substring(2);
             const header = Buffer.from(
                 `--${boundary}\r\n` +
-                `Content-Disposition: form-data; name="file"; filename="plugin.zip"\r\n` +
+                `Content-Disposition: form-data; name="file"; filename="${extId}.zip"\r\n` +
                 `Content-Type: application/zip\r\n\r\n`
             );
             const footer = Buffer.from(`\r\n--${boundary}--\r\n`);

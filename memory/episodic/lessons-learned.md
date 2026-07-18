@@ -44,10 +44,18 @@ This log tracks lessons learned, resolved bugs, and database or configuration pa
 - **Discovery**: Encrypted extensions (e.g. `Wiki Dịch`/`wikicv.net`, `qmbook`, `07br`, `roads-team`) use metadata fields (such as `name`, `author`, `version`, or `source`) as a key/salt for decrypting files in the VBook/Legado client. Modifying `plugin.json` inside the zip or root catalog to change author/version/name breaks the decryption and causes the extension to crash/fail to load.
 - **Fix**: Preserved the exact original zip and matching metadata (`name: "Wiki Dịch"`, `author: "vBook"`, `version: 27`) for `wikicv.net.zip`.
 
+### VBook Extensions page.js Return Format
+- **Discovery**: The `page.js` script (for chapter catalog pagination) must return a plain array of string URLs (e.g., `["https://m.douyinxs.com/..."]`), NOT an array of objects. Returning objects like `[{ name: ..., link: ... }]` will fail the native VBook/Legado parsing engine on the phone and result in an empty chapter list (even if the `studio.js` test pipeline passed).
 
+### detail.js `host` Field Requirement
+- **Discovery**: The book details object returned by `detail.js` must include the `host` field (e.g., `host: "https://m.douyinxs.com"`). If `host` is omitted, the phone app cannot resolve relative URLs for pagination and chapters catalog, leading to empty list screens.
 
+### Mathematical Cover Mapping for `douyinxs`
+- **Discovery**: The `抖音小说` (`douyinxs`) category list doesn't include cover image elements. However, we discovered a direct mathematical formula mapping book ID to its cover image path:
+  - `coverId = Math.floor(bookId / 6) - 1`
+  - `subDir = Math.floor(coverId / 1000)`
+  - URL is `https://img.douyinxs.com/{subDir}/{coverId}/{coverId}s.jpg`
+  This enables dynamic and fully correct cover rendering on the explore/home tab of the extension.
 
-
-
-
-
+### Naming Conventions and Symlinking
+- **Convention**: Folder names inside `extensions/` must be alphanumeric (like `douyinxs` or `qiyuedu8`) and synchronized with registry IDs. We renamed `douyinxs-com` to `douyinxs` and `qiyuedu8-top` to `qiyuedu8` to follow consistent naming without `-com` / `-top` suffixes, updated root `plugin.json` registry path mappings, packed version 6/3, and pushed to GitHub.
