@@ -31,4 +31,13 @@ This document records the architectural decisions made during development.
   - The Wikidich extension catalog entry and code now point to the live `wikidichvn.com` URL.
   - User search, toc, and chapter load on Novela client will correctly request the working server.
 
+### Decision: Update Wikidich Convert (wikicv) domain to wikicv.org
+- **Status**: Approved & Executed.
+- **Context**: `wikicv.net` is offline/blocked. The new active service domain is `https://wikicv.org`.
+- **Decision**: Extract `wikicv.net.zip` to folder `extensions/wikicv.net` and replace the internal domain `https://wikicv.net` with the new active domain `https://wikicv.org` in `plugin.json` (as the rest of the JS logic is encrypted and uses CONFIG_URL dynamically). Tested successfully on device (18 items parsed), repackaged, and updated version to 26.
+- **Consequences**:
+  - The "Wiki Dịch" (wikicv.net) extension is now fully updated to request `https://wikicv.org`.
+  - Version increment is correctly pushed to clients.
+
+
 

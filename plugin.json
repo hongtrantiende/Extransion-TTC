@@ -56,9 +56,9 @@
       "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wikicv.net.zip",
       "version": 26,
-      "source": "https://wikicv.net",
+      "source": "https://wikicv.org",
       "icon": "",
-      "description": "Đọc truyện trên trang Wiki Dịch",
+      "description": "Đọc truyện trên trang Wiki Dịch, review ở thông tin truyện",
       "type": "novel",
       "locale": "vi_VN"
     },

@@ -13,7 +13,8 @@ const updates = {
     'anime-hay.zip': 'https://motchillix.fm',
     'ptwxz.zip': 'https://www.h0g2e.top/enter/index.html',
     '80qishu.zip': 'https://www.80qishu.cc',
-    '07br.zip': 'https://www.bqg691.cc'
+    '07br.zip': 'https://www.bqg691.cc',
+    'wikicv.net.zip': 'https://wikicv.org'
 };
 
 let count = 0;
