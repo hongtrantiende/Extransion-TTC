@@ -7,10 +7,10 @@ const JSZip = require('jszip');
 const STUDIO_DIR = __dirname;
 const REPO_DIR = path.join(STUDIO_DIR, '..');
 const PROJECT_ROOT = path.join(REPO_DIR, '..');
-const REBUILD_EXT_DIR = path.join(PROJECT_ROOT, 'scratch');
+const REBUILD_EXT_DIR = path.join(REPO_DIR, 'extensions');
 const REPO_INDEX_PATH = path.join(REPO_DIR, 'plugin.json');
 const REPO_ZIPS_DIR = path.join(REPO_DIR, 'zips');
-const PORT = 8080;
+const PORT = 1122;
 const SERVER_URL = `http://127.0.0.1:${PORT}`;
 
 // Colors
@@ -41,7 +41,7 @@ function toSlug(name) {
 }
 
 function getExtPath(extId) {
-    const scratchPath = path.join(PROJECT_ROOT, 'scratch', extId);
+    const scratchPath = path.join(REBUILD_EXT_DIR, extId);
     if (fs.existsSync(path.join(scratchPath, 'plugin.json'))) {
         return scratchPath;
     }
@@ -95,12 +95,19 @@ async function checkServer() {
             log(`✔ Đã kết nối với Novel Reader Server (Phone)! Trạng thái: ${JSON.stringify(data)}`, C.G);
             return true;
         }
+        if (res.status === 404) {
+            const resLegado = await fetch(`${SERVER_URL}/getBookSources`, { signal: AbortSignal.timeout(3000) });
+            if (resLegado.ok) {
+                log(`✔ Đã kết nối với Novela APK/Legado Server (Phone) trên cổng ${PORT}!`, C.G);
+                return true;
+            }
+        }
     } catch (e) {
         log(`❌ Không thể kết nối tới Server trên điện thoại tại ${SERVER_URL}`, C.R);
         log(`Chi tiết lỗi: ${e.message}`, C.R);
         log(`Hãy kiểm tra:`, C.Y);
-        log(`1. Novel Reader trên điện thoại đã được cài đặt và đang chạy.`, C.Y);
-        log(`2. Đã bật "Developer Mode" hoặc "Bắt đầu máy chủ test" trong cài đặt ứng dụng.`, C.Y);
+        log(`1. Novel Reader / Novela APK trên điện thoại đã được cài đặt và đang chạy.`, C.Y);
+        log(`2. Đã bật "Developer Mode" hoặc "Bắt đầu máy chủ" trong cài đặt ứng dụng.`, C.Y);
         log(`3. Cáp USB kết nối ổn định.`, C.Y);
     }
     return false;
@@ -474,6 +481,7 @@ async function installExtension(extId) {
     }
 
     const pluginText = fs.readFileSync(pluginJsonPath, 'utf8');
+    const pluginObj = JSON.parse(pluginText);
     const srcFiles = fs.readdirSync(srcDir);
     const srcObj = {};
     for (const f of srcFiles) {
@@ -481,6 +489,69 @@ async function installExtension(extId) {
         if (fs.statSync(fp).isFile() && f.endsWith('.js')) {
             srcObj[f] = fs.readFileSync(fp, 'utf8');
         }
+    }
+
+    // Check if target is Legado
+    let isLegado = false;
+    try {
+        const resLegado = await fetch(`${SERVER_URL}/getBookSources`, { signal: AbortSignal.timeout(2000) });
+        if (resLegado.ok) isLegado = true;
+    } catch (e) {}
+
+    if (isLegado) {
+        log(`👉 Target is Legado/Novela APK. Creating ZIP and uploading...`, C.Y);
+        const zip = new JSZip();
+        zip.file('plugin.json', JSON.stringify(pluginObj, null, 2));
+        
+        const iconPath = path.join(extPath, 'icon.png');
+        if (fs.existsSync(iconPath)) {
+            zip.file('icon.png', fs.readFileSync(iconPath));
+        }
+
+        if (fs.existsSync(srcDir)) {
+            const zipSrcFolder = zip.folder('src');
+            for (const file of srcFiles) {
+                const fp = path.join(srcDir, file);
+                if (fs.statSync(fp).isFile() && file.endsWith('.js')) {
+                    zipSrcFolder.file(file, fs.readFileSync(fp));
+                }
+            }
+        }
+
+        try {
+            const content = await zip.generateAsync({ type: 'nodebuffer' });
+            const boundary = '----WebKitFormBoundary' + Math.random().toString(36).substring(2);
+            const header = Buffer.from(
+                `--${boundary}\r\n` +
+                `Content-Disposition: form-data; name="file"; filename="plugin.zip"\r\n` +
+                `Content-Type: application/zip\r\n\r\n`
+            );
+            const footer = Buffer.from(`\r\n--${boundary}--\r\n`);
+            const body = Buffer.concat([header, content, footer]);
+
+            const res = await fetch(`${SERVER_URL}/uploadExtension`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': `multipart/form-data; boundary=${boundary}`,
+                    'Content-Length': body.length.toString()
+                },
+                body: body
+            });
+            
+            if (res.ok) {
+                const text = await res.text();
+                if (text.includes('true') || text.includes('data')) {
+                    log(`✔ Cài đặt thành công! Extension "${extId}" đã được nạp trực tiếp vào Novela/Legado và kích hoạt.`, C.G);
+                } else {
+                    log(`❌ Cài đặt thất bại: ${text}`, C.R);
+                }
+            } else {
+                log(`❌ Cài đặt thất bại, server trả về mã lỗi HTTP ${res.status}`, C.R);
+            }
+        } catch (e) {
+            log(`❌ Lỗi mạng khi cài đặt lên Legado: ${e.message}`, C.R);
+        }
+        return;
     }
 
     let iconBase64 = "";
@@ -744,7 +815,7 @@ async function scanAll(limitStr) {
         });
     }
 
-    const reportPath = path.join(PROJECT_ROOT, 'scratch', 'scan_all_report.json');
+    const reportPath = path.join(STUDIO_DIR, 'scan_all_report.json');
     fs.writeFileSync(reportPath, JSON.stringify(report, null, 2), 'utf8');
     log(`\n📄 Đã lưu báo cáo chi tiết vào: ${reportPath}`, C.C);
 }
