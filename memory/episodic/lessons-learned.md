@@ -25,6 +25,11 @@ This log tracks lessons learned, resolved bugs, and database or configuration pa
 - **Discovery**: `wikicv` (Wikidich Convert) is a separate version of the extension from `wikidichvn.com`. The catalog source display name was renamed to `wikidich.org`, while the domain link remains `https://wikicv.org` (verified active).
 - **Fix**: Extracted `wikicv.net.zip` to folder `extensions/wikicv.net` (matching original zip name). Replaced the internal domain `https://wikicv.net`/`https://wikidich.org` with the working domain `https://wikicv.org` in `plugin.json` and in the root catalog file `plugin.json` (renaming the extension entry name to `wikidich.org` and setting source to `https://wikicv.org`). Tested, bumped version to 28, and repackaged.
 
+### truyenfull.today (truyen-full) Domain Mapping Update
+- **Discovery**: `truyenfull.today` is offline/blocked. The new active domain name is `https://truyenfull.live`.
+- **Fix**: Extracted `truyen-full.zip` to folder `extensions/truyen-full`. Replaced the internal domain `https://truyenfull.today` with the new active domain `https://truyenfull.live` in `plugin.json` and `src/config.js`. Renamed the extension entry display name to `truyenfull.live` inside local metadata and master `plugin.json` to prevent catalog duplicates, bumped version to 14, and repackaged.
+
+
 
 
 

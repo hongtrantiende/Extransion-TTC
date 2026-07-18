@@ -39,6 +39,15 @@ This document records the architectural decisions made during development.
   - The "wikidich.org" (formerly wikicv.net) extension is now fully updated to request `https://wikicv.org`.
   - Version increment is correctly pushed to clients.
 
+### Decision: Update Truyện Full (truyen-full) domain and name to truyenfull.live
+- **Status**: Approved & Executed.
+- **Context**: `truyenfull.today` is offline/blocked. The new working domain is `https://truyenfull.live`.
+- **Decision**: Extract `truyen-full.zip` to folder `extensions/truyen-full`. Update internal domains to `https://truyenfull.live` in `plugin.json` and `src/config.js`. Update metadata name and master catalog name to `truyenfull.live` to avoid duplication. Bumped version to 14, repackaged, and uploaded to device.
+- **Consequences**:
+  - The "truyenfull.live" (formerly truyenfull.today) extension points to the live domain.
+  - Test run passed successfully on the device for catalog and detail parsing.
+
+
 
 
 

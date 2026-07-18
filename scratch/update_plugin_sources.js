@@ -14,7 +14,8 @@ const updates = {
     'ptwxz.zip': 'https://www.h0g2e.top/enter/index.html',
     '80qishu.zip': 'https://www.80qishu.cc',
     '07br.zip': 'https://www.bqg691.cc',
-    'wikicv.net.zip': 'https://wikicv.org'
+    'wikicv.net.zip': 'https://wikicv.org',
+    'truyen-full.zip': 'https://truyenfull.live'
 };
 
 let count = 0;
@@ -26,6 +27,10 @@ plugin.data.forEach(ext => {
         if (zipName === 'wikicv.net.zip') {
             console.log(`🔄 Cập nhật name cho ${ext.name} -> "wikidich.org"`);
             ext.name = 'wikidich.org';
+        }
+        if (zipName === 'truyen-full.zip') {
+            console.log(`🔄 Cập nhật name cho ${ext.name} -> "truyenfull.live"`);
+            ext.name = 'truyenfull.live';
         }
         count++;
     }

@@ -41,11 +41,11 @@
       "locale": "vi_VN"
     },
     {
-      "name": "truyenfull.today",
+      "name": "truyenfull.live",
       "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-full.zip",
-      "version": 2,
-      "source": "https://truyenfull.today",
+      "version": 14,
+      "source": "https://truyenfull.live",
       "icon": "",
       "description": "Đọc truyện trên trang Truyện Full",
       "type": "novel",
