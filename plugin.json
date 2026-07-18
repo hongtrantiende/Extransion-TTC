@@ -569,17 +569,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "alicesw.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw-1.zip",
-      "version": 2,
-      "source": "http://alicesw.com",
-      "icon": "",
-      "description": "Read Chinese novels on AliceSW (forked from B)",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "cosplaytele.com",
       "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cosplaytele.zip",
@@ -699,17 +688,6 @@
       "description": "Đọc truyện trên JulyComic. Ext tự lấy token đăng nhập nếu có, gửi flag 18+ và tự gọi xác nhận 18+ khi có tài khoản. Search `token:<Bearer token>` để nhập nhanh token, `token:clear` xóa token đang lưu. ",
       "type": "comic",
       "locale": "vi_VN"
-    },
-    {
-      "name": "book.qq.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/app-qq.zip",
-      "version": 2,
-      "source": "book.qq.com",
-      "icon": "",
-      "description": "Đọc QQ阅读. Chap miễn phí dùng cấu hình tự tạo; liên hệ để nhận bản VIP. ",
-      "type": "novel",
-      "locale": "zh_CN"
     },
     {
       "name": "gaumeoteam.com",
@@ -866,17 +844,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "metruyenchuvn.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-truyen-chu.zip",
-      "version": 2,
-      "source": "https://metruyenchuvn.com/",
-      "icon": "",
-      "description": "Đọc truyện chữ trên Mê Truyện Chữ",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
       "name": "mottruyen.com.vn",
       "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/mot-truyen.zip",
@@ -998,20 +965,9 @@
       "locale": "vi_VN"
     },
     {
-      "name": "truyenfull.today",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyenfull.zip",
-      "version": 2,
-      "source": "https://truyenfull.today",
-      "icon": "",
-      "description": "Đọc truyện trên trang Truyện full",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
       "name": "xbanxia.cc",
       "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xbanxia-repo-duong-den.zip",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xbanxia.zip",
       "version": 2,
       "source": "https://www.xbanxia.cc",
       "icon": "",
@@ -1022,13 +978,13 @@
     {
       "name": "czbooks.net",
       "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/czbooks-repo-duong-den.zip",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/czbooks.zip",
       "version": 2,
       "source": "https://czbooks.net",
       "icon": "",
-      "description": "Đọc truyện trên trang czbooks",
+      "description": "Đọc truyện trên trang https://czbooks.net",
       "type": "novel",
-      "locale": "zh_CN"
+      "locale": "vi_VN"
     },
     {
       "name": "quanwenyuedu.io",
@@ -1082,17 +1038,6 @@
       "source": "https://www.sudugu.org",
       "icon": "",
       "description": "Đọc truyện trên trang sudugu",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "69shuba.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/69shu-repo-duong-den.zip",
-      "version": 2,
-      "source": "https://69shuba.com",
-      "icon": "",
-      "description": "Đọc truyện trên trang 69shuba.com",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -1350,17 +1295,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "alicesw.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw-2.zip",
-      "version": 2,
-      "source": "https://www.alicesw.com/",
-      "icon": "",
-      "description": "trang truyện seggg.",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "wfxs.tw",
       "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/wfxs-tw.zip",
@@ -1471,46 +1405,13 @@
       "locale": "vi_VN"
     },
     {
-      "name": "alicesw.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw-3.zip",
-      "version": 2,
-      "source": "https://www.alicesw.com",
-      "icon": "",
-      "description": "Đọc truyện trên alicesw.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "metruyenchuvn.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/metruyenchufake.zip",
-      "version": 2,
-      "source": "https://metruyenchuvn.com",
-      "icon": "",
-      "description": "noDes",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "cosplaytele.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cosplaytele-1.zip",
-      "version": 2,
-      "source": "https://cosplaytele.com/",
-      "icon": "",
-      "description": "noDes",
-      "type": "comic",
-      "locale": "zh_CN"
-    },
-    {
       "name": "fanqienovel.com",
       "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ca-chua.zip",
-      "version": 2,
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ca-chua-soi-xam.zip",
+      "version": 12,
       "source": "https://fanqienovel.com",
       "icon": "",
-      "description": "Cà Chua",
+      "description": "Nguồn truyện chữ Trung Quốc từ Fanqie Novel (sói xám to version)- chỉ đọc không tải (Ngoại trừ VIP/SVIP).\n\n⚠️ Giới hạn đọc: 3 chương/ngày dành cho khách ẩn danh.\n\n Cách để đọc tiếp:\n➊ Mở Trình duyệt ngay trong app vBook.\n➋ Truy cập: https://v2.czyl.cf/login\n➌ Đăng nhập tài khoản Sói Xám.\n➍ Quay lại và Làm mới chương.\n\n🔗 Hướng dẫn: https://discord.com/channels/607084896288243731/1476830093996327097",
       "type": "novel",
       "locale": "zh_CN"
     },
@@ -1578,28 +1479,6 @@
       "icon": "",
       "description": "Đọc truyện trên trang Mino",
       "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "truyennet.org",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-net-1.zip",
-      "version": 2,
-      "source": "https://truyennet.org",
-      "icon": "",
-      "description": "Đọc truyện trên trang Truyện Net",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "metruyenchuvn.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-truyen-chu-1.zip",
-      "version": 2,
-      "source": "https://metruyenchuvn.com",
-      "icon": "",
-      "description": "Đọc truyện trên trang Mê Truyện Chữ",
-      "type": "novel",
       "locale": "vi_VN"
     },
     {
@@ -1680,17 +1559,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "fanqienovel.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ca-chua-soi-xam.zip",
-      "version": 12,
-      "source": "https://fanqienovel.com",
-      "icon": "",
-      "description": "Nguồn truyện chữ Trung Quốc từ Fanqie Novel (sói xám to version)- chỉ đọc không tải (Ngoại trừ VIP/SVIP).\n\n⚠️ Giới hạn đọc: 3 chương/ngày dành cho khách ẩn danh.\n\n Cách để đọc tiếp:\n➊ Mở Trình duyệt ngay trong app vBook.\n➋ Truy cập: https://v2.czyl.cf/login\n➌ Đăng nhập tài khoản Sói Xám.\n➍ Quay lại và Làm mới chương.\n\n🔗 Hướng dẫn: https://discord.com/channels/607084896288243731/1476830093996327097",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "ophim17.cc",
       "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ophim.zip",
@@ -1732,17 +1600,6 @@
       "icon": "",
       "description": "Xem Anime Hay - miễn phí chất lượng cao với phụ đề Tiếng Việt, Thuyết Minh, Lồng Tiếng. Website có hơn +10.000 phim Anime mới nhất và cập nhật liên tục, kho phim đa dạng từ các thể loại 3D Trung Quốc, Anime Nhật Bản.. \n\n Lưu Ý: Không search được do web không search được",
       "type": "video",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "docln.sbs",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hako.zip",
-      "version": 2,
-      "source": "https://docln.sbs",
-      "icon": "",
-      "description": "Đọc truyện trên Hako",
-      "type": "novel",
       "locale": "vi_VN"
     },
     {
@@ -1812,39 +1669,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "ilwxs.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/ilwxs.zip",
-      "version": 2,
-      "source": "https://www.ilwxs.com",
-      "icon": "",
-      "description": "Đọc truyện trên trang https://www.ilwxs.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "qbtr.cc",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dong-nhan-tieu-thuyet.zip",
-      "version": 2,
-      "source": "https://www.qbtr.cc",
-      "icon": "",
-      "description": "Đọc truyện trên trang https://www.qbtr.cc",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "truyenhoan.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-hoan-1.zip",
-      "version": 2,
-      "source": "https://truyenhoan.com",
-      "icon": "",
-      "description": "Đọc truyện trên trang https://truyenhoan.com",
-      "type": "novel",
-      "locale": "vn_VI"
-    },
-    {
       "name": "dualeotruyenfull.net",
       "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/dualeotruyenfull.zip",
@@ -1865,17 +1689,6 @@
       "description": "笔趣阁 - Truyện chữ Tiếng Trung",
       "type": "novel",
       "locale": "zh_CN"
-    },
-    {
-      "name": "storya.click",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/storya-1.zip",
-      "version": 2,
-      "source": "https://storya.click",
-      "icon": "",
-      "description": "Storya - Đọc truyện chữ online miễn phí",
-      "type": "novel",
-      "locale": "vi_VN"
     },
     {
       "name": "truyenchu.net",
@@ -1952,17 +1765,6 @@
       "icon": "",
       "description": "MeTruyenSangTac - Nền tảng đọc truyện sáng tác miễn phí",
       "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "sayhentai.cx",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/sayhentai-18.zip",
-      "version": 2,
-      "source": "https://sayhentai.cx",
-      "icon": "",
-      "description": "SayHentai - Truyện hentai, manhwa 18+ tiếng Việt",
-      "type": "comic",
       "locale": "vi_VN"
     },
     {
@@ -2043,17 +1845,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "czbooks.net",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/czbooks.zip",
-      "version": 2,
-      "source": "https://czbooks.net",
-      "icon": "",
-      "description": "Đọc truyện trên trang https://czbooks.net",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
       "name": "hiperdex.com",
       "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hiperdex.zip",
@@ -2076,17 +1867,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "qidian.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qidian-home.zip",
-      "version": 2,
-      "source": "https://www.qidian.com/",
-      "icon": "",
-      "description": "qidian home",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "nhentai.net",
       "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/nhentai-one.zip",
@@ -2096,17 +1876,6 @@
       "description": "Đọc truyện trên trang nHentai.one",
       "type": "comic",
       "locale": "en_US"
-    },
-    {
-      "name": "xbanxia.cc",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/xbanxia.zip",
-      "version": 2,
-      "source": "https://www.xbanxia.cc",
-      "icon": "",
-      "description": "Đọc truyện trên trang Xbanxia",
-      "type": "novel",
-      "locale": "zh-CN"
     },
     {
       "name": "truyenhoangdung.xyz",
@@ -2120,39 +1889,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "medoctruyen.vn",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-doc-truyen-1.zip",
-      "version": 2,
-      "source": "https://medoctruyen.vn/",
-      "icon": "",
-      "description": "Đọc truyện trên Mê Đọc Truyện",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "alicesw.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/alicesw-4.zip",
-      "version": 2,
-      "source": "https://www.alicesw.com/",
-      "icon": "",
-      "description": "trang truyên :v.",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "b.faloo.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bfaloo-1.zip",
-      "version": 3,
-      "source": "https://b.faloo.com",
-      "icon": "",
-      "description": "BFaloo (飞卢小说)",
-      "type": "novel",
-      "locale": "zh-CN"
-    },
-    {
       "name": "m.1qxs.com",
       "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/17-tieu-thuyet.zip",
@@ -2164,50 +1900,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "allnovel.org",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/allnovel.zip",
-      "version": 2,
-      "source": "https://allnovel.org",
-      "icon": "",
-      "description": "Read novels on AllNovel",
-      "type": "novel",
-      "locale": "en_US"
-    },
-    {
-      "name": "fanmtl.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/fanmtl.zip",
-      "version": 2,
-      "source": "https://www.fanmtl.com",
-      "icon": "",
-      "description": "Read Fan-Fiction & Web Novels on FanMTL",
-      "type": "novel",
-      "locale": "en_US"
-    },
-    {
-      "name": "novelfull.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/novelfull.zip",
-      "version": 2,
-      "source": "https://novelfull.com",
-      "icon": "",
-      "description": "Read novels on NovelFull",
-      "type": "novel",
-      "locale": "en_US"
-    },
-    {
-      "name": "novelnext.me",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/novelnext.zip",
-      "version": 2,
-      "source": "https://www.novelnext.me",
-      "icon": "",
-      "description": "Read novels on NovelNext",
-      "type": "novel",
-      "locale": "en_US"
-    },
-    {
       "name": "motchillzc.cc",
       "author": "Thiên Thư Các",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/motchill-1.zip",
@@ -2216,72 +1908,6 @@
       "icon": "",
       "description": "Xem phim online Vietsub, Thuyết minh trên MotChill",
       "type": "video",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "metruyenchuvn.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/me-truyen-chu-com.zip",
-      "version": 2,
-      "source": "https://metruyenchuvn.com/",
-      "icon": "",
-      "description": "Đọc truyện trên Mê Truyện Chữ",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "sitruyencv.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/si-truyen-cv-1.zip",
-      "version": 2,
-      "source": "https://sitruyencv.com/",
-      "icon": "",
-      "description": "Đọc truyện trên SiTruyenCV",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "truyendich.ai",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyendich-ai-1.zip",
-      "version": 2,
-      "source": "https://truyendich.ai",
-      "icon": "",
-      "description": "Doc truyen tai TruyenDich.AI",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "truyenfull.today",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-full-1.zip",
-      "version": 2,
-      "source": "https://truyenfull.today",
-      "icon": "",
-      "description": "Đọc truyện trên trang Truyện Full",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "truyenhoan.com",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-hoan-2.zip",
-      "version": 2,
-      "source": "https://truyenhoan.com/",
-      "icon": "",
-      "description": "Doc truyen tren trang Truyen Hoan",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "truyennet.org",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyen-net-2.zip",
-      "version": 2,
-      "source": "https://truyennet.org",
-      "icon": "",
-      "description": "Đọc truyện trên trang Truyện Net",
-      "type": "novel",
       "locale": "vi_VN"
     },
     {
@@ -2315,17 +1941,6 @@
       "icon": "",
       "description": "Xem phim tren Phim Nhua - HD Vietsub mien phi.",
       "type": "video",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "storya.click",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/storya-2.zip",
-      "version": 2,
-      "source": "https://storya.click",
-      "icon": "",
-      "description": "Storya - Đọc truyện chữ online miễn phí",
-      "type": "novel",
       "locale": "vi_VN"
     },
     {
@@ -2459,17 +2074,6 @@
       "description": "Doc truyen chu tren Chuangshi QQ",
       "type": "novel",
       "locale": "zh_CN"
-    },
-    {
-      "name": "truyennet.org",
-      "author": "Thiên Thư Các",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/truyennet.zip",
-      "version": 2,
-      "source": "https://truyennet.org",
-      "icon": "",
-      "description": "Đọc truyện chữ trên TruyenNet",
-      "type": "novel",
-      "locale": "vi_VN"
     },
     {
       "name": "ixunshu.net",
