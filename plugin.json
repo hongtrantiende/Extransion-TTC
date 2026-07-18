@@ -1361,13 +1361,24 @@
       "locale": "vi_VN"
     },
     {
-      "name": "hentaivietsub.com",
+      "name": "HentaiVietsub.com",
       "author": "Novela",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaivietsub-com.zip",
       "version": 3,
       "source": "https://hentaivietsub.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hentaivietsub-com.png",
-      "description": "Xem phim trên hentaivietsub.com",
+      "description": "Xem phim tại HentaiVietsub.com",
+      "type": "video",
+      "locale": "vi_VN"
+    },
+    {
+      "name": "HentaiZBot",
+      "author": "Novela",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/hentaizbot.zip",
+      "version": 3,
+      "source": "https://hentaiz.bot",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/hentaizbot.png",
+      "description": "Xem Hentai Vietsub tại HentaiZ.bot",
       "type": "video",
       "locale": "vi_VN"
     },
