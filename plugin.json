@@ -668,17 +668,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "youku.tv",
-      "author": "Novela",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/youku.zip",
-      "version": 2,
-      "source": "https://www.youku.tv/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/youku.png",
-      "description": "Xem video YOUKU quốc tế. Ưu tiên audio/phụ đề tiếng Việt và tự lấy cna/MTOP token khi cần.",
-      "type": "video",
-      "locale": "vi_VN"
-    },
-    {
       "name": "julycomics.site",
       "author": "Novela",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/julycomic.zip",
@@ -699,17 +688,6 @@
       "description": "Đọc truyện trên Gấu Mèo Team",
       "type": "novel",
       "locale": "vi_VN"
-    },
-    {
-      "name": "iq.com",
-      "author": "Novela",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/iqiyi.zip",
-      "version": 3,
-      "source": "https://www.iq.com/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/iqiyi.png",
-      "description": "iQIYI bản quốc tế. Đã hỗ trợ tự cắt ghép phụ đề cho khớp video. Tự điều chỉnh độ phân giải bằng true/false bên dưới cài đặt ext. Đăng nhập trong trình duyệt tích hợp của VBook beta nếu video cần VIP.",
-      "type": "video",
-      "locale": "zh_CN"
     },
     {
       "name": "bilibili.tv",
@@ -1570,17 +1548,6 @@
       "locale": "vi_VN"
     },
     {
-      "name": "envasion.net",
-      "author": "Novela",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/motchill.zip",
-      "version": 2,
-      "source": "https://envasion.net",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/motchill.png",
-      "description": "Xem phim trên Motchill - Phim hay, phim mới HD Vietsub",
-      "type": "video",
-      "locale": "vi_VN"
-    },
-    {
       "name": "animevsub.app",
       "author": "Novela",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/animevsub.zip",
@@ -1588,17 +1555,6 @@
       "source": "https://animevsub.app",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/animevsub.png",
       "description": "Xem anime Vietsub HD miễn phí trên AnimeVsub - kho anime lớn nhất",
-      "type": "video",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "wevino.store",
-      "author": "Novela",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/anime-hay.zip",
-      "version": 5,
-      "source": "https://motchillix.fm",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/anime-hay.png",
-      "description": "Xem Anime Hay - miễn phí chất lượng cao với phụ đề Tiếng Việt, Thuyết Minh, Lồng Tiếng. Website có hơn +10.000 phim Anime mới nhất và cập nhật liên tục, kho phim đa dạng từ các thể loại 3D Trung Quốc, Anime Nhật Bản.. \n\n Lưu Ý: Không search được do web không search được",
       "type": "video",
       "locale": "vi_VN"
     },
@@ -1898,17 +1854,6 @@
       "description": "Doc truyen tren trang 1QXS",
       "type": "novel",
       "locale": "zh_CN"
-    },
-    {
-      "name": "motchillzc.cc",
-      "author": "Novela",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/motchill-1.zip",
-      "version": 4,
-      "source": "https://motchillzc.cc/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/motchill-1.png",
-      "description": "Xem phim online Vietsub, Thuyết minh trên MotChill",
-      "type": "video",
-      "locale": "vi_VN"
     },
     {
       "name": "wattpadvn.net",

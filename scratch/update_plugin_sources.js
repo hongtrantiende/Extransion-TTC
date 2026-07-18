@@ -10,7 +10,6 @@ const updates = {
     'qmbook.zip': 'https://m.bqg107.xyz',
     'nguoi-lao-dong.zip': 'https://tuoitre.vn/tto-nld.htm',
     'cmanga.zip': 'https://cmangax18.com',
-    'anime-hay.zip': 'https://motchillix.fm',
     'ptwxz.zip': 'https://www.h0g2e.top/enter/index.html',
     '80qishu.zip': 'https://www.80qishu.cc',
     '07br.zip': 'https://www.bqg691.cc',
