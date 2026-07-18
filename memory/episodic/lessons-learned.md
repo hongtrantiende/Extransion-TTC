@@ -59,3 +59,46 @@ This log tracks lessons learned, resolved bugs, and database or configuration pa
 
 ### Naming Conventions and Symlinking
 - **Convention**: Folder names inside `extensions/` must be alphanumeric (like `douyinxs` or `qiyuedu8`) and synchronized with registry IDs. We renamed `douyinxs-com` to `douyinxs` and `qiyuedu8-top` to `qiyuedu8` to follow consistent naming without `-com` / `-top` suffixes, updated root `plugin.json` registry path mappings, packed version 6/3, and pushed to GitHub.
+
+---
+
+## 🛠️ Quy Chuẩn Phát Triển & Kiểm Thử VBook Extensions (Legado Fork)
+
+Dưới đây là tổng hợp toàn bộ quy chuẩn bắt buộc và kinh nghiệm đúc kết từ việc phát triển các tiện ích nguồn truyện Trung Quốc gần đây (như `douyinxs` và `qidian`):
+
+### 1. Đặt Tên hiển thị & Cấu trúc thư mục (Latin/Domain Only)
+- **Tên hiển thị (`name`)**: Luôn sử dụng tên Latin hoặc tên miền viết tắt của nguồn (ví dụ: `douyinxs`, `qidian`). Không được dùng chữ Trung Quốc (như `抖音小说`, `起点男频`) hay các hậu tố dư thừa `-com`, `-top`. Việc này giúp người dùng dễ dàng gõ tìm kiếm nhanh trên bàn phím điện thoại.
+- **Thư mục code**: Đặt tên thư mục chứa mã nguồn trong `extensions/` trùng với tên hiển thị Latin (ví dụ: `extensions/qidian/`).
+- **Phẳng hóa plugin.json**: File `plugin.json` cục bộ phải ánh xạ tên file script dạng phẳng (ví dụ: `"home": "home.js"` chứ không được có tiền tố `"src/home.js"`).
+
+### 2. Biểu tượng Tiện ích (Extension Icon)
+- Bắt buộc phải tải favicon gốc chính thức từ trình duyệt hoặc trang chủ của chính nguồn đó (ví dụ: `https://www.qidian.com/favicon.ico`).
+- Tệp icon phải được lưu làm `extensions/<extId>/icon.png` và sao chép ra `icons/<extId>.png` ở thư mục gốc của repository.
+
+### 3. Ảnh bìa truyện tại Trang chủ (Explore/Home Cover)
+- Trang chủ (Explore tab tải từ `home.js` -> `gen.js`) bắt buộc phải load được ảnh bìa truyện (`cover`).
+- Trường hợp HTML tĩnh của nguồn không có ảnh bìa (như `douyinxs`): Phải tìm công thức tính toán toán học để map từ Book ID ra link ảnh bìa động, hoặc gọi API AJAX phụ để lấy, tránh để trống.
+
+### 4. Chi tiết truyện (Detail Page Cover & Host)
+- Khi người dùng bấm vào chi tiết truyện (`detail.js`), kết quả trả về bắt buộc phải có:
+  - Ảnh bìa truyện (`cover`).
+  - Tên tác giả (`author`) và Mô tả (`description`).
+  - Trường `host` (ví dụ: `host: "https://m.qidian.com"`): Cực kỳ quan trọng để hệ thống trên điện thoại phân giải các đường dẫn tương đối của mục lục và chương truyện.
+
+### 5. Phân trang Danh sách (Explore Pagination)
+- Khi người dùng vuốt danh sách truyện xuống dưới, hệ thống phải tự động tải được Trang 2, Trang 3.
+- Giá trị `nextPage` trả về phải là một chuỗi số trang tăng dần: `String(parseInt(page) + 1)`.
+- **Khắc phục WAF/Redirect chặn phân trang tĩnh (như Qidian)**:
+  - Phải sử dụng API AJAX động thay thế cho cào HTML trang tĩnh.
+  - Tận dụng đối tượng toàn cục **`localCookie`** trên điện thoại để lấy cookie chứa Token CSRF: `let cookieStr = localCookie.getCookie("https://m.qidian.com");`.
+  - Cắt lấy `_csrfToken` từ chuỗi cookie này và đính kèm làm tham số truy vấn của API AJAX: `_csrfToken=TOKEN`.
+
+### 6. Mục lục chương (TOC) & Nội dung chương (Chap)
+- **TOC (`toc.js`)**: Phân tích toàn bộ liên kết chương trong trang mục lục. Đánh dấu `pay: true` đối với các chương VIP/trả phí.
+- **Nội dung chương (`chap.js`)**: Lấy tất cả văn bản chương (thường nằm trong các thẻ `<p>`), loại bỏ khoảng trắng thừa và nối lại bằng ký tự xuống dòng `\n`. Hỗ trợ đệ quy/phân trang phụ trong chương nếu trang truyện gốc chia một chương thành nhiều trang nhỏ.
+
+### 7. Quy trình Kiểm thử bắt buộc (On-Device Testing)
+- **Kiểm thử Pipeline tự động**: Chạy lệnh `node studio.js test <extId>` để kiểm tra tuần tự cả 4 bước (Home -> Detail -> TOC -> Chap) trực tiếp trên trình thông dịch Rhino của điện thoại. Pipeline kiểm thử phải báo `🎉 THÀNH CÔNG!` mới được xem là hoàn thành.
+- **Kiểm thử Phân trang (Page 2+)**: Viết script debug riêng (ví dụ: gửi payload chạy thử file `gen.js` với tham số `page = 2` tới endpoint `/test` của điện thoại) để xác nhận dữ liệu của trang tiếp theo được trả về chính xác trước khi xuất bản.
+- **Xóa Cache điện thoại**: Khi chỉnh sửa mã nguồn JS và cài đặt lại nóng, nếu gặp lỗi không thay đổi, hãy thực hiện tắt/bật lại **Dịch vụ Web** hoặc tắt hẳn chạy ngầm ứng dụng **Novela** trên điện thoại để xóa hoàn toàn cache Classloader của Rhino.
+
