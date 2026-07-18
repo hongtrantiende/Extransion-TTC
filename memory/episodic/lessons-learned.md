@@ -29,6 +29,15 @@ This log tracks lessons learned, resolved bugs, and database or configuration pa
 - **Discovery**: `truyenfull.today` is offline/blocked. The new active domain name is `https://truyenfull.live`.
 - **Fix**: Extracted `truyen-full.zip` to folder `extensions/truyen-full`. Replaced the internal domain `https://truyenfull.today` with the new active domain `https://truyenfull.live` in `plugin.json` and `src/config.js`. Renamed the extension entry display name to `truyenfull.live` inside local metadata and master `plugin.json` to prevent catalog duplicates, bumped version to 14, and repackaged.
 
+### Deleted Obsolete Extensions
+- **Fix**: Removed the following 5 obsolete/unreachable extensions from the catalog (`plugin.json` at root), deleted their compiled zip files from `zips/`, and deleted their cached icon files from `icons/`:
+  - `wevino.store` (`anime-hay.zip`)
+  - `iq.com` (`iqiyi.zip`)
+  - `youku.tv` (`youku.zip`)
+  - `motchillzc.cc` (`motchill-1.zip`)
+  - `envasion.net` (`motchill.zip`)
+
+
 
 
 

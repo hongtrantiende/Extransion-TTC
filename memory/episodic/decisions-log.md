@@ -47,6 +47,15 @@ This document records the architectural decisions made during development.
   - The "truyenfull.live" (formerly truyenfull.today) extension points to the live domain.
   - Test run passed successfully on the device for catalog and detail parsing.
 
+### Decision: Delete 5 Obsolete Extensions
+- **Status**: Approved & Executed.
+- **Context**: The user requested deletion of `wevino.store`, `iq.com`, `youku.tv`, `motchillzc.cc`, and `envasion.net` because they are obsolete/dead.
+- **Decision**: Wrote a deletion script, removed all 5 metadata entries from the master `plugin.json`, deleted their compiled zips from `zips/`, deleted their icon images from `icons/`, deleted their extracted folders from `extensions/`, and pushed the changes to GitHub.
+- **Consequences**:
+  - The catalog is now clean of these 5 obsolete extensions.
+  - Disk footprint is reduced.
+
+
 
 
 
