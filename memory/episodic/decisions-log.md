@@ -23,3 +23,12 @@ This document records the architectural decisions made during development.
   - Testing verified successful crawl pipelines on the device (e.g. `say-hentai`, `nguoi-lao-dong` parsing 8,200 chars).
   - Version increments prevent local cache mismatch on clients.
 
+### Decision: Update Wikidich domain to live wikidichvn.com
+- **Status**: Approved & Executed.
+- **Context**: `wikidich.net` is offline (DNS `ENODATA`). The active service is running on `wikidichvn.com`.
+- **Decision**: Extract `wikidich.zip` to `extensions/wikidich`, replace the internal domain `wikidich.com.vn` with the new active domain `wikidichvn.com`, test on-device to verify crawler capability (fully passed with 8,498 chars parsed), repackage, and update indexes.
+- **Consequences**:
+  - The Wikidich extension catalog entry and code now point to the live `wikidichvn.com` URL.
+  - User search, toc, and chapter load on Novela client will correctly request the working server.
+
+

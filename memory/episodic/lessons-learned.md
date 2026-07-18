@@ -17,3 +17,8 @@ This log tracks lessons learned, resolved bugs, and database or configuration pa
 - **Workflow**: A script `patch_ext.js` was written to unpack target extensions to `extensions/`, scan for both CLI-passed old domain and internally recorded domains, replace all matching occurrences with the new domain in all `.js` and `plugin.json` files, run device tests via `node studio.js test <extId>`, and pack them back via `node studio.js pack <extId>` (updating versions in local and master indices).
 - **Result**: Successfully updated 10 redirected extensions (including `say-hentai`, `cmanga`, `qmbook`, `07br`, `roads-team`, `80qishu`, `ac-qq`, `anime-hay`, `nguoi-lao-dong`, and `ptwxz`). Extensions with HTTP 403 (Captcha) were skipped as requested.
 
+### wikidich.net / wikidichvn.com Domain Mapping Test
+- **Discovery**: `wikidich.net` does not have active IPv4 DNS A records (`ENODATA`), while the current live version is `wikidichvn.com`. 
+- **Fix**: Extracted `wikidich.zip` to `extensions/wikidich`, updated internal domains from `wikidich.com.vn` to `wikidichvn.com` in `plugin.json` and `src/config.js`, tested successfully on device (parsed 8,498 characters from a sample book chapter), packed and updated version to 2.
+
+
