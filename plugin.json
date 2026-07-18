@@ -1757,10 +1757,10 @@
       "locale": "en_US"
     },
     {
-      "name": "起点男频",
+      "name": "qidian",
       "author": "Novela",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qidian.zip",
-      "version": 3,
+      "version": 4,
       "source": "https://m.qidian.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/qidian.png",
       "description": "Nguồn truyện chữ Trung Quốc 起点男频",
@@ -2109,10 +2109,10 @@
       "locale": "zh_TW"
     },
     {
-      "name": "抖音小说",
+      "name": "douyinxs",
       "author": "Novela",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/douyinxs.zip",
-      "version": 3,
+      "version": 7,
       "source": "https://m.douyinxs.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/douyinxs.png",
       "description": "Nguồn truyện chữ Trung Quốc 抖音小说",
@@ -2120,10 +2120,10 @@
       "locale": "zh_CN"
     },
     {
-      "name": "奇·阅读",
+      "name": "qiyuedu8",
       "author": "Novela",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/qiyuedu8.zip",
-      "version": 2,
+      "version": 4,
       "source": "https://novel.qiyuedu8.top",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/qiyuedu8.png",
       "description": "Nguồn truyện chữ Trung Quốc 奇·阅读",
