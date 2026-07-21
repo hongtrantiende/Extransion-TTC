@@ -756,17 +756,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "jjwxc.net",
-      "author": "QuocBao",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/jjwxc-tan-giang.zip",
-      "version": 7,
-      "source": "http://www.jjwxc.net/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/jjwxc-tan-giang.png",
-      "description": "Đọc truyện trên app JJWXC. ",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "cbunu.com",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/cbunu-comic.zip",
@@ -2116,6 +2105,28 @@
       "source": "https://m.douyinxs.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/douyinxs.png",
       "description": "Nguồn truyện chữ Trung Quốc 抖音小说",
+      "type": "novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "zongheng",
+      "author": "Novela",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/zongheng.zip",
+      "version": 42,
+      "source": "https://m.zongheng.com",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/zongheng.png",
+      "description": "Nguồn truyện chữ Trung Quốc zongheng",
+      "type": "novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "linovelib.com",
+      "author": "Novela",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/linovelib.zip",
+      "version": 1,
+      "source": "https://m.bilinovel.com",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/linovelib.png",
+      "description": "Nguồn Light Novel Trung/Nhật top 1 哔哩轻小说",
       "type": "novel",
       "locale": "zh_CN"
     }
