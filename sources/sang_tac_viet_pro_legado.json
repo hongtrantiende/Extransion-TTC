@@ -13,28 +13,26 @@
     "eventListener": false,
     "header": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"}",
     "searchUrl": "http://103.82.20.93/io/searchtp/searchBooks?minc=0&sort=update&tag={{key}},{\"method\": \"GET\"}",
-    "exploreUrl": "🔥 FQ nam nổi bật::https://fanqienovel.com/api/author/library/book_list/v0/?page_count=18&page_index=0&gender=1&category_id=-1&creation_status=-1&word_count=-1&book_type=-1&sort=0\n✨ FQ nổi bật::https://fanqienovel.com/api/author/library/book_list/v0/?page_count=18&page_index=0&gender=-1&category_id=-1&creation_status=-1&word_count=-1&book_type=-1&sort=0\n📊 Top Tuần::http://103.82.20.93/io/searchtp/searchBooks?minc=0&sort=viewweek&tag=\n📅 Top Ngày::http://103.82.20.93/io/searchtp/searchBooks?minc=0&sort=viewday&tag=\n👍 Nhiều Like::http://103.82.20.93/io/searchtp/searchBooks?minc=0&sort=upvote&tag=\n🏆 Qidian Nguyệt phiếu::https://m.qidian.com/majax/rank/yuepiaolist?gender=male\n🥇 Qidian Top tuần::https://m.qidian.com/majax/rank/reclist?gender=male\n🆕 Cập Nhật::http://103.82.20.93/io/searchtp/searchBooks?minc=0&sort=update&tag=\n🌸 FQ nữ nổi bật::https://fanqienovel.com/api/author/library/book_list/v0/?page_count=18&page_index=0&gender=0&category_id=-1&creation_status=-1&word_count=-1&book_type=-1&sort=0\n⚡ FQ mới nhất::https://fanqienovel.com/api/author/library/book_list/v0/?page_count=18&page_index=0&gender=-1&creation_status=1&word_count=-1&book_type=-1&sort=1\n✔️ FQ hoàn thành::https://fanqienovel.com/api/author/library/book_list/v0/?page_count=18&page_index=0&gender=-1&creation_status=0&word_count=-1&book_type=-1&sort=0\n⚔️ Huyền huyễn::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=hh&sort=viewweek&tag=\n🏙️ Đô thị::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=dt&sort=viewweek&tag=\n💖 Ngôn tình::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=nt&sort=viewweek&tag=\n🎮 Võng du::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=vd&sort=viewweek&tag=\n🚀 Khoa học viễn tưởng::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=kh&sort=viewweek&tag=\n📜 Lịch sử::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=lsa&sort=viewweek&tag=\n🌀 Đồng nhân::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=dn&sort=viewweek&tag=\n⚡ Dị năng::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=dna&sort=viewweek&tag=\n👻 Linh dị::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=ld&sort=viewweek&tag=\n📘 Light Novel::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=ln&sort=viewweek&tag=",
+    "exploreUrl": "📊 Top Tuần::http://103.82.20.93/io/searchtp/searchBooks?minc=0&sort=viewweek&tag=\n📅 Top Ngày::http://103.82.20.93/io/searchtp/searchBooks?minc=0&sort=viewday&tag=\n👍 Nhiều Like::http://103.82.20.93/io/searchtp/searchBooks?minc=0&sort=upvote&tag=\n🆕 Cập Nhật::http://103.82.20.93/io/searchtp/searchBooks?minc=0&sort=update&tag=\n⚔️ Huyền huyễn::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=hh&sort=viewweek&tag=\n🏙️ Đô thị::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=dt&sort=viewweek&tag=\n💖 Ngôn tình::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=nt&sort=viewweek&tag=\n🎮 Võng du::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=vd&sort=viewweek&tag=\n🚀 Khoa học viễn tưởng::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=kh&sort=viewweek&tag=\n📜 Lịch sử::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=lsa&sort=viewweek&tag=\n🌀 Đồng nhân::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=dn&sort=viewweek&tag=\n⚡ Dị năng::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=dna&sort=viewweek&tag=\n👻 Linh dị::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=ld&sort=viewweek&tag=\n📘 Light Novel::http://103.82.20.93/io/searchtp/searchBooks?minc=0&category=ln&sort=viewweek&tag=",
     "ruleSearch": {
-      "bookList": "@css:.book-item, .item, .book-card, .iname, .itemupdate, $.data[*], $.data.data[*]",
-      "name": "@css:.book-title a, h3 a@text || $.title || $.book_name",
-      "author": "@css:.author, .book-author@text || $.author",
-      "kind": "@css:.category, .tag@text || $.category_name",
-      "lastChapter": "@css:.last-chap, .new-chap@text || $.last_chapter_title",
-      "bookUrl": "@css:.book-title a, h3 a@href || $.book_id || $.url",
-      "coverUrl": "@css:img@src || $.thumb_url || $.cover"
+      "bookList": "@css:a.booksearch, a[href*=\"/truyen/\"], .item, .itemupdate, $.data.data[*], $.data.book_list[*], $.data.records[*], $.data.list[*]",
+      "name": "@css:.searchbooktitle@text || @css:.book-title a@text || @css:h3 a@text || $.book_name || $.title || $.bName",
+      "author": "@css:.searchbookauthor@text || @css:.author@text || $.author || $.bAuth",
+      "kind": "@css:.info span@text || $.category_name || $.bCat",
+      "bookUrl": "@css:a@href || $.book_id || $.bId || $.url",
+      "coverUrl": "@css:img@src || $.thumb_url || $.cover || $.imgUrl"
     },
     "ruleExplore": {
-      "bookList": "@css:.book-item, .item, .book-card, .iname, .itemupdate, $.data[*], $.data.data[*]",
-      "name": "@css:.book-title a, h3 a@text || $.title || $.book_name",
-      "author": "@css:.author, .book-author@text || $.author",
-      "kind": "@css:.category, .tag@text || $.category_name",
-      "bookUrl": "@css:.book-title a, h3 a@href || $.book_id || $.url",
-      "coverUrl": "@css:img@src || $.thumb_url || $.cover"
+      "bookList": "@css:a.booksearch, a[href*=\"/truyen/\"], .item, .itemupdate, $.data.data[*], $.data.book_list[*], $.data.records[*], $.data.list[*]",
+      "name": "@css:.searchbooktitle@text || @css:.book-title a@text || @css:h3 a@text || $.book_name || $.title || $.bName",
+      "author": "@css:.searchbookauthor@text || @css:.author@text || $.author || $.bAuth",
+      "kind": "@css:.info span@text || $.category_name || $.bCat",
+      "bookUrl": "@css:a@href || $.book_id || $.bId || $.url",
+      "coverUrl": "@css:img@src || $.thumb_url || $.cover || $.imgUrl"
     },
     "ruleBookInfo": {
       "name": "@css:h1.book-title, h1@text || $.title",
       "author": "@css:.author, .book-author@text || $.author",
-      "kind": "@css:.genres, .tags@text",
       "intro": "@css:.book-desc, #book-desc, .intro@html || $.abstract",
       "coverUrl": "@css:.book-cover img, .cover img@src || $.thumb_url",
       "tocUrl": "window.location.href"
