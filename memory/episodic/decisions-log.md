@@ -96,3 +96,10 @@ This document records the architectural decisions made during development.
 - **Consequences**:
   - Tadu crawler scripts are being designed and tested.
 
+### Decision: Remove piaoyuxuan.com extension
+- **Status**: Approved & Executed.
+- **Context**: The extension `piaoyuxuan.com` returned HTTP 403 / dead source status.
+- **Decision**: Removed `piaoyuxuan.com` extension files (`icons/piaoyuxuan.png`, `zips/piaoyuxuan.zip`, `sources/piaoyuxuan_com.json`), removed entries from `plugin.json` and `sources.json`, updated `scan_report.json` and `scan_report.md`, and pushed to GitHub.
+- **Consequences**:
+  - Catalog index counts updated (`plugin.json` 193 -> 192, `sources.json` 248 -> 247).
+
