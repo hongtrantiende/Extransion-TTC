@@ -1,0 +1,53 @@
+[
+  {
+    "bookSourceComment": "Nguồn Legado JSON thuần cho Sáng Tác Việt Pro (103.82.20.93 / sangtacviet.pro)",
+    "bookSourceGroup": "Sáng Tác Việt",
+    "bookSourceName": "Sáng Tác Việt Pro (Legado JSON)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://sangtacviet.pro",
+    "customButton": false,
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "eventListener": false,
+    "header": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"}",
+    "searchUrl": "https://sangtacviet.pro/?find={{key}},{\"method\": \"GET\"}",
+    "exploreUrl": "Mới Cập Nhật::https://sangtacviet.pro/?find=&sort=update\nTop Đề Cử::https://sangtacviet.pro/?find=&sort=upvote\nXem Nhiều Tuần::https://sangtacviet.pro/?find=&sort=viewweek\nĐánh Giá Cao::https://sangtacviet.pro/?find=&sort=star\nTruyện VIP::https://sangtacviet.pro/?find=&tag=vip\nTruyện Tranh::https://sangtacviet.pro/?find=&sort=star&type=comic",
+    "ruleSearch": {
+      "bookList": "@css:.book-item, .item, .book-card, .iname, .itemupdate",
+      "name": "@css:.book-title a, h3 a@text",
+      "author": "@css:.author, .book-author@text",
+      "kind": "@css:.category, .tag@text",
+      "lastChapter": "@css:.last-chap, .new-chap@text",
+      "bookUrl": "@css:.book-title a, h3 a@href",
+      "coverUrl": "@css:img@src",
+      "intro": "@css:.intro, .book-desc@text"
+    },
+    "ruleExplore": {
+      "bookList": "@css:.book-item, .item, .book-card, .iname, .itemupdate",
+      "name": "@css:.book-title a, h3 a@text",
+      "author": "@css:.author, .book-author@text",
+      "kind": "@css:.category, .tag@text",
+      "bookUrl": "@css:.book-title a, h3 a@href",
+      "coverUrl": "@css:img@src"
+    },
+    "ruleBookInfo": {
+      "name": "@css:h1.book-title, h1@text",
+      "author": "@css:.author, .book-author@text",
+      "kind": "@css:.genres, .tags@text",
+      "intro": "@css:.book-desc, #book-desc, .intro@html",
+      "coverUrl": "@css:.book-cover img, .cover img@src",
+      "tocUrl": "window.location.href"
+    },
+    "ruleToc": {
+      "chapterList": "@css:.chap-item a, .list-chapter a, #chap-list a, .iname a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": "@css:#content-chap, .chap-content, #content, .contentstory@html"
+    },
+    "weight": 0
+  }
+]
