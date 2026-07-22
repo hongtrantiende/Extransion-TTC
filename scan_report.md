@@ -28,7 +28,6 @@
 | **Sextop1 Phim 2.0** | `https://sextop1.gd` | fetch failed |
 | **truyenfull.today** | `https://truyenfull.today` | fetch failed |
 | **wikicv.net** | `https://wikicv.net` | fetch failed |
-| **piaoyuxuan.com** | `http://www.piaoyuxuan.com` | HTTP Status 403 |
 | **kkphim.com** | `https://kkphim.com` | Timeout |
 | **truyen.lohi2.com** | `https://truyen.lohi2.com` | fetch failed |
 | **m.tangthuvien.net** | `https://m.tangthuvien.net` | Timeout |

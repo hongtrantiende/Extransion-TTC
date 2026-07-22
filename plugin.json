@@ -239,17 +239,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "piaoyuxuan.com",
-      "author": "Novela",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/piaoyuxuan.zip",
-      "version": 3,
-      "source": "http://www.piaoyuxuan.com",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/piaoyuxuan.png",
-      "description": "Đọc truyện trên trang http://www.piaoyuxuan.com",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "jpxs123.com",
       "author": "Novela",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/jpxs123.zip",
