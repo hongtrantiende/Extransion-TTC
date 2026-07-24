@@ -678,17 +678,7 @@
       "type": "novel",
       "locale": "vi_VN"
     },
-    {
-      "name": "bilibili.tv",
-      "author": "QuocBao",
-      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bilibili.zip",
-      "version": 5,
-      "source": "https://www.bilibili.tv/",
-      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/bilibili.png",
-      "description": "Bilibili bản quốc tế. Xem được video kèm âm thanh có độ phân giải cao. Có PĐ (ưu tiên vi).",
-      "type": "video",
-      "locale": "vi_VN"
-    },
+
     {
       "name": "Bilibili Trung Quốc",
       "author": "Novela",
