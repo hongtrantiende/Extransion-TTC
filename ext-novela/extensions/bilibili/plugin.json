@@ -1,7 +1,7 @@
 {
   "metadata": {
     "name": "Bilibili Trung Quốc",
-    "author": "B",
+    "author": "Novela",
     "version": 1,
     "source": "https://www.bilibili.com",
     "regexp": "https?:\\/\\/(?:m|www)\\.bilibili\\.com\\/(?:video|play)\\/[a-zA-Z0-9_-]+\\/?$",

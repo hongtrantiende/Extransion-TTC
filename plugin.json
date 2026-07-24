@@ -690,6 +690,17 @@
       "locale": "vi_VN"
     },
     {
+      "name": "Bilibili Trung Quốc",
+      "author": "Novela",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bilibili-cn.zip",
+      "version": 1,
+      "source": "https://www.bilibili.com",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/bilibili-cn.png",
+      "description": "Xem video và phim trên Bilibili Trung Quốc (bilibili.com)",
+      "type": "video",
+      "locale": "zh_CN"
+    },
+    {
       "name": "blbattu.com",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bl-bat-tu.zip",
