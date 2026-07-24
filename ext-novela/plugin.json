@@ -511,6 +511,17 @@
             "description": "Đọc truyện trên trang Net Truyện",
             "type": "comic",
             "locale": "vi_VN"
+        },
+        {
+            "name": "Bilibili Trung Quốc",
+            "author": "B",
+            "path": "https://raw.githubusercontent.com/dat-bi/ext-vbook/main/extensions/bilibili/plugin.zip",
+            "version": 1,
+            "source": "https://www.bilibili.com",
+            "icon": "https://raw.githubusercontent.com/dat-bi/ext-vbook/main/extensions/bilibili/icon.png",
+            "description": "Xem video và phim trên Bilibili Trung Quốc (bilibili.com)",
+            "type": "video",
+            "locale": "zh_CN"
         }
     ]
 }

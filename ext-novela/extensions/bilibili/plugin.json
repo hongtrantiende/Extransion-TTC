@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "name": "Bilibili Trung Quốc",
+    "author": "B",
+    "version": 1,
+    "source": "https://www.bilibili.com",
+    "regexp": "https?:\\/\\/(?:m|www)\\.bilibili\\.com\\/(?:video|play)\\/[a-zA-Z0-9_-]+\\/?$",
+    "description": "Xem video và phim trên Bilibili Trung Quốc (bilibili.com)",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "video"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "gen": "gen.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "track": "track.js"
+  }
+}
