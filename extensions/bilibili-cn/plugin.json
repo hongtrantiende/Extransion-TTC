@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Bilibili Trung Quốc",
     "author": "Novela",
-    "version": 1,
+    "version": 2,
     "source": "https://www.bilibili.com",
     "regexp": "https?:\\/\\/(?:m|www)\\.bilibili\\.com\\/(?:video|play)\\/[a-zA-Z0-9_-]+\\/?$",
-    "description": "Xem video và phim trên Bilibili Trung Quốc (bilibili.com)",
+    "description": "Xem video và phim trên Bilibili Trung Quốc (bilibili.com) — API ký WBI, tương thích khi API thường bị chặn 412",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "video"

@@ -678,15 +678,14 @@
       "type": "novel",
       "locale": "vi_VN"
     },
-
     {
       "name": "Bilibili Trung Quốc",
       "author": "Novela",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bilibili-cn.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://www.bilibili.com",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/bilibili-cn.png",
-      "description": "Xem video và phim trên Bilibili Trung Quốc (bilibili.com)",
+      "description": "Xem video và phim trên Bilibili Trung Quốc (bilibili.com) — API ký WBI, sửa lỗi không mở được video",
       "type": "video",
       "locale": "zh_CN"
     },

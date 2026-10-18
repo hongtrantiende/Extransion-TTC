@@ -1,73 +1,65 @@
 load('config.js');
+load('cryptojs.js');
+load('wbi.js');
+
+function cleanText(s) {
+    return ((s || "") + "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+}
 
 function execute(key, page) {
     if (!page) page = "1";
-    var searchUrl = "https://api.bilibili.com/x/web-interface/search/all/v2?keyword=" + encodeURIComponent(key) + "&page=" + page;
 
-    var res = fetch(searchUrl, {
-        headers: HEADERS
+    // Signed search endpoint (plain /x/web-interface/search/type is risk-controlled)
+    var res = biliFetchWbi("/x/web-interface/wbi/search/type", {
+        search_type: "video",
+        keyword: key,
+        page: page
     });
 
-    if (!res.ok) {
-        searchUrl = "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=" + encodeURIComponent(key) + "&page=" + page;
-        res = fetch(searchUrl, { headers: HEADERS });
-    }
-
-    if (!res.ok) return Response.error("Search failed: " + res.status);
+    if (!res || !res.ok) return Response.error("Search failed");
 
     var json = res.json();
-    if (!json || json.code !== 0 || !json.data) {
-        return Response.success([]);
-    }
+    if (!json || json.code !== 0 || !json.data) return Response.success([]);
 
-    var list = [];
-
-    // Parse Search All V2 structure (videos, anime, bangumi, movies, stories)
-    if (json.data.result && Array.isArray(json.data.result)) {
-        var resArray = json.data.result;
-        for (var r = 0; r < resArray.length; r++) {
-            var cat = resArray[r];
-            if (cat && cat.data && Array.isArray(cat.data)) {
-                if (cat.result_type === 'video' || cat.result_type === 'media_bangumi' || cat.result_type === 'media_ft') {
-                    list = list.concat(cat.data);
-                }
-            }
-        }
-    }
-
-    // Direct list fallback
-    if (list.length === 0) {
-        if (json.data.result && Array.isArray(json.data.result)) list = json.data.result;
-        else if (json.data.list && Array.isArray(json.data.list)) list = json.data.list;
-    }
-
-    if (!list || !list.length) return Response.success([]);
-
+    var list = json.data.result || [];
     var data = [];
+
     for (var i = 0; i < list.length; i++) {
         var item = list[i];
-        var title = (item.title || item.org_title || "").replace(/<[^>]+>/g, "").trim();
-        var bvid = item.bvid || "";
-        var pic = item.pic || item.cover || "";
+        if ((item.type || "") !== "video") continue;
+
+        var bvid = (item.bvid || "") + "";
+        var title = cleanText(item.title);
+        var link = "";
+        if (bvid) link = "https://www.bilibili.com/video/" + bvid;
+        else if (item.aid) link = "https://www.bilibili.com/video/av" + item.aid;
+        if (!link || !title) continue;
+
+        var pic = (item.pic || "") + "";
         if (pic.indexOf("//") === 0) pic = "https:" + pic;
 
-        var link = bvid ? "https://www.bilibili.com/video/" + bvid : "";
-        if (!link && item.aid) link = "https://www.bilibili.com/video/av" + item.aid;
-        if (!link && item.goto_url) link = item.goto_url;
+        var author = cleanText(item.author);
+        var play = item.play || 0;
+        var descParts = [];
+        if (author) descParts.push("UP: " + author);
+        if (play) descParts.push("Lượt xem: " + play);
 
-        if (link && title) {
-            var authorName = item.author || (item.owner ? item.owner.name : "") || "";
-            data.push({
-                name: title,
-                link: link,
-                cover: pic,
-                description: authorName ? ("UP: " + authorName) : "",
-                host: BASE_URL,
-                tag: item.typename || item.tname || ""
-            });
-        }
+        data.push({
+            name: title,
+            link: link,
+            cover: pic,
+            description: descParts.join(" | "),
+            host: BASE_URL,
+            tag: (item.typename || "") + ""
+        });
     }
 
-    var nextPage = data.length > 0 ? String(parseInt(page) + 1) : null;
+    var numPages = json.data.numPages || 0;
+    var numResults = json.data.numResults || 0;
+    var nextPage = null;
+    if (numResults > 0 && parseInt(page) < numPages) {
+        nextPage = String(parseInt(page) + 1);
+    }
+
     return Response.success(data, nextPage);
 }

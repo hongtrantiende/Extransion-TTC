@@ -1,22 +1,36 @@
 load('config.js');
+load('cryptojs.js');
+load('wbi.js');
+
+var BILI_QUALITY_LABELS = {
+    120: "4K",
+    116: "1080P60",
+    112: "1080P+",
+    80: "1080P",
+    74: "720P60",
+    64: "720P (HD)",
+    32: "480P",
+    16: "360P (Tiết kiệm dữ liệu)"
+};
+
+function qualityLabel(qn) {
+    var label = BILI_QUALITY_LABELS[qn];
+    return label ? ("Bilibili " + label) : ("Bilibili Q" + qn);
+}
 
 function execute(url) {
     var bvidMatch = url.match(/video\/(BV[a-zA-Z0-9]+)/i);
+    var aidMatch = url.match(/video\/av(\d+)/i);
     var cidMatch = url.match(/[?&]cid=(\d+)/i);
 
     var bvid = bvidMatch ? bvidMatch[1] : "";
+    var aid = aidMatch ? aidMatch[1] : "";
     var cid = cidMatch ? cidMatch[1] : "";
 
-    if (!cid && bvid) {
-        var viewRes = fetch("https://api.bilibili.com/x/web-interface/view?bvid=" + bvid, {
-            headers: HEADERS
-        });
-        if (viewRes.ok) {
-            var viewJson = viewRes.json();
-            if (viewJson && viewJson.code === 0 && viewJson.data) {
-                cid = viewJson.data.cid || "";
-            }
-        }
+    if (!cid || cid === "0" || !bvid) {
+        var info = biliResolveVideo(bvid, aid);
+        bvid = info.bvid || bvid;
+        cid = (cid && cid !== "0") ? cid : info.cid;
     }
 
     if (!bvid || !cid) {
@@ -24,46 +38,38 @@ function execute(url) {
     }
 
     var tracks = [];
+    var seenQn = {};
 
-    // 1. Quality 1: HD (720P / 1080P)
-    var playUrlHD = "https://api.bilibili.com/x/player/playurl?bvid=" + bvid + "&cid=" + cid + "&qn=64&platform=html5&high_format=1";
-    var resHD = fetch(playUrlHD, { headers: HEADERS });
-    if (resHD.ok) {
-        var jsonHD = resHD.json();
-        if (jsonHD && jsonHD.code === 0 && jsonHD.data && jsonHD.data.durl && jsonHD.data.durl.length) {
-            var mp4UrlHD = jsonHD.data.durl[0].url || "";
-            if (mp4UrlHD) {
-                tracks.push({
-                    title: "Bilibili HD (720P / 1080P)",
-                    data: mp4UrlHD
-                });
-            }
-        }
+    // Request highest first; the API returns the best quality available to an
+    // anonymous session (720P max on most videos). Dedupe by real quality.
+    var qnPlan = [64, 32, 16];
+    for (var i = 0; i < qnPlan.length; i++) {
+        var qn = qnPlan[i];
+        var api = "https://api.bilibili.com/x/player/playurl?bvid=" + bvid +
+            "&cid=" + cid + "&qn=" + qn + "&platform=html5&high_format=1";
+        var res = fetch(api, { headers: HEADERS });
+        if (!res.ok) continue;
+        var json = res.json();
+        if (!json || json.code !== 0 || !json.data || !json.data.durl || !json.data.durl.length) continue;
+
+        var realQn = json.data.quality || qn;
+        if (seenQn[realQn]) continue;
+
+        var mp4Url = (json.data.durl[0].url || "") + "";
+        if (!mp4Url) continue;
+
+        seenQn[realQn] = true;
+        tracks.push({
+            title: qualityLabel(realQn),
+            data: mp4Url
+        });
     }
 
-    // 2. Quality 2: SD (360P / 480P)
-    var playUrlSD = "https://api.bilibili.com/x/player/playurl?bvid=" + bvid + "&cid=" + cid + "&qn=16&platform=html5&high_format=1";
-    var resSD = fetch(playUrlSD, { headers: HEADERS });
-    if (resSD.ok) {
-        var jsonSD = resSD.json();
-        if (jsonSD && jsonSD.code === 0 && jsonSD.data && jsonSD.data.durl && jsonSD.data.durl.length) {
-            var mp4UrlSD = jsonSD.data.durl[0].url || "";
-            if (mp4UrlSD) {
-                tracks.push({
-                    title: "Bilibili Tiết Kiệm Dữ Liệu (360P / 480P)",
-                    data: mp4UrlSD
-                });
-            }
-        }
-    }
-
-    // 3. Desktop Embed Player
-    var embedUrl = "https://player.bilibili.com/player.html?bvid=" + bvid + "&cid=" + cid + "&page=1&high_quality=1&danmaku=0";
+    // Web player embed as last resort (opens in the in-app WebView)
     tracks.push({
-        title: "Bilibili Web Player (Desktop Embed)",
-        data: embedUrl
+        title: "Bilibili Web Player (Embed)",
+        data: "https://player.bilibili.com/player.html?bvid=" + bvid + "&cid=" + cid + "&page=1&high_quality=1&danmaku=0"
     });
 
-    if (tracks.length === 0) return Response.error("No stream available");
     return Response.success(tracks);
 }
