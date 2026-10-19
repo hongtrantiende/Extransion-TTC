@@ -522,6 +522,17 @@
             "description": "Xem video và phim trên Bilibili Trung Quốc (bilibili.com)",
             "type": "video",
             "locale": "zh_CN"
+        },
+        {
+            "name": "SEG 18",
+            "author": "Novela",
+            "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/seg18.zip",
+            "version": 1,
+            "source": "https://topxx.vip",
+            "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/seg18.png",
+            "description": "Xem video 18+ tổng hợp từ Topxx.vip — API JSON, phát trực tiếp MP4/HLS",
+            "type": "video",
+            "locale": "vi_VN"
         }
     ]
 }

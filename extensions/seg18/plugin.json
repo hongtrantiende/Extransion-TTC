@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "SEG 18",
+    "author": "Novela",
+    "version": 1,
+    "source": "https://topxx.vip",
+    "description": "Xem video 18+ tổng hợp từ Topxx.vip — API JSON, phát trực tiếp MP4/HLS",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "video"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "gen": "gen.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "track": "track.js"
+  }
+}
