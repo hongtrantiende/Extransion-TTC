@@ -693,10 +693,10 @@
       "name": "SEG 18",
       "author": "Novela",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/seg18.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://topxx.vip",
       "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/seg18.png",
-      "description": "Xem video 18+ tổng hợp từ Topxx.vip — API JSON, phát trực tiếp MP4/HLS",
+      "description": "Xem video 18+ tổng hợp từ Topxx.vip — 19 tab, API JSON + HTML, phát trực tiếp MP4/HLS",
       "type": "video",
       "locale": "vi_VN"
     },

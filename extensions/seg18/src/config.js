@@ -9,3 +9,9 @@ var HEADERS = {
     "Accept": "application/json",
     "Referer": BASE_URL + "/"
 };
+
+var SITE_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "text/html,application/xhtml+xml",
+    "Referer": BASE_URL + "/"
+};
