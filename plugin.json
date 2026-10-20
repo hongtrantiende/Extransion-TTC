@@ -701,6 +701,17 @@
       "locale": "vi_VN"
     },
     {
+      "name": "Báo Mới",
+      "author": "Novela",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/baomoi.zip",
+      "version": 2,
+      "source": "https://baomoi.com",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/icons/baomoi.png",
+      "description": "Đọc tin tức Báo Mới — 40 chuyên mục, cập nhật 24h",
+      "type": "novel",
+      "locale": "vi_VN"
+    },
+    {
       "name": "blbattu.com",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/zips/bl-bat-tu.zip",
