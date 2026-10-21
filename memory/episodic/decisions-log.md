@@ -103,3 +103,11 @@ This document records the architectural decisions made during development.
 - **Consequences**:
   - Catalog index counts updated (`plugin.json` 193 -> 192, `sources.json` 248 -> 247).
 
+### Decision: Build Báo Mới RSS source with JS content rule
+- **Status**: Approved & Executed.
+- **Context**: Báo Mới has no public RSS feed. Its static article DOM lazy-loads images: `<img>` only contains a 1px base64 placeholder, while the real absolute image URLs are embedded in `__NEXT_DATA__`. A plain `class.content-body@html` rule therefore produced articles with missing images. An initial version also set `ruleDescription`, which made the reader show the short description instead of fetching the full article.
+- **Decision**: Create a Legado RSS source for `https://baomoi.com` using HTML list rules (`.bm-card`) and a `@js:` content rule that parses `__NEXT_DATA__` (`props.pageProps.resp.data.content.bodys`) and rebuilds the article as `<p>` text plus `<img>` blocks in order, with a meta-description fallback. Leave `ruleDescription` empty so the reader always fetches the full content page. Use desktop `User-Agent` in the `header` JSON string. Update installed sources by `deleteRssSources` then `saveRssSources`.
+- **Consequences**:
+  - The Báo Mới RSS source parses 76 articles on the homepage, 17 category tabs, and article content with correct absolute images (verified through the RSS debug WebSocket and on-device).
+  - The full rule-syntax and debugging knowledge is recorded in `memory/semantic/legado-rss-sources.md` and `memory/episodic/lessons-learned.md`.
+

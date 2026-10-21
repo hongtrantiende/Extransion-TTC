@@ -111,4 +111,20 @@ Dưới đây là tổng hợp toàn bộ quy chuẩn bắt buộc và kinh nghi
   - Category list selector uses `a.bookInfo` for elements, `img` attribute `data-src` for cover, `h2` for title, and `div.info div` for category/tags.
   - Page 2 is fetched from the AJAX endpoint `/rank/listContinue?readLike=0&countType=hour72&pageNum=2`.
 
+---
+
+## 📅 2026-10-21
+
+### Legado/Novela RSS Sources — syntax, content flow, lazy images
+
+- **Rule syntax**: Legado RSS rules default to **Jsoup selector**, not raw CSS. Use `@` as the step separator with a final `text/textNodes/ownText/href/src/html/all`, e.g. `class.bm-card@tag.a.0@textNodes`. A CSS selector containing spaces (`.bm-card-header a`) returns 0 matches; use `@css:` only when CSS is really needed. JSONPath is `$.` / `@json:`; XPath is `//` / `@XPath:`.
+- **Full content trap**: `ReadRssViewModel` shows `article.description` as the article body when it is non-empty and **does not fetch the content page**. To read the full article, leave `ruleDescription` empty and use `ruleContent`. This was the cause of the "tap article, blank content" bug on Báo Mới.
+- **API is not upsert**: `POST /saveRssSources` does not update an existing `sourceUrl`. Always `POST /deleteRssSources` (array of `{sourceUrl, sourceName}`) before saving changes. After changing rules, refresh the RSS list (or delete/re-add) because article objects may keep the old description.
+- **WS debug**: `ws://<phone>:1123/rssSourceDebug` expects `{"tag":"<sourceUrl>"}` (an object, not an array). It parses only the first list item; with `ruleDescription` empty it also parses the content page and prints the body (`state 20`), ending with `CLOSE 1000`. It is a first-item smoke test, not a full-source test.
+- **Lazy images**: Báo Mới returns `<img src="data:image/gif;base64,1px...">` in the static DOM; the real URLs live in `__NEXT_DATA__` at `props.pageProps.resp.data.content.bodys` (`type: "text"` / `"image"`, `content` holds the real absolute image URL). `class.content-body@html` only returns placeholders. The fix is a `@js:` content rule that parses `__NEXT_DATA__` and rebuilds `<p>` / `<img>` in order, with a meta-description fallback.
+- **JS content rules**: `@js:` runs in Rhino with bindings `src` (raw page body), `result`, `baseUrl`, `rssArticle`, `source`, `cookie`, `cache`, `java`. Use ES5 (`var`, `for`); `JSON.parse` works. The script's final value is the content. For lazy/dynamic sites this is the reliable escape hatch.
+- **Content test trick**: Create a temporary RSS source with `sourceUrl` and `sortUrl` both set to a sample article URL, `ruleArticles: "html"`, `ruleTitle: "tag.title.0@textNodes"`, `ruleLink: "link[rel=canonical]@href"`, `ruleDescription: ""`, and the JS `ruleContent`. The debug then fetches that article and prints the generated HTML, so the content rule can be verified before touching the real source.
+- **Site specifics**: Báo Mới has no public RSS (`/rss/*` → 404); it needs a desktop `User-Agent` and HTML rules. The article body JSON is in `__NEXT_DATA__`; list cards use `.bm-card`, `.bm-card-header a`, `.bm-card-image img`, `.content-time`. `header` is a JSON **string**, not an object.
+- **Reference**: full playbook at `memory/semantic/legado-rss-sources.md`.
+
 
