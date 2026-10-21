@@ -2,6 +2,8 @@
 
 > Kinh nghiệm thực chiến khi tạo, debug và sửa nguồn RSS cho app **Novela** (fork Legado, package `io.legato.kazusa`).
 > Case study hoàn chỉnh: **Báo Mới (`https://baomoi.com`)** — site không có RSS, phải dùng rule HTML + JS đọc `__NEXT_DATA__` để lấy đúng ảnh.
+>
+> **Archive:** bản vận hành gọn hiện nằm ở `docs/legado/rss.md`; file này giữ chi tiết lịch sử/case study, không phải nguồn chuẩn.
 
 ---
 

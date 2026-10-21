@@ -125,6 +125,14 @@ Dưới đây là tổng hợp toàn bộ quy chuẩn bắt buộc và kinh nghi
 - **JS content rules**: `@js:` runs in Rhino with bindings `src` (raw page body), `result`, `baseUrl`, `rssArticle`, `source`, `cookie`, `cache`, `java`. Use ES5 (`var`, `for`); `JSON.parse` works. The script's final value is the content. For lazy/dynamic sites this is the reliable escape hatch.
 - **Content test trick**: Create a temporary RSS source with `sourceUrl` and `sortUrl` both set to a sample article URL, `ruleArticles: "html"`, `ruleTitle: "tag.title.0@textNodes"`, `ruleLink: "link[rel=canonical]@href"`, `ruleDescription: ""`, and the JS `ruleContent`. The debug then fetches that article and prints the generated HTML, so the content rule can be verified before touching the real source.
 - **Site specifics**: Báo Mới has no public RSS (`/rss/*` → 404); it needs a desktop `User-Agent` and HTML rules. The article body JSON is in `__NEXT_DATA__`; list cards use `.bm-card`, `.bm-card-header a`, `.bm-card-image img`, `.content-time`. `header` is a JSON **string**, not an object.
-- **Reference**: full playbook at `memory/semantic/legado-rss-sources.md`.
+- **Reference**: full playbook at `memory/semantic/legado-rss-sources.md`; operational version at `docs/legado/rss.md`.
+
+### Repo reorg (2026-10-21)
+- **Root catalog schema**: `plugin.json` is an object `{metadata, data[]}`; only `data` is the 192-entry array. A validator that assumes a top-level array fails.
+- **Path contract**: app/raw URLs are built from each entry's `path`/`icon`; move packages to `extensions/zips` and `extensions/icons` and update the catalog, never hardcode old `main/zips` URLs.
+- **Mock cleanup**: build `sources.json` only from `legado/books/*.json`; keep `skipped/` out. 5 active, 2 skipped after cleanup.
+- **Studio pack limits**: `pack` increments version and creates a zip, but does not copy the icon to `extensions/icons/` or add a new catalog entry. Do those manually for new extensions.
+- **Web**: `index.html` must fetch `plugin.json`; it needs HTTP, not `file://`. Two empty-icon entries need fallback UI.
+- **Validation**: `python3 scripts/catalog.py validate` catches missing zips/icons, bad books/RSS and accidental `sourcesData` re-introduction.
 
 

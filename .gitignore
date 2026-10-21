@@ -1,1 +1,4 @@
-extensions/
+node_modules/
+.env
+*.log
+extensions/studio/scan_all_report.json

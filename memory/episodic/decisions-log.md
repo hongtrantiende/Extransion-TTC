@@ -111,3 +111,13 @@ This document records the architectural decisions made during development.
   - The Báo Mới RSS source parses 76 articles on the homepage, 17 category tabs, and article content with correct absolute images (verified through the RSS debug WebSocket and on-device).
   - The full rule-syntax and debugging knowledge is recorded in `memory/semantic/legado-rss-sources.md` and `memory/episodic/lessons-learned.md`.
 
+### Decision: Reorganize repo into extension, book and RSS lanes
+- **Status**: Approved & executed locally; final push pending.
+- **Context**: Root mixed 248 book sources, 195 zips, icons, studio and an obsolete nested `ext-novela/vbook-tool`; `index.html` hardcoded 195 mock entries and `sources.json` contained mostly mock sources.
+- **Decision**: Keep root entry points (`plugin.json`, `sources.json`, `index.html`, dictionaries). Move packages/icons/studio into `extensions/`, book sources into `legado/books/`, RSS into `legado/rss/`. Keep 5 real book sources, move 2 sangtacviet to `skipped/`, remove 246 mock. Delete `ext-novela` after salvaging four reference docs. Replace web hardcode with `fetch('plugin.json')`.
+- **Consequences**:
+  - Catalog remains 192 extensions / 192 zips / 190 icons; two extensions intentionally have no icon.
+  - Old raw URLs under `main/zips/` and `main/icons/` are gone; app reads `plugin.json`.
+  - `studio` is the only tool; `vbook-tool` commands are obsolete.
+  - Canonical knowledge moved to `docs/`; `scripts/catalog.py` builds/validates the aggregate.
+

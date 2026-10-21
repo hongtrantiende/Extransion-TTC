@@ -1,0 +1,28 @@
+[
+    {
+        "sourceName": "Báo Mới",
+        "sourceUrl": "https://baomoi.com",
+        "sourceIcon": "https://baomoi.com/favicon.ico",
+        "sourceGroup": "Báo",
+        "sourceComment": "RSS/HTML; content lấy từ __NEXT_DATA__ để giữ đúng ảnh",
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enableReadRecord": true,
+        "enableJs": false,
+        "loadWithBaseUrl": true,
+        "singleUrl": false,
+        "articleStyle": 0,
+        "type": 0,
+        "sortUrl": "Trang chủ::https://baomoi.com/\nTin mới::https://baomoi.com/tin-moi.epi\nThời sự::https://baomoi.com/thoi-su.epi\nThế giới::https://baomoi.com/the-gioi.epi\nKinh tế::https://baomoi.com/kinh-te.epi\nKinh doanh::https://baomoi.com/kinh-doanh.epi\nBất động sản::https://baomoi.com/nha-dat.epi\nGiải trí::https://baomoi.com/giai-tri.epi\nThể thao::https://baomoi.com/the-thao.epi\nĐời sống::https://baomoi.com/doi-song.epi\nGiáo dục::https://baomoi.com/giao-duc.epi\nPháp luật::https://baomoi.com/phap-luat.epi\nSức khỏe::https://baomoi.com/suc-khoe-y-te.epi\nCông nghệ::https://baomoi.com/khoa-hoc-cong-nghe.epi\nXe::https://baomoi.com/xe-co.epi\nDu lịch::https://baomoi.com/du-lich.epi\nVăn hóa::https://baomoi.com/van-hoa.epi",
+        "ruleArticles": "class.bm-card",
+        "ruleTitle": "class.bm-card-header@tag.a.0@textNodes",
+        "ruleLink": "class.bm-card-header@tag.a.0@href",
+        "ruleImage": "class.bm-card-image@tag.img.0@src",
+        "rulePubDate": "class.content-time.0@textNodes",
+        "ruleDescription": "",
+        "ruleContent": "@js:\nvar a = src.split('<script id=\"__NEXT_DATA__\" type=\"application/json\">');\nvar o = '';\nif (a.length > 1) {\n  var b = a[1].split('</script>')[0];\n  var j = JSON.parse(b);\n  var c = j.props.pageProps.resp.data.content;\n  var arr = c.bodys;\n  for (var i = 0; i < arr.length; i++) {\n    var e = arr[i];\n    if (e.type === 'text') {\n      o += '<p>' + e.content + '</p>';\n    } else if (e.type === 'image') {\n      o += '<p><img src=\"' + e.content + '\"/></p>';\n    } else if (e.content) {\n      o += '<p>' + e.content + '</p>';\n    }\n  }\n}\nif (!o) {\n  var d = src.split('<meta name=\"description\" content=\"');\n  if (d.length > 1) o = '<p>' + d[1].split('\"')[0] + '</p>';\n}\no;",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\", \"Referer\": \"https://baomoi.com/\"}",
+        "customOrder": 0,
+        "lastUpdateTime": 1792569016632
+    }
+]
