@@ -1,10 +1,10 @@
 {
   "metadata": {
     "name": "Báo Mới",
-    "author": "Novela",
-    "version": 2,
+    "author": "Thiên Thư Các",
+    "version": 3,
     "source": "https://baomoi.com",
-    "description": "Đọc tin tức Báo Mới — 40 chuyên mục, cập nhật 24h",
+    "description": "Truyện chữ",
     "locale": "vi_VN",
     "language": "javascript",
     "type": "novel"

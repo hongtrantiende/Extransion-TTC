@@ -43,6 +43,7 @@ node extensions/studio/studio.js scan [limit]
 - Cập nhật `version` trong entry khớp ở `plugin.json` root (nếu tìm thấy).
 - Tạo `extensions/zips/<ext-id>.zip` gồm `plugin.json`, `icon.png`, `src/*.js`.
 - **Không** tự copy icon sang `extensions/icons/` và **không** tự thêm entry mới vào catalog. Việc đó làm tay.
+- **Không** pack extension có `metadata.encrypt: true`; metadata là khoá giải mã nên pack lại sẽ làm hỏng extension.
 
 ### `scan`
 

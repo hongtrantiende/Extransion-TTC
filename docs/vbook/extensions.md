@@ -25,8 +25,8 @@ extensions/sources/<ext-id>/
 {
   "metadata": {
     "name": "Báo Mới",
-    "author": "Novela",
-    "version": 2,
+    "author": "Thiên Thư Các",
+    "version": 3,
     "source": "https://baomoi.com",
     "description": "Đọc tin tức Báo Mới",
     "locale": "vi_VN",
@@ -46,6 +46,14 @@ extensions/sources/<ext-id>/
 ```
 
 `plugin.json` root không cùng schema: root là `{metadata, data[]}`; mỗi entry trong `data` là bản flattened có `path`, `icon`, `type`, `version`.
+
+## Chuẩn metadata catalog
+
+- Extension thường: `author` là `Thiên Thư Các`.
+- `description` theo `type`: `novel` → `Truyện chữ`, `chinese_novel` → `Truyện Trung`, `comic` → `Truyện tranh`, `video` → `Phim`.
+- Khi cập nhật metadata hàng loạt, tăng `version` thêm 1 và đồng bộ entry root với `plugin.json` trong zip.
+- Không đổi `name`, `source`, `regexp`, `icon` hoặc script khi chỉ chuẩn hoá metadata.
+- **Ngoại lệ bắt buộc:** mọi zip có `metadata.encrypt: true` phải giữ nguyên metadata gốc (đặc biệt `name`, `author`, `version`, `source`, `description`, `type`). Hiện có 55 zip thuộc nhóm này; xem mục Metadata mã hoá bên dưới.
 
 ## Hợp đồng script
 
@@ -110,13 +118,13 @@ App chạy Rhino cũ. Code phải là ES5:
 
 ## Metadata mã hoá
 
-Một số extension dùng metadata làm khoá giải mã. Với các extension này:
+Mọi extension có `metadata.encrypt: true` dùng metadata làm khoá/salt giải mã. Với các extension này:
 
-- Không đổi `name`, `author`, `version`, `source`.
-- Không pack lại từ source nếu không có bản gốc/metadata khớp.
-- Test lại ngay sau khi cài.
+- Không đổi `name`, `author`, `version`, `source`, `description`, `type`.
+- Không pack lại, không chạy script chuẩn hoá metadata hàng loạt.
+- Giữ nguyên zip gốc và entry root tương ứng; chỉ sửa khi có bản gốc và test lại trên máy thật.
 
-Danh sách từng gặp: `wiki-dich`/`wikicv.net`, `qmbook`, `07br`, `roads-team`. Danh sách có thể tăng; nếu extension lạ crash sau khi sửa metadata, nghi ngờ cơ chế này.
+Danh sách hiện tại gồm 55 zip, trong đó có `wiki-dich`/`wikicv.net`, `qmbook`, `07br`, `roads-team`. Danh sách có thể tăng; nếu extension lạ crash sau khi sửa metadata, nghi ngờ cơ chế này.
 
 ## Quy ước đặt tên
 

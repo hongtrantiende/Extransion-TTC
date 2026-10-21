@@ -127,3 +127,12 @@ This document records the architectural decisions made during development.
   - `studio` is the only tool; `vbook-tool` commands are obsolete.
   - Canonical knowledge moved to `docs/`; `scripts/catalog.py` builds/validates the aggregate.
 
+### Decision: Normalize extension metadata without breaking encrypted sources
+- **Status**: Approved & executed locally; final push pending.
+- **Context**: The user requested all extension `plugin.json` metadata to use a consistent author and description, bump every version by one, and update GitHub. Previous investigation found that 55 zips have `metadata.encrypt: true` and use their metadata as a decryption key/salt.
+- **Decision**: Normalize only the 137 non-encrypted extensions: author `Thiên Thư Các`; descriptions `Truyện chữ` (`novel`), `Truyện Trung` (`chinese_novel`), `Truyện tranh` (`comic`), `Phim` (`video`); version +1; root entries synced with zip metadata. Preserve the original `plugin.json` bytes and root entries for all 55 encrypted zips. Sync the four local source `plugin.json` files to the published metadata.
+- **Consequences**:
+  - 137 extensions now share one author and category description; 55 encrypted extensions retain their original authors/versions to remain loadable.
+  - All non-encrypted root/zip metadata matches; all zip contents other than `plugin.json` are byte-identical to `HEAD`.
+  - `python3 scripts/catalog.py validate` passes with 0 errors and 0 warnings.
+

@@ -61,6 +61,14 @@
 
 **Hệ quả:** aggregate RSS còn 2 source; `ruleLink` trỏ thẳng chapter mới nhất; `ruleContent` parse ảnh `img.lazy` và chuẩn hoá host CDN cũ. Đã cài lên máy qua `saveRssSources` và debug trên máy: 42 item, 32 ảnh chapter.
 
+## 2026-10-21 — Chuẩn hoá metadata extension
+
+**Quyết định:** chuẩn hoá 137 extension không mã hoá về author `Thiên Thư Các`, description theo type (`Truyện chữ`, `Truyện Trung`, `Truyện tranh`, `Phim`), tăng version thêm 1 và đồng bộ entry root với metadata trong zip. Giữ nguyên toàn bộ metadata gốc của 55 zip có `metadata.encrypt: true`.
+
+**Lý do:** metadata của extension mã hoá là khoá/salt giải mã; đổi author/version/description có thể làm extension crash. Không thể vừa chuẩn hoá các trường này vừa giữ extension hoạt động nếu không có khoá gốc.
+
+**Hệ quả:** 137 extension đồng nhất; 55 extension mã hoá giữ author/version cũ. Root/zip của 137 extension khớp nhau; nội dung zip ngoài `plugin.json` không đổi. Validator pass.
+
 ## 2026-10-21 — Quy tắc cập nhật
 
 - Book source: sửa file trong `legado/books/`, chạy `python3 scripts/catalog.py build`.

@@ -1,11 +1,11 @@
 {
   "metadata": {
     "name": "Bilibili Trung Quốc",
-    "author": "Novela",
+    "author": "Thiên Thư Các",
     "version": 1,
     "source": "https://www.bilibili.com",
     "regexp": "https?:\\/\\/(?:m|www)\\.bilibili\\.com\\/(?:video|play)\\/[a-zA-Z0-9_-]+\\/?$",
-    "description": "Xem video và phim trên Bilibili Trung Quốc (bilibili.com)",
+    "description": "Phim",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "video"

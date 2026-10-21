@@ -6,10 +6,11 @@ Tài liệu này là bản gọn, đã kiểm chứng. Log gốc nằm ở `memo
 
 ### Metadata mã hoá
 
-Một số extension (`wiki-dich`, `qmbook`, `07br`, `roads-team`) dùng chính metadata trong `plugin.json` làm khoá/salt để giải mã file. Sửa `name`, `author`, `version` hoặc `source` có thể làm app không giải mã được và crash.
+Mọi extension có `metadata.encrypt: true` dùng chính metadata trong `plugin.json` làm khoá/salt để giải mã file. Sửa `name`, `author`, `version`, `source`, `description` hoặc `type` có thể làm app không giải mã được và crash. Hiện có 55 zip như vậy, gồm `wiki-dich`, `qmbook`, `07br`, `roads-team`.
 
 - Không “chuẩn hoá” metadata của extension đã mã hoá.
-- Khi cập nhật, giữ nguyên zip gốc và metadata gốc.
+- Khi cập nhật, giữ nguyên zip gốc và entry root gốc.
+- Không pack lại từ source nếu không có metadata khớp.
 - Nếu buộc phải sửa, test lại trên máy thật ngay.
 
 ### `page.js` trả array URL
