@@ -138,7 +138,7 @@ This document records the architectural decisions made during development.
 
 
 ### Decision: Repair malformed and missing extension icons
-- **Status**: Approved & executed locally; final push pending.
+- **Status**: Approved, executed, and pushed in `4200fb4`.
 - **Context**: The user reported extensions without icons and noticed the Bilibili Trung Quốc icon looked different. Audit found 31 files named `.png` that actually contained ICO, JPEG, or WebP data, plus two extensions with no icon at all (`uukanshu.cc`, `m.xtyxsw.org`). The Bilibili icon itself was not changed by the metadata commit; it had been replaced earlier in `2fbf83a` with the official blue logo.
 - **Decision**: Decode/re-encode the 31 malformed icons as real PNG, add a favicon-based icon for `uukanshu`, add a generated mark for `m.xtyxsw.org`, sync each repaired `icon.png` into its zip, and update the two missing root icon fields. Keep the current official Bilibili icon.
 - **Consequences**:
