@@ -59,7 +59,7 @@
 
 **Lý do:** extension Truyện QQ đã có trong catalog nhưng chưa có RSS; site có danh sách chapter mới và ảnh chapter tải trực tiếp.
 
-**Hệ quả:** aggregate RSS còn 2 source; `ruleLink` trỏ thẳng chapter mới nhất; `ruleContent` parse ảnh `img.lazy` và chuẩn hoá host CDN cũ.
+**Hệ quả:** aggregate RSS còn 2 source; `ruleLink` trỏ thẳng chapter mới nhất; `ruleContent` parse ảnh `img.lazy` và chuẩn hoá host CDN cũ. Đã cài lên máy qua `saveRssSources` và debug trên máy: 42 item, 32 ảnh chapter.
 
 ## 2026-10-21 — Quy tắc cập nhật
 

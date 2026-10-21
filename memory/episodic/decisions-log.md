@@ -112,10 +112,10 @@ This document records the architectural decisions made during development.
   - The full rule-syntax and debugging knowledge is recorded in `memory/semantic/legado-rss-sources.md` and `memory/episodic/lessons-learned.md`.
 
 ### Decision: Add Truyện QQ RSS source
-- **Status**: Implemented; pending commit/push.
+- **Status**: Installed on device; debug verified.
 - **Context**: Extension Truyện QQ existed (`extensions/zips/truyenqq.zip`) but `legado/rss/` only had Báo Mới. Site has no public RSS; listing is HTML and chapter content is lazy-loaded images.
 - **Decision**: Add `legado/rss/truyenqq.json` with 7 tabs, `class.list_grid@tag.li` article selector, `last_chapter` as article link, and an ES5 `@js:` content rule that extracts `img.lazy` chapter images. Keep `ruleDescription` empty. Add source to `legado/rss/sources.json`.
-- **Consequences**: RSS aggregate is 2 sources; each feed item opens the latest chapter with all images. Validated locally and smoke-tested against live HTML (42 list items, 31–32 images); device test still pending because phone API was unreachable.
+- **Consequences**: RSS aggregate is 2 sources; each feed item opens the latest chapter with all images. Validated locally and installed to the phone via `saveRssSources`; RSS debug WebSocket returned 42 list items and 32 chapter images. List/content parsing verified on-device; visual image rendering still relies on the app WebView/source headers.
 
 ### Decision: Reorganize repo into extension, book and RSS lanes
 - **Status**: Approved & executed locally; final push pending.

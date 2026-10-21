@@ -44,7 +44,7 @@ Báo Mới không có RSS công khai (`/rss/*` trả 404). Nguồn dùng HTML + 
 
 Mỗi article là **một truyện, link tới chapter mới nhất**, không phải trang detail. Mở article sẽ thấy toàn bộ ảnh chapter. Nếu site đổi CDN, cập nhật các cặp host trong `ruleContent`.
 
-Đã smoke-test 2026-10-21 với HTML chapter thật: 42 item ở list, 31 ảnh chapter được sinh ra.
+Đã smoke-test 2026-10-21 với HTML chapter thật: 42 item ở list, 31 ảnh chapter. Đã cài lên máy và debug qua WebSocket: list 42 item, content 32 ảnh.
 
 ## Rule syntax
 
