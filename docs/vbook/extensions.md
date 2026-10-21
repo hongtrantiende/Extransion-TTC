@@ -131,6 +131,8 @@ Danh sách hiện tại gồm 55 zip, trong đó có `wiki-dich`/`wikicv.net`, `
 - ID/thư mục: chữ thường, không dấu, không hậu tố `-com`/`-top` nếu không cần.
 - Tên hiển thị: ngắn, Latin/domain, dễ gõ.
 - Icon: favicon/logo chính thức, lưu `extensions/icons/<id>.png`.
+- Icon phải là PNG thật (magic `89 50 4E 47`), không phải ICO/JPEG/WebP đổi đuôi `.png`; nên dùng ảnh vuông 200–512 px.
+- `icon.png` trong zip phải giống byte với `extensions/icons/<id>.png`.
 - Không dùng tên tiếng Trung làm `name` nếu không có lý do đặc biệt.
 
 ## Quy trình sửa
@@ -161,6 +163,7 @@ Danh sách hiện tại gồm 55 zip, trong đó có `wiki-dich`/`wikicv.net`, `
 | Mục lục rỗng | `page.js` trả object thay vì string; thiếu `host`; selector toc sai |
 | Chap rỗng | Nội dung nằm trong JSON; ảnh/chữ lazy; selector sai |
 | App crash sau cài | Metadata mã hoá bị sửa; zip hỏng; thiếu file script |
+| Icon không hiện | File `.png` thực chất là ICO/JPEG/WebP; thiếu `icon.png` trong zip; root/zip icon lệch |
 | Trang 2 không tải | `nextPage` sai kiểu; API cần cookie/CSRF |
 | Home không có cover | Site không có ảnh tĩnh; cần API/công thức |
 | Sửa code mà app không đổi | Cache Rhino; tắt/bật Web Server hoặc force-stop app |

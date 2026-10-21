@@ -45,6 +45,8 @@ Thiếu `host` thường làm mục lục rỗng hoặc chương không tải đ
 - Thư mục source trùng ID extension.
 - `plugin.json` cục bộ dùng đường dẫn phẳng: `"home": "home.js"`, không phải `"src/home.js"`.
 - Icon lấy từ favicon/trang chủ chính thức; lưu `extensions/icons/<id>.png`.
+- Favicon thường là ICO dù đặt tên `.png`; phải decode và encode lại PNG thật, đồng thời cập nhật `icon.png` trong zip.
+- Root icon và icon trong zip phải giống nhau; app có thể dùng một trong hai.
 
 ### Ảnh bìa
 
@@ -105,6 +107,6 @@ Thiếu `host` thường làm mục lục rỗng hoặc chương không tải đ
 
 - `plugin.json` root là object `{metadata, data[]}`; `data` mới là array.
 - `zips/-1.zip` là placeholder hợp lệ của `m.xtyxsw.org`; không xoá.
-- 2 extension không có icon: `uukanshu.cc`, `m.xtyxsw.org`; web phải fallback.
+- Tất cả extension đều có icon PNG; web vẫn fallback khi ảnh lỗi tải.
 - `index.html` fetch `plugin.json`; mở qua HTTP, không mở `file://`.
 - Raw GitHub có cache; sau push có thể cần chờ hoặc purge.

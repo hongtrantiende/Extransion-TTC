@@ -31,7 +31,7 @@ Extransion-TTC/
 │   │   ├── bilibili-cn/
 │   │   └── seg18/
 │   ├── zips/                    # 192 package
-│   ├── icons/                   # 190 icon
+│   ├── icons/                   # 192 icon PNG
 │   └── studio/                  # tool test/install/pack/scan/push
 ├── legado/
 │   ├── books/
@@ -145,7 +145,7 @@ https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main
 
 - Đổi `plugin.json` từ object sang array sẽ làm validator và web sai.
 - Xoá `zips/-1.zip` sẽ làm `m.xtyxsw.org` hỏng; file này là placeholder hợp lệ.
-- `uukanshu.cc` và `m.xtyxsw.org` không có icon; web phải fallback.
+- Tất cả extension đều có icon PNG; web vẫn fallback khi ảnh lỗi tải.
 - `legado/books/skipped/` nằm trong cây books nhưng không được build.
 - `index.html` mở bằng `file://` sẽ báo lỗi tải catalog.
 - `studio.js` cần `jszip`; chạy `npm ci` trong `extensions/studio/` trước khi dùng.

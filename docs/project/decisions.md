@@ -75,3 +75,11 @@
 - Extension: sửa source, chạy studio `pack`; không sửa zip bằng tay.
 - RSS: sửa source, cập nhật aggregate tay, chạy validator.
 - Trước commit: `python3 scripts/catalog.py validate`.
+
+## 2026-10-21 — Sửa icon lỗi định dạng và icon thiếu
+
+**Quyết định:** decode 31 file `.png` thực chất là ICO/JPEG/WebP rồi encode lại PNG; bổ sung icon cho `uukanshu.cc` và `m.xtyxsw.org`; đồng bộ `icon.png` trong 33 zip với root icon. Giữ logo Bilibili Trung Quốc hiện tại (logo xanh chính thức, đã đổi ở commit `2fbf83a`).
+
+**Lý do:** app có thể không decode được favicon ICO/JPEG/WebP khi đuôi là `.png`, dẫn tới icon trống hoặc sai. Hai extension thiếu hẳn icon; một số zip thiếu `icon.png`.
+
+**Hệ quả:** 192/192 extension có icon PNG; root và zip khớp byte; validator pass 0 lỗi. Metadata của 55 zip mã hoá vẫn giữ nguyên.

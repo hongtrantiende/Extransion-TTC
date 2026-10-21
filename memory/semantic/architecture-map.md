@@ -12,7 +12,7 @@ Extransion-TTC/
 ├── extensions/
 │   ├── sources/                 # 4 source đang phát triển
 │   ├── zips/                    # 192 package
-│   ├── icons/                   # 190 icon
+│   ├── icons/                   # 192 icon PNG
 │   └── studio/                  # tool duy nhất
 ├── legado/
 │   ├── books/                   # 5 active + skipped/
@@ -39,6 +39,6 @@ Extransion-TTC/
 
 - `plugin.json` root là object, không phải array.
 - `zips/-1.zip` là placeholder hợp lệ của `m.xtyxsw.org`.
-- `uukanshu.cc`, `m.xtyxsw.org` không có icon.
+- Tất cả extension đều có icon PNG; web vẫn fallback khi ảnh lỗi tải.
 - `index.html` cần HTTP server.
 - Studio cần `npm ci` trước khi chạy.

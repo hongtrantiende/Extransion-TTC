@@ -30,7 +30,7 @@ Extransion-TTC/
 ├── extensions/
 │   ├── sources/                 # 4 source đang phát triển
 │   ├── zips/                    # 192 package
-│   ├── icons/                   # 190 icon (2 ext không có icon)
+│   ├── icons/                   # 192 icon PNG
 │   └── studio/                  # test / install / pack / push
 ├── legado/
 │   ├── books/                   # 5 book source thật
@@ -132,6 +132,6 @@ Validator kiểm tra:
 
 - `zips/` và `icons/` đã chuyển vào `extensions/`; URL raw trực tiếp kiểu cũ sẽ chết. App dùng `plugin.json` nên chỉ cần refresh catalog.
 - `extensions/sources/` chỉ có 4 extension đang phát triển; 188 extension còn lại tồn tại dưới dạng zip.
-- `uukanshu.cc` và `m.xtyxsw.org` hiện không có icon; web hiển thị icon fallback.
+- Tất cả 192 extension đều có icon PNG; web vẫn giữ fallback nếu ảnh lỗi tải.
 - GitHub Pages chưa bật cho repo này; web catalog cần local server hoặc host tĩnh.
 - `memory/` là log lịch sử; kiến thức chuẩn nằm trong `docs/`.
