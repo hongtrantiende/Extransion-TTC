@@ -24,5 +24,31 @@
         "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\", \"Referer\": \"https://baomoi.com/\"}",
         "customOrder": 0,
         "lastUpdateTime": 1792569016632
+    },
+    {
+        "sourceName": "Truyện QQ",
+        "sourceUrl": "https://truyenqqko.com",
+        "sourceIcon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/extensions/icons/truyenqq.png",
+        "sourceGroup": "Truyện tranh",
+        "sourceComment": "RSS truyện tranh: chapter mới, nội dung là ảnh chapter",
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enableReadRecord": true,
+        "enableJs": false,
+        "loadWithBaseUrl": true,
+        "singleUrl": false,
+        "articleStyle": 0,
+        "type": 0,
+        "sortUrl": "Mới cập nhật::https://truyenqqko.com/truyen-moi-cap-nhat\nTop ngày::https://truyenqqko.com/top-ngay\nTop tuần::https://truyenqqko.com/top-tuan\nTop tháng::https://truyenqqko.com/top-thang\nTruyện mới::https://truyenqqko.com/truyen-tranh-moi\nTruyện full::https://truyenqqko.com/truyen-hoan-thanh\nYêu thích::https://truyenqqko.com/truyen-yeu-thich",
+        "ruleArticles": "class.list_grid@tag.li",
+        "ruleTitle": "class.book_name@tag.a.0@text",
+        "ruleLink": "class.last_chapter@tag.a.0@href",
+        "ruleImage": "class.book_avatar@tag.img.0@src",
+        "rulePubDate": "",
+        "ruleDescription": "",
+        "ruleContent": "@js:\nvar out = \"\";\nvar t = src.match(/<title>([\\s\\S]*?)<\\/title>/i);\nif (t) {\n  var heading = t[1].replace(/<[^>]*>/g, \"\").replace(/\\s*\\|\\s*TruyenQQKo\\.Com\\s*$/i, \"\").replace(/\\s+Next Chap\\s+\\d+.*$/i, \"\").replace(/\\s+Tiếng Việt.*$/i, \"\").replace(/\\s+/g, \" \");\n  out += \"<h3>\" + heading + \"</h3>\";\n}\nvar re = /<img\\b[^>]*class=\"[^\"]*\\blazy\\b[^\"]*\"[^>]*>/gi;\nvar m;\nwhile ((m = re.exec(src)) !== null) {\n  var tag = m[0];\n  var u = tag.match(/data-original=\"([^\"]+)\"/i);\n  if (!u) u = tag.match(/data-cdn=\"([^\"]+)\"/i);\n  if (!u) u = tag.match(/src=\"([^\"]+)\"/i);\n  if (!u) continue;\n  var url = u[1] + \"\";\n  if (url.indexOf(\"data:\") === 0) continue;\n  if (url.indexOf(\"//\") === 0) url = \"https:\" + url;\n  if (url.indexOf(\"/\") === 0 && url.indexOf(\"//\") !== 0) url = \"https://truyenqqko.com\" + url;\n  url = url.replace(/&amp;/g, \"&\");\n  url = url.replace(\"mangaqq.net\", \"i200.truyenvua.com\");\n  url = url.replace(\"cdnqq.xyz\", \"i200.truyenvua.com\");\n  url = url.replace(\"mangaqq.com\", \"i216.truyenvua.com\");\n  url = url.replace(\"photruyen.com\", \"i109.truyenvua.com\");\n  url = url.replace(\"tintruyen.com\", \"i109.truyenvua.com\");\n  url = url.replace(\"trangshop.net\", \"i109.truyenvua.com\");\n  url = url.replace(\"//tintruyen.net\", \"//i138.truyenvua.com\");\n  url = url.replace(\"//i125.tintruyen.net\", \"//i125.truyenvua.com\");\n  url = url.replace(\"qqtaku.com\", \"i125.truyenvua.com\");\n  out += '<p><img src=\"' + url + '\"/></p>';\n}\nif (!out) out = \"<p>Không tìm thấy nội dung chương.</p>\";\nout;",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\", \"Referer\": \"https://truyenqqko.com/\"}",
+        "customOrder": 0,
+        "lastUpdateTime": 1792570494587
     }
 ]

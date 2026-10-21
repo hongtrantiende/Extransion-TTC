@@ -4,7 +4,8 @@
 
 ```text
 legado/rss/baomoi.json       source Báo Mới
-legado/rss/sources.json      aggregate 1 source
+legado/rss/truyenqq.json     source Truyện QQ
+legado/rss/sources.json      aggregate 2 source
 ```
 
 Import tất cả:
@@ -28,12 +29,30 @@ legado://import/rssSource?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtran
 
 Báo Mới không có RSS công khai (`/rss/*` trả 404). Nguồn dùng HTML + JSON Next.js.
 
+## Truyện QQ
+
+- `sourceUrl`: `https://truyenqqko.com`
+- 7 tab: Mới cập nhật, Top ngày, Top tuần, Top tháng, Truyện mới, Truyện full, Yêu thích.
+- `ruleArticles`: `class.list_grid@tag.li`
+- `ruleTitle`: `class.book_name@tag.a.0@text`
+- `ruleLink`: `class.last_chapter@tag.a.0@href` — trỏ thẳng chapter mới nhất.
+- `ruleImage`: `class.book_avatar@tag.img.0@src`
+- `rulePubDate`: `""`
+- `ruleDescription`: `""`
+- `ruleContent`: `@js:` parse `img.lazy` và trả `<img>` cho từng trang.
+- `header`: desktop UA + Referer.
+
+Mỗi article là **một truyện, link tới chapter mới nhất**, không phải trang detail. Mở article sẽ thấy toàn bộ ảnh chapter. Nếu site đổi CDN, cập nhật các cặp host trong `ruleContent`.
+
+Đã smoke-test 2026-10-21 với HTML chapter thật: 42 item ở list, 31 ảnh chapter được sinh ra.
+
 ## Rule syntax
 
 Rule mặc định của Legado RSS là **JSoup selector**, không phải CSS thuần:
 
 ```text
 class.bm-card@tag.a.0@textNodes
+class.last_chapter@tag.a.0@href
 ```
 
 - `@` là bước tiếp theo.

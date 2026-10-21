@@ -53,6 +53,14 @@
 
 **Hệ quả:** RSS doc nằm ở `docs/legado/rss.md`; source JSON là artifact, không hardcode nội dung bài.
 
+## 2026-10-21 — Thêm RSS Truyện QQ
+
+**Quyết định:** thêm `legado/rss/truyenqq.json` cho `https://truyenqqko.com`, feed chapter mới; content là ảnh chapter.
+
+**Lý do:** extension Truyện QQ đã có trong catalog nhưng chưa có RSS; site có danh sách chapter mới và ảnh chapter tải trực tiếp.
+
+**Hệ quả:** aggregate RSS còn 2 source; `ruleLink` trỏ thẳng chapter mới nhất; `ruleContent` parse ảnh `img.lazy` và chuẩn hoá host CDN cũ.
+
 ## 2026-10-21 — Quy tắc cập nhật
 
 - Book source: sửa file trong `legado/books/`, chạy `python3 scripts/catalog.py build`.

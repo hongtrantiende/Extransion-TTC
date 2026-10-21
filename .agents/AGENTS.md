@@ -31,7 +31,7 @@ Bạn là kỹ sư phần mềm full-stack của dự án, làm việc như đ�
 - Extension: 192 entry trong `plugin.json`, 192 zip, 190 icon (2 ext không icon).
 - Source đang phát triển: 4 trong `extensions/sources/`.
 - Book source: 5 active, 2 skipped.
-- RSS: 1 active (`baomoi`).
+- RSS: 2 active (`baomoi`, `truyenqq`).
 - Tool duy nhất: `extensions/studio/`.
 - `ext-novela/` và `vbook-tool` đã bị xoá; đừng tạo lại.
 
@@ -47,7 +47,7 @@ extensions/icons/            190 icon
 extensions/studio/           test/install/pack/scan/push
 legado/books/                5 book source
 legado/books/skipped/        2 source chưa dùng
-legado/rss/                  Báo Mới + aggregate
+legado/rss/                  Báo Mới + Truyện QQ + aggregate
 docs/                        nguồn kiến thức chuẩn
 memory/                      log lịch sử
 scripts/catalog.py           build/validate
@@ -130,7 +130,7 @@ Validator kiểm tra plugin/zip/icon/book/RSS/index. Kỳ vọng hiện tại:
 ```text
 plugin: 192 entries, 192 zips, 190 icons, 2 empty icons
 books: 5 active, 2 skipped
-rss: 1 active
+rss: 2 active
 OK: 0 errors
 ```
 

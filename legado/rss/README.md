@@ -7,6 +7,7 @@ Mỗi file JSON (trừ `sources.json`) là một Legado RSS source. `sources.jso
 | File | Tên | Nguồn |
 |---|---|---|
 | `baomoi.json` | Báo Mới | https://baomoi.com |
+| `truyenqq.json` | Truyện QQ | https://truyenqqko.com |
 
 ## Quy tắc
 
@@ -14,6 +15,7 @@ Mỗi file JSON (trừ `sources.json`) là một Legado RSS source. `sources.jso
 - Rule mặc định là JSoup, dùng `@`.
 - `ruleContent` có thể là `@js:`.
 - Source Báo Mới cần desktop UA và parse `__NEXT_DATA__`.
+- Source Truyện QQ đọc list chapter mới và parse ảnh `img.lazy` trong content.
 
 ## Kiểm tra
 

@@ -35,7 +35,7 @@ Extransion-TTC/
 ├── legado/
 │   ├── books/                   # 5 book source thật
 │   │   └── skipped/             # 2 sangtacviet chưa dùng
-│   └── rss/                     # Báo Mới + aggregate
+│   └── rss/                     # Báo Mới + Truyện QQ + aggregate
 ├── docs/                        # kiến thức dự án
 ├── memory/                      # log lịch sử agent
 └── .agents/                     # quy tắc agent
@@ -61,7 +61,7 @@ legado://import/extensionRepo?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhong
 legado://import/importonline?src=https%3A%2F%2Fraw.githubusercontent.com%2Fhongtrantiende%2FExtransion-TTC%2Fmain%2Fsources.json
 ```
 
-Aggregate hiện có 5 source thật trong `legado/books/`. Hai source `sangtacviet` nằm trong `skipped/` và không được đưa vào aggregate.
+Aggregate book hiện có 5 source thật trong `legado/books/`. Hai source `sangtacviet` nằm trong `skipped/` và không được đưa vào aggregate.
 
 ### 3. Cài RSS source
 

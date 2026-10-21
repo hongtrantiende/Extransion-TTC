@@ -43,6 +43,7 @@ Extransion-TTC/
 │   │   └── skipped/             # 2 sangtacviet, không vào aggregate
 │   └── rss/
 │       ├── baomoi.json
+│       ├── truyenqq.json
 │       └── sources.json
 ├── docs/
 ├── memory/
@@ -91,10 +92,10 @@ Legado
 ### RSS source
 
 ```text
-legado/rss/baomoi.json
+legado/rss/{baomoi,truyenqq}.json
         │ cập nhật tay sources.json
         ▼
-legado/rss/sources.json (array 1)
+legado/rss/sources.json (array 2)
         │ deep link rssSource
         ▼
 Legado

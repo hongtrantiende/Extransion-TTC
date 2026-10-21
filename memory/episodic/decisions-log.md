@@ -111,6 +111,12 @@ This document records the architectural decisions made during development.
   - The Báo Mới RSS source parses 76 articles on the homepage, 17 category tabs, and article content with correct absolute images (verified through the RSS debug WebSocket and on-device).
   - The full rule-syntax and debugging knowledge is recorded in `memory/semantic/legado-rss-sources.md` and `memory/episodic/lessons-learned.md`.
 
+### Decision: Add Truyện QQ RSS source
+- **Status**: Implemented; pending commit/push.
+- **Context**: Extension Truyện QQ existed (`extensions/zips/truyenqq.zip`) but `legado/rss/` only had Báo Mới. Site has no public RSS; listing is HTML and chapter content is lazy-loaded images.
+- **Decision**: Add `legado/rss/truyenqq.json` with 7 tabs, `class.list_grid@tag.li` article selector, `last_chapter` as article link, and an ES5 `@js:` content rule that extracts `img.lazy` chapter images. Keep `ruleDescription` empty. Add source to `legado/rss/sources.json`.
+- **Consequences**: RSS aggregate is 2 sources; each feed item opens the latest chapter with all images. Validated locally and smoke-tested against live HTML (42 list items, 31–32 images); device test still pending because phone API was unreachable.
+
 ### Decision: Reorganize repo into extension, book and RSS lanes
 - **Status**: Approved & executed locally; final push pending.
 - **Context**: Root mixed 248 book sources, 195 zips, icons, studio and an obsolete nested `ext-novela/vbook-tool`; `index.html` hardcoded 195 mock entries and `sources.json` contained mostly mock sources.

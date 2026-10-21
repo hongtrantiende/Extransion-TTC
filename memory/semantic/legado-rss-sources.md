@@ -1,7 +1,7 @@
 # Legado / Novela — RSS Source Playbook
 
 > Kinh nghiệm thực chiến khi tạo, debug và sửa nguồn RSS cho app **Novela** (fork Legado, package `io.legato.kazusa`).
-> Case study hoàn chỉnh: **Báo Mới (`https://baomoi.com`)** — site không có RSS, phải dùng rule HTML + JS đọc `__NEXT_DATA__` để lấy đúng ảnh.
+> Case study hoàn chỉnh: **Báo Mới (`https://baomoi.com`)** — site không có RSS, phải dùng rule HTML + JS đọc `__NEXT_DATA__` để lấy đúng ảnh; **Truyện QQ (`https://truyenqqko.com`)** — feed chapter mới, content là ảnh chapter.
 >
 > **Archive:** bản vận hành gọn hiện nằm ở `docs/legado/rss.md`; file này giữ chi tiết lịch sử/case study, không phải nguồn chuẩn.
 
@@ -294,6 +294,43 @@ Ghi chú Báo Mới:
 - Ảnh list: `photo-baomoi.bmcdn.me` (absolute).
 - Nội dung bài: `__NEXT_DATA__` → `content.bodys`; text + image + caption.
 - `ruleDescription` phải trống nếu muốn đọc full bài.
+
+---
+
+## 6.1 Truyện QQ — cấu hình tham chiếu
+
+```json
+{
+  "sourceName": "Truyện QQ",
+  "sourceUrl": "https://truyenqqko.com",
+  "sourceGroup": "Truyện tranh",
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enableJs": false,
+  "loadWithBaseUrl": true,
+  "singleUrl": false,
+  "articleStyle": 0,
+  "type": 0,
+  "sortUrl": "Mới cập nhật::https://truyenqqko.com/truyen-moi-cap-nhat\nTop ngày::https://truyenqqko.com/top-ngay",
+  "ruleArticles": "class.list_grid@tag.li",
+  "ruleTitle": "class.book_name@tag.a.0@text",
+  "ruleLink": "class.last_chapter@tag.a.0@href",
+  "ruleImage": "class.book_avatar@tag.img.0@src",
+  "rulePubDate": "",
+  "ruleDescription": "",
+  "ruleContent": "@js:\n<đọc ảnh img.lazy, trả <img> từng trang>",
+  "header": "{\"User-Agent\":\"Mozilla/5.0 ... Chrome/120.0.0.0 Safari/537.36\",\"Referer\":\"https://truyenqqko.com/\"}"
+}
+```
+
+Ghi chú Truyện QQ:
+
+- Trang listing dùng `ul.list_grid` với 42 card; card có `.book_name h3 a`, `.last_chapter a`, `.book_avatar img`.
+- `ruleLink` lấy link chapter mới nhất; mỗi article là một truyện + chapter mới, không phải trang detail.
+- Content chapter là `div#chapter_content`; ảnh thật nằm ở `img.lazy` với `data-original`/`src`, host `i178.truyenvua.com`.
+- `ruleContent` dùng ES5, regex `<img ... class="...lazy...">`, fallback `data-cdn`/`src`, chuẩn hoá URL protocol-relative và host CDN cũ.
+- Không có ngày đăng trong card → `rulePubDate` để rỗng.
+- Smoke test 2026-10-21: 42 item/list; chapter thật 31–32 ảnh; ảnh đầu/cuối trả `image/jpeg` 200.
 
 ---
 
