@@ -94,4 +94,4 @@ Nếu sửa JS mà app vẫn chạy code cũ:
 
 - Không dùng `studio push` cho commit có chủ đích: lệnh đó `git add .` toàn bộ repo.
 - Không commit `node_modules/`, `.env`, log hoặc `scan_all_report.json`.
-- Chỉ có 4 source trong `extensions/sources/`; muốn test extension khác phải giải nén zip tương ứng vào đó trước.
+- Chỉ có 5 source trong `extensions/sources/`; muốn test extension khác phải giải nén zip tương ứng vào đó trước.

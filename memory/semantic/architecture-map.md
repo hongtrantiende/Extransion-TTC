@@ -6,13 +6,13 @@ Bản đồ nhanh. Nguồn chuẩn đầy đủ: `docs/project/architecture.md`.
 
 ```text
 Extransion-TTC/
-├── plugin.json                  # {metadata, data[192]}
+├── plugin.json                  # {metadata, data[193]}
 ├── sources.json                 # array 5 book source
 ├── index.html                   # fetch plugin.json
 ├── extensions/
-│   ├── sources/                 # 4 source đang phát triển
-│   ├── zips/                    # 192 package
-│   ├── icons/                   # 192 icon PNG
+│   ├── sources/                 # 5 source đang phát triển
+│   ├── zips/                    # 193 package
+│   ├── icons/                   # 193 icon PNG
 │   └── studio/                  # tool duy nhất
 ├── legado/
 │   ├── books/                   # 5 active + skipped/
@@ -27,7 +27,7 @@ Extransion-TTC/
 - Extension: source → studio `pack` → `extensions/zips` + `plugin.json`.
 - Book: `legado/books/*.json` → `scripts/catalog.py build` → `sources.json`.
 - RSS: `legado/rss/*.json` → `legado/rss/sources.json`.
-- Web: `index.html` fetch `plugin.json` → 192 card.
+- Web: `index.html` fetch `plugin.json` → 193 card.
 
 ## Đã xoá
 

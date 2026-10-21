@@ -2118,6 +2118,17 @@
             "description": "Truyện chữ",
             "type": "novel",
             "locale": "zh_CN"
+        },
+        {
+            "name": "HHTQ",
+            "author": "Thiên Thư Các",
+            "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/extensions/zips/hhtq.zip",
+            "version": 1,
+            "source": "https://hhtq.io/",
+            "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/extensions/icons/hhtq.png",
+            "description": "Phim",
+            "type": "video",
+            "locale": "vi_VN"
         }
     ]
 }

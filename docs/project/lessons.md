@@ -66,6 +66,13 @@ Thiếu `host` thường làm mục lục rỗng hoặc chương không tải đ
 - Cookie của extension tồn tại qua các lần chạy app; cookie/WAF cũ có thể làm server trả 500. Xoá cache hoặc dùng debug build để xoá `shared_prefs/novel_reader_prefs.xml`.
 - Tadu dùng `a.bookInfo`, ảnh `data-src`, tiêu đề `h2`; trang 2 gọi `/rank/listContinue?...&pageNum=2`.
 
+### Video stream nhiều lớp
+
+- HHTQ: trang tập → iframe player → trang embed → iframe `data-src` → trang player chứa `.m3u8`; fetch đủ ba lớp, giữ `User-Agent` và `Referer`.
+- Trang tập có hai bộ `.ep-tile` (thuyết minh/vietsub) trùng tên; dedupe theo path và ưu tiên URL có `server=vietsub`.
+- Trang tìm kiếm và `?today=1` chỉ có trang 1 (trang 2 trả 404); chặn `page > 1` thay vì ghép URL.
+- `chap.js` của video có thể trả thẳng chuỗi `.m3u8`; chỉ dùng object `{data, type, headers, host}` khi CDN cần header riêng.
+
 ## Rhino và selector
 
 - Chạy ES5: `var`, `function`; tránh `async/await`, `?.`, `??`, arrow function.

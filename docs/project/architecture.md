@@ -25,13 +25,14 @@ Extransion-TTC/
 ├── PhienAm.txt
 ├── dict.zip
 ├── extensions/
-│   ├── sources/                 # 4 source đang phát triển
+│   ├── sources/                 # 5 source đang phát triển
 │   │   ├── baomoi/
 │   │   ├── bilibili/
 │   │   ├── bilibili-cn/
+│   │   ├── hhtq/
 │   │   └── seg18/
-│   ├── zips/                    # 192 package
-│   ├── icons/                   # 192 icon PNG
+│   ├── zips/                    # 193 package
+│   ├── icons/                   # 193 icon PNG
 │   └── studio/                  # tool test/install/pack/scan/push
 ├── legado/
 │   ├── books/
@@ -57,7 +58,7 @@ Extransion-TTC/
 ### Extension
 
 ```text
-extensions/sources/<id>/        (source, chỉ 4 ext)
+extensions/sources/<id>/        (source, chỉ 5 ext)
         │ studio pack
         ▼
 extensions/zips/<id>.zip + extensions/icons/<id>.png
@@ -70,7 +71,7 @@ VBook/Novela tải zip và cài extension
 ```
 
 - App không đọc trực tiếp `extensions/sources/`.
-- `plugin.json` root là **object** có `metadata` và `data`; `data` là array 192 entry.
+- `plugin.json` root là **object** có `metadata` và `data`; `data` là array 193 entry.
 - Mỗi entry chứa `path` (zip URL), `icon` (icon URL), `type`, `locale`, `version` và metadata hiển thị.
 - 188 extension chỉ tồn tại dưới dạng zip; muốn sửa phải giải nén vào `extensions/sources/`.
 

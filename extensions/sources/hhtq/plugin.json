@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "HHTQ",
+    "author": "Thiên Thư Các",
+    "version": 1,
+    "source": "https://hhtq.io/",
+    "description": "Phim",
+    "type": "video",
+    "locale": "vi_VN"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

@@ -145,3 +145,9 @@ This document records the architectural decisions made during development.
   - Catalog now has 192 icons and 0 empty icons; every zip contains a matching PNG `icon.png`.
   - All encrypted zips retain byte-identical `plugin.json`; only their icon member changed.
   - Validator reports 192 entries, 192 zips, 192 icons, 0 empty icons, 0 errors.
+
+### Decision: Add HHTQ video extension
+- **Status**: Built, tested on device, catalog updated locally; push pending.
+- **Context**: User requested a VBook extension for `hhtq.io`, a Chinese-anime site with home/search/detail/TOC and multi-layer video embeds.
+- **Decision**: Add `hhtq` source, icon, and zip. Home exposes "Phim mới cập nhật" (paginated) and "Tập mới hôm nay" (page 1 only). TOC dedupes server tiles and prefers vietsub. `chap.js` resolves episode iframe → embed iframe → player page → first `.m3u8`. Import as `HHTQ` version 1.
+- **Consequences**: Catalog grows to 193 entries / 193 zips / 193 icons. Search and today list intentionally stop at page 1 because the site returns 404 for page 2. Full pipeline tested: 24 home items, 24 page-2 items, 7 today items, 12 search results, 9 TOC entries, m3u8 resolved.

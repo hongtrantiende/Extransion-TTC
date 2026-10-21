@@ -23,14 +23,14 @@ https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main
 
 ```text
 Extransion-TTC/
-├── plugin.json                  # catalog 192 extension
+├── plugin.json                  # catalog 193 extension
 ├── sources.json                 # aggregate 5 book source
 ├── index.html                   # web catalog
 ├── VietPhrase.txt ... dict.zip  # dữ liệu app tải về, giữ root
 ├── extensions/
-│   ├── sources/                 # 4 source đang phát triển
-│   ├── zips/                    # 192 package
-│   ├── icons/                   # 192 icon PNG
+│   ├── sources/                 # 5 source đang phát triển
+│   ├── zips/                    # 193 package
+│   ├── icons/                   # 193 icon PNG
 │   └── studio/                  # test / install / pack / push
 ├── legado/
 │   ├── books/                   # 5 book source thật
@@ -122,7 +122,7 @@ node --check extensions/studio/studio.js
 ```
 
 Validator kiểm tra:
-- 192 entry trong `plugin.json` và file zip tương ứng.
+- 193 entry trong `plugin.json` và file zip tương ứng.
 - Icon path tồn tại (cho phép `icon: ""`).
 - Book source JSON hợp lệ trong `legado/books/`.
 - RSS source JSON hợp lệ trong `legado/rss/`.
@@ -131,7 +131,7 @@ Validator kiểm tra:
 ## Ghi chú
 
 - `zips/` và `icons/` đã chuyển vào `extensions/`; URL raw trực tiếp kiểu cũ sẽ chết. App dùng `plugin.json` nên chỉ cần refresh catalog.
-- `extensions/sources/` chỉ có 4 extension đang phát triển; 188 extension còn lại tồn tại dưới dạng zip.
-- Tất cả 192 extension đều có icon PNG; web vẫn giữ fallback nếu ảnh lỗi tải.
+- `extensions/sources/` chỉ có 5 extension đang phát triển; 188 extension còn lại tồn tại dưới dạng zip.
+- Tất cả 193 extension đều có icon PNG; web vẫn giữ fallback nếu ảnh lỗi tải.
 - GitHub Pages chưa bật cho repo này; web catalog cần local server hoặc host tĩnh.
 - `memory/` là log lịch sử; kiến thức chuẩn nằm trong `docs/`.

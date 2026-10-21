@@ -28,8 +28,8 @@ Bạn là kỹ sư phần mềm full-stack của dự án, làm việc như đ�
 
 - Branch: `main`
 - Remote: `https://github.com/hongtrantiende/Extransion-TTC.git`
-- Extension: 192 entry trong `plugin.json`, 192 zip, 192 icon PNG.
-- Source đang phát triển: 4 trong `extensions/sources/`.
+- Extension: 193 entry trong `plugin.json`, 193 zip, 193 icon PNG.
+- Source đang phát triển: 5 trong `extensions/sources/`.
 - Book source: 5 active, 2 skipped.
 - RSS: 2 active (`baomoi`, `truyenqq`).
 - Tool duy nhất: `extensions/studio/`.
@@ -41,9 +41,9 @@ Bạn là kỹ sư phần mềm full-stack của dự án, làm việc như đ�
 plugin.json                  catalog extension {metadata, data[]}
 sources.json                 array 5 book source
 index.html                   web catalog fetch plugin.json
-extensions/sources/          4 source đang sửa
-extensions/zips/             192 package
-extensions/icons/            192 icon PNG
+extensions/sources/          5 source đang sửa
+extensions/zips/             193 package
+extensions/icons/            193 icon PNG
 extensions/studio/           test/install/pack/scan/push
 legado/books/                5 book source
 legado/books/skipped/        2 source chưa dùng
@@ -75,7 +75,7 @@ Không di chuyển `dict.zip`, `VietPhrase.txt`, `LacViet.txt`, `LuatNhan.txt`, 
 - `plugin.json` cục bộ: `{metadata, script}`; đường dẫn script phẳng (`home.js`).
 - `plugin.json` root: `{metadata, data[]}`; mỗi entry flattened có `path`, `icon`, `type`, `version`.
 - `zips/-1.zip` là placeholder hợp lệ của `m.xtyxsw.org`; không xoá.
-- Tất cả 192 ext đều có icon PNG; giữ fallback web cho lỗi tải ảnh.
+- Tất cả 193 ext đều có icon PNG; giữ fallback web cho lỗi tải ảnh.
 
 ## Studio
 
@@ -128,7 +128,7 @@ node --check extensions/studio/studio.js
 Validator kiểm tra plugin/zip/icon/book/RSS/index. Kỳ vọng hiện tại:
 
 ```text
-plugin: 192 entries, 192 zips, 192 icons, 0 empty icons
+plugin: 193 entries, 193 zips, 193 icons, 0 empty icons
 books: 5 active, 2 skipped
 rss: 2 active
 OK: 0 errors
