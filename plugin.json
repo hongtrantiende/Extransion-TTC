@@ -19,11 +19,11 @@
             "locale": "vi_VN"
         },
         {
-            "name": "Sextop1 Phim 2.0",
+            "name": "SexTop1 Phim",
             "author": "Thiên Thư Các",
             "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/extensions/zips/sextop1.zip",
-            "version": 6,
-            "source": "https://sextop1.gd",
+            "version": 7,
+            "source": "https://sextop1.money/",
             "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/extensions/icons/sextop1.png",
             "description": "Phim",
             "type": "video",
@@ -2054,11 +2054,11 @@
             "locale": "vi_VN"
         },
         {
-            "name": "Sextop1 TikTok 5.0",
+            "name": "SexTop1 TikTok",
             "author": "Thiên Thư Các",
             "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/extensions/zips/sextop1-tiktok.zip",
-            "version": 8,
-            "source": "https://sextop1.gd",
+            "version": 9,
+            "source": "https://sextop1.money/phim-sex-viet/",
             "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/extensions/icons/sextop1-tiktok.png",
             "description": "Phim",
             "type": "video",
