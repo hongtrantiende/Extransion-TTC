@@ -151,3 +151,10 @@ This document records the architectural decisions made during development.
 - **Context**: User requested a VBook extension for `hhtq.io`, a Chinese-anime site with home/search/detail/TOC and multi-layer video embeds.
 - **Decision**: Add `hhtq` source, icon, and zip. Home exposes "Phim mới cập nhật" (paginated) and "Tập mới hôm nay" (page 1 only). TOC dedupes server tiles and prefers vietsub. `chap.js` resolves episode iframe → embed iframe → player page → first `.m3u8`. Import as `HHTQ` version 1.
 - **Consequences**: Catalog grows to 193 entries / 193 zips / 193 icons. Search and today list intentionally stop at page 1 because the site returns 404 for page 2. Full pipeline tested: 24 home items, 24 page-2 items, 7 today items, 12 search results, 9 TOC entries, m3u8 resolved.
+
+### Decision: Fix HHTQ video stream resolution and install v2
+
+- **Status**: Implemented locally; v2 uploaded to device, restart/playback test pending; not pushed.
+- **Context**: HHTQ `.m3u8` URL from the player iframe was a wrapper page, not an HLS playlist. Fetching with `Referer: https://hhtq.io/` returned 403; `Referer: https://yanhh3d.chat/` returned 200 HTML with `data-obf`.
+- **Decision**: Update `chap.js` to fetch the wrapper with the player origin as `Referer`, base64-decode `data-obf`, parse `{sU,pU,eK,hD}`, and return `pU` with `User-Agent`/`Referer` headers. Keep a direct-URL fallback only when no `data-obf` exists. Bump to version 2 and upload the zip through `POST /uploadExtension` because Novela/Legado returns 404 for `/install`.
+- **Consequences**: Device test with a unique temporary plugin name returned the `pU` URL (`.../stream-plain?t=...`) and a valid HLS playlist. Segments are PNG polyglot files with MPEG-TS starting at byte 271; ExoPlayer's HLS TS fallback should skip the prefix. Existing `HHTQ` name remains cached in `/test` until the app is restarted. Catalog validator passes 193/193/193, 0 errors.

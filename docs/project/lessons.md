@@ -68,10 +68,12 @@ Thiếu `host` thường làm mục lục rỗng hoặc chương không tải đ
 
 ### Video stream nhiều lớp
 
-- HHTQ: trang tập → iframe player → trang embed → iframe `data-src` → trang player chứa `.m3u8`; fetch đủ ba lớp, giữ `User-Agent` và `Referer`.
+- HHTQ: trang tập → iframe player → trang embed → iframe `data-src` → URL `.m3u8`; URL này có thể là **trang HTML player**, không phải playlist. Fetch với `Referer` đúng origin của player (`https://yanhh3d.chat/`) rồi đọc `data-obf`.
+- `data-obf` là base64 JSON `{sU,pU,eK,hD}`. Dùng `pU` (playlist plain); `sU` là wrapper `#ENC-AESGCM` (AES-GCM key `eK`, IV trong dòng `#ENC-AESGCM;iv=`) và giải mã ra cùng playlist. Không trả `sU` thẳng cho player.
+- Segment HHTQ là file `.png` polyglot: 120 byte PNG + prefix, MPEG-TS thật bắt đầu ở offset 271. ExoPlayer HLS có fallback `TsExtractor` và tự tìm sync byte trong buffer, nên vẫn đọc được; nếu player khác lỗi, cần proxy strip prefix.
 - Trang tập có hai bộ `.ep-tile` (thuyết minh/vietsub) trùng tên; dedupe theo path và ưu tiên URL có `server=vietsub`.
 - Trang tìm kiếm và `?today=1` chỉ có trang 1 (trang 2 trả 404); chặn `page > 1` thay vì ghép URL.
-- `chap.js` của video có thể trả thẳng chuỗi `.m3u8`; chỉ dùng object `{data, type, headers, host}` khi CDN cần header riêng.
+- `chap.js` video trả object `{data, type:"native", headers:{User-Agent, Referer}, host, timeSkip}` vì CDN cần header riêng; không trả chuỗi trần nếu stream cần `Referer`.
 
 ## Rhino và selector
 
@@ -90,6 +92,8 @@ Thiếu `host` thường làm mục lục rỗng hoặc chương không tải đ
 - Test trên máy thật: `node extensions/studio/studio.js test <ext-id>`.
 - Test phải qua home → detail → toc → chap; không chỉ kiểm tra file JS chạy trên PC.
 - Nếu sửa JS mà app vẫn dùng code cũ, tắt/bật Web Server hoặc force-stop app để xoá cache Rhino.
+- Novela/Legado nhận extension qua `POST /uploadExtension` (multipart zip); response `{"data":true}` nhưng `/test` vẫn có thể trả code cũ theo tên extension cho tới khi khởi động lại app.
+- `/install` là endpoint của Novel Reader/VBook, không có trên Novela/Legado (trả 404); studio tự chọn `/uploadExtension` khi thấy `/getBookSources`.
 - Kiểm tra trang 2+ bằng debug riêng; `nextPage` đúng chưa đủ, phải xác nhận dữ liệu trang 2.
 
 ## Book source Legado
