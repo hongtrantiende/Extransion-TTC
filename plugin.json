@@ -2129,6 +2129,17 @@
       "description": "Phim",
       "type": "video",
       "locale": "vi_VN"
+    },
+    {
+      "name": "Manga18fx",
+      "author": "Thiên Thư Các",
+      "path": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/extensions/zips/manga18fx.zip",
+      "version": 1,
+      "source": "https://manga18fx.com",
+      "icon": "https://raw.githubusercontent.com/hongtrantiende/Extransion-TTC/main/extensions/icons/manga18fx.png",
+      "description": "Truyện tranh",
+      "type": "comic",
+      "locale": "vi_VN"
     }
   ]
 }
