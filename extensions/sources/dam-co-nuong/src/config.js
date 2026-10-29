@@ -1,8 +1,8 @@
-var DAM_DEFAULT_BASE_URL = "https://damconuong.win";
+var DAM_DEFAULT_BASE_URL = "https://damconuong.icu";
 var DAM_FALLBACK_BASES = [
-    "https://damconuong.win"
+    "https://damconuong.icu"
 ];
-var BASE_CACHE_KEY = "damconuong.base.v3";
+var BASE_CACHE_KEY = "damconuong.base.v4";
 var BASE_CACHE_TTL_MS = 30 * 60 * 1000;
 
 function normalizeBaseUrl(baseUrl) {
@@ -81,7 +81,8 @@ function resolveBaseUrl() {
     var isLegacyBase = configuredBase === "https://damconuong.ceo" ||
         configuredBase === "https://damconuong.cx" ||
         configuredBase === "https://damconuong.plus" ||
-        configuredBase === "https://damconuong.mom";
+        configuredBase === "https://damconuong.mom" ||
+        configuredBase === "https://damconuong.win";
     if (configuredBase && configuredBase !== "auto" && !isLegacyBase) {
         return configuredBase;
     }

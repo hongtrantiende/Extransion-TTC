@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Dâm Cô Nương",
     "author": "Thiên Thư Các",
-    "version": 14,
-    "source": "https://damconuong.win",
-    "regexp": "(?:www\\.)?damconuong\\.win/truyen/[^/]+/?",
+    "version": 15,
+    "source": "https://damconuong.icu",
+    "regexp": "(?:www\\.)?damconuong\\.icu/truyen/[^/]+/?",
     "description": "Truyện tranh",
     "locale": "vi_VN",
     "language": "javascript",
@@ -25,13 +25,13 @@
       "title": "Tên miền Dâm Cô Nương (auto hoặc domain bất kỳ)",
       "mode": "input",
       "format": "text",
-      "default": "https://damconuong.win"
+      "default": "https://damconuong.icu"
     },
     "fallback_domains": {
       "title": "Danh sách domain fallback (cách nhau bằng dấu phẩy)",
       "mode": "input",
       "format": "text",
-      "default": "https://damconuong.win"
+      "default": "https://damconuong.icu"
     }
   }
 }
