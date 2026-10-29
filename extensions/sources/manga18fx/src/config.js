@@ -52,12 +52,11 @@ function pushUniqueCard(items, seen, item) {
 function parseStoryCards(doc) {
     var seen = {};
     var items = [];
-    doc.select(".bsx-item.mycover, .hot-item.mycover").forEach(function(card) {
+    doc.select(".bsx-item, .hot-item, .page-item").forEach(function(card) {
         var link = "";
         var cover = "";
         var name = "";
 
-        // h3 name first (bsx-item uses h3.tt.mycover > a)
         var h3 = card.select("h3").first();
         if (h3) {
             var h3a = h3.select("a").first();
@@ -68,10 +67,7 @@ function parseStoryCards(doc) {
             var href = a.attr("href") || "";
             if (href.indexOf("/manga/") < 0) return;
             if (!link) link = normalizeUrl(href);
-            if (!name) {
-                var h3inner = a.select("h3").first();
-                name = cleanText(h3inner ? h3inner.text() : a.text());
-            }
+            if (!name) name = cleanText(a.text());
         });
 
         var img = card.select("img").first();
@@ -79,7 +75,7 @@ function parseStoryCards(doc) {
             cover = img.attr("src") || img.attr("data-src") || "";
         }
 
-        var chapterBadge = card.select(".chapter-badges").first();
+        var chapterBadge = card.select(".chapter-badges, .chapter-item").first();
         var description = chapterBadge ? cleanText(chapterBadge.text()) : "";
 
         pushUniqueCard(items, seen, {

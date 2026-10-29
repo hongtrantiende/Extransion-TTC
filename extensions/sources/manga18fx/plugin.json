@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Manga18fx",
     "author": "Thiên Thư Các",
-    "version": 2,
+    "version": 3,
     "source": "https://manga18fx.com",
     "regexp": "(?:www\\.)?manga18fx\\.com/manga/[^/]+/?",
     "description": "Truyện tranh",
