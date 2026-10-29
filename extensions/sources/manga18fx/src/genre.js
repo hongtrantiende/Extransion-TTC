@@ -14,7 +14,7 @@ function execute() {
     var seen = {};
     var genres = [];
 
-    doc.select("a[href*='/manga-genre/']").each(function(i, e) {
+    doc.select("a[href*='/manga-genre/']").forEach(function(e) {
         var href = normalizeUrl(e.attr("href"));
         var title = cleanText(e.text());
         if (!title || !href || seen[href]) return;

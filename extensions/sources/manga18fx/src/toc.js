@@ -15,7 +15,7 @@ function execute(url) {
     var data = [];
     var seen = {};
 
-    doc.select("ul.row-content-chapter li").each(function(i, li) {
+    doc.select("ul.row-content-chapter li").forEach(function(li) {
         var a = li.select("a.chapter-name").first() || li.select("a").first();
         if (!a) return;
         var href = normalizeUrl(a.attr("href"));

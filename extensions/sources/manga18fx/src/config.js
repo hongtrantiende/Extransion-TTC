@@ -31,7 +31,7 @@ function buildPagedUrl(url, page) {
 function getNextPage(doc, currentPage) {
     var pageNumber = parseInt(currentPage || "1", 10);
     var nextPage = null;
-    doc.select("ul.pagination a").each(function(i, e) {
+    doc.select("ul.pagination a").forEach(function(e) {
         var href = e.attr("href") || "";
         var matched = /(\d+)\/?$/.exec(href.split("?")[0]) || /[?&]page=(\d+)/i.exec(href);
         if (!matched) return;
@@ -52,18 +52,26 @@ function pushUniqueCard(items, seen, item) {
 function parseStoryCards(doc) {
     var seen = {};
     var items = [];
-    doc.select(".bsx-item.mycover, .hot-item.mycover").each(function(i, card) {
+    doc.select(".bsx-item.mycover, .hot-item.mycover").forEach(function(card) {
         var link = "";
         var cover = "";
         var name = "";
-        var chapterBadge = card.select(".chapter-badges").first();
-        var description = chapterBadge ? cleanText(chapterBadge.text()) : "";
 
-        card.select("a[href]").each(function(j, a) {
+        // h3 name first (bsx-item uses h3.tt.mycover > a)
+        var h3 = card.select("h3").first();
+        if (h3) {
+            var h3a = h3.select("a").first();
+            name = cleanText(h3a ? h3a.text() : h3.text());
+        }
+
+        card.select("a[href]").forEach(function(a) {
             var href = a.attr("href") || "";
-            if (/^\/m\/i?/.test(href) || href.indexOf("/manga/") < 0) return;
+            if (href.indexOf("/manga/") < 0) return;
             if (!link) link = normalizeUrl(href);
-            if (!name) name = cleanText(a.text());
+            if (!name) {
+                var h3inner = a.select("h3").first();
+                name = cleanText(h3inner ? h3inner.text() : a.text());
+            }
         });
 
         var img = card.select("img").first();
@@ -71,10 +79,8 @@ function parseStoryCards(doc) {
             cover = img.attr("src") || img.attr("data-src") || "";
         }
 
-        if (!name) {
-            var h3 = card.select("h3").first();
-            if (h3) name = cleanText(h3.text());
-        }
+        var chapterBadge = card.select(".chapter-badges").first();
+        var description = chapterBadge ? cleanText(chapterBadge.text()) : "";
 
         pushUniqueCard(items, seen, {
             name: name,

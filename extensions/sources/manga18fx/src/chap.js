@@ -15,7 +15,7 @@ function execute(url) {
     var data = [];
     var seen = {};
 
-    doc.select(".page-break img").each(function(i, img) {
+    doc.select(".page-break img").forEach(function(img) {
         var src = img.attr("data-src") || img.attr("src") || "";
         if (!src || seen[src]) return;
         seen[src] = true;
@@ -25,7 +25,7 @@ function execute(url) {
     });
 
     if (data.length === 0) {
-        doc.select("img.loading").each(function(i, img) {
+        doc.select("img.loading").forEach(function(img) {
             var src = img.attr("data-src") || img.attr("src") || "";
             if (!src || seen[src]) return;
             seen[src] = true;

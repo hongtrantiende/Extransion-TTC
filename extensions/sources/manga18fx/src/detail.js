@@ -26,7 +26,7 @@ function execute(url) {
     if (authorNode) author = cleanText(authorNode.text());
 
     var status = "";
-    doc.select(".post-content_item").each(function(i, node) {
+    doc.select(".post-content_item").forEach(function(node) {
         if (status) return;
         var label = cleanText(node.select("h5").first().text());
         if (label.toLowerCase().indexOf("status") >= 0) {
@@ -38,7 +38,7 @@ function execute(url) {
 
     var genres = [];
     var gseen = {};
-    doc.select(".genres-content a").each(function(i, e) {
+    doc.select(".genres-content a").forEach(function(e) {
         var href = normalizeUrl(e.attr("href"));
         var title2 = cleanText(e.text());
         if (!title2 || !href || gseen[href]) return;
