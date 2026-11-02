@@ -247,7 +247,7 @@
             "name": "class.truyen-title@tag.a@text",
             "author": "class.author@text",
             "bookUrl": "class.truyen-title@tag.a@href",
-            "coverUrl": "tag.img@src",
+            "coverUrl": "tag.img@src@js:'https://external-content.duckduckgo.com/iu/?u='+encodeURIComponent(result)",
             "lastChapter": "class.col-xs-2@tag.a@text"
         },
         "ruleExplore": {
@@ -255,7 +255,7 @@
             "name": "class.truyen-title@tag.a@text",
             "author": "class.author@text",
             "bookUrl": "class.truyen-title@tag.a@href",
-            "coverUrl": "tag.img@src",
+            "coverUrl": "tag.img@src@js:'https://external-content.duckduckgo.com/iu/?u='+encodeURIComponent(result)",
             "lastChapter": "class.col-xs-2@tag.a@text"
         },
         "ruleBookInfo": {
@@ -263,18 +263,19 @@
             "author": "@css:a[itemprop=author]@text||class.info@tag.a.3@text",
             "intro": "class.desc-text@text##(?s)truyen full.*?truyenfull vn##",
             "kind": "@css:a[itemprop=genre]@text||class.info@tag.a.0@text",
-            "coverUrl": "class.book@tag.img@src",
+            "coverUrl": "class.book@tag.img@src@js:'https://external-content.duckduckgo.com/iu/?u='+encodeURIComponent(result)",
             "lastChapter": "class.list-chapter@tag.li.-1@tag.a@text"
         },
         "ruleToc": {
             "chapterList": "class.list-chapter@tag.li",
             "chapterName": "tag.a@text",
             "chapterUrl": "tag.a@href",
-            "nextTocUrl": "class.pagination@tag.a@href"
+            "nextTocUrl": "@js:var t=parseInt(java.getString('id.total-page@value'));var b=baseUrl.replace(/trang-\\d+\\/?.*$/,'');if(b.charAt(b.length-1)!='/')b+='/';var a=[];for(var i=2;i<=t;i++)a.push(b+'trang-'+i+'/');a.join('\\n')"
         },
         "ruleContent": {
             "content": "id.chapter-c@html##(?s)<p[^>]*display:\\s*none.*?</p>##"
-        }
+        },
+        "header": "{\"Referer\":\"https://truyenfull.live/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36\"}"
     },
     {
         "bookSourceComment": "",
