@@ -3,7 +3,7 @@
 ## Vị trí
 
 ```text
-legado/books/*.json          5 source đang dùng
+legado/books/*.json          6 source đang dùng
 legado/books/skipped/*.json  2 source chưa dùng
 sources.json                 aggregate ở root
 ```
@@ -17,6 +17,7 @@ sources.json                 aggregate ở root
 | `qidian.json` | 起点男频 | https://m.qidian.com | có thể cần cookie/CSRF |
 | `qiyuedu8.json` | 奇·阅读 | https://novel.qiyuedu8.top | nhóm 飞卢/刺猬猫 |
 | `xshbook.json` | 小说虎 | https://m.xshbook.com/ | nguồn Trung Quốc |
+| `truyenfull-live.json` | Truyện Full Live | https://truyenfull.live/ | truyện chữ tiếng Việt, mục lục phân trang |
 
 Các source này được giữ từ bộ cũ; trạng thái hoạt động phụ thuộc site và chưa được test lại toàn bộ trong lần tái cấu trúc ngày 2026-10-21.
 
@@ -50,7 +51,7 @@ Không đổi `bookSourceUrl` của source đang dùng nếu không có lý do; 
 
 ## Aggregate
 
-`sources.json` root là **array** 5 object, được build từ các file active:
+`sources.json` root là **array** 6 object, được build từ các file active:
 
 ```bash
 python3 scripts/catalog.py build

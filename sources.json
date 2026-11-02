@@ -227,6 +227,56 @@
         "weight": 0
     },
     {
+        "bookSourceComment": "Nguồn truyện chữ truyenfull.live (search, thể loại, mục lục phân trang, nội dung #chapter-c).",
+        "bookSourceGroup": "Tiếng Việt",
+        "bookSourceName": "Truyện Full Live",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://truyenfull.live/",
+        "bookUrlPattern": "https?://truyenfull\\.live/[^/]+/?$",
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "customOrder": 0,
+        "weight": 0,
+        "lastUpdateTime": 0,
+        "respondTime": 180000,
+        "searchUrl": "https://truyenfull.live/tim-kiem/?tukhoa={{key}}",
+        "exploreUrl": "Mới nhất::https://truyenfull.live/danh-sach/truyen-moi/trang-{{page}}/\nHot::https://truyenfull.live/danh-sach/truyen-hot/trang-{{page}}/\nFull::https://truyenfull.live/danh-sach/truyen-full/trang-{{page}}/\nTiên Hiệp::https://truyenfull.live/the-loai/tien-hiep/trang-{{page}}/\nKiếm Hiệp::https://truyenfull.live/the-loai/kiem-hiep/trang-{{page}}/\nNgôn Tình::https://truyenfull.live/the-loai/ngon-tinh/trang-{{page}}/\nĐam Mỹ::https://truyenfull.live/the-loai/dam-my/trang-{{page}}/",
+        "ruleSearch": {
+            "bookList": "class.list-truyen@class.row",
+            "name": "class.truyen-title@tag.a@text",
+            "author": "class.author@text",
+            "bookUrl": "class.truyen-title@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "lastChapter": "class.col-xs-2@tag.a@text"
+        },
+        "ruleExplore": {
+            "bookList": "class.list-truyen@class.row",
+            "name": "class.truyen-title@tag.a@text",
+            "author": "class.author@text",
+            "bookUrl": "class.truyen-title@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "lastChapter": "class.col-xs-2@tag.a@text"
+        },
+        "ruleBookInfo": {
+            "name": "class.title@text||tag.h1@text",
+            "author": "@css:a[itemprop=author]@text||class.info@tag.a.3@text",
+            "intro": "class.desc-text@text##(?s)truyen full.*?truyenfull vn##",
+            "kind": "@css:a[itemprop=genre]@text||class.info@tag.a.0@text",
+            "coverUrl": "class.book@tag.img@src",
+            "lastChapter": "class.list-chapter@tag.li.-1@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list-chapter@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.pagination@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.chapter-c@html##(?s)<p[^>]*display:\\s*none.*?</p>##"
+        }
+    },
+    {
         "bookSourceComment": "",
         "bookSourceGroup": "",
         "bookSourceName": "小说虎",
