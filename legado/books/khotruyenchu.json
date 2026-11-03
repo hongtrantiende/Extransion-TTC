@@ -1,0 +1,39 @@
+{
+  "bookSourceComment": "Nguồn truyện chữ Kho Truyện Chữ (khotruyenchu.fun), chuyển từ extension VBook.",
+  "bookSourceGroup": "Tiếng Việt",
+  "bookSourceName": "Kho Truyện Chữ",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://khotruyenchu.fun/",
+  "bookUrlPattern": "https?://khotruyenchu\\.fun/.*",
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "customOrder": 0,
+  "weight": 0,
+  "lastUpdateTime": 0,
+  "respondTime": 180000,
+  "searchUrl": "https://khotruyenchu.fun/?s={{key}}",
+  "header": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36\"}",
+  "ruleSearch": {
+    "bookList": "tag.article@entry-card",
+    "name": "tag.h2@entry-title@tag.a@text",
+    "bookUrl": "tag.h2@entry-title@tag.a@href",
+    "coverUrl": "tag.img@data-src",
+    "author": ""
+  },
+  "ruleBookInfo": {
+    "name": "tag.h1@text##.*?Bộ truyện\\s*##",
+    "author": "@css:a[href*='tac-gia']@text",
+    "intro": "tag.div@entry-content@text",
+    "coverUrl": "tag.img@data-src##.*?uploads/.*?\\.(webp|jpg|jpeg|png).*##",
+    "kind": ""
+  },
+  "ruleToc": {
+    "chapterList": "class.entry-title@tag.a",
+    "chapterName": "text",
+    "chapterUrl": "href"
+  },
+  "ruleContent": {
+    "content": "tag.div@entry-content@html##(?s)<div class=\"story-navigation\".*?</div>####(?s)<div class=\"reading-tools-bar\".*?</div>####(?s)<script.*?</script>####(?s)<style.*?</style>##"
+  }
+}
