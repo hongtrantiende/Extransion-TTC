@@ -48,9 +48,9 @@
   "ruleBookInfo": {
     "name": "tag.h1@text",
     "author": "",
-    "intro": "@css:meta[name='description']@content",
+    "intro": "tag.meta[name='description']@content",
     "kind": "tag.a@href*='/the-loai/'@text",
-    "coverUrl": "@css:meta[property='og:image']@content",
+    "coverUrl": "tag.meta[property='og:image']@content",
     "tocUrl": ""
   },
   "ruleToc": {
@@ -59,6 +59,6 @@
     "chapterUrl": "href"
   },
   "ruleContent": {
-    "content": "@js:var html=java.evalWebView(baseUrl, 'document.documentElement.outerHTML'); html;"
+    "content": "tag.body@html"
   }
 }
