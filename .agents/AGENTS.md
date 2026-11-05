@@ -14,7 +14,7 @@ Bắt buộc load theo thứ tự:
 6. `docs/project/lessons.md`
 7. Tài liệu domain đang làm:
    - Extension: `docs/vbook/extensions.md`, `docs/vbook/testing.md`
-   - Book source: `docs/legado/books.md`
+   - Book source: `docs/legado/books.md` + skill trong `skill-tao-nguon-legado/` (xem mục Book source)
    - RSS: `docs/legado/rss.md`
 8. `memory/episodic/*` chỉ để tra lịch sử, không phải nguồn chuẩn.
 
@@ -28,9 +28,9 @@ Bạn là kỹ sư phần mềm full-stack của dự án, làm việc như đ�
 
 - Branch: `main`
 - Remote: `https://github.com/hongtrantiende/Extransion-TTC.git`
-- Extension: 193 entry trong `plugin.json`, 193 zip, 193 icon PNG.
+- Extension: 194 entry trong `plugin.json`, 194 zip, 194 icon PNG.
 - Source đang phát triển: 5 trong `extensions/sources/`.
-- Book source: 5 active, 2 skipped.
+- Book source: 1 active (Sáng Tác Việt), 0 skipped.
 - RSS: 2 active (`baomoi`, `truyenqq`).
 - Tool duy nhất: `extensions/studio/`.
 - `ext-novela/` và `vbook-tool` đã bị xoá; đừng tạo lại.
@@ -39,18 +39,18 @@ Bạn là kỹ sư phần mềm full-stack của dự án, làm việc như đ�
 
 ```text
 plugin.json                  catalog extension {metadata, data[]}
-sources.json                 array 5 book source
+sources.json                 array book source (aggregate do catalog.py sinh)
 index.html                   web catalog fetch plugin.json
 extensions/sources/          5 source đang sửa
-extensions/zips/             193 package
-extensions/icons/            193 icon PNG
+extensions/zips/             194 package
+extensions/icons/            194 icon PNG
 extensions/studio/           test/install/pack/scan/push
-legado/books/                5 book source
-legado/books/skipped/        2 source chưa dùng
+legado/books/                book source đang dùng
 legado/rss/                  Báo Mới + Truyện QQ + aggregate
 docs/                        nguồn kiến thức chuẩn
 memory/                      log lịch sử
 scripts/catalog.py           build/validate
+skill-tao-nguon-legado/      skill tạo/sửa/test nguồn Legado (xem mục Book source)
 ```
 
 Không di chuyển `dict.zip`, `VietPhrase.txt`, `LacViet.txt`, `LuatNhan.txt`, `Name.txt`, `Pronouns.txt`, `PhienAm.txt` khỏi root.
@@ -97,11 +97,13 @@ node extensions/studio/studio.js scan [limit]
 
 ## Book source
 
-- Sửa file trong `legado/books/`.
-- Build aggregate: `python3 scripts/catalog.py build`.
-- Không build file trong `skipped/`.
-- `sources.json` root là array object, không phải array URL.
-- Test import/tìm kiếm/toc/chap trước khi publish.
+Tạo hoặc sửa nguồn sách Legado: bắt buộc đọc skill trước khi làm, không suy đoán rule từ kinh nghiệm chung.
+
+- Cách viết/tạo nguồn (giải thích từng mục trong "Sửa nguồn sách", cú pháp rule css/xpath/json/regex, `@`, `||`, `&&`...): `skill-tao-nguon-legado/legado-source-creation/SKILL.md`; tra cứu thêm `reference.md`, mẫu trong `examples.md`, kinh nghiệm trong `experience.md` (cùng thư mục).
+- Kết nối máy thật để push/test nguồn (Dịch vụ web HTTP `1122`, WebSocket `1123`, POST `/saveBookSource`, debug qua `/bookSourceDebug`): `skill-tao-nguon-legado/legado-source-devtools/SKILL.md`; script hỗ trợ: `skill-tao-nguon-legado/legado-source-devtools/scripts/`.
+- Nguồn mẫu đang publish: `skill-tao-nguon-legado/sources/sang-tac-viet.json` — bản được dùng làm `legado/books/sang-tac-viet.json`; sửa nguồn thì sửa cả hai nơi cho khớp.
+- Quy trình repo: sửa file trong `legado/books/` → build aggregate `python3 scripts/catalog.py build` → validate → test import/tìm kiếm/toc/chap bằng skill devtools trước khi publish.
+- `sources.json` root là array object, không phải array URL; không sửa tay.
 
 ## RSS source
 
@@ -128,8 +130,8 @@ node --check extensions/studio/studio.js
 Validator kiểm tra plugin/zip/icon/book/RSS/index. Kỳ vọng hiện tại:
 
 ```text
-plugin: 193 entries, 193 zips, 193 icons, 0 empty icons
-books: 5 active, 2 skipped
+plugin: 194 entries, 194 zips, 194 icons, 0 empty icons
+books: 1 active (Sáng Tác Việt), 0 skipped
 rss: 2 active
 OK: 0 errors
 ```
