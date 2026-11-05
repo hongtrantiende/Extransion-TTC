@@ -1,0 +1,47 @@
+{
+  "bookSourceComment": "Nguon truyen tranh Dam Co Nuong (damconuong.cool), chuyen tu extension VBook.",
+  "bookSourceGroup": "Tiếng Việt",
+  "bookSourceName": "Dâm Cô Nương",
+  "bookSourceType": 2,
+  "bookSourceUrl": "https://damconuong.cool/",
+  "bookUrlPattern": "https?://damconuong\\.cool/.*",
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "customOrder": 0,
+  "weight": 0,
+  "lastUpdateTime": 0,
+  "respondTime": 180000,
+  "searchUrl": "https://damconuong.cool/tim-kiem?keyword={{key}}&page={{page}}",
+  "exploreUrl": "Mới cập nhật::https://damconuong.cool/tim-kiem?sort=-updated_at&page={{page}}&&Top ngày::https://damconuong.cool/tim-kiem?sort=-views_day&page={{page}}",
+  "header": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36\"}",
+  "ruleSearch": {
+    "bookList": "tag.div@manga-vertical",
+    "name": "tag.h3@tag.a@text",
+    "bookUrl": "tag.h3@tag.a@href",
+    "coverUrl": "tag.img@src",
+    "intro": ""
+  },
+  "ruleExplore": {
+    "bookList": "tag.div@manga-vertical",
+    "name": "tag.h3@tag.a@text",
+    "bookUrl": "tag.h3@tag.a@href",
+    "coverUrl": "tag.img@src"
+  },
+  "ruleBookInfo": {
+    "name": "tag.h1@text",
+    "author": "",
+    "intro": "@css:meta[name='description']@content",
+    "kind": "tag.a@href*='/the-loai/'@text",
+    "coverUrl": "@css:meta[property='og:image']@content",
+    "tocUrl": ""
+  },
+  "ruleToc": {
+    "chapterList": "tag.a",
+    "chapterName": "text##^Chapter \\d+.*##",
+    "chapterUrl": "href"
+  },
+  "ruleContent": {
+    "content": "@js:var html=java.evalWebView(baseUrl, 'document.documentElement.outerHTML'); html;"
+  }
+}
