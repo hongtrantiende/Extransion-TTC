@@ -4,7 +4,7 @@
   "bookSourceName": "Dâm Cô Nương",
   "bookSourceType": 2,
   "bookSourceUrl": "https://damconuong.cool/",
-  "bookUrlPattern": "https://damconuong\\.cool/truyen/[^/]+/?$",
+  "bookUrlPattern": "https?://damconuong\\.cool/truyen/[^/]+/?$",
   "enabled": true,
   "enabledCookieJar": true,
   "enabledExplore": true,
@@ -13,49 +13,31 @@
   "lastUpdateTime": 0,
   "respondTime": 180000,
   "searchUrl": "https://damconuong.cool/tim-kiem?keyword={{key}}&page={{page}}",
-  "exploreUrl": [
-    {
-      "title": "Mới cập nhật",
-      "url": "https://damconuong.cool/tim-kiem?sort=-updated_at&page={{page}}",
-      "style": {
-        "layout_wrapBefore": true,
-        "layout_flexBasisPercent": 1
-      }
-    },
-    {
-      "title": "Top ngày",
-      "url": "https://damconuong.cool/tim-kiem?sort=-views_day&page={{page}}"
-    },
-    {
-      "title": "Top tuần",
-      "url": "https://damconuong.cool/tim-kiem?sort=-views_week&page={{page}}"
-    }
-  ],
+  "exploreUrl": "[{\"title\": \"Mới cập nhật\", \"url\": \"https://damconuong.cool/tim-kiem?sort=-updated_at&page={{page}}\"}, {\"title\": \"Top ngày\", \"url\": \"https://damconuong.cool/tim-kiem?sort=-views_day&page={{page}}\"}, {\"title\": \"Top tuần\", \"url\": \"https://damconuong.cool/tim-kiem?sort=-views_week&page={{page}}\"}]",
   "header": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36\"}",
   "ruleSearch": {
-    "bookList": "tag.div@manga-vertical",
-    "name": "tag.h3@tag.a@text",
-    "bookUrl": "tag.h3@tag.a@href",
-    "coverUrl": "tag.img@src",
+    "bookList": "@css:.manga-vertical",
+    "name": "@css:h3 a@text",
+    "bookUrl": "@css:h3 a@href",
+    "coverUrl": "@css:img.cover@src",
     "intro": ""
   },
   "ruleExplore": {
-    "bookList": "tag.div@manga-vertical",
-    "name": "tag.h3@tag.a@text",
-    "bookUrl": "tag.h3@tag.a@href",
-    "coverUrl": "tag.img@src"
+    "bookList": "@css:.manga-vertical",
+    "name": "@css:h3 a@text",
+    "bookUrl": "@css:h3 a@href",
+    "coverUrl": "@css:img.cover@src"
   },
   "ruleBookInfo": {
-    "name": "tag.h1@text",
+    "name": "@css:h1@text",
     "author": "",
-    "intro": "tag.meta[name='description']@content",
-    "kind": "tag.a@href*='/the-loai/'@text",
-    "coverUrl": "tag.meta[property='og:image']@content",
+    "intro": "@css:meta[name=description]@content",
+    "coverUrl": "@css:meta[property='og:image']@content",
     "tocUrl": ""
   },
   "ruleToc": {
-    "chapterList": "tag.a",
-    "chapterName": "text##^Chapter \\d+.*##",
+    "chapterList": "@css:a.md-ch",
+    "chapterName": "@css:.md-ch-title@text",
     "chapterUrl": "href"
   },
   "ruleContent": {
