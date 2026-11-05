@@ -41,6 +41,6 @@
     "chapterUrl": "href"
   },
   "ruleContent": {
-    "content": "tag.body@html"
+    "content": "@js:var input36 = android.util.Base64.decode(\"YVdGuT8RjDWkeQjt7s7mv53smMpLrcKBuGMs8erg8Bs=\", 0);\nfunction toBytes(s){ return new Packages.java.lang.String(s).getBytes(\"UTF-8\"); }\nfunction hmac(key, data){\n  var mac = Packages.javax.crypto.Mac.getInstance(\"HmacSHA256\");\n  mac.init(new Packages.javax.crypto.spec.SecretKeySpec(key, \"HmacSHA256\"));\n  return mac.doFinal(toBytes(data));\n}\nvar cipherPath = /\\/truyen\\/(.+)/i.exec(baseUrl)[1].replace(/\\/+$/, \"\");\nvar parts = cipherPath.split(\"/\"); var slug = parts[0]; var chapter = parts.slice(1).join(\"/\");\nvar tokenData = hmac(hmac(input36, \"tok\"), cipherPath);\nvar bb = Packages.java.nio.ByteBuffer.allocate(17); bb.put(0, 1);\nfor (var i = 0; i < 16; i++) bb.put(i + 1, tokenData[i]);\nvar token = android.util.Base64.encodeToString(bb.array(), 11);\nvar fetchUrl = \"https://damconuong.cool/_c/mangas/\" + slug + \"/chapters/\" + chapter + \"/pages?_=\" + token;\nvar resp = java.ajax(fetchUrl);\n\"<p>\" + resp.substring(0,200) + \"</p>\";"
   }
 }
