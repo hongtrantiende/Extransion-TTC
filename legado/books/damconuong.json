@@ -4,7 +4,7 @@
   "bookSourceName": "Dâm Cô Nương",
   "bookSourceType": 2,
   "bookSourceUrl": "https://damconuong.cool/",
-  "bookUrlPattern": "https?://damconuong\\.cool/.*",
+  "bookUrlPattern": "https://damconuong\\.cool/truyen/[^/]+/?$",
   "enabled": true,
   "enabledCookieJar": true,
   "enabledExplore": true,
@@ -13,7 +13,24 @@
   "lastUpdateTime": 0,
   "respondTime": 180000,
   "searchUrl": "https://damconuong.cool/tim-kiem?keyword={{key}}&page={{page}}",
-  "exploreUrl": "Mới cập nhật::https://damconuong.cool/tim-kiem?sort=-updated_at&page={{page}}&&Top ngày::https://damconuong.cool/tim-kiem?sort=-views_day&page={{page}}",
+  "exploreUrl": [
+    {
+      "title": "Mới cập nhật",
+      "url": "https://damconuong.cool/tim-kiem?sort=-updated_at&page={{page}}",
+      "style": {
+        "layout_wrapBefore": true,
+        "layout_flexBasisPercent": 1
+      }
+    },
+    {
+      "title": "Top ngày",
+      "url": "https://damconuong.cool/tim-kiem?sort=-views_day&page={{page}}"
+    },
+    {
+      "title": "Top tuần",
+      "url": "https://damconuong.cool/tim-kiem?sort=-views_week&page={{page}}"
+    }
+  ],
   "header": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36\"}",
   "ruleSearch": {
     "bookList": "tag.div@manga-vertical",
