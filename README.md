@@ -12,6 +12,7 @@ Repo được chia theo ba lane riêng: **extension**, **book source**, **RSS so
 | Cài tất cả book source | `sources.json` |
 | Cài tất cả RSS source | `legado/rss/sources.json` |
 | Web catalog | `index.html` |
+| Skill tạo nguồn Legado (docs + scripts + nguồn mẫu) | `skill-tao-nguon-legado/` |
 
 Base raw:
 
