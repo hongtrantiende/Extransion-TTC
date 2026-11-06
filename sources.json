@@ -1,5 +1,93 @@
 [
     {
+        "bookSourceComment": "Nguon truyen tranh Dam Co Nuong (damconuong.cool). Doc truyen khong can tai khoan. Dang nhap (menu nguon > Dang nhap, mo trang /login trong WebView) chi dung cho theo doi va binh luan, cookie luu tu dong.",
+        "bookSourceGroup": "Tiếng Việt",
+        "bookSourceName": "Dâm Cô Nương",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://damconuong.cool/",
+        "bookUrlPattern": "https?://damconuong\\.cool/truyen/[^/]+/?$",
+        "customButton": false,
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "eventListener": false,
+        "exploreUrl": "Mới cập nhật::https://damconuong.cool/tim-kiem?sort=-updated_at&page={{page}}&&Mới nhất::https://damconuong.cool/tim-kiem?sort=-created_at&page={{page}}&&Top ngày::https://damconuong.cool/tim-kiem?sort=-views_day&page={{page}}&&Top tuần::https://damconuong.cool/tim-kiem?sort=-views_week&page={{page}}&&Top all::https://damconuong.cool/tim-kiem?sort=-views&page={{page}}&&Truyện nhà làm::https://damconuong.cool/nhom-dich/dam-co-nuong?page={{page}}&&16+::https://damconuong.cool/the-loai/16?page={{page}}&&18+::https://damconuong.cool/the-loai/18?page={{page}}&&19+::https://damconuong.cool/the-loai/19?page={{page}}&&3D Hentai::https://damconuong.cool/the-loai/3d-hentai?page={{page}}&&3P::https://damconuong.cool/the-loai/3p?page={{page}}&&Action::https://damconuong.cool/the-loai/action?page={{page}}&&Adult::https://damconuong.cool/the-loai/adult?page={{page}}&&Adventure::https://damconuong.cool/the-loai/adventure?page={{page}}&&Ahegao::https://damconuong.cool/the-loai/ahegao?page={{page}}&&AI::https://damconuong.cool/the-loai/ai?page={{page}}&&Anal::https://damconuong.cool/the-loai/anal?page={{page}}&&Angel::https://damconuong.cool/the-loai/angel?page={{page}}&&Ảnh động::https://damconuong.cool/the-loai/anh-dong?page={{page}}&&Animal::https://damconuong.cool/the-loai/animal?page={{page}}&&Animal girl::https://damconuong.cool/the-loai/animal-girl?page={{page}}&&Áo Dài::https://damconuong.cool/the-loai/ao-dai?page={{page}}&&Apron::https://damconuong.cool/the-loai/apron?page={{page}}&&Armpit::https://damconuong.cool/the-loai/armpit?page={{page}}&&Artist CG::https://damconuong.cool/the-loai/artist-cg?page={{page}}&&Based Game::https://damconuong.cool/the-loai/based-game?page={{page}}&&BBM::https://damconuong.cool/the-loai/bbm?page={{page}}&&BBW::https://damconuong.cool/the-loai/bbw?page={{page}}&&BDSM::https://damconuong.cool/the-loai/bdsm?page={{page}}&&Bestiality::https://damconuong.cool/the-loai/bestiality?page={{page}}&&Big Ass::https://damconuong.cool/the-loai/big-ass?page={{page}}&&Big Boobs::https://damconuong.cool/the-loai/big-boobs?page={{page}}&&Big Penis::https://damconuong.cool/the-loai/big-penis?page={{page}}&&Blackmail::https://damconuong.cool/the-loai/blackmail?page={{page}}&&Bloomers::https://damconuong.cool/the-loai/bloomers?page={{page}}&&BlowJobs::https://damconuong.cool/the-loai/blowjobs?page={{page}}&&Body Swap::https://damconuong.cool/the-loai/body-swap?page={{page}}&&Bodysuit::https://damconuong.cool/the-loai/bodysuit?page={{page}}&&Bondage::https://damconuong.cool/the-loai/bondage?page={{page}}&&Breast Sucking::https://damconuong.cool/the-loai/breast-sucking?page={{page}}&&BreastJobs::https://damconuong.cool/the-loai/breastjobs?page={{page}}&&Brocon::https://damconuong.cool/the-loai/brocon?page={{page}}&&Brother::https://damconuong.cool/the-loai/brother?page={{page}}&&Business Suit::https://damconuong.cool/the-loai/business-suit?page={{page}}&&Catgirls::https://damconuong.cool/the-loai/catgirls?page={{page}}&&Che ít::https://damconuong.cool/the-loai/che-it?page={{page}}&&Che nhiều::https://damconuong.cool/the-loai/che-nhieu?page={{page}}&&Cheating::https://damconuong.cool/the-loai/cheating?page={{page}}&&Chikan::https://damconuong.cool/the-loai/chikan?page={{page}}&&Chinese Dress::https://damconuong.cool/the-loai/chinese-dress?page={{page}}&&Có che::https://damconuong.cool/the-loai/co-che?page={{page}}&&Comedy::https://damconuong.cool/the-loai/comedy?page={{page}}&&Comic::https://damconuong.cool/the-loai/comic?page={{page}}&&Con gái::https://damconuong.cool/the-loai/con-gai?page={{page}}&&Condom::https://damconuong.cool/the-loai/condom?page={{page}}&&Công Sở::https://damconuong.cool/the-loai/cong-so?page={{page}}&&Cosplay::https://damconuong.cool/the-loai/cosplay?page={{page}}&&Cousin::https://damconuong.cool/the-loai/cousin?page={{page}}&&Crotch Tattoo::https://damconuong.cool/the-loai/crotch-tattoo?page={{page}}&&Cunnilingus::https://damconuong.cool/the-loai/cunnilingus?page={{page}}&&Dark Skin::https://damconuong.cool/the-loai/dark-skin?page={{page}}&&Daughter::https://damconuong.cool/the-loai/daughter?page={{page}}&&Deepthroat::https://damconuong.cool/the-loai/deepthroat?page={{page}}&&Demon::https://damconuong.cool/the-loai/demon?page={{page}}&&DemonGirl::https://damconuong.cool/the-loai/demongirl?page={{page}}&&Devil::https://damconuong.cool/the-loai/devil?page={{page}}&&DevilGirl::https://damconuong.cool/the-loai/devilgirl?page={{page}}&&Dirty::https://damconuong.cool/the-loai/dirty?page={{page}}&&Dirty Old Man::https://damconuong.cool/the-loai/dirty-old-man?page={{page}}&&DogGirl::https://damconuong.cool/the-loai/doggirl?page={{page}}&&Double Penetration::https://damconuong.cool/the-loai/double-penetration?page={{page}}&&Doujinshi::https://damconuong.cool/the-loai/doujinshi?page={{page}}&&Drama::https://damconuong.cool/the-loai/drama?page={{page}}&&Drug::https://damconuong.cool/the-loai/drug?page={{page}}&&Đã full::https://damconuong.cool/the-loai/da-full?page={{page}}&&Ecchi::https://damconuong.cool/the-loai/ecchi?page={{page}}&&Echi::https://damconuong.cool/the-loai/echi?page={{page}}&&Elder Sister::https://damconuong.cool/the-loai/elder-sister?page={{page}}&&Elf::https://damconuong.cool/the-loai/elf?page={{page}}&&Exhibitionism::https://damconuong.cool/the-loai/exhibitionism?page={{page}}&&Fantasy::https://damconuong.cool/the-loai/fantasy?page={{page}}&&Father::https://damconuong.cool/the-loai/father?page={{page}}&&Femdom::https://damconuong.cool/the-loai/femdom?page={{page}}&&Fingering::https://damconuong.cool/the-loai/fingering?page={{page}}&&Footjob::https://damconuong.cool/the-loai/footjob?page={{page}}&&Foxgirls::https://damconuong.cool/the-loai/foxgirls?page={{page}}&&Full Color::https://damconuong.cool/the-loai/full-color?page={{page}}&&Funatari::https://damconuong.cool/the-loai/funatari?page={{page}}&&Furry::https://damconuong.cool/the-loai/furry?page={{page}}&&Futanari::https://damconuong.cool/the-loai/futanari?page={{page}}&&GangBang::https://damconuong.cool/the-loai/gangbang?page={{page}}&&Garter Belts::https://damconuong.cool/the-loai/garter-belts?page={{page}}&&Gender Bender::https://damconuong.cool/the-loai/gender-bender?page={{page}}&&Ghost::https://damconuong.cool/the-loai/ghost?page={{page}}&&Glasses::https://damconuong.cool/the-loai/glasses?page={{page}}&&Gothic Lolita::https://damconuong.cool/the-loai/gothic-lolita?page={{page}}&&Group::https://damconuong.cool/the-loai/group?page={{page}}&&Guro::https://damconuong.cool/the-loai/guro?page={{page}}&&Hài hước::https://damconuong.cool/the-loai/hai-huoc?page={{page}}&&Hairy::https://damconuong.cool/the-loai/hairy?page={{page}}&&Handjob::https://damconuong.cool/the-loai/handjob?page={{page}}&&Harem::https://damconuong.cool/the-loai/harem?page={{page}}&&Hentai::https://damconuong.cool/the-loai/hentai?page={{page}}&&HentaiVN::https://damconuong.cool/the-loai/hentaivn?page={{page}}&&Hiện đại::https://damconuong.cool/the-loai/hien-dai?page={{page}}&&Historical::https://damconuong.cool/the-loai/historical?page={{page}}&&Horror::https://damconuong.cool/the-loai/horror?page={{page}}&&Housewife::https://damconuong.cool/the-loai/housewife?page={{page}}&&Humiliation::https://damconuong.cool/the-loai/humiliation?page={{page}}&&Idol::https://damconuong.cool/the-loai/idol?page={{page}}&&Imouto::https://damconuong.cool/the-loai/imouto?page={{page}}&&Incest::https://damconuong.cool/the-loai/incest?page={{page}}&&Insect (Côn Trùng)::https://damconuong.cool/the-loai/insect-con-trung?page={{page}}&&Invisible::https://damconuong.cool/the-loai/invisible?page={{page}}&&Isekai::https://damconuong.cool/the-loai/isekai?page={{page}}&&Không che::https://damconuong.cool/the-loai/khong-che?page={{page}}&&không NTR::https://damconuong.cool/the-loai/khong-ntr?page={{page}}&&Kimono::https://damconuong.cool/the-loai/kimono?page={{page}}&&Kissing::https://damconuong.cool/the-loai/kissing?page={{page}}&&Kuudere::https://damconuong.cool/the-loai/kuudere?page={{page}}&&Lãng Mạn::https://damconuong.cool/the-loai/lang-man?page={{page}}&&Lolicon::https://damconuong.cool/the-loai/lolicon?page={{page}}&&Maids::https://damconuong.cool/the-loai/maids?page={{page}}&&MANGA::https://damconuong.cool/the-loai/manga?page={{page}}&&Manhua::https://damconuong.cool/the-loai/manhua?page={{page}}&&Manhwa::https://damconuong.cool/the-loai/manhwa?page={{page}}&&Masturbation::https://damconuong.cool/the-loai/masturbation?page={{page}}&&Mature::https://damconuong.cool/the-loai/mature?page={{page}}&&Miko::https://damconuong.cool/the-loai/miko?page={{page}}&&Milf::https://damconuong.cool/the-loai/milf?page={{page}}&&Mind Break::https://damconuong.cool/the-loai/mind-break?page={{page}}&&Mind Control::https://damconuong.cool/the-loai/mind-control?page={{page}}&&Mizugi::https://damconuong.cool/the-loai/mizugi?page={{page}}&&Monster::https://damconuong.cool/the-loai/monster?page={{page}}&&Monstergirl::https://damconuong.cool/the-loai/monstergirl?page={{page}}&&Mother::https://damconuong.cool/the-loai/mother?page={{page}}&&Nakadashi::https://damconuong.cool/the-loai/nakadashi?page={{page}}&&Netori::https://damconuong.cool/the-loai/netori?page={{page}}&&Ngôn Tình::https://damconuong.cool/the-loai/ngon-tinh?page={{page}}&&Non-hen::https://damconuong.cool/the-loai/non-hen?page={{page}}&&NTR::https://damconuong.cool/the-loai/ntr?page={{page}}&&Nun::https://damconuong.cool/the-loai/nun?page={{page}}&&Nurse::https://damconuong.cool/the-loai/nurse?page={{page}}&&Old Man::https://damconuong.cool/the-loai/old-man?page={{page}}&&One shot::https://damconuong.cool/the-loai/one-shot?page={{page}}&&Oneshot::https://damconuong.cool/the-loai/oneshot?page={{page}}&&Oral::https://damconuong.cool/the-loai/oral?page={{page}}&&Osananajimi::https://damconuong.cool/the-loai/osananajimi?page={{page}}&&Paizuri::https://damconuong.cool/the-loai/paizuri?page={{page}}&&Pantyhose::https://damconuong.cool/the-loai/pantyhose?page={{page}}&&Ponytail::https://damconuong.cool/the-loai/ponytail?page={{page}}&&Pregnant::https://damconuong.cool/the-loai/pregnant?page={{page}}&&Prostitution::https://damconuong.cool/the-loai/prostitution?page={{page}}&&Rape::https://damconuong.cool/the-loai/rape?page={{page}}&&Riêng tư::https://damconuong.cool/the-loai/rieng-tu?page={{page}}&&Rimjob::https://damconuong.cool/the-loai/rimjob?page={{page}}&&Romanc::https://damconuong.cool/the-loai/romanc?page={{page}}&&Romance::https://damconuong.cool/the-loai/romance?page={{page}}&&Ryona::https://damconuong.cool/the-loai/ryona?page={{page}}&&Scat::https://damconuong.cool/the-loai/scat?page={{page}}&&School Uniform::https://damconuong.cool/the-loai/school-uniform?page={{page}}&&SchoolGirl::https://damconuong.cool/the-loai/schoolgirl?page={{page}}&&Series::https://damconuong.cool/the-loai/series?page={{page}}&&Sex Toys::https://damconuong.cool/the-loai/sex-toys?page={{page}}&&Shimapan::https://damconuong.cool/the-loai/shimapan?page={{page}}&&Short Hentai::https://damconuong.cool/the-loai/short-hentai?page={{page}}&&Shota::https://damconuong.cool/the-loai/shota?page={{page}}&&Shoujo::https://damconuong.cool/the-loai/shoujo?page={{page}}&&Siscon::https://damconuong.cool/the-loai/siscon?page={{page}}&&Sister::https://damconuong.cool/the-loai/sister?page={{page}}&&Slave::https://damconuong.cool/the-loai/slave?page={{page}}&&Sleeping::https://damconuong.cool/the-loai/sleeping?page={{page}}&&SM/BDSM/SUB-DOM::https://damconuong.cool/the-loai/sm-bdsm-sub-dom?page={{page}}&&Small Boobs::https://damconuong.cool/the-loai/small-boobs?page={{page}}&&Smut::https://damconuong.cool/the-loai/smut?page={{page}}&&Son::https://damconuong.cool/the-loai/son?page={{page}}&&Sports::https://damconuong.cool/the-loai/sports?page={{page}}&&Stockings::https://damconuong.cool/the-loai/stockings?page={{page}}&&Supernatural::https://damconuong.cool/the-loai/supernatural?page={{page}}&&Sweating::https://damconuong.cool/the-loai/sweating?page={{page}}&&Swimsuit::https://damconuong.cool/the-loai/swimsuit?page={{page}}&&Tall Girl::https://damconuong.cool/the-loai/tall-girl?page={{page}}&&Teacher::https://damconuong.cool/the-loai/teacher?page={{page}}&&Tentacles::https://damconuong.cool/the-loai/tentacles?page={{page}}&&Time Stop::https://damconuong.cool/the-loai/time-stop?page={{page}}&&Tình Cảm::https://damconuong.cool/the-loai/tinh-cam?page={{page}}&&Tomboy::https://damconuong.cool/the-loai/tomboy?page={{page}}&&Tracksuit::https://damconuong.cool/the-loai/tracksuit?page={{page}}&&Transformation::https://damconuong.cool/the-loai/transformation?page={{page}}&&Trap::https://damconuong.cool/the-loai/trap?page={{page}}&&Truyện chữ::https://damconuong.cool/the-loai/truyen-chu?page={{page}}&&Truyện Màu::https://damconuong.cool/the-loai/truyen-mau?page={{page}}&&Truyện tranh 18+::https://damconuong.cool/the-loai/truyen-tranh-18?page={{page}}&&Truyện Việt::https://damconuong.cool/the-loai/truyen-viet?page={{page}}&&Tsundere::https://damconuong.cool/the-loai/tsundere?page={{page}}&&Twins::https://damconuong.cool/the-loai/twins?page={{page}}&&Twintails::https://damconuong.cool/the-loai/twintails?page={{page}}&&Vampire::https://damconuong.cool/the-loai/vampire?page={{page}}&&Vanilla::https://damconuong.cool/the-loai/vanilla?page={{page}}&&Vếu to::https://damconuong.cool/the-loai/veu-to?page={{page}}&&Virgin::https://damconuong.cool/the-loai/virgin?page={{page}}&&Webtoon::https://damconuong.cool/the-loai/webtoon?page={{page}}&&X-ray::https://damconuong.cool/the-loai/x-ray?page={{page}}&&Yandere::https://damconuong.cool/the-loai/yandere?page={{page}}&&Yaoi::https://damconuong.cool/the-loai/yaoi?page={{page}}&&Yuri::https://damconuong.cool/the-loai/yuri?page={{page}}&&Zombie::https://damconuong.cool/the-loai/zombie?page={{page}}",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36\", \"X-Requested-With\": \"XMLHttpRequest\"}",
+        "lastUpdateTime": 0,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "@css:meta[property='og:image']@content",
+            "intro": "@css:meta[name=description]@content",
+            "name": "@css:h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "@js:var input36 = android.util.Base64.decode(\"YVdGuT8RjDWkeQjt7s7mv53smMpLrcKBuGMs8erg8Bs=\", 0);\nfunction toBytes(s){ return new Packages.java.lang.String(s).getBytes(\"UTF-8\"); }\nfunction hmac(key, data){\n  var mac = Packages.javax.crypto.Mac.getInstance(\"HmacSHA256\");\n  mac.init(new Packages.javax.crypto.spec.SecretKeySpec(key, \"HmacSHA256\"));\n  return mac.doFinal(toBytes(data));\n}\nvar cipherPath = /\\/truyen\\/(.+)/i.exec(baseUrl)[1].replace(/\\/+$/, \"\");\nvar parts = cipherPath.split(\"/\"); var slug = parts[0]; var chapter = parts.slice(1).join(\"/\");\nvar tokenData = hmac(hmac(input36, \"tok\"), cipherPath);\nvar bb = Packages.java.nio.ByteBuffer.allocate(17); bb.put(0, 1);\nfor (var i = 0; i < 16; i++) bb.put(i + 1, tokenData[i]);\nvar token = android.util.Base64.encodeToString(bb.array(), 11);\nvar fetchUrl = \"https://damconuong.cool/_c/mangas/\" + slug + \"/chapters/\" + chapter + \"/pages?_=\" + token;\nvar resp = java.ajax(fetchUrl);\nvar payload = JSON.parse(resp);\nvar keyBytes = hmac(hmac(input36, \"enc\"), token);\nvar allBytes = android.util.Base64.decode(payload.e.replace(/-/g, \"+\").replace(/_/g, \"/\"), 0);\nvar iv = Packages.java.util.Arrays.copyOfRange(allBytes, 0, 12);\nvar ct = Packages.java.util.Arrays.copyOfRange(allBytes, 12, allBytes.length);\nvar cipher = Packages.javax.crypto.Cipher.getInstance(\"AES/GCM/NoPadding\");\ncipher.init(Packages.javax.crypto.Cipher.DECRYPT_MODE, new Packages.javax.crypto.spec.SecretKeySpec(keyBytes, \"AES\"), new Packages.javax.crypto.spec.GCMParameterSpec(128, iv));\ncipher.updateAAD(toBytes(cipherPath));\nvar plain = new Packages.java.lang.String(cipher.doFinal(ct), \"UTF-8\");\nvar pages = JSON.parse(plain).p;\nvar html = \"\";\nfor (var j = 0; j < pages.length; j++) html += \"<img src=\\\"\" + pages[j] + \"\\\">\";\nhtml;"
+        },
+        "ruleExplore": {
+            "bookList": "@css:.manga-vertical",
+            "bookUrl": "@css:h3 a@href",
+            "coverUrl": "@css:img.cover@src",
+            "name": "@css:h3 a@text"
+        },
+        "ruleSearch": {
+            "bookList": "@css:.manga-vertical",
+            "bookUrl": "@css:h3 a@href",
+            "coverUrl": "@css:img.cover@src",
+            "intro": "",
+            "name": "@css:h3 a@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\nvar s=String(result);\nvar i=s.indexOf('id=\"md-chapter-list\"');\nvar seg=i<0?'':s.slice(i,s.indexOf('</ul>',i));\nvar re=/<a[^>]*href=\"([^\"]+)\"[^>]*>[\\s\\S]*?class=\"md-ch-title\"[^>]*>([^<]*)</g;\nvar out=[],m;\nwhile((m=re.exec(seg))){out.push('<a href=\"'+m[1]+'\">'+m[2].replace(/^\\s+|\\s+$/g,'')+'</a>');}\nout.reverse().join('');\n</js>\ntag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://damconuong.cool/tim-kiem?keyword={{key}}&page={{page}}",
+        "weight": 0,
+        "loginUrl": "https://damconuong.cool/login"
+    },
+    {
+        "bookSourceComment": "Nguồn truyện chữ Kho Truyện Chữ (khotruyenchu.fun), chuyển từ extension VBook.",
+        "bookSourceGroup": "Tiếng Việt",
+        "bookSourceName": "Kho Truyện Chữ",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://khotruyenchu.fun/",
+        "bookUrlPattern": "https?://khotruyenchu\\.fun/.*",
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "customOrder": 0,
+        "weight": 0,
+        "lastUpdateTime": 0,
+        "respondTime": 180000,
+        "searchUrl": "https://khotruyenchu.fun/?s={{key}}",
+        "header": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36\"}",
+        "ruleSearch": {
+            "bookList": "tag.article@entry-card",
+            "name": "tag.h2@entry-title@tag.a@text",
+            "bookUrl": "tag.h2@entry-title@tag.a@href",
+            "coverUrl": "tag.img@data-src",
+            "author": ""
+        },
+        "ruleBookInfo": {
+            "name": "tag.h1@text##.*?Bộ truyện\\s*##",
+            "author": "@css:a[href*='tac-gia']@text",
+            "intro": "tag.div@entry-content@text",
+            "coverUrl": "tag.img@data-src##.*?uploads/.*?\\.(webp|jpg|jpeg|png).*##",
+            "kind": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.entry-title@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "tag.div@entry-content@html##(?s)<div class=\"story-navigation\".*?</div>####(?s)<div class=\"reading-tools-bar\".*?</div>####(?s)<script.*?</script>####(?s)<style.*?</style>##"
+        }
+    },
+    {
         "bookSourceGroup": "",
         "bookSourceName": "Sáng Tác Việt",
         "bookSourceType": 0,
@@ -7,7 +95,7 @@
         "customButton": false,
         "customOrder": -1,
         "enabled": true,
-        "enabledCookieJar": false,
+        "enabledCookieJar": true,
         "enabledExplore": true,
         "eventListener": false,
         "exploreUrl": "[{\"title\":\"☆·.☆ Trang chủ ☆·.☆\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&sort=update&tag=&p={{page}}\",\"style\":{\"layout_wrapBefore\":true,\"layout_flexBasisPercent\":1}},{\"title\":\"Mới nhập kho\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&sort=new&tag=&p={{page}}\"},{\"title\":\"Mới cập nhật\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&sort=update&tag=&p={{page}}\"},{\"title\":\"Lượt đọc tổng\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&sort=view&tag=&p={{page}}\"},{\"title\":\"Lượt đọc tuần\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&sort=viewweek&tag=&p={{page}}\"},{\"title\":\"Lượt đọc ngày\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&sort=viewday&tag=&p={{page}}\"},{\"title\":\"Lượt thích\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&sort=like&tag=&p={{page}}\"},{\"title\":\"Lượt theo dõi\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&sort=following&tag=&p={{page}}\"},{\"title\":\"Lượt đánh dấu\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&sort=bookmarked&tag=&p={{page}}\"},{\"title\":\"☆·.☆ Trạng thái ☆·.☆\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&p={{page}}\",\"style\":{\"layout_wrapBefore\":true,\"layout_flexBasisPercent\":1}},{\"title\":\"Tất cả\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&p={{page}}\"},{\"title\":\"Hoàn thành\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&step=3&p={{page}}\"},{\"title\":\"Còn tiếp\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&step=1&p={{page}}\"},{\"title\":\"Tạm ngưng\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&step=2&p={{page}}\"},{\"title\":\"Không tạm ngưng\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&step=5&p={{page}}\"},{\"title\":\"☆·.☆ Thể loại ☆·.☆\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&p={{page}}\",\"style\":{\"layout_wrapBefore\":true,\"layout_flexBasisPercent\":1}},{\"title\":\"Đô Thị\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=dothi&p={{page}}\"},{\"title\":\"Xuyên Qua\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=xuyenqua&p={{page}}\"},{\"title\":\"Bản Gốc\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=bangoc&p={{page}}\"},{\"title\":\"Huyền Huyễn Kỳ Huyễn\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=huyenhuyenkyhuyen&p={{page}}\"},{\"title\":\"Hệ Thống\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=hethong&p={{page}}\"},{\"title\":\"Huyền Huyễn\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=huyenhuyen&p={{page}}\"},{\"title\":\"Ngôn Tình\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=ngontinh&p={{page}}\"},{\"title\":\"Tình Yêu\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=tinhyeu&p={{page}}\"},{\"title\":\"Đô Thị Ngôn Tình\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=dothingontinh&p={{page}}\"},{\"title\":\"Hiện Đại Ngôn Tình\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=hiendaingontinh&p={{page}}\"},{\"title\":\"Nữ Chính\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=nuchinh&p={{page}}\"},{\"title\":\"Đồng Nhân\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=dongnhan&p={{page}}\"},{\"title\":\"Cận Đại Hiện Đại\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=candaihiendai&p={{page}}\"},{\"title\":\"Cổ Đại Ngôn Tình\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=codaingontinh&p={{page}}\"},{\"title\":\"Lịch Sử Vô Căn Cứ\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=lichsuvocancu&p={{page}}\"},{\"title\":\"Trùng Sinh\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=trungsinh&p={{page}}\"},{\"title\":\"Thuần Ái\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=thuanai&p={{page}}\"},{\"title\":\"Nhẹ Nhõm\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=nhenhom&p={{page}}\"},{\"title\":\"Chủ Chịu\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=chuchiu&p={{page}}\"},{\"title\":\"Lịch Sử\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=lichsu&p={{page}}\"},{\"title\":\"Khoa Huyễn\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=khoahuyen&p={{page}}\"},{\"title\":\"Tình Cảm\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=tinhcam&p={{page}}\"},{\"title\":\"Võ Hiệp Tiên Hiệp\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=vohieptienhiep&p={{page}}\"},{\"title\":\"Light Novel\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=lightnovel&p={{page}}\"},{\"title\":\"Đô Thị Não Động\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=dothinaodong&p={{page}}\"},{\"title\":\"Đông Phương Huyền Huyễn\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=dongphuonghuyenhuyen&p={{page}}\"},{\"title\":\"Diễn Sinh\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=diensinh&p={{page}}\"},{\"title\":\"Ngắn Cố Sự\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=ngancosu&p={{page}}\"},{\"title\":\"Huyễn Tưởng Ngôn Tình\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=huyentuongngontinh&p={{page}}\"},{\"title\":\"Tiên Hiệp\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=tienhiep&p={{page}}\"},{\"title\":\"Huyền Huyễn Não Động\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=huyenhuyennaodong&p={{page}}\"},{\"title\":\"Sân Trường\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=santruong&p={{page}}\"},{\"title\":\"Quan Trường Chỗ Làm Việc\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=quantruongcholamviec&p={{page}}\"},{\"title\":\"Quân Sự Lịch Sử\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=quansulichsu&p={{page}}\"},{\"title\":\"Khoa Huyễn Tận Thế\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=khoahuyentanthe&p={{page}}\"},{\"title\":\"Huyền Huyễn Ma Pháp\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=huyenhuyenmaphap&p={{page}}\"},{\"title\":\"Nhân Văn Xã Khoa\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=nhanvanxakhoa&p={{page}}\"},{\"title\":\"Nhị Thứ Nguyên\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=nhithunguyen&p={{page}}\"},{\"title\":\"Khoa Huyễn Võng Du\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=khoahuyenvongdu&p={{page}}\"},{\"title\":\"Kỳ Huyễn\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=kyhuyen&p={{page}}\"},{\"title\":\"Ngôi Thứ Nhất\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=ngoithunhat&p={{page}}\"},{\"title\":\"Kỳ Huyễn Tiên Hiệp\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=kyhuyentienhiep&p={{page}}\"},{\"title\":\"Huyễn Tưởng Tương Lai\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=huyentuongtuonglai&p={{page}}\"},{\"title\":\"Sảng Văn\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=sangvan&p={{page}}\"},{\"title\":\"Hào Môn Tổng Giám Đốc\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=haomontonggiamdoc&p={{page}}\"},{\"title\":\"Điềm Văn\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=diemvan&p={{page}}\"},{\"title\":\"Linh Dị\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=linhdi&p={{page}}\"},{\"title\":\"Cuộc Sống Đô Thị\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=cuocsongdothi&p={{page}}\"},{\"title\":\"Làm Ruộng\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=lamruong&p={{page}}\"},{\"title\":\"Ngành Giải Trí\",\"url\":\"https://sangtacviet.com/io/searchtp/searchBooks?find=&tag=nganhgiaitri&p={{page}}\"}]",
@@ -52,6 +140,110 @@
         },
         "searchUrl": "https://sangtacviet.com/io/searchtp/searchBooks?findinname={{key}}&p={{page}}",
         "variableComment": "[{\"key\":\"variable\",\"value\":\"\",\"type\":\"text\",\"comment\":\"Bật/tắt ngôn ngữ nội dung: để TRỐNG hoặc nhập \\\"vi\\\" = tiếng Việt (bản dịch, mặc định). Nhập \\\"zh\\\" (hoặc \\\"hán\\\"/\\\"trung\\\") = chữ Hán gốc. Nhấn ✓ để lưu.\"}]",
+        "weight": 0,
+        "loginUrl": "https://sangtacviet.com/",
+        "bookSourceComment": "Dang nhap: mo \"Dang nhap\" o nguon nay, WebView tai trang sangtacviet.com > bam \"Dang nhap\" (modal cua site) > nhap tai khoan. Cookie luu vao nguon phuc vu chuong premium/tu sach.\nChu y: chuong doc mien phi khong can tai khoan."
+    },
+    {
+        "bookSourceComment": "Nguồn truyện chữ truyenfull.live (search, thể loại, mục lục phân trang, nội dung #chapter-c).",
+        "bookSourceGroup": "Tiếng Việt",
+        "bookSourceName": "Truyện Full Live",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://truyenfull.live/",
+        "bookUrlPattern": "https?://truyenfull\\.live/[^/]+/?$",
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "customOrder": 0,
+        "weight": 0,
+        "lastUpdateTime": 0,
+        "respondTime": 180000,
+        "searchUrl": "https://truyenfull.live/tim-kiem/?tukhoa={{key}}",
+        "exploreUrl": "Mới nhất::https://truyenfull.live/danh-sach/truyen-moi/trang-{{page}}/\nHot::https://truyenfull.live/danh-sach/truyen-hot/trang-{{page}}/\nFull::https://truyenfull.live/danh-sach/truyen-full/trang-{{page}}/\nTiên Hiệp::https://truyenfull.live/the-loai/tien-hiep/trang-{{page}}/\nKiếm Hiệp::https://truyenfull.live/the-loai/kiem-hiep/trang-{{page}}/\nNgôn Tình::https://truyenfull.live/the-loai/ngon-tinh/trang-{{page}}/\nĐam Mỹ::https://truyenfull.live/the-loai/dam-my/trang-{{page}}/",
+        "ruleSearch": {
+            "bookList": "class.list-truyen@class.row",
+            "name": "class.truyen-title@tag.a@text",
+            "author": "class.author@text",
+            "bookUrl": "class.truyen-title@tag.a@href",
+            "coverUrl": "tag.img@src@js:'https://external-content.duckduckgo.com/iu/?u='+encodeURIComponent(result)",
+            "lastChapter": "class.col-xs-2@tag.a@text"
+        },
+        "ruleExplore": {
+            "bookList": "class.list-truyen@class.row",
+            "name": "class.truyen-title@tag.a@text",
+            "author": "class.author@text",
+            "bookUrl": "class.truyen-title@tag.a@href",
+            "coverUrl": "tag.img@src@js:'https://external-content.duckduckgo.com/iu/?u='+encodeURIComponent(result)",
+            "lastChapter": "class.col-xs-2@tag.a@text"
+        },
+        "ruleBookInfo": {
+            "name": "class.title@text||tag.h1@text",
+            "author": "@css:a[itemprop=author]@text||class.info@tag.a.3@text",
+            "intro": "class.desc-text@text##(?s)truyen full.*?truyenfull vn##",
+            "kind": "@css:a[itemprop=genre]@text||class.info@tag.a.0@text",
+            "coverUrl": "class.book@tag.img@src@js:'https://external-content.duckduckgo.com/iu/?u='+encodeURIComponent(result)",
+            "lastChapter": "class.list-chapter@tag.li.-1@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list-chapter@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "@js:var t=parseInt(java.getString('id.total-page@value'));var b=baseUrl.replace(/trang-\\d+\\/?.*$/,'');if(b.charAt(b.length-1)!='/')b+='/';var a=[];for(var i=2;i<=t;i++)a.push(b+'trang-'+i+'/');a.join('\\n')"
+        },
+        "ruleContent": {
+            "content": "id.chapter-c@html##(?s)<p[^>]*display:\\s*none.*?</p>##"
+        },
+        "header": "{\"Referer\":\"https://truyenfull.live/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36\"}"
+    },
+    {
+        "bookSourceComment": "Wiki Dịch Tiếng Hoa (wikicv.org) - truyện convert/dịch máy sang tiếng Việt.\nQUAN TRỌNG: Tìm kiếm và Mục lục yêu cầu ĐĂNG NHẬP (mở nguồn > Đăng nhập, WebView sang trang wikicv.org/login). Đọc truyện thì không cần tài khoản.\nMục lục lấy qua API ký chữ ký /book/index (SHA-256 trên chuỗi signKey+start+size xoay 68 ký tự đầu ra cuối, 501 chương/trang).\nBản dịch máy nên còn lỗi chính tả.",
+        "bookSourceGroup": "Tiếng Việt",
+        "bookSourceName": "Wiki Dịch",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wikicv.org",
+        "bookUrlPattern": "https?://wikicv\\.org/truyen/[^/]+/?$",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "Truyện nam::https://wikicv.org/truyen-nam\nNữ tần::https://wikicv.org/nu-tan\nĐam mỹ::https://wikicv.org/dam-my",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36\"}",
+        "lastUpdateTime": 1762459200000,
+        "loginUrl": "https://wikicv.org/login",
+        "respondTime": 180000,
+        "searchUrl": "https://wikicv.org/tim-kiem?keyword={{key}}&sort=-updated_at&page={{page}}",
+        "ruleBookInfo": {
+            "author": "@css:.cover-info p:containsOwn(Tác giả:)@text##^.*Tác giả:\\s*##",
+            "coverUrl": "class.cover-wrapper@tag.img@src",
+            "intro": "class.book-desc@textNodes",
+            "kind": "class.book-desc@tag.a@text",
+            "lastChapter": "@css:.cover-info p:containsOwn(Mới nhất:)@text##^.*Mới nhất:\\s*##",
+            "name": "class.cover-info@tag.h2@text"
+        },
+        "ruleContent": {
+            "content": "id.bookContentBody@textNodes"
+        },
+        "ruleExplore": {
+            "author": "class.book-author@text",
+            "bookList": "class.book-item",
+            "bookUrl": "class.cover-wrapper@tag.a@href",
+            "coverUrl": "class.cover-wrapper@tag.img@src",
+            "kind": "class.book-gender@text",
+            "name": "class.book-title@text"
+        },
+        "ruleSearch": {
+            "author": "class.book-author@text",
+            "bookList": "class.book-item",
+            "bookUrl": "class.cover-wrapper@tag.a@href",
+            "coverUrl": "class.cover-wrapper@tag.img@src",
+            "kind": "class.book-gender@text",
+            "name": "class.book-title@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\nfunction sha(W){function V(d,c){return d>>>c|d<<32-c}var U,T,S=Math.pow,R=S(2,32),Q='length',P='',O=[],N=8*W[Q],M=sha.h=sha.h||[],L=sha.k=sha.k||[],K=L[Q],J={},I=2;for(;64>K;I++){if(!J[I]){for(U=0;313>U;U+=I){J[U]=I}M[K]=S(I,0.5)*R|0;L[K++]=S(I,1/3)*R|0}}for(W+='\\x80';W[Q]%64-56;){W+='\\x00'}for(U=0;U<W[Q];U++){T=W.charCodeAt(U);if(T>>8){return ''}O[U>>2]|=T<<(3-U)%4*8}O[O[Q]]=N/R|0;O[O[Q]]=N;for(T=0;T<O[Q];){var H=O.slice(T,T+=16),G=M.slice(0);M=M.slice(0,8);for(U=0;64>U;U++){var F=H[U-15],E=H[U-2],D=M[0],C=M[4],B=M[7]+(V(C,6)^V(C,11)^V(C,25))+(C&M[5]^~C&M[6])+L[U]+(H[U]=16>U?H[U]:H[U-16]+(V(F,7)^V(F,18)^F>>>3)+H[U-7]+(V(E,17)^V(E,19)^E>>>10)|0),A=(V(D,2)^V(D,13)^V(D,22))+(D&M[1]^D&M[2]^M[1]&M[2]);M=[B+A|0].concat(M);M[4]=M[4]+B|0}for(U=0;8>U;U++){M[U]=M[U]+G[U]|0}}for(U=0;8>U;U++){for(T=3;T+1;T--){var z=M[U]>>8*T&255;P+=(16>z?'0':'')+z.toString(16)}}return P}\nvar src=String(result);\nvar bid=(src.match(/var bookId = \"([a-f0-9]{24})\"/)||[])[1]||'';\nvar sk=(src.match(/var signKey = \"([a-f0-9]+)\"/)||[])[1]||'';\nvar host='https://wikicv.org';\nvar out=[],page,seg,re,m,cnt;\nfor(page=0;page<12;page++){\nvar start=page*501;\nvar raw=''+sk+start+501;\nvar sig=sha(raw.substring(68)+raw.substring(0,68));\nseg='';\nfor(var t=0;t<3;t++){try{seg=String(java.ajax(host+'/book/index?bookId='+bid+'&start='+start+'&size=501&signKey='+encodeURIComponent(sk)+'&sign='+sig));break;}catch(e){seg='';java.sleep(900);}}\nif(seg=='')break;\nre=/<a[^>]*href=\"([^\"]*\\/truyen\\/[^\"]+)\"[^>]*>([\\s\\S]*?)<\\/a>/g;\ncnt=0;\nwhile((m=re.exec(seg))){cnt++;var nm=String(m[2]).replace(/<[^>]+>/g,'').replace(/\\s+/g,' ').replace(/^\\s+|\\s+$/g,'');var u=m[1].replace(/^\\//,'');out.push('<a href=\"'+(u.indexOf('http')===0?u:host+'/'+u)+'\">'+nm+'</a>');}\nif(cnt<501)break;\n}\nif(out.length==0){throw new Error('Wiki Dịch khong tra muc luc (HTTP 404) - hay DANG NHAP nguon nay roi thu lai');}\nout.join('');\n</js>\ntag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
         "weight": 0
     }
 ]
