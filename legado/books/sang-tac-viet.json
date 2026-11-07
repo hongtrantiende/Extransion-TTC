@@ -52,6 +52,7 @@
   "searchUrl": "https://sangtacviet.com/io/searchtp/searchBooks?findinname={{key}}&p={{page}}",
   "variableComment": "[{\"key\":\"variable\",\"value\":\"\",\"type\":\"text\",\"comment\":\"Bật/tắt ngôn ngữ nội dung: để TRỐNG hoặc nhập \\\"vi\\\" = tiếng Việt (bản dịch, mặc định). Nhập \\\"zh\\\" (hoặc \\\"hán\\\"/\\\"trung\\\") = chữ Hán gốc. Nhấn ✓ để lưu.\"}]",
   "weight": 0,
-  "loginUrl": "https://sangtacviet.com/",
-  "bookSourceComment": "Dang nhap: mo \"Dang nhap\" o nguon nay, WebView tai trang sangtacviet.com > bam \"Dang nhap\" (modal cua site) > nhap tai khoan. Cookie luu vao nguon phuc vu chuong premium/tu sach.\nChu y: chuong doc mien phi khong can tai khoan."
+  "loginUrl": "@js:\nfunction login() {\n  return true;\n}",
+  "bookSourceComment": "Dang nhap: mo \"Dang nhap\" o nguon nay, WebView tai trang sangtacviet.com > bam \"Dang nhap\" (modal cua site) > nhap tai khoan. Cookie luu vao nguon phuc vu chuong premium/tu sach.\nChu y: chuong doc mien phi khong can tai khoan.",
+  "loginUi": "[{\"name\": \"Đăng Nhập\", \"type\": \"button\", \"action\": \"java.startBrowser('https://sangtacviet.com/#', 'Đăng nhập Sáng Tác Việt');\", \"style\": {\"layout_flexBasisPercent\": 1.0, \"layout_wrapBefore\": true}}]"
 }
