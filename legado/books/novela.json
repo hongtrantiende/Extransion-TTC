@@ -1,0 +1,60 @@
+{
+  "bookSourceUrl": "https://novela.pages.dev",
+  "bookSourceName": "🎬 Novela • Rạp phim tại gia",
+  "bookSourceGroup": "Phim,Video",
+  "bookSourceType": 4,
+  "bookUrlPattern": "https?://phimapi\\.com/phim/.+",
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"Referer\":\"https://novela.pages.dev/\"}",
+  "bookSourceComment": "Nguồn phim VIDEO (bookSourceType=4) cho Novela/Legado.\nGiao diện: https://novela.pages.dev (React SPA) - dữ liệu thật lấy từ API mở https://phimapi.com\nẢnh bìa: CDN https://phimimg.com. Không cần cookie/UA đặc biệt, playlist không mã hoá.\nPlaylist: curl hai lần -> 200 như nhau (không one-shot); variant chỉ có #EXT-X-KEY:METHOD=NONE;\nsegment .ts = 0x47 đúng chu kỳ 188 byte => ExoPlayer phát trực tiếp link_m3u8.\nMục lục Chia KHỐI: chapterList = @js: dựng java.util.ArrayList (Packages.java.util.*) gồm 1 dòng tiêu đề/server + các tập của server đó; isVolume = $.vol.\nBẮT BUỘC: dòng tiêu đề phải có link_m3u8 KHÁC mọi tập (dùng \"?tap=vol<i>\") vì app khử trùng lặp theo URL - trùng là mất dòng tiêu đề (đo: 44 dòng -> 42 khi trùng).\nNhờ query thừa nên nếu chạm vào dòng tiêu đề vẫn phát tập 1 của server đó (CDN bỏ qua query).\nFlat (bỏ khối): chạy generator với FLAT=1 -> chapterList = $.episodes[*].server_data[*], tên tập suy từ đuôi filename \"<server> - <tập>\".\nLưu ý: @js: trả chuỗi JSON.stringify(array) bị ClassCastException (String -> List), phải trả ArrayList thật.\nBìa: tab Khám phá trả đường dẫn tương đối nên phải nối https://phimimg.com, còn Tìm kiếm trả tuyệt đối.\nKiểm tra nguồn: từ khoá \"đấu la\" (24 kết quả).",
+  "searchUrl": "https://phimapi.com/v1/api/tim-kiem?keyword={{key}}&page={{page}}",
+  "exploreUrl": "[{\"title\":\"🎬 ĐỊNH DẠNG\",\"url\":\"\",\"style\":{\"layout_wrapBefore\":true,\"layout_flexBasisPercent\":1}},{\"title\":\"Mới cập nhật\",\"url\":\"https://phimapi.com/v1/api/danh-sach/phim-moi-cap-nhat?&page={{page}}\"},{\"title\":\"Phim bộ\",\"url\":\"https://phimapi.com/v1/api/danh-sach/phim-bo?&page={{page}}\"},{\"title\":\"Phim lẻ\",\"url\":\"https://phimapi.com/v1/api/danh-sach/phim-le?&page={{page}}\"},{\"title\":\"Chiếu rạp\",\"url\":\"https://phimapi.com/v1/api/danh-sach/phim-chieu-rap?&page={{page}}\"},{\"title\":\"Hoạt hình\",\"url\":\"https://phimapi.com/v1/api/danh-sach/hoat-hinh?&page={{page}}\"},{\"title\":\"TV Shows\",\"url\":\"https://phimapi.com/v1/api/danh-sach/tv-shows?&page={{page}}\"},{\"title\":\"🔥 THỂ LOẠI\",\"url\":\"\",\"style\":{\"layout_wrapBefore\":true,\"layout_flexBasisPercent\":1}},{\"title\":\"Hành Động\",\"url\":\"https://phimapi.com/v1/api/the-loai/hanh-dong?&page={{page}}\"},{\"title\":\"Viễn Tưởng\",\"url\":\"https://phimapi.com/v1/api/the-loai/vien-tuong?&page={{page}}\"},{\"title\":\"Võ Thuật\",\"url\":\"https://phimapi.com/v1/api/the-loai/vo-thuat?&page={{page}}\"},{\"title\":\"Chính Kịch\",\"url\":\"https://phimapi.com/v1/api/the-loai/chinh-kich?&page={{page}}\"},{\"title\":\"Tâm Lý\",\"url\":\"https://phimapi.com/v1/api/the-loai/tam-ly?&page={{page}}\"},{\"title\":\"Hài Hước\",\"url\":\"https://phimapi.com/v1/api/the-loai/hai-huoc?&page={{page}}\"},{\"title\":\"Tình Cảm\",\"url\":\"https://phimapi.com/v1/api/the-loai/tinh-cam?&page={{page}}\"},{\"title\":\"Kinh Dị\",\"url\":\"https://phimapi.com/v1/api/the-loai/kinh-di?&page={{page}}\"},{\"title\":\"Hình Sự\",\"url\":\"https://phimapi.com/v1/api/the-loai/hinh-su?&page={{page}}\"},{\"title\":\"Phiêu Lưu\",\"url\":\"https://phimapi.com/v1/api/the-loai/phieu-luu?&page={{page}}\"},{\"title\":\"Cổ Trang\",\"url\":\"https://phimapi.com/v1/api/the-loai/co-trang?&page={{page}}\"},{\"title\":\"Thần Thoại\",\"url\":\"https://phimapi.com/v1/api/the-loai/than-thoai?&page={{page}}\"},{\"title\":\"Học Đường\",\"url\":\"https://phimapi.com/v1/api/the-loai/hoc-duong?&page={{page}}\"},{\"title\":\"Gia Đình\",\"url\":\"https://phimapi.com/v1/api/the-loai/gia-dinh?&page={{page}}\"},{\"title\":\"Bí Ẩn\",\"url\":\"https://phimapi.com/v1/api/the-loai/bi-an?&page={{page}}\"},{\"title\":\"Khoa Học\",\"url\":\"https://phimapi.com/v1/api/the-loai/khoa-hoc?&page={{page}}\"},{\"title\":\"Lịch Sử\",\"url\":\"https://phimapi.com/v1/api/the-loai/lich-su?&page={{page}}\"},{\"title\":\"Thể Thao\",\"url\":\"https://phimapi.com/v1/api/the-loai/the-thao?&page={{page}}\"},{\"title\":\"Trẻ Em\",\"url\":\"https://phimapi.com/v1/api/the-loai/tre-em?&page={{page}}\"},{\"title\":\"Tài Liệu\",\"url\":\"https://phimapi.com/v1/api/the-loai/tai-lieu?&page={{page}}\"},{\"title\":\"Chiến Tranh\",\"url\":\"https://phimapi.com/v1/api/the-loai/chien-tranh?&page={{page}}\"},{\"title\":\"Miền Tây\",\"url\":\"https://phimapi.com/v1/api/the-loai/mien-tay?&page={{page}}\"},{\"title\":\"Kinh Điển\",\"url\":\"https://phimapi.com/v1/api/the-loai/kinh-dien?&page={{page}}\"},{\"title\":\"Phim Ngắn\",\"url\":\"https://phimapi.com/v1/api/the-loai/phim-ngan?&page={{page}}\"},{\"title\":\"Âm Nhạc\",\"url\":\"https://phimapi.com/v1/api/the-loai/am-nhac?&page={{page}}\"},{\"title\":\"18+\",\"url\":\"https://phimapi.com/v1/api/the-loai/phim-18?&page={{page}}\"},{\"title\":\"🌍 QUỐC GIA\",\"url\":\"\",\"style\":{\"layout_wrapBefore\":true,\"layout_flexBasisPercent\":1}},{\"title\":\"Việt Nam\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/viet-nam?&page={{page}}\"},{\"title\":\"Hàn Quốc\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/han-quoc?&page={{page}}\"},{\"title\":\"Trung Quốc\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/trung-quoc?&page={{page}}\"},{\"title\":\"Nhật Bản\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/nhat-ban?&page={{page}}\"},{\"title\":\"Mỹ\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/my?&page={{page}}\"},{\"title\":\"Anh\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/anh?&page={{page}}\"},{\"title\":\"Pháp\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/phap?&page={{page}}\"},{\"title\":\"Thái Lan\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/thai-lan?&page={{page}}\"},{\"title\":\"Hồng Kông\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/hong-kong?&page={{page}}\"},{\"title\":\"Đài Loan\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/dai-loan?&page={{page}}\"},{\"title\":\"Ấn Độ\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/an-do?&page={{page}}\"},{\"title\":\"Âu Mỹ\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/au-my?&page={{page}}\"},{\"title\":\"Canada\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/canada?&page={{page}}\"},{\"title\":\"Úc\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/uc?&page={{page}}\"},{\"title\":\"Quốc Gia Khác\",\"url\":\"https://phimapi.com/v1/api/quoc-gia/quoc-gia-khac?&page={{page}}\"},{\"title\":\"📅 NĂM\",\"url\":\"\",\"style\":{\"layout_wrapBefore\":true,\"layout_flexBasisPercent\":1}},{\"title\":\"2026\",\"url\":\"https://phimapi.com/v1/api/nam/2026?&page={{page}}\"},{\"title\":\"2025\",\"url\":\"https://phimapi.com/v1/api/nam/2025?&page={{page}}\"},{\"title\":\"2024\",\"url\":\"https://phimapi.com/v1/api/nam/2024?&page={{page}}\"},{\"title\":\"2023\",\"url\":\"https://phimapi.com/v1/api/nam/2023?&page={{page}}\"},{\"title\":\"2022\",\"url\":\"https://phimapi.com/v1/api/nam/2022?&page={{page}}\"},{\"title\":\"2021\",\"url\":\"https://phimapi.com/v1/api/nam/2021?&page={{page}}\"},{\"title\":\"2020\",\"url\":\"https://phimapi.com/v1/api/nam/2020?&page={{page}}\"},{\"title\":\"2019\",\"url\":\"https://phimapi.com/v1/api/nam/2019?&page={{page}}\"},{\"title\":\"2018\",\"url\":\"https://phimapi.com/v1/api/nam/2018?&page={{page}}\"},{\"title\":\"2017\",\"url\":\"https://phimapi.com/v1/api/nam/2017?&page={{page}}\"}]",
+  "ruleSearch": {
+    "checkKeyWord": "đấu la",
+    "bookList": "$.data.items[*]",
+    "coverUrl": "$.poster_url||$.thumb_url",
+    "name": "$.name",
+    "author": "$.origin_name",
+    "kind": "$.quality&&$.lang&&$.year",
+    "lastChapter": "$.episode_current",
+    "wordCount": "$.time",
+    "updateTime": "$.modified.time##T.*###",
+    "bookUrl": "https://phimapi.com/phim/{{$.slug}}"
+  },
+  "ruleExplore": {
+    "bookList": "$.data.items[*]",
+    "coverUrl": "https://phimimg.com/{{$.thumb_url}}",
+    "name": "$.name",
+    "author": "$.origin_name",
+    "kind": "$.quality&&$.lang&&$.year",
+    "lastChapter": "$.episode_current",
+    "wordCount": "$.time",
+    "updateTime": "$.modified.time##T.*###",
+    "bookUrl": "https://phimapi.com/phim/{{$.slug}}"
+  },
+  "ruleBookInfo": {
+    "init": "$.movie",
+    "name": "$.name",
+    "author": "$.origin_name",
+    "intro": "$.content",
+    "kind": "$.category[*].name&&$.country[*].name&&$.quality&&$.lang",
+    "lastChapter": "$.episode_current",
+    "wordCount": "$.time",
+    "updateTime": "$.modified.time##T.*###",
+    "coverUrl": "$.poster_url||$.thumb_url",
+    "tocUrl": "@js:String(baseUrl)"
+  },
+  "ruleToc": {
+    "chapterList": "@js:var doc = {};\ntry { doc = JSON.parse(String(result)); } catch (e) {}\nvar eps = (doc && doc.episodes) || [];\nvar list = new Packages.java.util.ArrayList();\nfunction row(n, u, v) {\n  var m = new Packages.java.util.LinkedHashMap();\n  m.put('name', n); m.put('link_m3u8', u); m.put('vol', v);\n  return m;\n}\nfor (var i = 0; i < eps.length; i++) {\n  var sv = eps[i] || {};\n  var arr = sv.server_data || [];\n  var sn = String(sv.server_name || ('Server ' + (i + 1)));\n  var head = '';\n  var kids = [];\n  for (var k = 0; k < arr.length; k++) {\n    var d = arr[k] || {};\n    var u = String(d.link_m3u8 || '');\n    if (u.indexOf('http') != 0) continue;\n    if (!head) head = u;\n    kids.push(row(String(d.name || ('Tập ' + (k + 1))), u, false));\n  }\n  if (!kids.length) continue;\n  list.add(row(sn, head + '?tap=vol' + i, true));\n  for (var j = 0; j < kids.length; j++) list.add(kids[j]);\n}\nlist;",
+    "chapterName": "$.name",
+    "chapterUrl": "$.link_m3u8",
+    "isVolume": "$.vol"
+  },
+  "ruleContent": {
+    "content": "@js:String(baseUrl)"
+  },
+  "customOrder": 0,
+  "lastUpdateTime": 1795251265424
+}

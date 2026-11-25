@@ -2,3 +2,10 @@ node_modules/
 .env
 *.log
 extensions/studio/scan_all_report.json
+
+# editor / tooling local state
+.qoder/
+
+# legado source backups / variants
+legado/books/*.orig.json
+legado/books/*.V*-device-backup.json

@@ -1,0 +1,51 @@
+{
+  "bookSourceUrl": "https://manga18fx.com",
+  "bookSourceName": "🖼Manga18fx [18+]",
+  "bookSourceGroup": "Tranh 18+,Comic",
+  "bookSourceType": 2,
+  "bookUrlPattern": "https?://(?:www\\.)?manga18fx\\.com/manga/[^/]+/?$",
+  "customOrder": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\", \"Referer\": \"https://manga18fx.com/\", \"Accept-Language\": \"en-US,en;q=0.9\"}",
+  "bookSourceComment": "Nguồn truyện tranh 18+ Manga18fx (web phục vụ tiếng Anh, giữ nguyên tên truyện/tác giả tiếng Anh).\n• 26 tab Khám phá: Cập nhật / Định dạng / Thể loại (có phân trang).\n• Tìm kiếm: gõ tên tiếng Anh (vd 'secret class').\n• Chương gồm nhiều ảnh, nguồn dựng thẻ <img> từ <div class=\"page-break\">.\n• Nếu báo lỗi ảnh: bật cookiejar và để nguyên header Referer.\n• Danh sách chương mới nhất ở trên (theo web); bấm nút Sắp xếp trong màn Mục lục để đổi chiều.\n• Web có hộp thoại xác nhận tuổi — chỉ là modal, không cần đăng nhập.",
+  "searchUrl": "https://manga18fx.com/search?q={{key}}&page={{page}}",
+  "ruleSearch": {
+    "checkKeyWord": "secret class",
+    "bookList": "@CSS:.page-item:lt(20)",
+    "name": "@CSS:h3 a@text",
+    "bookUrl": "@CSS:h3 a@href",
+    "coverUrl": "@CSS:img@data-src||@CSS:img@src",
+    "lastChapter": "@CSS:.chapter-item:first-child .chapter a@text",
+    "kind": "@CSS:.adult-badges@text",
+    "author": ""
+  },
+  "ruleExplore": {
+    "bookList": "@CSS:.page-item:lt(20)",
+    "name": "@CSS:h3 a@text",
+    "bookUrl": "@CSS:h3 a@href",
+    "coverUrl": "@CSS:img@data-src||@CSS:img@src",
+    "lastChapter": "@CSS:.chapter-item:first-child .chapter a@text",
+    "kind": "@CSS:.adult-badges@text",
+    "author": ""
+  },
+  "ruleBookInfo": {
+    "name": "@CSS:h1@text",
+    "author": "@CSS:.author-content a@text||@CSS:.artist-content a@text",
+    "kind": "@CSS:.genres-content a@text",
+    "intro": "@CSS:.dsct@text||@XPath://meta[@property='og:description']/@content",
+    "coverUrl": "@XPath://meta[@property='og:image']/@content",
+    "lastChapter": "@CSS:.row-content-chapter li:first-child a@text"
+  },
+  "ruleToc": {
+    "chapterName": "@CSS:a.chapter-name@text",
+    "chapterUrl": "@CSS:a.chapter-name@href",
+    "chapterList": "@js:var els = java.getElements('.row-content-chapter li'); var out = []; for (var i = els.size() - 1; i >= 0; i--) { out.push(els.get(i)); } out;"
+  },
+  "ruleContent": {
+    "content": "@js:\nvar b = String(result);\nvar re = /<img[^>]*class=\"loading[^\"]*\"[^>]*data-src=\"([^\"]+)\"/g;\nvar out = [];\nvar m;\nwhile ((m = re.exec(b)) !== null) { out.push('<p><img src=\"' + m[1] + '\"></p>'); }\nout.join('\\n');\n",
+    "title": "@CSS:h1@text"
+  },
+  "exploreUrl": "[{\"title\": \"🔥 CẬP NHẬT\", \"url\": \"https://manga18fx.com/\", \"style\": {\"layout_wrapBefore\": true, \"layout_flexBasisPercent\": 1}}, {\"title\": \"Mới nhất\", \"url\": \"https://manga18fx.com/page/{{page}}\"}, {\"title\": \"Hot\", \"url\": \"https://manga18fx.com/hot-manga?page={{page}}\"}, {\"title\": \"🎌 ĐỊNH DẠNG\", \"url\": \"https://manga18fx.com/\", \"style\": {\"layout_wrapBefore\": true, \"layout_flexBasisPercent\": 1}}, {\"title\": \"Manhwa (Hàn)\", \"url\": \"https://manga18fx.com/manga-genre/manhwa/{{page}}\"}, {\"title\": \"Manhua (Trung)\", \"url\": \"https://manga18fx.com/manga-genre/manhua/{{page}}\"}, {\"title\": \"Không che\", \"url\": \"https://manga18fx.com/manga-genre/uncensored-manhwa/{{page}}\"}, {\"title\": \"📚 THỂ LOẠI\", \"url\": \"https://manga18fx.com/\", \"style\": {\"layout_wrapBefore\": true, \"layout_flexBasisPercent\": 1}}, {\"title\": \"Hành động\", \"url\": \"https://manga18fx.com/manga-genre/action/{{page}}\"}, {\"title\": \"Người lớn 18+\", \"url\": \"https://manga18fx.com/manga-genre/adult/{{page}}\"}, {\"title\": \"Phiêu lưu\", \"url\": \"https://manga18fx.com/manga-genre/adventure/{{page}}\"}, {\"title\": \"Hài hước\", \"url\": \"https://manga18fx.com/manga-genre/comedy/{{page}}\"}, {\"title\": \"Drama\", \"url\": \"https://manga18fx.com/manga-genre/drama/{{page}}\"}, {\"title\": \"Ecchi\", \"url\": \"https://manga18fx.com/manga-genre/ecchi/{{page}}\"}, {\"title\": \"Fantasy\", \"url\": \"https://manga18fx.com/manga-genre/fantasy/{{page}}\"}, {\"title\": \"Harem\", \"url\": \"https://manga18fx.com/manga-genre/harem/{{page}}\"}, {\"title\": \"Isekai\", \"url\": \"https://manga18fx.com/manga-genre/isekai/{{page}}\"}, {\"title\": \"Trưởng thành\", \"url\": \"https://manga18fx.com/manga-genre/mature/{{page}}\"}, {\"title\": \"Bí ẩn\", \"url\": \"https://manga18fx.com/manga-genre/mystery/{{page}}\"}, {\"title\": \"Tâm lý\", \"url\": \"https://manga18fx.com/manga-genre/psychological/{{page}}\"}, {\"title\": \"Lãng mạn\", \"url\": \"https://manga18fx.com/manga-genre/romance/{{page}}\"}, {\"title\": \"Học đường\", \"url\": \"https://manga18fx.com/manga-genre/school-life/{{page}}\"}, {\"title\": \"Seinen\", \"url\": \"https://manga18fx.com/manga-genre/seinen/{{page}}\"}, {\"title\": \"Shoujo\", \"url\": \"https://manga18fx.com/manga-genre/shoujo/{{page}}\"}, {\"title\": \"Shounen\", \"url\": \"https://manga18fx.com/manga-genre/shounen/{{page}}\"}, {\"title\": \"Siêu nhiên\", \"url\": \"https://manga18fx.com/manga-genre/supernatural/{{page}}\"}, {\"title\": \"Giật gân\", \"url\": \"https://manga18fx.com/manga-genre/thriller/{{page}}\"}, {\"title\": \"Bi kịch\", \"url\": \"https://manga18fx.com/manga-genre/tragedy/{{page}}\"}, {\"title\": \"Trùng sinh\", \"url\": \"https://manga18fx.com/manga-genre/reincarnation/{{page}}\"}]"
+}

@@ -1,0 +1,50 @@
+{
+  "bookSourceUrl": "https://mangaball.com",
+  "bookSourceName": "🖼MangaBall [18+]",
+  "bookSourceGroup": "Tranh 18+,Comic",
+  "bookSourceType": 2,
+  "bookUrlPattern": "https?://mangaball\\.com/api/v1/title/detail/[0-9a-f]{24}",
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\", \"Referer\": \"https://mangaball.com/\"}",
+  "searchUrl": "https://mangaball.com/api/v1/title/search-advanced?keyword={{key}}&page={{page}}&limit=30&adult_mode=all",
+  "exploreUrl": "[{\"title\": \"🔥 CẬP NHẬT & HOT\", \"url\": \"\", \"style\": {\"layout_wrapBefore\": true, \"layout_flexBasisPercent\": 1}}, {\"title\": \"Mới cập nhật\", \"url\": \"https://mangaball.com/api/v1/title/recently-updated?page={{page}}&limit=30&adult_mode=all\"}, {\"title\": \"Mới thêm\", \"url\": \"https://mangaball.com/api/v1/title/recently-added?page={{page}}&limit=30&adult_mode=all\"}, {\"title\": \"Điểm cao\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&sort=rating_average\"}, {\"title\": \"🎌 NGUỒN GỐC & 🔞\", \"url\": \"\", \"style\": {\"layout_wrapBefore\": true, \"layout_flexBasisPercent\": 1}}, {\"title\": \"Manhwa\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=68ecab3b07ec62d87e627809&sort=latest_chapter_at\"}, {\"title\": \"Manhua\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=68ecab4807ec62d87e62780b&sort=latest_chapter_at\"}, {\"title\": \"Manga\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=68ecab1e07ec62d87e627806&sort=latest_chapter_at\"}, {\"title\": \"18+ Mới\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?adult_mode=only_18&sort=latest_chapter_at&order=desc&page={{page}}&limit=30\"}, {\"title\": \"Hentai\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=68bfceaf4dbc442a26519889&sort=latest_chapter_at\"}, {\"title\": \"📚 THỂ LOẠI\", \"url\": \"\", \"style\": {\"layout_wrapBefore\": true, \"layout_flexBasisPercent\": 1}}, {\"title\": \"Romance\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685148cf15e8b86aae68e4db&sort=latest_chapter_at\"}, {\"title\": \"Comedy\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685146c5f3ed681c80f257e5&sort=latest_chapter_at\"}, {\"title\": \"Drama\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685148cf15e8b86aae68e4dd&sort=latest_chapter_at\"}, {\"title\": \"Fantasy\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685146c5f3ed681c80f257ea&sort=latest_chapter_at\"}, {\"title\": \"Action\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685146c5f3ed681c80f257e3&sort=latest_chapter_at\"}, {\"title\": \"Adventure\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685146c5f3ed681c80f257e6&sort=latest_chapter_at\"}, {\"title\": \"Slice of Life\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685148d015e8b86aae68e4e3&sort=latest_chapter_at\"}, {\"title\": \"School Life\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685148d015e8b86aae68e4e7&sort=latest_chapter_at\"}, {\"title\": \"Martial Arts\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=6851490615e8b86aae68e5c2&sort=latest_chapter_at\"}, {\"title\": \"Reincarnation\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685146c5f3ed681c80f257e1&sort=latest_chapter_at\"}, {\"title\": \"Isekai\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685146c5f3ed681c80f257e9&sort=latest_chapter_at\"}, {\"title\": \"Mystery\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685148d215e8b86aae68e4f4&sort=latest_chapter_at\"}, {\"title\": \"Horror\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685148da15e8b86aae68e520&sort=latest_chapter_at\"}, {\"title\": \"Supernatural\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685148db15e8b86aae68e528&sort=latest_chapter_at\"}, {\"title\": \"Historical\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685148db15e8b86aae68e527&sort=latest_chapter_at\"}, {\"title\": \"Psychological\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685148d715e8b86aae68e507&sort=latest_chapter_at\"}, {\"title\": \"Harem\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685146c5f3ed681c80f257e8&sort=latest_chapter_at\"}, {\"title\": \"Boys' Love\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685148ef15e8b86aae68e573&sort=latest_chapter_at\"}, {\"title\": \"Girls' Love\", \"url\": \"https://mangaball.com/api/v1/title/search-advanced?page={{page}}&limit=30&adult_mode=all&order=desc&included_tags=685148da15e8b86aae68e524&sort=latest_chapter_at\"}]",
+  "ruleSearch": {
+    "bookList": "$.data[*]",
+    "name": "$.name",
+    "author": "$.author[*].name",
+    "kind": "$.originalLanguage&&$.status",
+    "lastChapter": "$.recent_chapters[0].number||$.latest_chapter_at",
+    "bookUrl": "https://mangaball.com/api/v1/title/detail/{{$.id}}",
+    "coverUrl": "https://bulbasaur.poke-black-and-white.net/covers/{{$.image.cover.path}}"
+  },
+  "ruleExplore": {
+    "bookList": "$.data[*]",
+    "name": "$.name",
+    "author": "$.author[*].name",
+    "kind": "$.originalLanguage&&$.status",
+    "lastChapter": "$.recent_chapters[0].number||$.latest_chapter_at",
+    "bookUrl": "https://mangaball.com/api/v1/title/detail/{{$.id}}",
+    "coverUrl": "https://bulbasaur.poke-black-and-white.net/covers/{{$.image.cover.path}}"
+  },
+  "ruleBookInfo": {
+    "init": "$.data",
+    "name": "$.name",
+    "author": "$.author[*].name",
+    "kind": "$.status&&$.tags[*].name",
+    "lastChapter": "$.latest_chapter_number",
+    "intro": "$.description[0]",
+    "coverUrl": "https://bulbasaur.poke-black-and-white.net/covers/{{$.image.cover.path}}",
+    "tocUrl": "@js:var d = {};\ntry { d = JSON.parse(String(result)) || {}; } catch(e) {}\nvar id = (d.data && d.data.id) || '';\nif (!id) { var m = String(baseUrl).match(/detail\\/([0-9a-f]{24})/); if (m) id = m[1]; }\nvar lu = 'https://mangaball.com/api/v1/title/chapter-listing?title_id=' + id + '&group_by=flat&sort_order=asc&limit=1000&page=1&language=';\nfunction cnt(l) { try { return ((JSON.parse(java.ajax(lu + l)).data) || []).length; } catch(e) { return 0; } }\nvar vi = cnt('vi'), en = cnt('en');\nlu + (vi > 0 ? 'vi' : (en > 0 ? 'en' : 'vi,en'));"
+  },
+  "ruleToc": {
+    "chapterList": "$.data[*]",
+    "chapterName": "$.name||$.number",
+    "chapterUrl": "https://mangaball.com/api/v1/chapter-detail?chapter_id={{$.id}}"
+  },
+  "ruleContent": {
+    "content": "$.data.chapter.pages[*]"
+  },
+  "bookSourceComment": "MangaBall (mangaball.com) - API-based comic source.\nAPI: /api/v1/title/search-advanced, /title/recently-updated, /title/recently-added, /title/detail/<id>, /title/chapter-listing, /chapter-detail?chapter_id= (pages array).\nadult_mode=all de bao gom truyen 18+. TOC uu tien vi, fallback en.\nImages need Referer (chikorita host blocks otherwise) - set in source header."
+}

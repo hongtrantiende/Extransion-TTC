@@ -103,6 +103,15 @@ Thiếu `host` thường làm mục lục rỗng hoặc chương không tải đ
 - Source chưa test không nên vào aggregate.
 - Sau khi sửa, chạy `python3 scripts/catalog.py validate`.
 
+### Cherrymist Cafe (cherrymist.cafe) — nội dung mã hoá bằng font
+
+- API `/api/chapters/<id>` trả `content` chứa ký tự PUA `U+E000–U+E0FF`; chữ thật nằm trong font `https://cherrymist.cafe/fonts/cipher/<family>-regular-<seed>.woff2`, seed lấy từ field `cipher.seed`.
+- Font thật là Open Sans/Merriweather/Georgia/Poppins/monospace (name table `3.003;GOOG;OpenSans-Regular`); a–z A–Z bị **xoá khỏi cmap** nên chỉ PUA mới ra chữ.
+- **Bảng ánh xạ chỉ phụ thuộc seed, không phụ thuộc family**: 5 family cùng seed có đúng 256 offset gom thành 52 nhóm glyph giống hệt nhau. Chỉ cần 1 bảng cho mỗi seed (seed 0–15).
+- Bảng nằm trong `jsLib` của source: `CM_TB[seed]`, `cmDec()` tra `charCodeAt - 57344`. Kiểm tra seed bằng `(+seed)` chứ không dùng truthiness — `seed: 0` là value hợp lệ (`if(o.cipher.seed)` làm rơi xuống default và báo sai "chưa hỗ trợ").
+- Dựng lại bảng cho seed mới: raster hoá glyph PUA của font seed đó và font seed đã biết bảng (12) bằng fontTools (`DecomposingRecordingPen` + scanline tự viết, môi trường không có freetype/PIL), khớp bitmap theo Hamming distance; kết quả phải là song ánh đúng 52 chữ a–zA–Z.
+- Nguồn Cherrymist chỉ tồn tại trên máy + bản backup `.qoder/sources/cherrymist-cafe.json`; không nằm trong `legado/books/` nên không vào `sources.json`.
+
 ## RSS source Legado
 
 - Rule mặc định là JSoup, dùng `@`; không phải CSS thuần.
